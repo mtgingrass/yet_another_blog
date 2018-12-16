@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Career on Mark Gingrass Blog</title>
+    <link>/categories/career/</link>
+    <description>Recent content in Career on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/career/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Unique Skills</title>
+      <link>/post/2018/12/16/unique-skills/</link>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018/12/16/unique-skills/</guid>
+      <description>The question is, what are my transferable skills? What do I bring to the table? This is what this blog post is going to be all about, how to bring a unique set of skills to a field you have never been part of, and to use that for your advantage. Can I even do this?
+I will start with how I brought unique tools to a field I never thought I would be in.</description>
+    </item>
+    
+  </channel>
+</rss>

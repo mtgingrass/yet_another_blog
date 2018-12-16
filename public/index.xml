@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Mark Gingrass Blog</title>
+    <link>/</link>
+    <description>Recent content in Home on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tools of the Job</title>
+      <link>/post/2018/12/16/tools-of-the-job/</link>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018/12/16/tools-of-the-job/</guid>
+      <description>Breaking into the tech world takes time! Forget about coding in C++ or Python or learning Ruby on Rails. Just figuring out which tools or Integrated Environments (IDE), or even which Operating System (OS) to use can be overwhelming.
+In this post, I am going to break down some of the tools I am currently using and why. I&amp;rsquo;m also going to try and break down my thought process of how I even found out which tools to use.</description>
+    </item>
+    
+    <item>
+      <title>Unique Skills</title>
+      <link>/post/2018/12/16/unique-skills/</link>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018/12/16/unique-skills/</guid>
+      <description>The question is, what are my transferable skills? What do I bring to the table? This is what this blog post is going to be all about, how to bring a unique set of skills to a field you have never been part of, and to use that for your advantage. Can I even do this?
+I will start with how I brought unique tools to a field I never thought I would be in.</description>
+    </item>
+    
+    <item>
+      <title>About Mark Gingrass</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>About Lately I have been dabbling in data&amp;hellip;
+The main points… Languages
+ C++ R Python VBA  Education
+ Master’s in Business, Oklahoma City University, May 2016 Bachelor’s in Avionics Management, Southeastern Oklahoma State University, May 2013 Associates Pre-Engineering, Oklahoma City Community College, May 2010 Experience Currently Operations Researcher for the FDA 2 years as an Operations Researcher in the Air Force Global Supply Chain 8 years in Supply Chain Management 7 years as an Engineering Technician I have an amazing 11 year old son!</description>
+    </item>
+    
+  </channel>
+</rss>
