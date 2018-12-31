@@ -30,7 +30,7 @@ footnotereturnlinkcontents = "↩"
     weight = 4
 [[menu.main]]
     name = "MarkBook"
-    url = "/"
+    url = "/MarkBook"
     weight = 5
 
 [params]
