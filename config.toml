@@ -28,6 +28,10 @@ footnotereturnlinkcontents = "↩"
     name = "Tags"
     url = "/tags/"
     weight = 4
+[[menu.main]]
+    name = "MarkBook"
+    url = "/"
+    weight = 5
 
 [params]
     description = "Programming tips, computer tips, supply chain tips and anything else I feel like blogging about."
