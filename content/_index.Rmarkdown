@@ -6,4 +6,4 @@ title: Home
 
 # MARK GINGRASS
 
-## Simple
+## Blogs
