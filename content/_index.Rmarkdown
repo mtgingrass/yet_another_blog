@@ -6,7 +6,7 @@ title: Home
 
 # MARK GINGRASS
 
-## My place to put things. 
+## My place to put things.
 Welcome to my personal site. I finally joined the badnwagon and deleted most social media. So, this is my new way to have a voice in the owrld. 
 
 The blogs here are going to vary from technical to political. If you are interested in more technical and professional blogs, check out my other site <a href="http://www.devgin.com">DevGin.com.</a>
