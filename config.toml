@@ -29,8 +29,8 @@ footnotereturnlinkcontents = "↩"
     url = "/tags/"
     weight = 4
 [[menu.main]]
-    name = "MarkBook"
-    url = "/MarkBook"
+    name = "DevGin"
+    url = "http://www.devgin.com"
     weight = 5
 
 [params]

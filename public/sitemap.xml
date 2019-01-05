@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>/markbook/test/</loc>
-    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/2018/12/16/tools-of-the-job/</loc>
     <lastmod>2018-12-16T00:00:00+00:00</lastmod>
   </url>
@@ -47,12 +42,6 @@
   <url>
     <loc>/</loc>
     <lastmod>2019-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/markbook/</loc>
-    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -109,13 +98,13 @@
   </url>
   
   <url>
-    <loc>/tags/government/</loc>
+    <loc>/categories/government/</loc>
     <lastmod>2019-01-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/government/</loc>
+    <loc>/tags/government/</loc>
     <lastmod>2019-01-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -127,13 +116,13 @@
   </url>
   
   <url>
-    <loc>/tags/programming/</loc>
+    <loc>/categories/programming/</loc>
     <lastmod>2019-01-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/programming/</loc>
+    <loc>/tags/programming/</loc>
     <lastmod>2019-01-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
