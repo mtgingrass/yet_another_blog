@@ -15,4 +15,137 @@ tags:
 
 
 
+<div id="visual-resume-timeline" class="section level2">
+<h2>Visual Resume Timeline</h2>
+<p>I came across this <a href="https://github.com/ndphillips/VisualResume">Github</a> package by ndphillips and thought it was pretty cool and decided to make it even easier to setup. I really just wanted to play with it so here is my excuse.</p>
+<div class="figure">
+<img src="VisualResume.png" alt="My Visual Resume" />
+<p class="caption">My Visual Resume</p>
+</div>
+</div>
+<div id="setup" class="section level2">
+<h2>Setup</h2>
+<p>Most people who have used R for a few weeks or months have probably already installed <strong>devtools</strong>. Just in case it isn’t already installed, simply uncomment line 18 to install for the first time</p>
+</div>
+<div id="top-left" class="section level2">
+<h2>Top Left</h2>
+<p>Fill in <strong>Name</strong>, <strong>Designator</strong>, <strong>Title</strong> and <strong>Company/Office</strong> Then direclty below that, choose the size of each font</p>
+<pre class="r"><code>## Top Left of Visual Resume
+  titles_top_left = c(&quot;Mark Gingrass, MBA&quot;, ## Name, Designator
+                  &quot;Operations Researcher&quot;, ## Title
+                  &quot;FDA Office of Science / Regulatory Informatics&quot;) ## Company/Office
+  ## Font sizes
+  titles_top_left_font_sizes = c(4, ## Size of Name 
+                      2, ## Size of Title
+                      1) ## Size of Company/Office</code></pre>
+</div>
+<div id="top-right" class="section level2">
+<h2>Top Right</h2>
+<p>Fill in <strong>Personal Web Site</strong>, <strong>Email</strong> and <strong>Github</strong> url. Then directly below that, choose the size of each font.</p>
+<pre class="r"><code>  ## Top Right of Visual Resume
+    titles_top_right = c(&quot;MarkGingrass.com&quot;, ## Personal Site
+                     &quot;mark.gingrass@gmail.com&quot;, ## Email
+                     &quot;github.com/mtgingrass&quot;) ## Github
 
+    ## Font sizes
+    titles_top_right_font_sizes = c(2, ## Size of Personal Site
+                         2, ## Size of Email
+                         1) ## Size of Github</code></pre>
+</div>
+<div id="timeline-labels" class="section level2">
+<h2>Timeline Labels</h2>
+<p>The top and bottom of timeline labels.</p>
+<pre class="r"><code>timeline_top_label &lt;- &quot;Education&quot;
+timeline_bottom_lable &lt;- &quot;Career&quot;
+
+timeline_labels = c(timeline_top_label, timeline_bottom_lable)</code></pre>
+</div>
+<div id="timeline-data" class="section level2">
+<h2>Timeline Data</h2>
+<p>Although you can create a timeline from any data range, there is only a finite amount of screen real estate to display it. Technically, you can create a <strong>png</strong> file that can fit larger ranges and display only parts of it at a time on the screen. The choice is yours.</p>
+<p>You can delete or add more entries - just follow the pattern. To add, simply cut and paste the last entry and add a new index value.</p>
+<pre class="r"><code>## Top and Bottom side of timeline placement
+top_side = 1
+bottom_side = 0
+
+title_sub_start_end_side = list()
+
+title_sub_start_end_side[[1]] &lt;- (c(&quot;OK City Comm College&quot;,
+                                  &quot;Pre-Engineering, A.S.&quot;, 
+                                  2006, 2007, top_side))
+
+title_sub_start_end_side[[2]] &lt;- (c(&quot;Southeastern OK State&quot;, 
+                                  &quot;BS Aviation Management&quot;, 
+                                  2009, 2011, top_side))
+
+title_sub_start_end_side[[3]] &lt;- (c(&quot;Oklahoma City University&quot;, 
+                                  &quot;MBA&quot;, 
+                                  2011, 2013, top_side))
+
+title_sub_start_end_side[[4]] &lt;- (c(&quot;Equipment Specialist&quot;, 
+                                  &quot;Turbo-Jet Engines&quot;, 
+                                  2010, 2015, bottom_side))
+
+title_sub_start_end_side[[5]] &lt;- (c(&quot;Avionics Technician&quot;, 
+                                  &quot;Aircraft Electronic Test Equipment&quot;, 
+                                  2006, 2010, bottom_side))
+
+title_sub_start_end_side[[6]] &lt;- (c(&quot;Avionics Test Station Tech&quot;, 
+                                  &quot;Active Duty Air Force&quot;, 
+                                  2002, 2006, bottom_side))
+
+title_sub_start_end_side[[7]] &lt;- (c(&quot;Logistics Mngmt&quot;, 
+                                  &quot;USAF Supply Chain&quot;, 
+                                  2015, 2016, bottom_side))
+
+title_sub_start_end_side[[8]] &lt;- (c(&quot;Operations Researcher&quot;, 
+                                  &quot;Data Science &amp; Analysis Flight&quot;, 
+                                  2016, 2018, bottom_side))
+
+title_sub_start_end_side[[9]] &lt;- (c(&quot;Operations Researcher&quot;, 
+                                  &quot;FDA Office of Science&quot;, 
+                                  2018, 2019, bottom_side))</code></pre>
+</div>
+<div id="milestones" class="section level2">
+<h2>Milestones!</h2>
+<p>Have any significant milestones in your career? Win the Nobel prize? Mark it as a milestone.</p>
+<pre class="r"><code>  milestones = data.frame(title = c(&quot;AS&quot;, &quot;BS&quot;, &quot;MBA&quot;),
+  
+                          sub = c(&quot;Pre-Engineering&quot;, &quot;Management&quot;, &quot;Business&quot;),
+  
+                          year = c(2007, 2010, 2013))</code></pre>
+</div>
+<div id="major-events" class="section level2">
+<h2>Major Events</h2>
+<pre class="r"><code>  events = data.frame(year = c(2017.3, 2017, 2014, 2015, 2018),
+  
+                      title = c(&quot;Completed Army     Logistics               University&#39;s        OR/Systems       Analysis                for                Military Applications       Course&quot;,
+  
+                                &quot;Supervisory     Development    Program               (SDP)&quot;,
+  
+                                &quot;Created Blue Sky, the most potent methamphetamine ever produced.&quot;,
+  
+                                &quot;Made first $1,000,000.&quot;,
+  
+                                &quot;Made second $1,000,000&quot;))</code></pre>
+</div>
+<div id="interests" class="section level2">
+<h2>Interests</h2>
+<pre class="r"><code>  interests = list(&quot;Programming&quot; = c(rep(&quot;C++&quot;, 4),rep(&quot;R&quot;, 10), rep(&quot;Python&quot;, 1), rep(&quot;R&quot;, 2), &quot;Data Science&quot;),
+  
+                   &quot;Machine Learning&quot; = c(rep(&quot;Random Forrest&quot;, 10), rep(&quot;SVM&quot;, 5), rep(&quot;Regression&quot;, 3),rep(&quot;Neural Networks&quot;, 3)),
+  
+                   &quot;Leadership&quot; = c(rep(&quot;Commitment&quot;, 10), rep(&quot;Decision Making&quot;, 5), rep(&quot;Management&quot;, 30), rep(&quot;Innovation&quot;,10)))
+  
+  year.steps = 2</code></pre>
+</div>
+<div id="output-png-file" class="section level2">
+<h2>Output PNG File</h2>
+<p>Due to the way I render and upload blogs, this will cause it to error on my end; however, if you should uncomment this chunk of code.</p>
+<pre class="r"><code># png(filename = &quot;VisualResume.png&quot;,
+#     width = 1600, height = 800)
+# 
+#   VisualResume::VisualResume()
+# 
+# dev.off()</code></pre>
+</div>

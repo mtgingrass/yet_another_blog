@@ -29,7 +29,9 @@ Themes included R, data science applications, statistics, open source software a
       <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/2019/01/05/visual-resume/</guid>
-      <description></description>
+      <description>Visual Resume Timeline I came across this Github package by ndphillips and thought it was pretty cool and decided to make it even easier to setup. I really just wanted to play with it so here is my excuse.
+My Visual Resume
+  Setup Most people who have used R for a few weeks or months have probably already installed devtools. Just in case it isn’t already installed, simply uncomment line 18 to install for the first time</description>
     </item>
     
     <item>

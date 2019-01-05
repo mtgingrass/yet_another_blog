@@ -164,37 +164,12 @@ Have any significant milestones in your career? Win the Nobel prize? Mark it as 
 
 
 ## Output PNG File
-
+Due to the way I render and upload blogs, this will cause it to error on my end; however, if you should uncomment this chunk of code. 
 ```{r}
-png(filename = "VisualResume.png",
-    width = 1600, height = 800)
-
-  VisualResume::VisualResume()
-seq_along()
-dev.off()
-```
-
-```{r}
-library(dplyr)
-df <- read.table(text="Value
- 0
- 15
- 17
- 2
- 3
- 5
- 1
- 11
- 6",h=T)
-
-df <- dplyr::case_when(
-  df == 2 ~ 2,
-  df == 3 ~ 2,
-  df == 0 ~ 1,
-  df == 6 ~ 3,
-  df >= 11 ~ 4,
-  TRUE ~ 0
-)
-
-df <- as.data.frame(df)
+# png(filename = "VisualResume.png",
+#     width = 1600, height = 800)
+# 
+#   VisualResume::VisualResume()
+# 
+# dev.off()
 ```
