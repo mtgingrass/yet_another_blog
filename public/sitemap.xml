@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>/post/2019/01/05/visual-resume/</loc>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/2018/12/16/tools-of-the-job/</loc>
     <lastmod>2018-12-16T00:00:00+00:00</lastmod>
   </url>
@@ -51,6 +56,12 @@
   </url>
   
   <url>
+    <loc>/tags/r/</loc>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/r/</loc>
     <lastmod>2019-01-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -64,12 +75,13 @@
   
   <url>
     <loc>/tags/</loc>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/tools/</loc>
-    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -81,6 +93,12 @@
   
   <url>
     <loc>/tags/data-science/</loc>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/fun/</loc>
     <lastmod>2019-01-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -136,6 +154,18 @@
   <url>
     <loc>/tags/references/</loc>
     <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/resume/</loc>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/self-improvement/</loc>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
