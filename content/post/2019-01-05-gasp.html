@@ -1,0 +1,358 @@
+---
+title: GASP
+author: Mark Gingrass
+date: '2019-01-05'
+slug: gasp
+categories:
+  - government
+  - R
+  - programming
+tags:
+  - gasp
+  - government
+  - programming
+  - r
+  - data science
+---
+
+
+
+<div id="gasp" class="section level1">
+<h1>GASP</h1>
+<div id="devgin" class="section level2">
+<h2>Devgin</h2>
+<p><font size = 5>Check out <a href="http://www.devgin.com">devgin.com</a> for more</font><BR><BR></p>
+</div>
+<div id="event" class="section level2">
+<h2>Event</h2>
+<p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></p>
+<div class="figure">
+<img src="photos/gasp.PNG" />
+
+</div>
+<div class="ui star rating" data-rating="3">
+
+</div>
+<p><font size = 5><em>Government Advances in Statistical Programming 2018</em></font></p>
+<p>Government Advances in Statistical Programming (GASP!) Workshop is a workshop focused on statistical programming for government applications held at the Bureau of Labor Statistics in Washington DC on October 24 to 25, 2018. This event was put on by W<a href="http://washstat.org/">ashington Statistical Society (WSS)</a></p>
+<p>Themes included R, data science applications, statistics, open source software and more. The event was broken up into multiple sessions currently and we chose which sessions to attend.</p>
+<p>This brief report will summarize some of the notes I took at this event.</p>
+<p>In the spirit of data science and <em>R</em>, I wrote this trip report using RMarkdown language.</p>
+</div>
+<div id="reproducability" class="section level2">
+<h2>Reproducability</h2>
+<p>This talk was about making workflows more transparent and reproducible. This talk centered around using R/RStudio and open source in general to make this happen.</p>
+<p><a href="https://rmarkdown.rstudio.com/"><img src="photos/rmarkdown.PNG" alt="RMarkdown" /></a></p>
+<p>The presenter spoke about the following topics:</p>
+<ul>
+<li><p>Continuous / Deployment for R</p></li>
+<li><p>CI/CD - Continuous Integration / Continuous Deployment</p>
+<ul>
+<li><p>All parts of what goes into making your application go to the same place and run through the same processes with results published to an easy to access place.</p></li>
+<li><p>Having a single place where you “integrate” all your code is the foundation for extending other, more advanced practices.</p></li>
+</ul></li>
+<li><p><a href="https://www.tidyverse.org/articles/2017/11/usethis-1.0.0/">library(usethis)</a> # package</p></li>
+<li><p>This includes setting up unit testing, test coverage, continuous integration.</p></li>
+</ul>
+<p>The CTP has projects that are governed by AGILE. In particular, we use the SCRUM framework with SPRINTs in my local office. This closely resembles the CI/CD approach referenced above.</p>
+</div>
+<div id="git" class="section level2">
+<h2>GIT</h2>
+<p>Using “git” to leverage development and external collaboration within the Census bureau.<BR><BR></p>
+<p><a href="https://en.wikipedia.org/wiki/Git"><img src="photos/git.PNG" alt="GIT" /></a></p>
+<ul>
+<li><p>US Census Bureau uses Github Enterprise development platform.</p></li>
+<li><p>US Census Bureau uses AWS Linux-based development environment. The request spin up/shut down of Elastic Map Reduce (EMR) clusters as needed.</p></li>
+</ul>
+<p>If the CTP wants to leverage these technologies, we might want to reach out the Census Bureau first.</p>
+<p>*Side Note, if interested in the Census data privacy history, click link below: <BR></p>
+<p><a href="https://www.cs.cmu.edu/afs/cs/usr/wing/www/class/15-895/fienberg.pdf">“leading disclosure limitation standard; differential privacy”</a>*</p>
+<div id="git-hooks" class="section level3">
+<h3><strong>Git hooks</strong></h3>
+<p>Git hooks are scripts that Git executes before or after events such as: commit, push, and receive.</p>
+<p>These hook scripts are only limited by a developer’s imagination. Some example hook scripts include:</p>
+<ul>
+<li><p>pre-commit: Check the commit message for spelling errors.</p></li>
+<li><p>pre-receive: Enforce project coding standards.</p></li>
+<li><p>post-commit: Email/SMS team members of a new commit.</p></li>
+<li><p>post-receive: Push the code to production.</p></li>
+<li><p>manage commits with rules. Example - can’t commit unless file name meets standards of naming convention.</p></li>
+</ul>
+<p>This notion of hooks may or may not already be used within CTP. For example, when DCC receives applications, they might already have an automated naming convention or checks/balances in place. Regardless, every step of the application process should have these types of criteria before moving on to the next stage of the process.</p>
+<p>I want to expand on this concept of hooks in the context of <em>workflows</em>. For each stage of a work flow, there is usually some sort of <strong>entry</strong> criteria and <strong>exit</strong> criteria (<a href="https://en.Wikipedia.org/wiki/Phase-gate_process">gated process</a>). The process can’t proceed until the criteria are met. With <em>hooks</em>, the user can get immediate feedback and ensure conventions are held. I’ve noticed CTP uses this to an extent already; however, the more immediate feedback or automation we can do, the better the process as a whole will be.</p>
+</div>
+</div>
+<div id="emacs-org-mode" class="section level2">
+<h2>EMACS ORG-Mode</h2>
+<p>Speaker: FDA - Feiming Chen</p>
+<p>Emacs is a popular text editor used mainly on Unix-based systems by programmers, scientists, engineers, students, and system administrators.</p>
+<p>Using Emacs to code has pros and cons. Some say the steeper the learning curve, the more the reward. That being said, is it worth it?</p>
+<p><strong>Emacs org-mode:</strong></p>
+<ul>
+<li><pre><code>      Not good for collaboration</code></pre>
+<ul>
+<li>You cannot collaborate easy because you will probably find you are the only one who uses Emacs in general. <BR></li>
+</ul></li>
+<li><p>Steep learning curve</p>
+<ul>
+<li>Emacs requires the use of a tremendous amount of keyboard-shortcuts in order to use it well. This can take a lot of time to master. You can’t use the mouse to interface the editor. Finally, there are no inline images or graphs, everything is referenced and you can’t see the output until compiled. <BR></li>
+</ul></li>
+<li><pre><code>      Write efficiently</code></pre>
+<ul>
+<li>Once you master Emacs, you can write notes, emails, generate tasks, and write code all with one program. No only that, you can keep multiple documents within one document and eliminate the need for a directory structure. You can write scripts as well to automate most tasks that needs repeating.</li>
+</ul></li>
+<li><pre><code>      Organize efficiently &lt;BR&gt;</code></pre>
+<ul>
+<li>No need to create directories for multiple files, they are all within the document itself. <BR></li>
+</ul></li>
+<li><pre><code>      Blending multiple languages in one document</code></pre>
+<ul>
+<li>A neat feature, but probably not used often in our area is the need to use multiple programming languages within one document. RStudio has some of this capability with Python and RMarkdown but Emacs will allow over 12 languages to be integrated - <em>and</em>, send output from one language to the input to another.<BR></li>
+</ul></li>
+<li><p>Outputs to beamer presentation/pdf/etc</p>
+<ul>
+<li>Automate presentations without the use of PowerPoint. Update links once and have all your documents it pushes to automatically update as well.<BR></li>
+</ul></li>
+</ul>
+<p>My opinion is that for new users to <strong>R</strong> or coding in general, Emacs should not be used. I would only recommend it for experiences users or those that need to code daily. I recommend an Integrated Development Environment that enables the user to use the mouse and have a menu type system for executing commands.</p>
+<p><em>Side Note: RMarkdown can produce a <a href="https://bookdown.org/yihui/rmarkdown/beamer-presentation.html">Beamer</a> presentation too.</em></p>
+<div id="vmware-player" class="section level3">
+<h3>VMWare Player</h3>
+<p>VMWare Player allows a user to run a second, isolated operating system on a single PC. This software will create a virtual environment within Windows that allows the user to install any software without restrictions.</p>
+<p>Within his VM, he has <a href="https://labs.fedoraproject.org/en/scientific/">Linux Fedora Scientific Spin</a> (many tools pre-installed):</p>
+<ul>
+<li><p>Emacs, R, Latex</p></li>
+<li><p>ESS (Helps R programming)</p></li>
+<li><p>CDLaTeX - (speed up writing latex)</p></li>
+<li><p>More</p></li>
+</ul>
+</div>
+</div>
+<div id="quality-in-offical-statistics" class="section level2">
+<h2>Quality in Offical Statistics</h2>
+<p>Presenter: Darryl Creel, RTI</p>
+<p>In this talk, Darryl talked about Stratified Simple Random Sampling. Using subgroups of a population to draw random samples instead of drawing random samples from entire population as a whole.</p>
+<p>An example would be to separate a population of 200,000 MBA students into geographic area, male or female, and income levels. Then sample from each subgroup for further analysis.</p>
+<p>The speaker talked about QR<sup>2</sup>ST as a quality control model; however, I do not remember what this model was about.</p>
+</div>
+<div id="polishing-tools-until-shiny" class="section level2">
+<h2>Polishing Tools Until Shiny</h2>
+<p>Speaker: Andrew Dau</p>
+<p>To use Shiny, you need two files:</p>
+<ol style="list-style-type: decimal">
+<li><p>Server.R - defines functions</p></li>
+<li><p>Ui.R - defines app layout</p></li>
+</ol>
+<p><a href="https://www.rstudio.com/products/shiny/shiny-user-showcase/">Shiny User Cases</a></p>
+<p><a href="https://www.rstudio.com/products/shiny/shiny-user-showcase/"><img src="photos/shiny.PNG" alt="A Shiny Example" /></a></p>
+<p>Andrew was able to reproduce functionality of an pre-existing SAS system as a proof of concept. He then added advanced capabilities that SAS could not offer without advanced technical background in programming.</p>
+<p><em>Side Note: the R <a href="https://cran.r-project.org/web/packages/esquisse/index.html">Esquiesse</a> package adds Ggplot2 GUI interface to RStudio using Shiny. This makes creating plots without knowing the underlying code - simply drag and drop variables and select chart types.</em></p>
+</div>
+<div id="shiny-apps-without-shiny" class="section level2">
+<h2>Shiny Apps Without Shiny</h2>
+<p>Presenter: Emily Mitchell</p>
+<p>Emily brought up some good points on accessibility when it comes to using Shiny. There are two concerns:</p>
+<ul>
+<li>Branding sites<BR></li>
+</ul>
+<p><a href="https://designsystem.digital.gov/">U.S. Web Design System</a> is a great resource for designing Federal sites.<BR></p>
+<p>This resource will ensure your Design System implementation is in compliance with the official web policy guidance from OMB and your agency.<BR></p>
+<ul>
+<li>Compliance to Accessibility<BR></li>
+</ul>
+<p>visual or hearing impaired should view web page just as good as anyone else and Shiny has some limitations to this need.</p>
+<p>She had to modify CSS, Java, etc.. So much shiny app was customized that it wasn’t worth using in her case.</p>
+<p><a href="https://www.section508.gov/">508 Compliance</a> used to create accessible digital products.</p>
+<div class="figure">
+<img src="photos/section508.PNG" />
+
+</div>
+<p><em>Side Note: <a href="https://jquery.com/">Jquery</a> is similar to a library or package to make java script more concise and user friendly.</em></p>
+<div class="figure">
+<img src="photos/jquery.PNG" />
+
+</div>
+<p>Emily uses <a href="https://getbootstrap.com/docs/3.3/">Bootstrap</a> for styling CSS</p>
+<p>Emily can be reached via <a href="https://github.com/e-mitchell">Github</a>.</p>
+</div>
+<div id="designing-interactive-server" class="section level2">
+<h2>Designing Interactive Server</h2>
+<p>Presenter: Joe Murphy</p>
+<ul>
+<li><p>Compressed data into visual charts - static visualizations</p></li>
+<li><p>Color and pattern for black and white prints or accessibility</p></li>
+<li><p>Wanted to be able to drill down into the data and be flexible. Hosting internal and external.</p></li>
+<li><p>Used NGINX and docker containers for deployment</p></li>
+</ul>
+</div>
+<div id="data-as-strategic-asset" class="section level2">
+<h2>Data as Strategic Asset</h2>
+<p>The <a href="https://strategy.data.gov/">Federal Data Strategy</a> will define principles, practices, and an action plan to deliver consistent approach to federal data stewardship, use and access.</p>
+<div class="figure">
+<img src="photos/federaldata.PNG" />
+
+</div>
+<p>Presenter emphasized the following:</p>
+<ul>
+<li><p>Ethical Governance</p>
+<ul>
+<li><p>Uphold Ethics</p></li>
+<li><p>Exercise Responsibility</p></li>
+<li><p>Promote Transparency<BR></p></li>
+</ul></li>
+<li><p>Conscious Design</p>
+<ul>
+<li><p>Ensure Relevance</p></li>
+<li><p>Harness Existing Data</p></li>
+<li><p>Anticipate Future Uses</p></li>
+<li><p>Demonstrate Responsiveness<BR></p></li>
+</ul></li>
+<li><p>Learning Culture</p>
+<ul>
+<li><p>Invest in Learning</p></li>
+<li><p>Develop Data Leaders</p></li>
+<li><p>Practice Accountability</p></li>
+</ul></li>
+</ul>
+<p>Speaker expressed some concern about public data not being available in the future.</p>
+<p>To solve pressing issues, we must leverage data as a strategic asset. The <a href="https://strategy.data.gov/incubator/">Incubator Project</a> can be a great place to show your public data projects.</p>
+<p><a href="https://strategy.data.gov/incubator/"><img src="photos/incubator.PNG" /></a></p>
+</div>
+<div id="package-for-that" class="section level2">
+<h2>Package for That</h2>
+<p>Presenter: Kelsey Gray</p>
+<p>Leverage the use of APIs:</p>
+<ul>
+<li><p>Know what your looking for</p></li>
+<li><p>data set</p></li>
+<li><p>data year</p></li>
+<li><p>table</p></li>
+<li><p>variable names</p></li>
+</ul>
+<p>Example packages for federal data:</p>
+<ul>
+<li><a href="https://cran.r-project.org/web/packages/acs/index.html">acs</a><BR></li>
+</ul>
+<p>Provides a general toolkit for downloading, managing, analyzing, and presenting data from the U.S. Census</p>
+<ul>
+<li><a href="https://cran.r-project.org/web/packages/tidycensus/index.html">tidycensus</a><BR></li>
+</ul>
+<p>An integrated R interface to the decennial US Census and American Community Survey APIs and the US Census Bureau’s geographic boundary files. Allows R users to return Census and ACS data as tidyverse-ready data frames, and optionally returns a list-column with feature geometry for many geographies.</p>
+<ul>
+<li><a href="https://cran.r-project.org/web/packages/blsAPI/index.html">blsAPI</a><BR></li>
+</ul>
+<p>Allows users to request data for one or multiple series through the U.S. Bureau of Labor Statistics API.</p>
+<ul>
+<li><a href="https://cran.r-project.org/web/packages/rHealthDataGov/index.html">rHealthDataGov</a><BR></li>
+</ul>
+<p>An R interface for the HealthData.gov data API. For each data resource, you can filter results (server-side) to select subsets of data.</p>
+<ul>
+<li><a href="https://cran.r-project.org/web/packages/medicare/index.html">medicare</a><BR></li>
+</ul>
+<p>Publicly available data from Medicare frequently requires extensive initial effort to extract desired variables and merge them; this package formalizes the techniques I’ve found work best. More information on the Medicare program, as well as guidance for the publicly available data this package targets, can be found on CMS’s website covering publicly available data.</p>
+<ul>
+<li><a href="https://cran.r-project.org/web/packages/ipumsr/index.html">iPUMSR</a><BR></li>
+</ul>
+<p>An easy way to import census, survey and geographic data provided by ‘IPUMS’ into R plus tools to help use the associated metadata to make analysis easier.</p>
+<p>CDC Vital Statistics (<a href="https://github.com/CDCgov/National-Vital-Statistics-Mortality-Data">Github</a>)</p>
+<p>This Github organization was created for use by CDC programs to collaborate on public health surveillance related projects in support of the CDC Surveillance Strategy.</p>
+<p>Department of Education (<a href="https://github.com/usedgov">Github</a>)</p>
+<p><em>Can we merge this data with CTP data to find insight?</em></p>
+</div>
+<div id="linking-public-data-sources" class="section level2">
+<h2>Linking Public Data Sources</h2>
+<p>Speaker: Dipak Subedi, USDA/ERS</p>
+<p>I did not take notes during this talk.</p>
+</div>
+<div id="missing-data" class="section level2">
+<h2>Missing Data</h2>
+<p>Presenter: Chenguang Wang, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University</p>
+<p>Chenguang introduced a Shiny app that was:</p>
+<ul>
+<li><p>user-friendly and interactive</p></li>
+<li><p>can efficiently impute</p></li>
+<li><p>explores missing data</p></li>
+<li><p>provides rigorous missing data sensitivity analysis</p></li>
+</ul>
+<p>R Packages for missing data:</p>
+<ul>
+<li><p>MICE</p></li>
+<li><p>Amelia</p></li>
+<li><p>missForest</p></li>
+<li><p>HMis</p></li>
+</ul>
+<p>Shiny app architecture steps:</p>
+<ol style="list-style-type: decimal">
+<li><p>Upload</p></li>
+<li><p>visualize</p></li>
+<li><p>configure</p></li>
+<li><p>multiple impute (5 choices)</p></li>
+<li><p>subset selection</p></li>
+<li><p>result visualization</p></li>
+</ol>
+</div>
+<div id="r-in-regulatory-enviornment" class="section level2">
+<h2>R in Regulatory Enviornment</h2>
+<p>Paul Schuette, FDA</p>
+<p>CDER previously wanted everything in SAS Transport files; however, <a href="https://www.fda.gov/downloads/forindustry/datastandards/studydatastandards/ucm587506.pdf">“FDA does not require use of any specific software for statistical analyses”</a></p>
+<p>How R is used for regulatory review work:</p>
+<ul>
+<li><p>Reviewers may opt to use R</p></li>
+<li><p>R is used for graphics</p></li>
+<li><p>Simulations</p></li>
+<li><p>Bayesian Methods</p>
+<ul>
+<li><p>JAGS</p></li>
+<li><p>Stan</p></li>
+</ul></li>
+<li><p>Complex, Innovative Clinical Designs (PDUFA VI)</p></li>
+</ul>
+<p><em>Site Note: <strong>fraud</strong> has a legal meaning, they call it <strong>Data Anomaly Detection</strong> for most cases.</em></p>
+<p>Approximately 3 million adverse event reports per year. <a href="https://openfda.shinyapps.io/LRTest/" class="uri">https://openfda.shinyapps.io/LRTest/</a></p>
+<p>What is probability that at least two subjects in a group share the same date of birth (month, day and year)?</p>
+<p>People try to get into multiple groups because they think they will increase their chances of <strong>not</strong> getting placebo and get the actual drug. This is problematic.</p>
+<p>Paul mentions that a <strong>major obstacle using R is still widely buerocratic.</strong></p>
+</div>
+<div id="integer-calibration" class="section level2">
+<h2>Integer Calibration</h2>
+<p>Presenter: Luca Sartore</p>
+<p>Luca describes the process to create packages within the government and publishing them on CRAN. Specifically, the <a href="https://cran.r-project.org/web/packages/inca/index.html">inca-package: Integer Calibration</a>.</p>
+<p>Calibration forces the weighted estimates of calibration variables to match known totals. This improves the quality of the design-weighted estimates. It is used to adjust for non-response and/or under-coverage. The commonly used methods of calibration produce non-integer weights. In cases where weighted estimates must be integers, one must “integerize” the calibrated weights. However, this procedure often produces final weights that are very different for the “sample” weights. To counter this problem, the <em>inca</em> package provides specific functions for rounding real weights to integers, and performing an integer programming algorithm for calibration problems with integer weights.</p>
+<p>Licensing</p>
+<p>Federal agencies have <a href="https://sourcecode.cio.gov/">policies</a>.</p>
+<blockquote>
+<p>US Public domain software uses <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero (CC0)</a> to waive copyright internationally.</p>
+</blockquote>
+<blockquote>
+<p>The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.</p>
+</blockquote>
+<blockquote>
+<p>You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.</p>
+</blockquote>
+<p>Reference: <a href="https://dodcio.defense.gov/open-source-software-faq/">DoD Open Source Software FAQ.</a></p>
+<p>Debugging</p>
+<div class="figure">
+<img src="photos/debug.PNG" alt="Debugging" />
+<p class="caption">Debugging</p>
+</div>
+<p>Tools:</p>
+<ul>
+<li><p>R-hub (no reference)</p></li>
+<li><p>valgrind (Linux/UNIX)</p></li>
+</ul>
+<p>Luca mentioned that packages should be uploaded to CRAN and then to <a href="https://code.gov">code.gov</a></p>
+<p>CTP may not be in the business of publishing packages at the moment; however, the process to publish is valuable. CRAN publishing has extensive and rigorous structure and <a href="https://cran.r-project.org/web/packages/policies.html">rules</a>.</p>
+</div>
+<div id="imputation-model-using-hierarchical-bayesian-regresssion-models" class="section level2">
+<h2>Imputation Model Using Hierarchical Bayesian Regresssion Models</h2>
+<p>Programming language called <a href="http://mc-stan.org/">“Stan”</a></p>
+<p>Stan is a platform for statistical modeling and high-performance statistical computation.</p>
+</div>
+<div id="venue-information" class="section level2">
+<h2>Venue Information</h2>
+<p>Janet Norwood Conference Center, Ground Floor<BR></p>
+<p>U.S. Bureau of Labor Statistics<BR></p>
+<p>2 Massachusetts Ave, NE<BR></p>
+<p>Washington, DC 20212</p>
+</div>
+</div>

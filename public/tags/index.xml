@@ -20,6 +20,24 @@
     </item>
     
     <item>
+      <title>data science</title>
+      <link>/tags/data-science/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gasp</title>
+      <link>/tags/gasp/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gasp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>github</title>
       <link>/tags/github/</link>
       <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
@@ -29,11 +47,38 @@
     </item>
     
     <item>
+      <title>government</title>
+      <link>/tags/government/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/government/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>markdown</title>
       <link>/tags/markdown/</link>
       <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming</title>
+      <link>/tags/programming/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>r</title>
+      <link>/tags/r/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     
