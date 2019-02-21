@@ -63,6 +63,8 @@ These shoes were perfect for getting wet and for hiking jagged rocks. I even cli
 
 ## Day 1 - San Jose
 
+Test
+
 ## Day 2 - San Hose to Jaco
 
 ## Day 3 - Jaco Beach
