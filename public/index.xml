@@ -6,10 +6,29 @@
     <description>Recent content in Home on Mark Gingrass Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Detailed Trip to Costa Rica</title>
+      <link>/post/2019/02/18/detailed-trip-to-costa-rica/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/02/18/detailed-trip-to-costa-rica/</guid>
+      <description>Pre-plan Where/Why I chose to go to Costa Rica for a few reasons:
+ It&amp;rsquo;s winter in February in Washington DC and I wanted to go some place warm. I found a good deal on plane tickets. I heard great things about the country. I want to learn Spanish. It offers both scenary/events as well as partying.  Ticket Details I purchased round trip tickets to Costa Rica from an app called Skyscanner.</description>
+    </item>
+    
+    <item>
+      <title>Job Roles - What do I actually do?</title>
+      <link>/post/2019/01/17/job-roles-what-do-i-actually-do/</link>
+      <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/01/17/job-roles-what-do-i-actually-do/</guid>
+      <description>New Job - New Role At almost all social events, whether on a hike with a group from Meetup or a bar down the street with fellow craft beer drinkers, their is always one question that always comes up. That is, &amp;ldquo;So what do you do?&amp;rdquo; I often ask myself that very same question? In this post, I will try to explain my dialy role as an Operations Research Analyst.</description>
+    </item>
     
     <item>
       <title>GASP</title>
@@ -52,6 +71,15 @@ In this post, I am going to break down some of the tools I am currently using an
       <guid>/post/2018/12/16/unique-skills/</guid>
       <description>The question is, what are my transferable skills? What do I bring to the table? This is what this blog post is going to be all about, how to bring a unique set of skills to a field you have never been part of, and to use that for your advantage. Can I even do this?
 I will start with how I brought unique tools to a field I never thought I would be in.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/post/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/1/01/01/</guid>
+      <description>Detailed Trip to Costa Rica       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
     </item>
     
     <item>

@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Mark Gingrass Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Costa rica</title>
+      <link>/tags/costa-rica/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/costa-rica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monteverde</title>
+      <link>/tags/monteverde/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/monteverde/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>R</title>
@@ -30,11 +48,29 @@
     </item>
     
     <item>
+      <title>canopy</title>
+      <link>/tags/canopy/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/canopy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>data science</title>
       <link>/tags/data-science/</link>
-      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>flying</title>
+      <link>/tags/flying/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/flying/</guid>
       <description></description>
     </item>
     
@@ -71,6 +107,42 @@
       <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/government/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jaco</title>
+      <link>/tags/jaco/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/jaco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jaco beach</title>
+      <link>/tags/jaco-beach/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/jaco-beach/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>la fortuna</title>
+      <link>/tags/la-fortuna/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/la-fortuna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>manual Antonio</title>
+      <link>/tags/manual-antonio/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/manual-antonio/</guid>
       <description></description>
     </item>
     
@@ -125,6 +197,24 @@
       <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>traveling</title>
+      <link>/tags/traveling/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/traveling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>zip lines</title>
+      <link>/tags/zip-lines/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/zip-lines/</guid>
       <description></description>
     </item>
     
