@@ -59,7 +59,7 @@ I am not going to go into packing details too much but I want to talk about prop
 
 These shoes were perfect for getting wet and for hiking jagged rocks. I even climbed a Ficus tree with them on. However, the shoes glue came off on edges as you can tell from the photo.
 
-<p align="center"><img src="img/shoe1.jpeg"></img></p>
+<p align="center"><img src="/img/shoe1.jpeg"></img></p>
 
 ## Day 1 - San Jose
 
