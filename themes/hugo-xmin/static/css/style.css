@@ -58,3 +58,7 @@ thead, tfoot, tr:nth-child(even) { background: #eee; }
     -webkit-border-radius: 500px;
     -moz-border-radius: 500px;
 }
+
+.inline-block {
+   display: inline-block;
+}
