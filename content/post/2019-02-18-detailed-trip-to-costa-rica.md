@@ -69,8 +69,8 @@ These shoes were perfect for getting wet and for hiking jagged rocks. I even cli
 <img src="/img/shoe1.jpeg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
 <img src="/img/shoe2.jpeg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
 <img src="/img/shoe3.jpeg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
-<p style="clear: both;">
-
+<p style="clear: both;"></p>
+<BR>
 
 ## Day 1 - San Jose
 
@@ -109,10 +109,46 @@ One thing to note, and I will repeat this a few times, is to **never flush toile
 >  never flush toilet paper in the toilet
 
 Drying hands with paper is kind of wasteful and almost all of the places I went to did not offer paper towels or hand dryers. You also get used to that quickly. Just air dry them and move on. 
+<BR>
 
 ## Day 2 - San Hose to Jaco
 
+<img src="/img/bus1.png" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+
+The next day we woke up early and walked to the *right* to find some breakfast. Turns out, there are a lot of cool shops nearby. I believe the clerk was just warning us that at night it can be dangerous. During the day it seemed fine. 
+
+We saw a few people with dozens of pigeons on them. Kind of nasty but cool at the same time. ha. 
+
+As you can see to the left, we paid 2,585 Colones each to take the bus to Jaco beach. That is roughtly $4.26 US. The taxi drivers would charge \$60- \$80 easily. 
+
+Our bus stop was just down the street. The bus driver was just as crazy as our Uber driver by the way. I must say, it was the most comfortable bus I have ever been on. He also picked up random people running after the bus. 
+
+I believe this [site](https://www.transportesjacoruta655.com/) is where she purchased our tickets. 
+<p style="clear: both;"></p>
+<BR>
+
 ## Day 3 - Jaco Beach
+
+### 4 Wheeling Tour
+
+<img src="/img/4wheel.jpeg" style="float: left; width: 45%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="/img/4wheel2.jpeg" style="float: left; width: 45%; margin-right: 1%; margin-bottom: 0.5em;">
+<p style="clear: both;">
+<img src="/img/waterfall1.jpeg" style="float: left; width: 40%; margin-right: 1%; margin-bottom: 0.5em;">
+
+We arrived around 2PM and didn't have a lot of time so we did a three hour four wheeling tour. For one ATV with a passenger and a guide, we paid $140 total for three hours. We used [AXR](https://axrjaco.com/book-online/#id=waterfall-jumper-jaco) to book. They will pick you up at any hotel or hostel you are staying at.
+
+The tour guide was very funny and informative. We drove on the streets of Jaco to a dirt road and up the mountain. The veiw from the top is great. We stopped and hiked a bit to this waterfall. On the way back we stopped for drinks at a local restaurant in the mountains. The scenary was fantastic. The guide said we can even eat dinner up there if we wanted to. We ended up having two drinks then jumped back on the ATVs. 
+
+On the way back, right before we turned our ATVs in, we got to ride on the beach with them. This was extra cool because we happeend to be there during an international skydiving convenction or something. We saw lots of sky divers, including ones with giant fans blowing behind them so they an stay in the air longer. They did a lot of cool stunts. 
+
+<p style="clear: both;"></p>
+
+### Jaco Beach
+
+I captured this image right outside my hostel at sunset. 
+
+<p align="center"><img src="/img/jacobeach.jpg" width="100%"></p>
 
 ## Day 4 - Jaco Beach / Manual Antonio
 
