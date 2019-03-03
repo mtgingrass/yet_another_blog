@@ -288,7 +288,11 @@ The Tour Includes:
 
 ## Day 8 - Monteverde to La Fatuna
 
+### Hostel Selene
+
 ### Ficus Tree
+
+We had some free time to kill so we ventured down the road and up a path to an awesome Ficas tree. You can climb to the very top by going to the **inside** of the tree and climb. It was beautiful, and free.
 
 <p align="center"><img src="/img/ficus3.jpg" width="65%"></p>
 
@@ -300,7 +304,7 @@ The Tour Includes:
 ### Bridges
 
 
-### Volcano
+### Arenal Volcano
 <p align="center"><img src="/img/volcano1.jpeg" width="65%"></p><BR>
 <p align="center"><img src="/img/volcano2.jpg" width="65%"></p><BR>
 <p align="center"><img src="/img/volcano4.jpg" width="65%"></p>
