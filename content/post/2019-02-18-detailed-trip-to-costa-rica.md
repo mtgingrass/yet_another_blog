@@ -127,8 +127,6 @@ I believe this [site](https://www.transportesjacoruta655.com/) is where she purc
 <p style="clear: both;"></p>
 <BR>
 
-## Day 3 - Jaco Beach
-
 ### 4 Wheeling Tour
 
 <img src="/img/4wheel.jpeg" style="float: left; width: 45%; margin-right: 1%; margin-bottom: 0.5em;">
@@ -150,7 +148,7 @@ I captured this image right outside my hostel at sunset.
 
 <p align="center"><img src="/img/jacobeach.jpg" width="100%"></p>
 
-## Day 4 - Jaco Beach / Manual Antonio
+### Hostel
 
 <p align="center"><img src="/img/room2board.png" width="100%"></p>
 
@@ -164,13 +162,20 @@ With all the partying, the rooms themselves are very quiet and peaceful. At leas
 
 We also crashed a bachelar pad while there. I don't partake but there was definitly plenty of the white gold and green magic going around. The guys said they got it cheap from their taxi driver. 
 
-## Day 5 - Jaco Beach
+### Beach
 
 <img src="/img/beach1.jpg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+The beach was beautiful and the water was warm. Walking around the entire beach area was relaxing. You can walk north to a rocky area where you can find crabs and other marine life. 
+
+There were plenty of bars and restaurants on the strip. I counted about three locations where there were ATM machines. However, a lot of the machines were out of order. You really didn't have to use US dollars or Colones because most places on the strip take credit card. 
+
+We walked past the strip headed north for a while. It was nice to get away from the tourists and venture into a little bit of the unknown. The further I went, the less people spoke English. We stumbled upon this eguana in the road on the way back. It was about three feet long. 
+
+<p align="center"><img src="/img/eguana.jpeg" width="100%"></p>
 
 <p style="clear: both;"></p>
 
-## Day 6 - Jaco to Monteverde
+## Day 3 - Manual Antonio
 
 <img src="/img/bunny.jpg" style="float: right; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
 
@@ -181,8 +186,6 @@ We booked a full day [*white water*](https://app.anyguide.com/tours/full-day-whi
 The drive to the shop where we got the rafts was about an hour away. Once there, it took about another 45 minutes to get to the top of the river. The van that pooled us had a cute dog in it and a bunny. 
 
 <p style="clear: both;"></p>
-
-## Day 7 - Monteverde
 
 Such a beatiful day for rafting. We got a quick lesson on how to raft. Basically learning the commands the guide yells out at you. It is not rainy season so the rapids were at best a class 2 in my opinion. However, it was so much fun and our guide was very knowledgeble and funny. 
 
@@ -203,6 +206,13 @@ Anyway, about an hour later a random guy picks us up in a car. We get in and do 
 <p style="clear: both;"></p>
 <p align="center"><img src="/img/horse2.jpg" width="100%"></p>
 
+## Day 4
+
+## Day 5
+
+## Day 6 - Jaco to Monteverde
+
+## Day 7 - Monteverde
 
 ## Day 8 - Monteverde to La Fatuna
 
