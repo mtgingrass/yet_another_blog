@@ -263,3 +263,5 @@ Bar Amigos
 
 <BR><BR>
 <p align="center"><font size="20" color="red">Pura Vida</font></p>
+
+{{ template "_internal/disqus.html" . }}

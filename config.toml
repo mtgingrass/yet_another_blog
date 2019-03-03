@@ -3,11 +3,10 @@ languageCode = "en-us"
 title = "Mark Gingrass Blog"
 theme = "hugo-xmin"
 googleAnalytics = ""
-disqusShortname = ""
+disqusShortname = "gingrass"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
-disqusShortname = "gingrass"
 
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"
