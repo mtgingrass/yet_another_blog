@@ -16,6 +16,7 @@ tags:
   - zip lines
   - canopy
   - la fortuna
+thumbnail = "img/thumb.jpeg"
 ---
 <img src="/img/intro.jpeg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
 <img src="/img/intro2.jpeg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
