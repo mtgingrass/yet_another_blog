@@ -193,6 +193,7 @@ Such a beautiful day for rafting. We got a quick lesson on how to raft. Basicall
 <p style="clear: both;"></p>
 <img src="/img/rapids3.jpg" style="float: right; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
 
+
 We were able to get off the raft a few times and swim around. The water felt great. Then we stopped at this waterfall to take a break to eat and suck down a couple of beers of course. 
 
 During the trip we spotted a few Toucan birds, some wild horses (including a baby one), and lots of insects while rafting. 
@@ -217,7 +218,10 @@ Repeat of day 4.
 We purchased two tickets to Monteverde through [interbus](https://www.interbusonline.com/) for $110 total. They came and picked us up right at the Room2Board hostel. 
 
 Tree House
-Los Amigos
+
+<p align="center"><img src="/img/treehouse.jpeg" width="65%"></p>
+
+Bar Amigos
 
 ### Hostel
 
@@ -231,11 +235,27 @@ Los Amigos
 
 ### Ficus Tree
 
+<p align="center"><img src="/img/ficus3.jpg" width="65%"></p>
+
+
 ### Jeep Boat Jeep
 
 ## Day 9 - La Fatuna
 
 ### Bridges
+
+
+### Volcano
+<p align="center"><img src="/img/volcano1.jpeg" width="65%"></p><BR>
+<p align="center"><img src="/img/volcano2.jpg" width="65%"></p><BR>
+<p align="center"><img src="/img/volcano4.jpg" width="65%"></p>
+
+### Waterfall
+
+<img src="/img/falls1.jpeg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="/img/falls2.jpeg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="/img/falls3.jpeg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+<p style="clear: both;"></p>
 
 ### Hot Springs
 
