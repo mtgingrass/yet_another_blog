@@ -166,24 +166,42 @@ We also crashed a bachelar pad while there. I don't partake but there was defini
 
 ## Day 5 - Jaco Beach
 
+<img src="/img/beach1.jpg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+
+<p style="clear: both;"></p>
+
 ## Day 6 - Jaco to Monteverde
+
+<img src="/img/bunny.jpg" style="float: right; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
 
 We got two tickets to Monteverde through [interbus](https://www.interbusonline.com/) for $110 total. They came and picked us up right at the Room2Board hostel. 
 
-We booked a full day [*white water*](https://app.anyguide.com/tours/full-day-white-water-rafting-jaco) rafting trhough the same place we did the ATV tour. I believe we paid about $180 for the two of us total.
+We booked a full day [*white water*](https://app.anyguide.com/tours/full-day-white-water-rafting-jaco) rafting trhough the same place we did the ATV tour. I believe we paid about $180 for the two of us total. 
+
+The drive to the shop where we got the rafts was about an hour away. Once there, it took about another 45 minutes to get to the top of the river. The van that pooled us had a cute dog in it and a bunny. 
+
+<p style="clear: both;"></p>
 
 ## Day 7 - Monteverde
 
+Such a beatiful day for rafting. We got a quick lesson on how to raft. Basically learning the commands the guide yells out at you. It is not rainy season so the rapids were at best a class 2 in my opinion. However, it was so much fun and our guide was very knowledgeble and funny. 
 
 <img src="/img/rapids1.jpeg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
 <img src="/img/rapids2.jpeg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
-<img src="/img/food1.jpg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="/img/swim1.jpeg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
 <p style="clear: both;"></p>
-
 <img src="/img/rapids3.jpg" style="float: right; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
-Test
+
+We were able to get off the raft a few times and swim around. The water felt great. Then we stopped at this waterfall to take a break to eat and suck down a couple of beers of course. 
+
+During the trip we spotted a few Toucan birds, some wild horses (including a baby one), and lots of insects while rafting. 
+
+Around 4 PM we were off to dinner, which was included. They drove us to this amazing place for dinner and just dropped us off. They said, "Another driver is going to pick you up in about an hour." Then they were gone. We were so confused as to what to do. The servers didn't speak any English at all and kept asking us if we wanted them to call a taxi. The ride home was supposed to be included. Ha ha. 
+
+Anyway, about an hour later a random guy picks us up in a car. We get in and do some small talk. This guy drove like a mad man too! Then, he asked if I had a license and if I wanted to drive myself. I declined. We spotted about 10 high-school boys that were walking in the middle of the road and this guy gets on an intercom system and yells at them. Turns out, he's a fire-fighter and an taxi driver. Good times!
 
 <p style="clear: both;"></p>
+<p align="center"><img src="/img/horse2.jpg" width="100%"></p>
 
 
 ## Day 8 - Monteverde to La Fatuna
