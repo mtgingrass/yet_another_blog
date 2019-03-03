@@ -152,11 +152,39 @@ I captured this image right outside my hostel at sunset.
 
 ## Day 4 - Jaco Beach / Manual Antonio
 
+<p align="center"><img src="/img/room2board.png" width="100%"></p>
+
+We stayed at [Room2Board](https://www.room2board.com/) hostel for about $50 per night with a private bedroom. Our room at two beds but we only needed one. We shared a bathroom with an adjacent room. This place is great! It is right on the beach, has a pool, a bar, and is affordable. You can use credit card or local colones for payments. 
+
+After the beach and four wheeling, we partied hard at the hostel. We just stayed at the bar and ordered drinks and then went into the pool. We played some vollyball with the other guests and had a great time. The pool and bar close up around 1AM I believe. Then the party moves to the rooftop. The rooftop is open all night. We usually called it quits around 3AM nightly. 
+
+>  Hangovers do not exist in Jaco! Seriously. 
+
+With all the partying, the rooms themselves are very quiet and peaceful. At least mine was. There is a slight chance I was drunk and just didn't care. 
+
+We also crashed a bachelar pad while there. I don't partake but there was definitly plenty of the white gold and green magic going around. The guys said they got it cheap from their taxi driver. 
+
 ## Day 5 - Jaco Beach
 
 ## Day 6 - Jaco to Monteverde
 
+We got two tickets to Monteverde through [interbus](https://www.interbusonline.com/) for $110 total. They came and picked us up right at the Room2Board hostel. 
+
+We booked a full day [*white water*](https://app.anyguide.com/tours/full-day-white-water-rafting-jaco) rafting trhough the same place we did the ATV tour. I believe we paid about $180 for the two of us total.
+
 ## Day 7 - Monteverde
+
+
+<img src="/img/rapids1.jpeg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="/img/rapids2.jpeg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="/img/food1.jpg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+<p style="clear: both;"></p>
+
+<img src="/img/rapids3.jpg" style="float: right; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+Test
+
+<p style="clear: both;"></p>
+
 
 ## Day 8 - Monteverde to La Fatuna
 
