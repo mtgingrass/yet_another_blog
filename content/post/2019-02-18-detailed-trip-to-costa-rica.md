@@ -32,7 +32,7 @@ I chose to go to Costa Rica for a few reasons:
 *  I found a good deal on plane tickets. 
 *  I heard great things about the country.
 *  I want to learn Spanish.
-*  It offers both scenary/events as well as partying.
+*  It offers both scenery/events as well as partying.
 
 
 ### Ticket Details
@@ -54,10 +54,10 @@ I purchased round trip tickets to Costa Rica from an app called Skyscanner. I ch
 
 I planned on at least half of my time at the beach and the other half hiking, four wheeling, zip lines other outdoorsy events. I had two criteria to meet:
 
-1.  Pack light enough to just use a carryon bag. 
+1.  Pack light enough to just use a carry on bag. 
 2.  Pack enough to last 10 days.
 
-When I know I am swimming at the beach or pool area I can reduce the number of socks and underware to take. Just reuse your bathing suit. However, a word of caution - *my clothes ended up smelling pretty bad*. In hindsight, just splurge about halfway through the trip and pay for laundry service. 
+When I know I am swimming at the beach or pool area I can reduce the number of socks and underwear to take. Just reuse your bathing suit. However, a word of caution - *my clothes ended up smelling pretty bad*. In hindsight, just splurge about halfway through the trip and pay for laundry service. 
 
 >  my clothes ended up smelling pretty bad
 
@@ -76,23 +76,23 @@ These shoes were perfect for getting wet and for hiking jagged rocks. I even cli
 
 ### Arival
 
-Upon arival I planned on using my phone to get an Uber driver. I have Verizon Wireless as my carrier. I couldn't, for the life of me, get the internet to work. I thought that I would just pay the $10 per day for international data. I also thought it was automatic. It wasn't. 
+Upon arrival I planned on using my phone to get an Uber driver. I have Verizon Wireless as my carrier. I couldn't, for the life of me, get the internet to work. I thought that I would just pay the $10 per day for international data. I also thought it was automatic. It wasn't. 
 
 Since we didn't check our bags, we went straight out of the airport exit. Very quickly we were approached by dozens of *taxi* drivers. Each one tried for our business over and over again. If you say, "I've got a ride, I am good" (in Spanish if you can), they will ask you, "With who, which company?" They were very much in your bubble trying for your business constantly. 
 
 I read about not using taxis in Costa Rica over and over again so I tried desperately not to use this service. I finally found a person who claimed to be an Uber driver. He didn't have the app or any indication of working for Uber on the car. He obviously wasn't an Uber driver but I didn't care. I asked him how much to get to [Hostel Pangea](http://www.hostelpangea.com/)? He said $15 US. I was on it! Didn't care if he was a random person or not. Honestly, that's part of the experience or me. He took me to an ATM and I withdrew US dollars and Costa Rican Colones. 
 
-The drivers in Costa Rica are crazy lol. You will read about that all over the internet as well. I thought it was kind of funny how different they drive than me, in DC area. I almost want to believe that pedestrians do not have the right away at all in this country. I swear the driver was goign to clip every pedestrian he passed. He also rode right up on ass of the car in front of him. Anyway, made it to [Hostel Pangia](http://www.hostelpangea.com/) safely. 
+The drivers in Costa Rica are crazy . You will read about that all over the internet as well. I thought it was kind of funny how different they drive than me, in DC area. I almost want to believe that pedestrians do not have the right away at all in this country. I swear the driver was going to clip every pedestrian he passed. He also rode right up on ass of the car in front of him. Anyway, made it to [Hostel Pangia](http://www.hostelpangea.com/) safely. 
 
 <p align="center"><img src="/img/airport_to_hostel.png" width="70%" border="5"></p>
 <p style="clear: both;"></p>
 
 ### Hostel
-Checked into the hostel around 10PM with no problems. Our room had a stand up shower with one glass wall on the bottom floor. It was really cool actually. Upstairs was a bed overlooking the shower. Definitly a nice view if you know what I mean.
+Checked into the hostel around 10PM with no problems. Our room had a stand up shower with one glass wall on the bottom floor. It was really cool actually. Upstairs was a bed overlooking the shower. Definitely a nice view if you know what I mean.
 
 **Pros:**
 
-*  Beatiful view
+*  Beautiful view
 *  Plenty of room
 *  Affordable
 *  Great location
@@ -119,7 +119,7 @@ The next day we woke up early and walked to the *right* to find some breakfast. 
 
 We saw a few people with dozens of pigeons on them. Kind of nasty but cool at the same time. ha. 
 
-As you can see to the left, we paid 2,585 Colones each to take the bus to Jaco beach. That is roughtly $4.26 US. The taxi drivers would charge \$60- \$80 easily. 
+As you can see to the left, we paid 2,585 Colones each to take the bus to Jaco beach. That is roughly $4.26 US. The taxi drivers would charge \$60- \$80 easily. 
 
 Our bus stop was just down the street. The bus driver was just as crazy as our Uber driver by the way. I must say, it was the most comfortable bus I have ever been on. He also picked up random people running after the bus. 
 
@@ -136,9 +136,9 @@ I believe this [site](https://www.transportesjacoruta655.com/) is where she purc
 
 We arrived around 2PM and didn't have a lot of time so we did a three hour four wheeling tour. For one ATV with a passenger and a guide, we paid $140 total for three hours. We used [AXR](https://axrjaco.com/book-online/#id=waterfall-jumper-jaco) to book. They will pick you up at any hotel or hostel you are staying at.
 
-The tour guide was very funny and informative. We drove on the streets of Jaco to a dirt road and up the mountain. The veiw from the top is great. We stopped and hiked a bit to this waterfall. On the way back we stopped for drinks at a local restaurant in the mountains. The scenary was fantastic. The guide said we can even eat dinner up there if we wanted to. We ended up having two drinks then jumped back on the ATVs. 
+The tour guide was very funny and informative. We drove on the streets of Jaco to a dirt road and up the mountain. The view from the top is great. We stopped and hiked a bit to this waterfall. On the way back we stopped for drinks at a local restaurant in the mountains. The scenery was fantastic. The guide said we can even eat dinner up there if we wanted to. We ended up having two drinks then jumped back on the ATVs. 
 
-On the way back, right before we turned our ATVs in, we got to ride on the beach with them. This was extra cool because we happeend to be there during an international skydiving convenction or something. We saw lots of sky divers, including ones with giant fans blowing behind them so they an stay in the air longer. They did a lot of cool stunts. 
+On the way back, right before we turned our ATVs in, we got to ride on the beach with them. This was extra cool because we happened to be there during an international skydiving convention or something. We saw lots of sky divers, including ones with giant fans blowing behind them so they an stay in the air longer. They did a lot of cool stunts. 
 
 <p style="clear: both;"></p>
 
@@ -154,13 +154,13 @@ I captured this image right outside my hostel at sunset.
 
 We stayed at [Room2Board](https://www.room2board.com/) hostel for about $50 per night with a private bedroom. Our room at two beds but we only needed one. We shared a bathroom with an adjacent room. This place is great! It is right on the beach, has a pool, a bar, and is affordable. You can use credit card or local colones for payments. 
 
-After the beach and four wheeling, we partied hard at the hostel. We just stayed at the bar and ordered drinks and then went into the pool. We played some vollyball with the other guests and had a great time. The pool and bar close up around 1AM I believe. Then the party moves to the rooftop. The rooftop is open all night. We usually called it quits around 3AM nightly. 
+After the beach and four wheeling, we partied hard at the hostel. We just stayed at the bar and ordered drinks and then went into the pool. We played some volleyball with the other guests and had a great time. The pool and bar close up around 1AM I believe. Then the party moves to the rooftop. The rooftop is open all night. We usually called it quits around 3AM nightly. 
 
 >  Hangovers do not exist in Jaco! Seriously. 
 
 With all the partying, the rooms themselves are very quiet and peaceful. At least mine was. There is a slight chance I was drunk and just didn't care. 
 
-We also crashed a bachelar pad while there. I don't partake but there was definitly plenty of the white gold and green magic going around. The guys said they got it cheap from their taxi driver. 
+We also crashed a bachelor pad while there. I don't partake but there was definitely plenty of the white gold and green magic going around. The guys said they got it cheap from their taxi driver. 
 
 ### Beach
 
@@ -169,7 +169,7 @@ The beach was beautiful and the water was warm. Walking around the entire beach 
 
 There were plenty of bars and restaurants on the strip. I counted about three locations where there were ATM machines. However, a lot of the machines were out of order. You really didn't have to use US dollars or Colones because most places on the strip take credit card. 
 
-We walked past the strip headed north for a while. It was nice to get away from the tourists and venture into a little bit of the unknown. The further I went, the less people spoke English. We stumbled upon this eguana in the road on the way back. It was about three feet long. 
+We walked past the strip headed north for a while. It was nice to get away from the tourists and venture into a little bit of the unknown. The further I went, the less people spoke English. We stumbled upon this iguana in the road on the way back. It was about three feet long. 
 
 <p align="center"><img src="/img/eguana.jpeg" width="100%"></p>
 
@@ -179,13 +179,13 @@ We walked past the strip headed north for a while. It was nice to get away from 
 
 <img src="/img/bunny.jpg" style="float: right; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
 
-We booked a full day [*white water*](https://app.anyguide.com/tours/full-day-white-water-rafting-jaco) rafting trhough the same place we did the ATV tour. I believe we paid about $180 for the two of us total. That included the drive to Manual Antonio area. 
+We booked a full day [*white water*](https://app.anyguide.com/tours/full-day-white-water-rafting-jaco) rafting through the same place we did the ATV tour. I believe we paid about $180 for the two of us total. That included the drive to Manual Antonio area. 
 
 The drive to the shop where we got the rafts was about an hour away. Once there, it took about another 45 minutes to get to the top of the river. The van that pooled us had a cute dog in it and a bunny. 
 
 <p style="clear: both;"></p>
 
-Such a beatiful day for rafting. We got a quick lesson on how to raft. Basically learning the commands the guide yells out at you. It is not rainy season so the rapids were at best a class 2 in my opinion. However, it was so much fun and our guide was very knowledgeble and funny. 
+Such a beautiful day for rafting. We got a quick lesson on how to raft. Basically learning the commands the guide yells out at you. It is not rainy season so the rapids were at best a class 2 in my opinion. However, it was so much fun and our guide was very knowledgeable and funny. 
 
 <img src="/img/rapids1.jpeg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
 <img src="/img/rapids2.jpeg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
@@ -216,17 +216,22 @@ Repeat of day 4.
 
 We purchased two tickets to Monteverde through [interbus](https://www.interbusonline.com/) for $110 total. They came and picked us up right at the Room2Board hostel. 
 
-### Hostel
+Tree House
+Los Amigos
 
-### Coffee and Night Tour
+### Hostel
 
 ## Day 7 - Monteverde
 
 ### Ziplines
 
+### Coffee and Night Tour
+
 ## Day 8 - Monteverde to La Fatuna
 
-Jeep Boat Jeep
+### Ficus Tree
+
+### Jeep Boat Jeep
 
 ## Day 9 - La Fatuna
 
