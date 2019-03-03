@@ -179,9 +179,7 @@ We walked past the strip headed north for a while. It was nice to get away from 
 
 <img src="/img/bunny.jpg" style="float: right; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
 
-We got two tickets to Monteverde through [interbus](https://www.interbusonline.com/) for $110 total. They came and picked us up right at the Room2Board hostel. 
-
-We booked a full day [*white water*](https://app.anyguide.com/tours/full-day-white-water-rafting-jaco) rafting trhough the same place we did the ATV tour. I believe we paid about $180 for the two of us total. 
+We booked a full day [*white water*](https://app.anyguide.com/tours/full-day-white-water-rafting-jaco) rafting trhough the same place we did the ATV tour. I believe we paid about $180 for the two of us total. That included the drive to Manual Antonio area. 
 
 The drive to the shop where we got the rafts was about an hour away. Once there, it took about another 45 minutes to get to the top of the river. The van that pooled us had a cute dog in it and a bunny. 
 
@@ -207,16 +205,34 @@ Anyway, about an hour later a random guy picks us up in a car. We get in and do 
 <p align="center"><img src="/img/horse2.jpg" width="100%"></p>
 
 ## Day 4
+Relax day at the beach. Full day of having zero plans! Bar hopped some and ate at the local restaurants. 
 
 ## Day 5
+Repeat of day 4. 
 
 ## Day 6 - Jaco to Monteverde
 
+### The ride
+
+We purchased two tickets to Monteverde through [interbus](https://www.interbusonline.com/) for $110 total. They came and picked us up right at the Room2Board hostel. 
+
+### Hostel
+
+### Coffee and Night Tour
+
 ## Day 7 - Monteverde
+
+### Ziplines
 
 ## Day 8 - Monteverde to La Fatuna
 
+Jeep Boat Jeep
+
 ## Day 9 - La Fatuna
+
+### Bridges
+
+### Hot Springs
 
 ## Day 10 - La Fatuna to San Jose
 
