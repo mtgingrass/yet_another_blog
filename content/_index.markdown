@@ -7,6 +7,6 @@ title: Home
 # MARK GINGRASS
 
 ## My place to put things.
-My new way to have a voice in the world.
+My voice in the world through blogs.
 
 The blogs here are going to vary from technical to political. If you are interested in only *technical* or *professional* blogs, check out my other site <a href="http://www.devgin.com">DevGin.com.</a>
