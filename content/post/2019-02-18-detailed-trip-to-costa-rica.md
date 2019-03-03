@@ -16,7 +16,6 @@ tags:
   - zip lines
   - canopy
   - la fortuna
-image: img/thumb.jpeg
 ---
 <img src="/img/intro.jpeg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
 <img src="/img/intro2.jpeg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
@@ -79,16 +78,34 @@ These shoes were perfect for getting wet and for hiking jagged rocks. I even cli
 
 Upon arrival I planned on using my phone to get an Uber driver. I have Verizon Wireless as my carrier. I couldn't, for the life of me, get the internet to work. I thought that I would just pay the $10 per day for international data. I also thought it was automatic. It wasn't. 
 
-Since we didn't check our bags, we went straight out of the airport exit. Very quickly we were approached by dozens of *taxi* drivers. Each one tried for our business over and over again. If you say, "I've got a ride, I am good" (in Spanish if you can), they will ask you, "With who, which company?" They were very much in your bubble trying for your business constantly. 
+>  Set your Verizon phone up for international plan BEFORE you get there!
 
-I read about not using taxis in Costa Rica over and over again so I tried desperately not to use this service. I finally found a person who claimed to be an Uber driver. He didn't have the app or any indication of working for Uber on the car. He obviously wasn't an Uber driver but I didn't care. I asked him how much to get to [Hostel Pangea](http://www.hostelpangea.com/)? He said $15 US. I was on it! Didn't care if he was a random person or not. Honestly, that's part of the experience or me. He took me to an ATM and I withdrew US dollars and Costa Rican Colones. 
+Since we didn't check our bags, we went straight to the airport exit. We were approached by dozens of *taxi* drivers immediately. They tried for our business aggressively. If you say, "I've got a ride, I am good" (in Spanish if you can), they will ask you, "With who, which company?" 
 
-The drivers in Costa Rica are crazy . You will read about that all over the internet as well. I thought it was kind of funny how different they drive than me, in DC area. I almost want to believe that pedestrians do not have the right away at all in this country. I swear the driver was going to clip every pedestrian he passed. He also rode right up on ass of the car in front of him. Anyway, made it to [Hostel Pangia](http://www.hostelpangea.com/) safely. 
+[Reddit](https://www.reddit.com/r/costa_rica/comments/5q11j5/car_or_busestaxis/) posts suggest never using a taxi, so I tried hard to avoid them. After scrambling for 30 minutes trying to avoid the taxi drivers, I finally found a person who claimed to be an Uber driver. 
+
+The Uber driver didn't have the app or any indication of working for the company. He obviously wasn't an Uber driver but I didn't care. I asked him how much to get to [Hostel Pangea](http://www.hostelpangea.com/)? He said $15 US. I was on it! Didn't care if he was a random person or not. Honestly, that's part of the experience or me. He took me to an ATM and I withdrew US dollars and Costa Rican Colones. 
+
+The drivers in Costa Rica are, to put it lightly, nuts! I thought it was kind of funny how different they drive than me, in DC area. I almost want to believe that pedestrians do not have the right away at all. I swear the driver was going to clip every pedestrian he passed. He also rode right up on ass of the car in front of him. Anyway, made it to [Hostel Pangia](http://www.hostelpangea.com/) safely.
+
+Things I noticed about driving in Costa Rica:
+
+** Drives aggressively
+** Pass anyone and everyone
+** Motercycles and dirt bikes will pass you all the time
+** Dogs and pedestrians everywhere on the road
+** Pedesrians don't seem to have the right of way
+** Potholes everywhere
+** Lots of dirt roads
+** Watch out for hurds of oxen on the road (seriously lol)
+
+On a good note, not one driver had road rage.
 
 <p align="center"><img src="/img/airport_to_hostel.png" width="70%" border="5"></p>
 <p style="clear: both;"></p>
 
 ### Hostel
+
 Checked into the hostel around 10PM with no problems. Our room had a stand up shower with one glass wall on the bottom floor. It was really cool actually. Upstairs was a bed overlooking the shower. Definitely a nice view if you know what I mean.
 
 **Pros:**
@@ -103,7 +120,7 @@ Checked into the hostel around 10PM with no problems. Our room had a stand up sh
 
 *  No hot water
 
-I asked the desk clerk where the bars were at. He said if I go left I will find the "American bar." Then he said at night, do not go right or you will get into a fight. Interesting. So we walked maybe 100 feet to the "American bar" and had a few cervesas. 
+I asked the desk clerk where the bars were located. He said if I go left I will find the "American bar." Then he said at night, do not go right or you will get into a fight. Interesting. So we walked maybe 100 feet to the "American bar" and had a few cervesas. 
 
 One thing to note, and I will repeat this a few times, is to **never flush toilet paper in the toilet**. You will get used to this pretty fast and it will become pretty normal. Just respect the system they have and put it in the trash. Every single toilet will have a trash next to it.
 
@@ -116,7 +133,7 @@ Drying hands with paper is kind of wasteful and almost all of the places I went 
 
 <img src="/img/bus1.png" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
 
-The next day we woke up early and walked to the *right* to find some breakfast. Turns out, there are a lot of cool shops nearby. I believe the clerk was just warning us that at night it can be dangerous. During the day it seemed fine. 
+The next day we woke up early and walked to the *right* to find some breakfast. Turns out, there are a lot of cool shops nearby. I believe the clerk was just warning us that at night it can be dangerous. During the day it seemed fine.
 
 We saw a few people with dozens of pigeons on them. Kind of nasty but cool at the same time. ha. 
 
@@ -135,7 +152,7 @@ I believe this [site](https://www.transportesjacoruta655.com/) is where she purc
 <p style="clear: both;">
 <img src="/img/waterfall1.jpeg" style="float: left; width: 40%; margin-right: 1%; margin-bottom: 0.5em;">
 
-We arrived around 2PM and didn't have a lot of time so we did a three hour four wheeling tour. For one ATV with a passenger and a guide, we paid $140 total for three hours. We used [AXR](https://axrjaco.com/book-online/#id=waterfall-jumper-jaco) to book. They will pick you up at any hotel or hostel you are staying at.
+We arrived around 2PM and didn't have a lot of time so we did a three hour four wheeling tour through the rain forest. For one ATV with a passenger and a guide, we paid $140 total for three hours. We used [AXR](https://axrjaco.com/book-online/#id=waterfall-jumper-jaco) to book. They will pick you up at any hotel or hostel you are staying at.
 
 The tour guide was very funny and informative. We drove on the streets of Jaco to a dirt road and up the mountain. The view from the top is great. We stopped and hiked a bit to this waterfall. On the way back we stopped for drinks at a local restaurant in the mountains. The scenery was fantastic. The guide said we can even eat dinner up there if we wanted to. We ended up having two drinks then jumped back on the ATVs. 
 
@@ -153,15 +170,40 @@ I captured this image right outside my hostel at sunset.
 
 <p align="center"><img src="/img/room2board.png" width="100%"></p>
 
-We stayed at [Room2Board](https://www.room2board.com/) hostel for about $50 per night with a private bedroom. Our room at two beds but we only needed one. We shared a bathroom with an adjacent room. This place is great! It is right on the beach, has a pool, a bar, and is affordable. You can use credit card or local colones for payments. 
+We stayed at [Room2Board](https://www.room2board.com/) hostel for about $50 per night with a private bedroom. Our room at two beds but we only needed one. We shared a bathroom with an adjacent room. This place was great! It is right on the beach, has a pool, a bar, and is affordable. You can use credit card or local colones for payments. 
 
-After the beach and four wheeling, we partied hard at the hostel. We just stayed at the bar and ordered drinks and then went into the pool. We played some volleyball with the other guests and had a great time. The pool and bar close up around 1AM I believe. Then the party moves to the rooftop. The rooftop is open all night. We usually called it quits around 3AM nightly. 
+After the beach and four wheeling, we partied at the hostel. We mostly stayed at the bar and ordered drinks and then went into the pool. Then we played some volleyball with the other guests and had a great time. 
+
+The pool and bar close around 1 AM. Don't worry, the party moves to the rooftop at this point. The rooftop is open all night I assume. We usually called it quits around 3 AM nightly. 
+
+To summarize Room2Board:
+
+*  Daily yoga
+*  Surfboard rentals
+*  Surf lessons
+*  Bar
+*  Pool
+*  Diversity
+*  On the beach
+*  Has some private rooms
+
+I met people from:
+
+*  United States
+*  Germany
+*  Canada
+*  Estonia
+*  Argentina
+*  Panama
+*  France
+
+I'm sure I met more but didn't really keep track. Canadians must really hate the cold because their were a lot of Canadians. 
 
 >  Hangovers do not exist in Jaco! Seriously. 
 
-With all the partying, the rooms themselves are very quiet and peaceful. At least mine was. There is a slight chance I was drunk and just didn't care. 
+With all the partying, the rooms themselves are very quiet and peaceful. At least mine was. There is a slight chance I was drunk and just didn't care. I swear I didn't have a hangover at all while in Costa Rica. They must not exist there.
 
-We also crashed a bachelor pad while there. I don't partake but there was definitely plenty of the white gold and green magic going around. The guys said they got it cheap from their taxi driver. 
+We also crashed a bachelor pad while there. I don't *partake* but there was definitely plenty of the *white gold* and *green magic* going around. The guys said they got it cheap from their taxi driver. 
 
 ### Beach
 
@@ -228,7 +270,19 @@ Bar Amigos
 
 ## Day 7 - Monteverde
 
-### Ziplines
+### Ziplines (Canopy)
+
+You must do the [Canopy](https://www.aventuracanopytour.com/) tour while in Costa Rica. The longest and highest ziplines in Cenral America! This was a must do for us. 
+
+The Tour Includes:
+
+*  9 regular ziplines
+*  2 Superman Ziplines (which includes the longest zipline in Latin America)
+*  1 hammock bridge 
+*  1 rappel
+*  1 Mega Tarzan Swing
+
+<p align="center"><img src="/img/zip.gif" width="65%"></p>
 
 ### Coffee and Night Tour
 
