@@ -120,7 +120,7 @@ Checked into the hostel around 10PM with no problems. Our room had a stand up sh
 
 *  No hot water
 
-I asked the desk clerk where the bars were located. He said if I go left I will find the "American bar." Then he said at night, do not go right or you will get into a fight. Interesting. So we walked maybe 100 feet to the "American bar" and had a few cervesas. 
+I asked the desk clerk where the bars were located. He said if I go left I will find the "American bar." Then he said at night, do not go right or you will get into a fight. Interesting. So we walked maybe 100 feet to the "American bar" and had a few cerveza. 
 
 One thing to note, and I will repeat this a few times, is to **never flush toilet paper in the toilet**. You will get used to this pretty fast and it will become pretty normal. Just respect the system they have and put it in the trash. Every single toilet will have a trash next to it.
 
