@@ -1,18 +1,18 @@
 ---
-title: Tools of the Job
 author: Mark Gingrass
-date: '2018-12-16'
-slug: tools-of-the-job
 categories:
-  - Computer
-  - Tools
-  - References
+- Computer
+- Tools
+- References
+date: "2018-12-16"
+slug: tools-of-the-job
 tags:
-  - tools
-  - references
-  - github
-  - markdown
-  - atom
+- tools
+- references
+- github
+- markdown
+- atom
+title: Tools of the Job
 ---
 Breaking into the tech world takes time! Forget about coding in C++ or Python or learning Ruby on Rails. Just figuring out which tools or Integrated Environments (IDE), or even which Operating System (OS) to use can be overwhelming.
 

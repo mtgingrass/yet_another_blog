@@ -1,6 +1,6 @@
 ---
-title: About Mark Gingrass
 author: Mark Gingrass
+title: About Mark Gingrass
 ---
 
 <img class = "avatar" width = "100" style="float: right;" src="../mark_gingrass_bio.jpg">

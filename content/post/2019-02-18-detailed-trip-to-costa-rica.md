@@ -1,22 +1,25 @@
 ---
-
-title: Detailed Trip to Costa Rica
 author: Mark Gingrass
-date: '2019-02-18'
-slug: detailed-trip-to-costa-rica
 categories:
-  - Travel
+- Travel
+date: "2019-02-18"
+slug: detailed-trip-to-costa-rica
 tags:
-  - Costa rica
-  - traveling
-  - flying
-  - jaco beach
-  - jaco
-  - manual Antonio
-  - Monteverde
-  - zip lines
-  - canopy
-  - la fortuna
+- Costa rica
+- traveling
+- flying
+- jaco beach
+- jaco
+- manuel Antonio
+- Monteverde
+- zip lines
+- canopy
+- la fortuna
+title: Detailed Trip to Costa Rica
+output:
+  blogdown::html_page:
+    toc: true
+    toc_float: true
 ---
 <img src="/img/intro.jpeg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
 <img src="/img/intro2.jpeg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
@@ -219,11 +222,11 @@ We walked past the strip headed north for a while. It was nice to get away from 
 
 <p style="clear: both;"></p>
 
-## Day 3 - Manual Antonio
+## Day 3 - Manuel Antonio
 
 <img src="/img/bunny.jpg" style="float: right; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
 
-We booked a full day [*white water*](https://app.anyguide.com/tours/full-day-white-water-rafting-jaco) rafting through the same place we did the ATV tour. I believe we paid about $180 for the two of us total. That included the drive to Manual Antonio area. 
+We booked a full day [*white water*](https://app.anyguide.com/tours/full-day-white-water-rafting-jaco) rafting through the same place we did the ATV tour. I believe we paid about $180 for the two of us total. That included the drive to Manuel Antonio area. 
 
 The drive to the shop where we got the rafts was about an hour away. Once there, it took about another 45 minutes to get to the top of the river. The van that pooled us had a cute dog in it and a bunny. 
 
@@ -287,7 +290,7 @@ The Tour Includes:
 
 ### Coffee and Night Tour
 
-## Day 8 - Monteverde to La Fatuna
+## Day 8 - Monteverde to La Fortuna
 
 ### Hostel Selene
 
@@ -317,7 +320,7 @@ We had some free time to kill so we ventured down the road and up a path to an a
 
 ### Jeep Boat Jeep
 
-## Day 9 - La Fatuna
+## Day 9 - La Fortuna
 
 ### Bridges
 
@@ -344,7 +347,7 @@ We had some free time to kill so we ventured down the road and up a path to an a
 We asked the local guys where the *real* bars were at. That the tourists never go to. They insisted that we could only go there if they walk us there. We decided to give it a go around 12 AM on our last night there. 
 
 
-## Day 10 - La Fatuna to San Jose
+## Day 10 - La Fortuna to San Jose
 
 ## Your Story
 

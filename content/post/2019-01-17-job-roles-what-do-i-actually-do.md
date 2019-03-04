@@ -1,14 +1,14 @@
 ---
-title: Job Roles - What do I actually do?
 author: Mark Gingrass
-date: '2019-01-17'
-slug: job-roles-what-do-i-actually-do
 categories:
-  - Career  
-  - government
-  - Tools
+- Career
+- government
+- Tools
+date: "2019-01-17"
+slug: job-roles-what-do-i-actually-do
 tags:
-  - data science
+- data science
+title: Job Roles - What do I actually do?
 ---
 
 # New Job - New Role

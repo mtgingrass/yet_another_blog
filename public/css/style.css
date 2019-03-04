@@ -4,18 +4,7 @@ body {
   padding: 1em;
   line-height: 1.5em;
 }
-#TableOfContents {
-  position: fixed;
-  left: 0;
-  top: 0;
-  background-color:#FFF;
-}
 
-#TableOfContents #full { display: none; } /* Hide the full TOC by default */
-
-#TableOfContents:hover #full{
-  display: block; /* Show it on hover */
-}
 /* header and footer areas */
 .menu { padding: 0; }
 .menu li { display: inline-block; }

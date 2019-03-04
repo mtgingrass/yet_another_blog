@@ -1,11 +1,11 @@
 ---
-title: Unique Skills
 author: Mark Gingrass
-date: '2018-12-16'
-slug: unique-skills
 categories:
-  - Career
+- Career
+date: "2018-12-16"
+slug: unique-skills
 tags: []
+title: Unique Skills
 ---
 
 The question is, what are my transferable skills? What do I bring to the table? This is what this blog post is going to be all about, how to bring a unique set of skills to a field you have never been part of, and to use that for your advantage. Can I even do this?
