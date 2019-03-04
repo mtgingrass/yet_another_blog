@@ -334,6 +334,9 @@ We had some free time to kill so we ventured down the road and up a path to an a
 <p style="clear: both;"></p>
 
 ### Hot Springs
+[Baldi Hot Springs](https://www.baldihotsprings.cr/hot-springs/) has the worlds largest hot springs with over 25 thermal pools.
+
+<p align="center"><img src="/img/hotspring1.jpeg" width="65%"></p>
 
 ### Random Local Bar
 
