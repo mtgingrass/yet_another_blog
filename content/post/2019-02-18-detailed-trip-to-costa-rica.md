@@ -1,4 +1,5 @@
 ---
+
 title: Detailed Trip to Costa Rica
 author: Mark Gingrass
 date: '2019-02-18'
