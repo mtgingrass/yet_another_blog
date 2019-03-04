@@ -52,7 +52,7 @@ I purchased round trip tickets to Costa Rica from an app called Skyscanner. I ch
 
 ### Packing Details
 
-I planned on at least half of my time at the beach and the other half hiking, four wheeling, zip lines other outdoorsy events. I had two criteria to meet:
+I planned on at least half of my time at the beach and the other half hiking, four wheeling, using zip lines and other outdoorsy events. I had two criteria to meet:
 
 1.  Pack light enough to just use a carry on bag. 
 2.  Pack enough to last 10 days.
