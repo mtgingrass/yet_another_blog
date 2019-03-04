@@ -290,6 +290,23 @@ The Tour Includes:
 
 ### Hostel Selene
 
+<img src="/img/selene.jpg" style="float: right; width: 60%; margin-right: 1%; margin-bottom: 0.5em;">
+We glamped at [Hostel Selena](https://www.selina.com/costa-rica/la-fortuna/).
+
+Some of the features:
+
+*  Free WiFi
+*  Restaurant/Bar
+*  Daily Yoga
+*  Pool
+*  Kitchen
+*  Partying
+*  Fire pit
+*  Music
+*  Pet Friendly
+
+<p style="clear: both;"></p>
+
 ### Ficus Tree
 
 We had some free time to kill so we ventured down the road and up a path to an awesome Ficas tree. You can climb to the very top by going to the **inside** of the tree and climb. It was beautiful, and free.
@@ -318,7 +335,10 @@ We had some free time to kill so we ventured down the road and up a path to an a
 
 ### Hot Springs
 
-### Ranom Local Bar
+### Random Local Bar
+
+We asked the local guys where the *real* bars were at. That the tourists never go to. They insisted that we could only go there if they walk us there. We decided to give it a go around 12 AM on our last night there. 
+
 
 ## Day 10 - La Fatuna to San Jose
 
