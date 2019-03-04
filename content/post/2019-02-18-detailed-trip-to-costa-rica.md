@@ -318,7 +318,12 @@ We had some free time to kill so we ventured down the road and up a path to an a
 
 ### Hot Springs
 
+### Ranom Local Bar
+
 ## Day 10 - La Fatuna to San Jose
 
+## Your Story
+
+We would love to hear your stories. Add them to the comments below. 
 <BR><BR>
 <p align="center"><font size="20" color="red">Pura Vida</font></p>
