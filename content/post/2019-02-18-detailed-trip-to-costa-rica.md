@@ -92,12 +92,12 @@ Things I noticed about driving in Costa Rica:
 
 ** Drives aggressively
 ** Pass anyone and everyone
-** Motercycles and dirt bikes will pass you all the time
+** Motorcycles and dirt bikes will pass you all the time
 ** Dogs and pedestrians everywhere on the road
-** Pedesrians don't seem to have the right of way
+** Pedestrians don't seem to have the right of way
 ** Potholes everywhere
 ** Lots of dirt roads
-** Watch out for hurds of oxen on the road (seriously lol)
+** Watch out for herds of oxen on the road (seriously lol)
 
 On a good note, not one driver had road rage.
 
@@ -272,12 +272,12 @@ Bar Amigos
 
 ### Ziplines (Canopy)
 
-You must do the [Canopy](https://www.aventuracanopytour.com/) tour while in Costa Rica. The longest and highest ziplines in Cenral America! This was a must do for us. 
+You must do the [Canopy](https://www.aventuracanopytour.com/) tour while in Costa Rica. The longest and highest ziplines in Central America! This was a must do for us. 
 
 The Tour Includes:
 
-*  9 regular ziplines
-*  2 Superman Ziplines (which includes the longest zipline in Latin America)
+*  9 regular zip lines
+*  2 Superman Zip lines (which includes the longest zip line in Latin America)
 *  1 hammock bridge 
 *  1 rappel
 *  1 Mega Tarzan Swing
