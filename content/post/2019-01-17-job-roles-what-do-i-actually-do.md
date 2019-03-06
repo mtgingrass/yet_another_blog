@@ -10,37 +10,29 @@ tags:
 - data science
 title: Job Roles - What do I actually do?
 ---
-
-My name is Mark and I am an Operations Research Analyst!
+<p align = "center" style="border:7px solid black; padding: 10px; border-left: 30px solid blue;border-left-color: blue;font-size:1.5em">My name is Mark and I am an Operations Research Analyst!</p>
 
 This article is an overview of the roles an ORA is may perform within this my organization.
- 
-<BR>
+
 # Operations Researcher
 
 > What do you do for work?
 
- 
 I will explain my daily role as an **Operations Research Analyst** working for the FDA in the Center for Tobacco Products Office of Science in the following sections of this article.
 
 In general, as an operations research analyst requires me to do quantitative research to improve business practices. This sometimes involves data mining, optimization, statistical analysis and modeling.
 
 I take ownership of data from the "cradle to the grave." That is, I am responsible for taking raw data and turning it into business insights using the Extraction, Transformation and Loading (ETL) process similar to the graphic below.
 
-<p align="center">![](etl_process.PNG)</p>
+<p align="center"><img src="/img/etl_process.PNG" width="65%"></p>
 
 I help determine the future data architectures required to handle processing and transforming of the incoming "big" data that is expected. That is, to better align present business practices for greater success tomorrow.
 
 I will dive deeper into the specifics of my current roles in a context most should understand in the following sections. This list is not exhaustive and changes frequently.
 
-<BR>
-<BR>
-
 ## Data Modeling
 
 I help establish a one to one correspondence between items in the real world and the data tracking using Logical Data Models and Physical Data Models. The goal is to track the life cycle and workflows of submissions and documents.
-
-<BR>
 
 I advise and quality control the representations of the submissions. For example, a **submission** may have a **receipt date**, **submission counter**, and a **point of contact**. I also quality control the relational model in Oracle Data Modeler.
 
@@ -65,8 +57,6 @@ There are countless more complications to work through over time. One thing to f
 
 Ultimately, the system should be designed in such a way to make answering scientific questions more efficient.
 
-<BR>
-<BR>
 ## Workflow Requirments
 
 I help upgrade our information systems to better support submission processing. I help facilitate the requirements required to migrate from legacy systems to modern systems. The system handles a small piece of a larger scale project. Specifically, it allows Program Managers (PMs) to assign, track, and edit workflows for scientists and administrators.
@@ -79,9 +69,6 @@ This project uses the [SPRINT](https://yodiz.com/help/what-is-sprint/) methodolo
 
 I also help set the exit (or acceptance) criteria for the tasks. The goal is to avoid malformed or unknown requirements for the contractors and instead, gather true requirements for the contractors to take action on.
 
-<BR>
-<BR>
-
 ## Ingredients
 
 Submitted ingredient applications contain names that may include a combination of scientific names, brand names, common
@@ -93,7 +80,7 @@ These qualities have serious consequences in regulation. They deter a reviewer o
 
 I am part of the *Ingredient* standardization committee. I help create unambiguous methods of naming ingredients. Part of this process starts with using the [International Union of Pure and Applied Chemistry](https://www.siyavula.com/read/science/grade-12/organic-molecules/04-organic-molecules-03){target="_blank"} (IUPAC) standard naming conventions.
 
-<p align="center">![](iupac.PNG)</p>
+<p align="center"><img src="/img/iupac.PNG" width="65%"></p>
 
 I used 'R' to help curate the verbatim reported chemical names and explore some of the issues with the current data e.g.:
 
@@ -106,15 +93,9 @@ I also created a dynamic look-up table for the Science Adviser and contractors t
 
 I am also a contributing member of the future Ontology Governance Subgroup.
 
-<BR>
-<BR>
-
 ## Migration
 
 My role is to create "stories" and generate requirements for contractors to migrate from an Access database to a modern database system with user interaces.
-
-<BR>
-<BR>
 
 ## SAP/HANA Reporting
 
@@ -130,14 +111,9 @@ Some of the generated reports include:
 
 The goal is to establish more robust requirements to allow more flexibility in the reports - such as the ability to drill down to detailed levels from an aggravated view. I aim to promote awareness of these reports to the end users. Ultimately, the reports should be capable of flagging anomalies and investigate the causes. Even further, detection of possible future issues (predictive analytics).
 
-<BR>
-<BR>
 ## Exploratory Data Analysis
 
 I perform exploratory data analytics on all of our data using R and Python. This is a good way to find quality issues and to measure trends and view ad hoc metrics. 
-
-<BR>
-<BR>
 
 ## Ingest Modeling
 
@@ -148,16 +124,9 @@ An over arching process that encompasses the holistic view of the entire organia
 3.  We can now get metrics for the processes
 4.  Find duplication across Offices and find an Enterprise solution for all stakeholders
 
-<BR>
-<BR>
-
 ## Events
 
 I keep up with emerging technologies by attending events such as Government Advances in Statistical Programming (GASP), CoLab and Gartner.
-
-<BR>
-<BR>
-
 
 ## Learn/Teach
 
