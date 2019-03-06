@@ -11,57 +11,168 @@ tags:
 title: Job Roles - What do I actually do?
 ---
 
-# New Job - New Role
-At almost all social events, whether on a hike with a group from Meetup or a bar down the street with fellow craft beer drinkers, their is always one question that always comes up. That is, "So what do you do?" I often ask myself that very same question? In this post, I will try to explain my dialy role as an **Operations Research Analyst.**
+My name is Mark and I am an Operations Research Analyst!
 
-First off, I am not doing optimization problems or trying to make the production line more efficient. I'm also not actually doing *research*, per se. I will describe some of my major roles and perhaps, you can give me a suitable title. 
+This article is an overview of the roles an ORA is may perform within this my organization.
+ 
+<BR>
+# Operations Researcher
 
+> What do you do for work?
+
+ 
+I will explain my daily role as an **Operations Research Analyst** working for the FDA in the Center for Tobacco Products Office of Science in the following sections of this article.
+
+In general, as an operations research analyst requires me to do quantitative research to improve business practices. This sometimes involves data mining, optimization, statistical analysis and modeling.
+
+I take ownership of data from the "cradle to the grave." That is, I am responsible for taking raw data and turning it into business insights using the Extraction, Transformation and Loading (ETL) process similar to the graphic below.
+
+<p align="center">![](etl_process.PNG)</p>
+
+I help determine the future data architectures required to handle processing and transforming of the incoming "big" data that is expected. That is, to better align present business practices for greater success tomorrow.
+
+I will dive deeper into the specifics of my current roles in a context most should understand in the following sections. This list is not exhaustive and changes frequently.
+
+<BR>
+<BR>
+
+## Data Modeling
+
+I help establish a one to one correspondence between items in the real world and the data tracking using Logical Data Models and Physical Data Models. The goal is to track the life cycle and workflows of submissions and documents.
+
+<BR>
+
+I advise and quality control the representations of the submissions. For example, a **submission** may have a **receipt date**, **submission counter**, and a **point of contact**. I also quality control the relational model in Oracle Data Modeler.
+
+There are numerous scenarios to think about while developing models:
+
+*  Industry submits a duplicate information with varying quanities
+*  How to define a *product*
+*  Define a *co-packaged* product
+*  Define an Ingredient vs a Complex Ingredient
+*  Is *part* the same thing as *component*
+*  How to deal with multiple configurations of same product
+*  Structuring or *indenture* chain of products
+*  Establishing a single source of truth for data
+*  How to share data with other organizations
+
+There are countless more complications to work through over time. One thing to focus on is the potential questions we want to answer in the future. Examples such as:
+
+*  What **products** contain more than xx mg of **Ingredient** A
+*  Show me all of the **component** parts of **product** B and the history
+*  Find all **products** with this **characteristic**
+*  What is the general trend for the makeup of products across the industry
+
+Ultimately, the system should be designed in such a way to make answering scientific questions more efficient.
+
+<BR>
+<BR>
 ## Workflow Requirments
-I help facilitate the requirments required to migrate from a legacy system to a newer system. The system handles a small piece of a larger scale project. Specifically, it allows Program Managers to assign, track, and edit workflows for the scientist that work for them.
 
-When a new or modified product enters the market, the PM will determine which scientists are required to review the product. This could be as many as 16 different disciplined scientist. The syste helps track where in the process the task is at. 
+I help upgrade our information systems to better support submission processing. I help facilitate the requirements required to migrate from legacy systems to modern systems. The system handles a small piece of a larger scale project. Specifically, it allows Program Managers (PMs) to assign, track, and edit workflows for scientists and administrators.
 
-This is more of an esthetics role or a Human Integration Role. I determine if the interface is usable for the PMs to do their jobs more efficeintly. This can include things like adding drop down menus, required fields, etc. Standardizing of input data is a huge part of this role. 
+When a new or modified product enters the market, the PM will determine which scientists are required to review the product. This could be as many as a dozen disciplines. The system helps track this process and enable users to research content from disparate sources improving efficiency and effectiveness of review activities.
 
-This project uses the SPRINT method, which is a set period of time during which specific work has to be completed and reviewed. The cadence is usually one task per week. I also help set the exit criteria for the task. 
+This is more of an aesthetics role or a Human Integration Role. I determine if the interface is usable for the PMs to perform their roles more efficiently. This can include things like adding drop down menus, required fields, radio buttons, search bars, etc. Understanding the capabilities of the underlying technology and the end user needs is crucial.
+
+This project uses the [SPRINT](https://yodiz.com/help/what-is-sprint/) methodology, with specific tasks to be completed and reviewed iteratively. The cadence is usually once every two weeks. Jira, a tool used to track progress is widely used to track issues and performance of the project.
+
+I also help set the exit (or acceptance) criteria for the tasks. The goal is to avoid malformed or unknown requirements for the contractors and instead, gather true requirements for the contractors to take action on.
+
+<BR>
+<BR>
 
 ## Ingredients
 
-Submitted ingredient names may include a combination of scientific names, brand names, common
-names, abbreviations, descriptions, manufacturer codes, substance registry codes, etc.. The names may contain incorrect punctuation, spelling, hyphenation, or word ordering, and may be not descriptive enough, or overly descriptive. Furthermore, a single manufacturer may use different names for the same substance over time or across products, and manufacturers may differ from each other in the way they name a substance.
+Submitted ingredient applications contain names that may include a combination of scientific names, brand names, common
+names, abbreviations, descriptions, manufacturer codes, substance registry codes, etc. They may contain incorrect punctuation, spelling errors, hyphenation, or incorrect word ordering.
 
-These qualities have serious consequences in regulation. They deter a reviewer or researcher from
-unambiguously identifying an ingredient. For example, a search for a substance cannot be complete
-unless it contains all variations in the name for a substance, information that cannot be known in
-advance. Excess variability decreases confidence in conclusions based on the frequency of usage across
-time, manufacturers, or products.
+A single manufacturer may use many names for the same ingredient over time or across products. Manufacturers may differ from each other in the way they name the same substance.
 
-I use 'R' to help curate the verbatim reported chemical names (based on a list of business rules) and compose a recommended standardized ingredient name.
+These qualities have serious consequences in regulation. They deter a reviewer or researcher from unambiguously identifying an ingredient.
 
-## Data Product Services
+I am part of the *Ingredient* standardization committee. I help create unambiguous methods of naming ingredients. Part of this process starts with using the [International Union of Pure and Applied Chemistry](https://www.siyavula.com/read/science/grade-12/organic-molecules/04-organic-molecules-03){target="_blank"} (IUPAC) standard naming conventions.
 
-## Domain Specific Ontology
+<p align="center">![](iupac.PNG)</p>
 
+I used 'R' to help curate the verbatim reported chemical names and explore some of the issues with the current data e.g.:
+
+*  duplication
+*  misspellings
+*  ordering
+*  removing extra symbols and punctuation
+ 
+I also created a dynamic look-up table for the Science Adviser and contractors to make research more efficient for them. Finally, I am exploring the use of *ontology* software such as [protege](https://protege.stanford.edu/){target="_blank"} to help organize the various uses of chemical data.
+
+I am also a contributing member of the future Ontology Governance Subgroup.
+
+<BR>
+<BR>
+
+## Migration
+
+My role is to create "stories" and generate requirements for contractors to migrate from an Access database to a modern database system with user interaces.
+
+<BR>
+<BR>
+
+## SAP/HANA Reporting
+
+I work with contractors developing reporting metrics as *dashboards*.
+
+Some of the generated reports include:
+
+*  Review progress
+*  Real time performance reports
+*  Monthly closed reports
+*  Monthly opened reports
+*  Unresolved reports
+
+The goal is to establish more robust requirements to allow more flexibility in the reports - such as the ability to drill down to detailed levels from an aggravated view. I aim to promote awareness of these reports to the end users. Ultimately, the reports should be capable of flagging anomalies and investigate the causes. Even further, detection of possible future issues (predictive analytics).
+
+<BR>
+<BR>
 ## Exploratory Data Analysis
 
-## Data Standardization
+I perform exploratory data analytics on all of our data using R and Python. This is a good way to find quality issues and to measure trends and view ad hoc metrics. 
 
-## E-submissions
-
-I help implement technology to transofrm how our Center recieves, processes, and manages documents for later use in analysis. To do this, I must understand the entire workflow process of how *submissions* work. Some of the work includes:
-
-*  Catagorization
-*  Writing Guidance for Industry
-*  Handle amendments
-*  Develop Reports
-
-By *implement technology* I mean, informing contractors what our needs are and write specific requirments for them to actually deliver the proper hardware/software solutions. 
+<BR>
+<BR>
 
 ## Ingest Modeling
 
-An over arching process that incompasses my division as well as two more layers above is what we refer to as "Ingest Modeling". Our team is trying to map the entire process our Center uses to do the work, from cradle to grave. We are mapping this process for a couple of reasons:
+An over arching process that encompasses the holistic view of the entire organiation. I refer to as "Ingest Modeling". Our team is trying to map the entire process our organization performs, from cradle to grave. We are mapping this process for a couple of reasons:
 
 1.  It hasn't been mapped before
 2.  If you don't know where you are, you can't get to where you want to go
 3.  We can now get metrics for the processes
+4.  Find duplication across Offices and find an Enterprise solution for all stakeholders
 
+<BR>
+<BR>
+
+## Events
+
+I keep up with emerging technologies by attending events such as Government Advances in Statistical Programming (GASP), CoLab and Gartner.
+
+<BR>
+<BR>
+
+
+## Learn/Teach
+
+*  Law
+*  COR Training
+*  Develop Tutorials
+*  Learn Back End databases
+
+#### COR I Certification
+
+*  No previous experience is needed.
+*  Functional Experience Transcript is not required.
+*  A minimum of 24 CLP hours is needed.
+
+You will need to complete the following trainings for your CLP hours:
+
+*  8 hours COR Training
+*  16 hours of Appropriations Law
