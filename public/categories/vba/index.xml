@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VBA on Mark Gingrass Blog</title>
+    <link>/categories/vba/</link>
+    <description>Recent content in VBA on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Dec 2017 21:17:30 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/vba/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Five Minute GitHub Tutorial with RStudio - Simple!</title>
+      <link>/post/2017/12/16/five-minute-github-tutorial-rstudio-simple/</link>
+      <pubDate>Sat, 16 Dec 2017 21:17:30 +0000</pubDate>
+      
+      <guid>/post/2017/12/16/five-minute-github-tutorial-rstudio-simple/</guid>
+      <description>What is a GitHub? Recently, I went to search for a few jobs in the tech industry and one thing stood out with each of the sites I visited. Everyone was asking “What’s your GitHub address?” Admittedly, I didn’t have one until just the other day.
+ I posted this short five minute tutorial to get you started early!  GitHub is a repository for version control hosting of coding projects and much more.</description>
+    </item>
+    
+    <item>
+      <title>Five Minute GitHub Tutorial with RStudio - Simple!</title>
+      <link>/post/2017/12/16/five-minute-github-tutorial-rstudio-simple/</link>
+      <pubDate>Sat, 16 Dec 2017 21:17:30 +0000</pubDate>
+      
+      <guid>/post/2017/12/16/five-minute-github-tutorial-rstudio-simple/</guid>
+      <description>What is a GitHub? Recently, I went to search for a few jobs in the tech industry and one thing stood out with each of the sites I visited. Everyone was asking &amp;ldquo;What&amp;rsquo;s your GitHub address?&amp;rdquo; Admittedly, I didn&amp;rsquo;t have one until just the other day.
+I posted this short five minute tutorial to get you started early! GitHub is a repository for version control hosting of coding projects and much more.</description>
+    </item>
+    
+    <item>
+      <title>Add a Button To Excel to Run a Macro</title>
+      <link>/post/2017/10/03/add-button-excel-run-macro/</link>
+      <pubDate>Tue, 03 Oct 2017 02:29:24 +0000</pubDate>
+      
+      <guid>/post/2017/10/03/add-button-excel-run-macro/</guid>
+      <description>Adding Button for GUI Interface. Now that you have a few macros under your belt (some from scratch, some recorded, and some cut/pasted from the internet), it’s time to make a user interface for them.
+In this tutorial, I will show you how to insert a simple button control to activate your macro. This is a very easy process and it will save you from having to explain to users how to get into the VBA editor.</description>
+    </item>
+    
+    <item>
+      <title>Add a Button To Excel to Run a Macro</title>
+      <link>/post/2017/10/03/add-button-excel-run-macro/</link>
+      <pubDate>Tue, 03 Oct 2017 02:29:24 +0000</pubDate>
+      
+      <guid>/post/2017/10/03/add-button-excel-run-macro/</guid>
+      <description>Adding Button for GUI Interface. Now that you have a few macros under your belt (some from scratch, some recorded, and some cut/pasted from the internet), it&amp;rsquo;s time to make a user interface for them.
+In this tutorial, I will show you how to insert a simple button control to activate your macro. This is a very easy process and it will save you from having to explain to users how to get into the VBA editor.</description>
+    </item>
+    
+    <item>
+      <title>VBA Convert XLSX to CSV Files - Entire Directory</title>
+      <link>/post/2017/10/03/vba-convert-xlsx-csv-files-entire-directory/</link>
+      <pubDate>Tue, 03 Oct 2017 02:11:49 +0000</pubDate>
+      
+      <guid>/post/2017/10/03/vba-convert-xlsx-csv-files-entire-directory/</guid>
+      <description>Convert File Extensions. Sometimes, you find yourself converting one file extension to another for various reasons. Many software programs will not read files such as a .xlsx or .xlsm Excel file. They will, however, easily read a .csv file.
+In this tutorial, I will show you how to use an already created macro to convert an entire directory of files to a new file extensions almost instantly. Saves a tremendous amount of time using macros for this.</description>
+    </item>
+    
+    <item>
+      <title>VBA Convert XLSX to CSV Files - Entire Directory</title>
+      <link>/post/2017/10/03/vba-convert-xlsx-csv-files-entire-directory/</link>
+      <pubDate>Tue, 03 Oct 2017 02:11:49 +0000</pubDate>
+      
+      <guid>/post/2017/10/03/vba-convert-xlsx-csv-files-entire-directory/</guid>
+      <description>Convert File Extensions. Sometimes, you find yourself converting one file extension to another for various reasons. Many software programs will not read files such as a .xlsx or .xlsm Excel file. They will, however, easily read a .csv file.
+In this tutorial, I will show you how to use an already created macro to convert an entire directory of files to a new file extensions almost instantly. Saves a tremendous amount of time using macros for this.</description>
+    </item>
+    
+    <item>
+      <title>For Loops, Cells &amp; Iterators with VBA</title>
+      <link>/post/2017/09/22/for-loops-cells-iterators-vba/</link>
+      <pubDate>Fri, 22 Sep 2017 01:31:17 +0000</pubDate>
+      
+      <guid>/post/2017/09/22/for-loops-cells-iterators-vba/</guid>
+      <description>Cells and for loops. In this tutorial, we will take a lateral approach to ranges and instead, use cells.
+This quick 5 minute video will walk you through why cells are easier to work with when iterating through loops; specifically, for loops. In addition, this video shows you the value of the debugger when testing programs at runtime. In this tutorial you will learn the basics of:
+ Cells instead of Range</description>
+    </item>
+    
+    <item>
+      <title>For Loops, Cells &amp; Iterators with VBA</title>
+      <link>/post/2017/09/22/for-loops-cells-iterators-vba/</link>
+      <pubDate>Fri, 22 Sep 2017 01:31:17 +0000</pubDate>
+      
+      <guid>/post/2017/09/22/for-loops-cells-iterators-vba/</guid>
+      <description>Cells and for loops. In this tutorial, we will take a lateral approach to ranges and instead, use cells.
+This quick 5 minute video will walk you through why cells are easier to work with when iterating through loops; specifically, for loops. In addition, this video shows you the value of the debugger when testing programs at runtime. In this tutorial you will learn the basics of:
+ Cells instead of Range</description>
+    </item>
+    
+    <item>
+      <title>Turn Flat File into tabular indexed sections (data manipulation beta)</title>
+      <link>/post/2017/09/21/turn-flat-file-tabular-indexed-sections-data-manipulation-beta/</link>
+      <pubDate>Thu, 21 Sep 2017 03:16:48 +0000</pubDate>
+      
+      <guid>/post/2017/09/21/turn-flat-file-tabular-indexed-sections-data-manipulation-beta/</guid>
+      <description>Watch the video on how I take a raw data file with almost 4,000 rows and convert them into tabular sections of data based on a certain column/header value.
+I created this today to complete a work tasking but plan on modifying it in the coming days/weeks to be much more user friendly. Despite, this is very useful code for anyone.
+[embed]https://youtu.be/2d4L-hmdSmk[/embed] Feel free to modify to your liking and share.</description>
+    </item>
+    
+    <item>
+      <title>Turn Flat File into tabular indexed sections (data manipulation beta)</title>
+      <link>/post/2017/09/21/turn-flat-file-tabular-indexed-sections-data-manipulation-beta/</link>
+      <pubDate>Thu, 21 Sep 2017 03:16:48 +0000</pubDate>
+      
+      <guid>/post/2017/09/21/turn-flat-file-tabular-indexed-sections-data-manipulation-beta/</guid>
+      <description>Watch the video on how I take a raw data file with almost 4,000 rows and convert them into tabular sections of data based on a certain column/header value.
+I created this today to complete a work tasking but plan on modifying it in the coming days/weeks to be much more user friendly. Despite, this is very useful code for anyone.
+[embed]https://youtu.be/2d4L-hmdSmk[/embed] Feel free to modify to your liking and share.</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Ranges and Modifying Recorded Macros</title>
+      <link>/post/2017/09/16/dynamic-ranges-modifying-macros/</link>
+      <pubDate>Sat, 16 Sep 2017 20:57:40 +0000</pubDate>
+      
+      <guid>/post/2017/09/16/dynamic-ranges-modifying-macros/</guid>
+      <description>Build Templates In this tutorial, we will build upon the use of ranges and combine recording macros with modifying your own macros.
+In this tutorial you will learn the basics of:
+ Adding formulas from VBA to Excel
+ Dynamic Ranges
+ Modifying Recorded Macros
+ Selection object
+  Watch the Video for step by step instructions.
+[embed]https://youtu.be/q8u4BlB2D2g[/embed]
+ Code Copy and paste the code below to get you started.</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Ranges and Modifying Recorded Macros</title>
+      <link>/post/2017/09/16/dynamic-ranges-modifying-macros/</link>
+      <pubDate>Sat, 16 Sep 2017 20:57:40 +0000</pubDate>
+      
+      <guid>/post/2017/09/16/dynamic-ranges-modifying-macros/</guid>
+      <description>Build Templates In this tutorial, we will build upon the use of ranges and combine recording macros with modifying your own macros.
+In this tutorial you will learn the basics of:
+ Adding formulas from VBA to Excel
+ Dynamic Ranges
+ Modifying Recorded Macros
+ Selection object
+  Watch the Video for step by step instructions.
+[embed]https://youtu.be/q8u4BlB2D2g[/embed]
+Code Copy and paste the code below to get you started.</description>
+    </item>
+    
+    <item>
+      <title>Useful Excel Template Building with VBA Range Methods and Objects!</title>
+      <link>/post/2017/09/15/vba-range-debugger-option-explicit-integers/</link>
+      <pubDate>Fri, 15 Sep 2017 22:29:57 +0000</pubDate>
+      
+      <guid>/post/2017/09/15/vba-range-debugger-option-explicit-integers/</guid>
+      <description>Learn practical code now! Begin using this code immediately in the workforce! This tutorial will guide you through the use of ranges and how to extract values from cells and input values into cells.
+In this tutorial you will learn the basics of:
+ Option Explicit - Why use it?
+ Range - Useful for template building and more.
+ Objects - What are they and tell me more!</description>
+    </item>
+    
+    <item>
+      <title>Useful Excel Template Building with VBA Range Methods and Objects!</title>
+      <link>/post/2017/09/15/vba-range-debugger-option-explicit-integers/</link>
+      <pubDate>Fri, 15 Sep 2017 22:29:57 +0000</pubDate>
+      
+      <guid>/post/2017/09/15/vba-range-debugger-option-explicit-integers/</guid>
+      <description>Learn practical code now! Begin using this code immediately in the workforce! This tutorial will guide you through the use of ranges and how to extract values from cells and input values into cells.
+In this tutorial you will learn the basics of:
+ Option Explicit - Why use it?
+ Range - Useful for template building and more.
+ Objects - What are they and tell me more!</description>
+    </item>
+    
+    <item>
+      <title>Overview of the VBA Editor, Reading VBA Code, and Eliminating Waste</title>
+      <link>/post/2017/08/31/vba-macros-editor-code-excel/</link>
+      <pubDate>Thu, 31 Aug 2017 22:28:32 +0000</pubDate>
+      
+      <guid>/post/2017/08/31/vba-macros-editor-code-excel/</guid>
+      <description>[embed]https://youtu.be/GNulOwQT0mk[/embed]
+Overview of the VBA Editor, Reading VBA Code, and Eliminating Waste First, a quick overview of how to record and run macros. Then the tutorial shows the user how to manually check the VBA code for a particular macro. How to change module names and macro names. Also a few key terms such as Integrated Development Environment (IDE).
+A few key takeaways form this tutorial.
+Open the VBA Editor</description>
+    </item>
+    
+    <item>
+      <title>Overview of the VBA Editor, Reading VBA Code, and Eliminating Waste</title>
+      <link>/post/2017/08/31/vba-macros-editor-code-excel/</link>
+      <pubDate>Thu, 31 Aug 2017 22:28:32 +0000</pubDate>
+      
+      <guid>/post/2017/08/31/vba-macros-editor-code-excel/</guid>
+      <description>[embed]https://youtu.be/GNulOwQT0mk[/embed]
+Overview of the VBA Editor, Reading VBA Code, and Eliminating Waste First, a quick overview of how to record and run macros. Then the tutorial shows the user how to manually check the VBA code for a particular macro. How to change module names and macro names. Also a few key terms such as Integrated Development Environment (IDE).
+A few key takeaways form this tutorial.
+ Open the VBA Editor</description>
+    </item>
+    
+    <item>
+      <title>Very First VBA Excel Macro Tutorial for Beginners</title>
+      <link>/post/2017/08/29/first-vba-excel-macro-tutorial-beginners/</link>
+      <pubDate>Tue, 29 Aug 2017 14:34:06 +0000</pubDate>
+      
+      <guid>/post/2017/08/29/first-vba-excel-macro-tutorial-beginners/</guid>
+      <description>Recording your first Macro with Microsoft Excel Have you ever had a task that you repeat over and over again in Microsoft Excel? This tutorial will teach the absolute beginner how to start recording and using macros. This will make your work day much more efficient. So click the short video and start being more productive!
+[embed]https://youtu.be/9-_UZBBM3RQ[/embed]
+ Quick Start Guide: How To Record First Macro Click on File and select Options.</description>
+    </item>
+    
+    <item>
+      <title>Very First VBA Excel Macro Tutorial for Beginners</title>
+      <link>/post/2017/08/29/first-vba-excel-macro-tutorial-beginners/</link>
+      <pubDate>Tue, 29 Aug 2017 14:34:06 +0000</pubDate>
+      
+      <guid>/post/2017/08/29/first-vba-excel-macro-tutorial-beginners/</guid>
+      <description>Recording your first Macro with Microsoft Excel Have you ever had a task that you repeat over and over again in Microsoft Excel? This tutorial will teach the absolute beginner how to start recording and using macros. This will make your work day much more efficient. So click the short video and start being more productive!
+[embed]https://youtu.be/9-_UZBBM3RQ[/embed]
+Quick Start Guide: How To Record First Macro  Click on File and select Options.</description>
+    </item>
+    
+    <item>
+      <title>6 Steps to Link all .csv Files as Tables - Access / VBA</title>
+      <link>/post/2017/08/24/89/</link>
+      <pubDate>Thu, 24 Aug 2017 17:58:01 +0000</pubDate>
+      
+      <guid>/post/2017/08/24/89/</guid>
+      <description>Ever want to link an entire directory of “*.csv&amp;quot; files to a Microsoft Access database? Manually, this could be tedious and exhausting.
+I will walk you through six easy steps to automate the process using VBA and allow you to link hundreds of files in seconds! (Also see video tutorial at the bottom) [caption id=“attachment_133” align=“alignnone” width=“300”]Relational table links - Microsoft Access[/caption] What typically happens, is the customer sends a daily Excel file and you store it in a directory for archival purposes.</description>
+    </item>
+    
+    <item>
+      <title>6 Steps to Link all .csv Files as Tables - Access / VBA</title>
+      <link>/post/2017/08/24/89/</link>
+      <pubDate>Thu, 24 Aug 2017 17:58:01 +0000</pubDate>
+      
+      <guid>/post/2017/08/24/89/</guid>
+      <description>Ever want to link an entire directory of &amp;ldquo;*.csv&amp;rdquo; files to a Microsoft Access database? Manually, this could be tedious and exhausting.
+I will walk you through six easy steps to automate the process using VBA and allow you to link hundreds of files in seconds! (Also see video tutorial at the bottom) [caption id=&amp;ldquo;attachment_133&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;]Relational table links - Microsoft Access[/caption] What typically happens, is the customer sends a daily Excel file and you store it in a directory for archival purposes.</description>
+    </item>
+    
+  </channel>
+</rss>

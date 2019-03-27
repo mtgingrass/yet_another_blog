@@ -35,6 +35,16 @@ My Visual Resume
     </item>
     
     <item>
+      <title>Visual Resume</title>
+      <link>/post/2019/01/05/visual-resume/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/01/05/visual-resume/</guid>
+      <description>Visual Resume Timeline I came across this Github package by ndphillips and thought it was pretty cool and decided to make it even easier to setup. I really just wanted to play with it so here is my excuse.
+Setup Most people who have used R for a few weeks or months have probably already installed devtools. Just in case it isn&amp;rsquo;t already installed, simply uncomment line 18 to install for the first time</description>
+    </item>
+    
+    <item>
       <title>Tools of the Job</title>
       <link>/post/2018/12/16/tools-of-the-job/</link>
       <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Mark Gingrass Blog</title>
+    <link>/categories/python/</link>
+    <description>Recent content in Python on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Mar 2018 00:23:48 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Set Up Python Virtual Env and Projects with Packages</title>
+      <link>/post/2018/03/21/set-python-virtual-env-projects-packages/</link>
+      <pubDate>Wed, 21 Mar 2018 00:23:48 +0000</pubDate>
+      
+      <guid>/post/2018/03/21/set-python-virtual-env-projects-packages/</guid>
+      <description>[embed]https://youtu.be/ZvQY-FdsYGE[/embed] Sometimes setting up Python and PyCharm and all packages is harder than writing actual code. In this video I show you how to set up a project in PyCharm, add a package (library) and run the code.</description>
+    </item>
+    
+    <item>
+      <title>Set Up Python Virtual Env and Projects with Packages</title>
+      <link>/post/2018/03/21/set-python-virtual-env-projects-packages/</link>
+      <pubDate>Wed, 21 Mar 2018 00:23:48 +0000</pubDate>
+      
+      <guid>/post/2018/03/21/set-python-virtual-env-projects-packages/</guid>
+      <description>[embed]https://youtu.be/ZvQY-FdsYGE[/embed] Sometimes setting up Python and PyCharm and all packages is harder than writing actual code. In this video I show you how to set up a project in PyCharm, add a package (library) and run the code.</description>
+    </item>
+    
+    <item>
+      <title>Gray Scale, Gaussian Blur, Canny Edge Detection, Hough Transform</title>
+      <link>/post/2018/03/20/gray-scale-gaussian-blur-canny-edge-detection-hough-transform/</link>
+      <pubDate>Tue, 20 Mar 2018 23:57:34 +0000</pubDate>
+      
+      <guid>/post/2018/03/20/gray-scale-gaussian-blur-canny-edge-detection-hough-transform/</guid>
+      <description>[embed]https://youtu.be/G019Av7XhGo[/embed]</description>
+    </item>
+    
+    <item>
+      <title>Gray Scale, Gaussian Blur, Canny Edge Detection, Hough Transform</title>
+      <link>/post/2018/03/20/gray-scale-gaussian-blur-canny-edge-detection-hough-transform/</link>
+      <pubDate>Tue, 20 Mar 2018 23:57:34 +0000</pubDate>
+      
+      <guid>/post/2018/03/20/gray-scale-gaussian-blur-canny-edge-detection-hough-transform/</guid>
+      <description>[embed]https://youtu.be/G019Av7XhGo[/embed]</description>
+    </item>
+    
+    <item>
+      <title>Simple Sentiment Analysis</title>
+      <link>/post/2018/01/03/simple-sentiment-analysis/</link>
+      <pubDate>Wed, 03 Jan 2018 20:29:46 +0000</pubDate>
+      
+      <guid>/post/2018/01/03/simple-sentiment-analysis/</guid>
+      <description>Sentiment Analysis This is a very basic sentiment analysis based on the last 2000 Tweets about @realDonaldTrump (as of Jan 2 2018).
+The data for positive and negative words are in the files on this repository.
+Or…Scrape your own Tweets by following this guide, or use the WordFreq.csv provided on the GitHub account.
+ The Code First, read in the negative and positive words. The WordFreq.csv file was created using R and tapping the Twitter API for specific Tweets.</description>
+    </item>
+    
+    <item>
+      <title>Simple Sentiment Analysis</title>
+      <link>/post/2018/01/03/simple-sentiment-analysis/</link>
+      <pubDate>Wed, 03 Jan 2018 20:29:46 +0000</pubDate>
+      
+      <guid>/post/2018/01/03/simple-sentiment-analysis/</guid>
+      <description>Sentiment Analysis This is a very basic sentiment analysis based on the last 2000 Tweets about @realDonaldTrump (as of Jan 2 2018).
+The data for positive and negative words are in the files on this repository.
+Or&amp;hellip;Scrape your own Tweets by following this guide, or use the WordFreq.csv provided on the GitHub account.
+The Code First, read in the negative and positive words. The WordFreq.csv file was created using R and tapping the Twitter API for specific Tweets.</description>
+    </item>
+    
+  </channel>
+</rss>

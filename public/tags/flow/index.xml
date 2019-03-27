@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>flow on Mark Gingrass Blog</title>
+    <link>/tags/flow/</link>
+    <description>Recent content in flow on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Feb 2018 16:57:21 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/flow/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>010 Rates of Change - Chugging a Beer</title>
+      <link>/post/2018/02/18/010-rates-change-chugging-beer/</link>
+      <pubDate>Sun, 18 Feb 2018 16:57:21 +0000</pubDate>
+      
+      <guid>/post/2018/02/18/010-rates-change-chugging-beer/</guid>
+      <description>[latexpage]
+The Beer Problem I can chug a beer pretty fast. I recently timed myself drinking a full 12oz Beer (355mL) in just about 6 seconds. At what rate is the beer flowing down my throat?
+ Slope The slope formula, \(m = \frac{rise}{run}\), is a powerful tool for calculating and comparing steepness, or rates of changes. This is a very useful tool used in all aspects of engineering, mathematics, and even deep learning with neural networks.</description>
+    </item>
+    
+    <item>
+      <title>010 Rates of Change - Chugging a Beer</title>
+      <link>/post/2018/02/18/010-rates-change-chugging-beer/</link>
+      <pubDate>Sun, 18 Feb 2018 16:57:21 +0000</pubDate>
+      
+      <guid>/post/2018/02/18/010-rates-change-chugging-beer/</guid>
+      <description>[latexpage]
+The Beer Problem I can chug a beer pretty fast. I recently timed myself drinking a full 12oz Beer (355mL) in just about 6 seconds. At what rate is the beer flowing down my throat?
+Slope The slope formula, (m = \frac{rise}{run}), is a powerful tool for calculating and comparing steepness, or rates of changes. This is a very useful tool used in all aspects of engineering, mathematics, and even deep learning with neural networks.</description>
+    </item>
+    
+    <item>
+      <title>Supply Chain Discrepancies ROD</title>
+      <link>/post/2017/10/28/supply-chain-discrepancies-rod/</link>
+      <pubDate>Sat, 28 Oct 2017 17:20:26 +0000</pubDate>
+      
+      <guid>/post/2017/10/28/supply-chain-discrepancies-rod/</guid>
+      <description>Supply chain management activities should be designed to maximize customer value and achieve a competitive advantage. Supply chains should be efficient and timely. A full supply chain encompasses product development, sourcing (contracts), production (repairs), and logistics (transportation), as well as the software suites to handle the information exchanges.
+The product (our assets) has to ultimately get to the end user, or customer. When the customer doesn’t receive the parts that were planned, it could have overwhelming negative effects.</description>
+    </item>
+    
+    <item>
+      <title>Supply Chain Discrepancies ROD</title>
+      <link>/post/2017/10/28/supply-chain-discrepancies-rod/</link>
+      <pubDate>Sat, 28 Oct 2017 17:20:26 +0000</pubDate>
+      
+      <guid>/post/2017/10/28/supply-chain-discrepancies-rod/</guid>
+      <description>Supply chain management activities should be designed to maximize customer value and achieve a competitive advantage. Supply chains should be efficient and timely. A full supply chain encompasses product development, sourcing (contracts), production (repairs), and logistics (transportation), as well as the software suites to handle the information exchanges.
+The product (our assets) has to ultimately get to the end user, or customer. When the customer doesn&amp;rsquo;t receive the parts that were planned, it could have overwhelming negative effects.</description>
+    </item>
+    
+  </channel>
+</rss>

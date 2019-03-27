@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>equation on Mark Gingrass Blog</title>
+    <link>/tags/equation/</link>
+    <description>Recent content in equation on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Feb 2018 16:57:21 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/equation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>010 Rates of Change - Chugging a Beer</title>
+      <link>/post/2018/02/18/010-rates-change-chugging-beer/</link>
+      <pubDate>Sun, 18 Feb 2018 16:57:21 +0000</pubDate>
+      
+      <guid>/post/2018/02/18/010-rates-change-chugging-beer/</guid>
+      <description>[latexpage]
+The Beer Problem I can chug a beer pretty fast. I recently timed myself drinking a full 12oz Beer (355mL) in just about 6 seconds. At what rate is the beer flowing down my throat?
+ Slope The slope formula, \(m = \frac{rise}{run}\), is a powerful tool for calculating and comparing steepness, or rates of changes. This is a very useful tool used in all aspects of engineering, mathematics, and even deep learning with neural networks.</description>
+    </item>
+    
+    <item>
+      <title>010 Rates of Change - Chugging a Beer</title>
+      <link>/post/2018/02/18/010-rates-change-chugging-beer/</link>
+      <pubDate>Sun, 18 Feb 2018 16:57:21 +0000</pubDate>
+      
+      <guid>/post/2018/02/18/010-rates-change-chugging-beer/</guid>
+      <description>[latexpage]
+The Beer Problem I can chug a beer pretty fast. I recently timed myself drinking a full 12oz Beer (355mL) in just about 6 seconds. At what rate is the beer flowing down my throat?
+Slope The slope formula, (m = \frac{rise}{run}), is a powerful tool for calculating and comparing steepness, or rates of changes. This is a very useful tool used in all aspects of engineering, mathematics, and even deep learning with neural networks.</description>
+    </item>
+    
+  </channel>
+</rss>

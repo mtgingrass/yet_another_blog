@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wordpress on Mark Gingrass Blog</title>
+    <link>/tags/wordpress/</link>
+    <description>Recent content in wordpress on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Dec 2017 23:59:34 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Scrape Twitter, Text Manipulate, Autopost to WordPress</title>
+      <link>/post/2017/12/16/scrape-twitter-text-manipuplate-autopost-wordpress/</link>
+      <pubDate>Sat, 16 Dec 2017 23:59:34 +0000</pubDate>
+      
+      <guid>/post/2017/12/16/scrape-twitter-text-manipuplate-autopost-wordpress/</guid>
+      <description>Tweet, Scrape, Manip, Publish It is highly recommended to watch this short video before working with these files. The video explains how each file works and how to run this for your own site.
+I will also publish these on my GitHub site here. What is a GitHub you say? See previous post here for quick 5 minute tutorial
+Watch Video First [embed]https://youtu.be/ioNIAqZa3go[embed]
+Note that the below code has R Markdown language in it which makes publishing this particular post difficult.</description>
+    </item>
+    
+    <item>
+      <title>Scrape Twitter, Text Manipulate, Autopost to WordPress</title>
+      <link>/post/2017/12/16/scrape-twitter-text-manipuplate-autopost-wordpress/</link>
+      <pubDate>Sat, 16 Dec 2017 23:59:34 +0000</pubDate>
+      
+      <guid>/post/2017/12/16/scrape-twitter-text-manipuplate-autopost-wordpress/</guid>
+      <description>Tweet, Scrape, Manip, Publish It is highly recommended to watch this short video before working with these files. The video explains how each file works and how to run this for your own site.
+I will also publish these on my GitHub site here.  What is a GitHub you say? See previous post here for quick 5 minute tutorial
+Watch Video First [embed]https://youtu.be/ioNIAqZa3go[embed]
+Note that the below code has R Markdown language in it which makes publishing this particular post difficult.</description>
+    </item>
+    
+  </channel>
+</rss>

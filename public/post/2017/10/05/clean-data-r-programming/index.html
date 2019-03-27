@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clean Data Outliers Using R Programming - | Mark Gingrass Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-135621341-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="http://www.devgin.com">DevGin</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+
+<div class="article-meta">
+<h1><span class="title">Clean Data Outliers Using R Programming -</span></h1>
+<h2 class="author">mtgingrass</h2>
+<h2 class="date">2017/10/05</h2>
+</div>
+
+<main>
+
+
+<h3 id="using-r-to-extract-and-delete-outliers-in-data">Using R to Extract and Delete Outliers in Data</h3>
+
+<p>Automate the extraction of outliers from your data-set using R programming and exclude the outliers.</p>
+
+<h3 id="what-to-expect">What to expect</h3>
+
+<ul>
+<li><p>How to read in a *.csv file and store it as a data frame in R</p></li>
+
+<li><p>How to extract all rows of data that are equal to a certain string</p></li>
+
+<li><p>How to extract a single column of the specific data for analysis</p></li>
+
+<li><p>How to filter out outliers based on interquartile range</p></li>
+</ul>
+
+<h3 id="watch-the-video-for-a-quick-guide">Watch the video for a quick guide</h3>
+
+<p>[embed]<a href="https://youtu.be/Gmo3_jialcI[/embed">https://youtu.be/Gmo3_jialcI[/embed</a>]</p>
+
+<h3 id="what-is-an-outlier">What is an outlier?</h3>
+
+<p>An outlier is simply a  data point that is distinctly separate from the rest of the data. Some outliers are meant to be in the data, so be careful when excluding them. This R script is good for excluding what I call &ldquo;hard broke&rdquo; outliers.</p>
+
+<p>For example, if the data is usually between 2 and 11, and you find a 12 or 13 in the data set, that may be just a small deviation that occurs every so often. However, if you end up with a 47 or a 100 or even a 0 in the data, it should be investigated. Do not just throw away outliers, bring them up and have it investigated.</p>
+
+<h3 id="interquartile-range">Interquartile Range</h3>
+
+<p>An outlier can take many forms and definitions. One such method of determining outliers is to define it as any data point more than 1.5 Interquartile Ranges(IQRs) below the first quartile or above the third quartile. What does that mean? Check out the Khan Academy explanation <a href="https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/box-whisker-plots/a/identifying-outliers-iqr-rule">here.</a></p>
+
+<p>The code below shows the function that determines the outliers. It will first remove the NA&rsquo;s and the DIV/0 errors and then compute the ranges that are valid. Any invalid ranges are changed to NA&rsquo;s. Finally, the last statement, once again, deletes any NA&rsquo;s in the data.</p>
+
+<pre><code>&lt;code&gt; remove_outliers &lt;- function(x, na.rm = TRUE, ...) {
+
+  #find position of 1st and 3rd quantile not including NA's
+  qnt &lt;- quantile(x, probs=c(.25, .75), na.rm = na.rm, ...)
+
+  H &lt;- 1.5 * IQR(x, na.rm = na.rm)
+
+  y &lt;- x
+  y[x &lt; (qnt[1] - H)] &lt;- NA
+  y[x &gt; (qnt[2] + H)] &lt;- NA
+  x&lt;-y
+
+  #get rid of any NA's
+  x[!is.na(x)]
+}
+&lt;/code&gt;
+</code></pre>
+
+<p>Common Mistakes</p>
+
+<p>One other thing to watch out for when implementing this code on your own. When you cut and paste your address location of the file you want to read in, be sure to change all of the backslashes (&rdquo;\&ldquo;) to foward slashes (&rdquo;/&ldquo;).</p>
+
+<pre><code>&lt;code&gt;WSData &lt;- read.csv(&quot;C:/Users/canton/Desktop/read.csv&quot;, header = TRUE)&lt;/code&gt;
+</code></pre>
+
+<h3 id="entire-code-below">Entire Code Below</h3>
+
+<pre><code>&lt;code&gt;#Clear Variables
+rm(list = ls())
+
+#Load Raw Data from File
+WSData &lt;- read.csv(&quot;C:/Users/canton/Desktop/read.csv&quot;, header = TRUE)
+attach(WSData)
+
+#Extract MDS only from the raw data
+A010A &lt;- WSData[WSData[,3] == &quot;A010A&quot;,]
+
+F015C &lt;- WSData[WSData[,3] == &quot;F015C&quot;,]
+F015D &lt;- WSData[WSData[,3] == &quot;F015D&quot;,]
+F015E &lt;- WSData[WSData[,3] == &quot;F015E&quot;,]
+F016C &lt;- WSData[WSData[,3] == &quot;F016C&quot;,]
+F016D &lt;- WSData[WSData[,3] == &quot;A016D&quot;,]
+T038A &lt;- WSData[WSData[,3] == &quot;T038C&quot;,]
+
+###################################################################################
+#          Function to remove outliers based on Interquartile Range               #
+###################################################################################
+remove_outliers &lt;- function(x, na.rm = TRUE, ...) {
+
+  #find position of 1st and 3rd quantile not including NA's
+  qnt &lt;- quantile(x, probs=c(.25, .75), na.rm = na.rm, ...)
+
+  H &lt;- 1.5 * IQR(x, na.rm = na.rm)
+
+  y &lt;- x
+  y[x &lt; (qnt[1] - H)] &lt;- NA
+  y[x &gt; (qnt[2] + H)] &lt;- NA
+  x&lt;-y
+
+  #get rid of any NA's
+  x[!is.na(x)]
+}
+
+###################################################################################
+#          End Functon                                                            #
+###################################################################################
+
+
+#Extract just the Blah.19 column from Data
+A010A_SRT = subset(A010A, , c(Blah.19))
+
+#Convert to a vector (for use with outlier function)
+A010A_SRT = as.vector(A010A_SRT$Blah.19)
+
+
+#Test an obvious outliers
+A010A_SRT &lt;- c(A010A_SRT, 234)
+A010A_SRT &lt;- c(A010A_SRT, 55)
+
+
+#Prove outlier is in the vector
+A010A_SRT
+boxplot(A010A_SRT)
+
+#remove outliers
+cleaned_data = remove_outliers(A010A_SRT)
+
+#Prove Outliers are gone
+boxplot(cleaned_data)
+
+cleaned_data
+
+&lt;/code&gt;
+</code></pre>
+
+<p>Check out a similar post about manipulating data and automating descriptive statistics with Excel and VBA <a href="http://devgin.com/manipulate-data-automate-descriptive-statistics-vba/">here.</a></p>
+
+</main>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+  <hr/>
+  &copy; <a href="https://markgingrass.com">Mark Gingrass</a> 2018 | <a href="https://github.com/mtgingrass">Github</a> | <a href="https://twitter.com/markgingrass">Twitter</a>
+  
+  </footer>
+  </body>
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "gingrass" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</html>
+

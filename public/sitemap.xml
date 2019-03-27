@@ -3,8 +3,846 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/site-index/</loc>
-    <lastmod>2017-11-27T23:32:59+00:00</lastmod>
+    <loc>/post/2019/02/18/detailed-trip-to-costa-rica/</loc>
+    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2019/01/17/job-roles-what-do-i-actually-do/</loc>
+    <lastmod>2019-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2019/01/05/gasp/</loc>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2019/01/05/gasp/</loc>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2019/01/05/visual-resume/</loc>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2019/01/05/visual-resume/</loc>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/12/16/tools-of-the-job/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/12/16/unique-skills/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/03/21/rsp-pos-dueouts-supply-chain/</loc>
+    <lastmod>2018-03-21T00:26:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/03/21/rsp-pos-dueouts-supply-chain/</loc>
+    <lastmod>2018-03-21T00:26:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/03/21/set-python-virtual-env-projects-packages/</loc>
+    <lastmod>2018-03-21T00:23:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/03/21/set-python-virtual-env-projects-packages/</loc>
+    <lastmod>2018-03-21T00:23:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/03/20/gray-scale-gaussian-blur-canny-edge-detection-hough-transform/</loc>
+    <lastmod>2018-03-20T23:57:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/03/20/gray-scale-gaussian-blur-canny-edge-detection-hough-transform/</loc>
+    <lastmod>2018-03-20T23:57:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/03/14/udacity-self-driving-car-day-1/</loc>
+    <lastmod>2018-03-14T23:06:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/03/14/udacity-self-driving-car-day-1/</loc>
+    <lastmod>2018-03-14T23:06:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/03/14/total-not-mission-capable-due-supply-maintenance/</loc>
+    <lastmod>2018-03-14T02:11:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/03/14/total-not-mission-capable-due-supply-maintenance/</loc>
+    <lastmod>2018-03-14T02:11:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/02/22/hyundai-elantra-2010-back-seat-removal-tutorial/</loc>
+    <lastmod>2018-02-22T23:53:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/02/22/hyundai-elantra-2010-back-seat-removal-tutorial/</loc>
+    <lastmod>2018-02-22T23:53:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/02/22/011-beer-catch-fast-drink/</loc>
+    <lastmod>2018-02-22T22:16:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/02/22/011-beer-catch-fast-drink/</loc>
+    <lastmod>2018-02-22T22:16:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/02/18/010-rates-change-chugging-beer/</loc>
+    <lastmod>2018-02-18T16:57:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/02/18/010-rates-change-chugging-beer/</loc>
+    <lastmod>2018-02-18T16:57:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/02/17/009-beers-per-hour-algebra-question/</loc>
+    <lastmod>2018-02-17T00:30:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/02/17/009-beers-per-hour-algebra-question/</loc>
+    <lastmod>2018-02-17T00:30:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/02/16/008-direction-slope-positive-negative-zero-undefined/</loc>
+    <lastmod>2018-02-16T23:53:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/02/16/008-direction-slope-positive-negative-zero-undefined/</loc>
+    <lastmod>2018-02-16T23:53:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/02/16/007-giving-slope-point-find-equation-line/</loc>
+    <lastmod>2018-02-16T23:35:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/02/16/007-giving-slope-point-find-equation-line/</loc>
+    <lastmod>2018-02-16T23:35:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/02/16/006-two-points-giving-find-equation-line/</loc>
+    <lastmod>2018-02-16T23:27:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/02/16/006-two-points-giving-find-equation-line/</loc>
+    <lastmod>2018-02-16T23:27:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/02/14/005-solving-line-giving-two-points/</loc>
+    <lastmod>2018-02-14T04:38:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/02/14/005-solving-line-giving-two-points/</loc>
+    <lastmod>2018-02-14T04:38:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/02/14/004-point-slope-form/</loc>
+    <lastmod>2018-02-14T04:35:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/02/14/004-point-slope-form/</loc>
+    <lastmod>2018-02-14T04:35:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/02/14/003-horizontal-vertical-lines/</loc>
+    <lastmod>2018-02-14T04:33:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/02/14/003-horizontal-vertical-lines/</loc>
+    <lastmod>2018-02-14T04:33:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/02/14/002-find-equation-random-line/</loc>
+    <lastmod>2018-02-14T04:31:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/02/14/002-find-equation-random-line/</loc>
+    <lastmod>2018-02-14T04:31:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/02/14/001-linear-equations-college-algebra/</loc>
+    <lastmod>2018-02-14T04:26:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/02/14/001-linear-equations-college-algebra/</loc>
+    <lastmod>2018-02-14T04:26:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/01/10/7-essential-resources-learning-r-programming/</loc>
+    <lastmod>2018-01-10T10:22:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/01/10/7-essential-resources-learning-r-programming/</loc>
+    <lastmod>2018-01-10T10:22:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/01/03/simple-sentiment-analysis/</loc>
+    <lastmod>2018-01-03T20:29:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/01/03/simple-sentiment-analysis/</loc>
+    <lastmod>2018-01-03T20:29:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/12/23/green-screens-really-work-no-bs-quick-tutorial/</loc>
+    <lastmod>2017-12-23T21:23:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/12/23/green-screens-really-work-no-bs-quick-tutorial/</loc>
+    <lastmod>2017-12-23T21:23:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/12/23/dscm-depot-supply-chain-management-roles/</loc>
+    <lastmod>2017-12-23T04:31:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/12/23/dscm-depot-supply-chain-management-roles/</loc>
+    <lastmod>2017-12-23T04:31:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/12/17/nonograms-permutation-calculation/</loc>
+    <lastmod>2017-12-17T06:14:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/12/17/nonograms-permutation-calculation/</loc>
+    <lastmod>2017-12-17T06:14:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/12/16/scrape-twitter-text-manipuplate-autopost-wordpress/</loc>
+    <lastmod>2017-12-16T23:59:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/12/16/scrape-twitter-text-manipuplate-autopost-wordpress/</loc>
+    <lastmod>2017-12-16T23:59:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/12/16/five-minute-github-tutorial-rstudio-simple/</loc>
+    <lastmod>2017-12-16T21:17:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/12/16/five-minute-github-tutorial-rstudio-simple/</loc>
+    <lastmod>2017-12-16T21:17:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/12/09/data-cleanup-solar-radiation-data-set/</loc>
+    <lastmod>2017-12-09T20:50:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/12/09/data-cleanup-solar-radiation-data-set/</loc>
+    <lastmod>2017-12-09T20:50:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/12/08/build-word-cloud-twitter-using-r/</loc>
+    <lastmod>2017-12-08T04:24:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/12/08/build-word-cloud-twitter-using-r/</loc>
+    <lastmod>2017-12-08T04:24:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/12/07/r-tm_maptweet-corpus-content_transformertolower-error-solved/</loc>
+    <lastmod>2017-12-07T05:18:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/12/07/r-tm_maptweet-corpus-content_transformertolower-error-solved/</loc>
+    <lastmod>2017-12-07T05:18:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/21/r-programming-twitter-scraper/</loc>
+    <lastmod>2017-11-21T17:07:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/21/r-programming-twitter-scraper/</loc>
+    <lastmod>2017-11-21T17:07:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/19-c-separate-interface-implementation/</loc>
+    <lastmod>2017-11-04T01:31:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/19-c-separate-interface-implementation/</loc>
+    <lastmod>2017-11-04T01:31:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/18-c-class-constructors-private-member-functions-default/</loc>
+    <lastmod>2017-11-04T01:31:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/18-c-class-constructors-private-member-functions-default/</loc>
+    <lastmod>2017-11-04T01:31:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/17-c-tutorial-first-class-example-point-object-c/</loc>
+    <lastmod>2017-11-04T01:30:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/17-c-tutorial-first-class-example-point-object-c/</loc>
+    <lastmod>2017-11-04T01:30:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/16-c-enum-example-2-not-standard-string-array/</loc>
+    <lastmod>2017-11-04T01:29:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/16-c-enum-example-2-not-standard-string-array/</loc>
+    <lastmod>2017-11-04T01:29:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/15-c-ide-auto-quote-pesky-workaround-visual-studiodevc-ide/</loc>
+    <lastmod>2017-11-04T01:27:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/15-c-ide-auto-quote-pesky-workaround-visual-studiodevc-ide/</loc>
+    <lastmod>2017-11-04T01:27:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/14-2-struct-example-c/</loc>
+    <lastmod>2017-11-04T01:27:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/14-2-struct-example-c/</loc>
+    <lastmod>2017-11-04T01:27:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/14-c-programming-struct-keyword-examples/</loc>
+    <lastmod>2017-11-04T01:26:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/14-c-programming-struct-keyword-examples/</loc>
+    <lastmod>2017-11-04T01:26:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/13-enumeration-enum-c-programming-tutorial/</loc>
+    <lastmod>2017-11-04T01:25:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/13-enumeration-enum-c-programming-tutorial/</loc>
+    <lastmod>2017-11-04T01:25:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/12-c-programming-guess-random-number/</loc>
+    <lastmod>2017-11-04T01:25:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/12-c-programming-guess-random-number/</loc>
+    <lastmod>2017-11-04T01:25:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/11-pass-value-reference-c-programming-functions-tutorial/</loc>
+    <lastmod>2017-11-04T01:24:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/11-pass-value-reference-c-programming-functions-tutorial/</loc>
+    <lastmod>2017-11-04T01:24:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/10-c-programming-dereferencing-operator-pointers-references/</loc>
+    <lastmod>2017-11-04T01:23:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/10-c-programming-dereferencing-operator-pointers-references/</loc>
+    <lastmod>2017-11-04T01:23:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/9-c-programming-tutorial-yet-another-pause-function-correct-way/</loc>
+    <lastmod>2017-11-04T01:22:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/9-c-programming-tutorial-yet-another-pause-function-correct-way/</loc>
+    <lastmod>2017-11-04T01:22:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/8-3-c-functions-part-3/</loc>
+    <lastmod>2017-11-04T01:21:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/8-3-c-functions-part-3/</loc>
+    <lastmod>2017-11-04T01:21:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/8-2-c-functions-part-2/</loc>
+    <lastmod>2017-11-04T01:20:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/8-2-c-functions-part-2/</loc>
+    <lastmod>2017-11-04T01:20:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/8-1-c-functions-part-1/</loc>
+    <lastmod>2017-11-04T01:20:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/8-1-c-functions-part-1/</loc>
+    <lastmod>2017-11-04T01:20:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/7-c-loops-tutorial-3-min/</loc>
+    <lastmod>2017-11-04T01:19:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/7-c-loops-tutorial-3-min/</loc>
+    <lastmod>2017-11-04T01:19:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/6-c-programming-loop/</loc>
+    <lastmod>2017-11-04T01:18:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/6-c-programming-loop/</loc>
+    <lastmod>2017-11-04T01:18:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/watch-real-story-amazon-post-21k-views-ad-510-6-c-programming-loop-mark-gingrass-1-9k-views-253-7-c-loops-tutorial-3-min-mark-gingrass-1-5k-views-10018-q/</loc>
+    <lastmod>2017-11-04T01:17:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/watch-real-story-amazon-post-21k-views-ad-510-6-c-programming-loop-mark-gingrass-1-9k-views-253-7-c-loops-tutorial-3-min-mark-gingrass-1-5k-views-10018-q/</loc>
+    <lastmod>2017-11-04T01:17:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/4-dev-c-download-loops-c-tutorial/</loc>
+    <lastmod>2017-11-04T01:16:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/11/04/4-dev-c-download-loops-c-tutorial/</loc>
+    <lastmod>2017-11-04T01:16:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/10/28/supply-chain-discrepancies-rod/</loc>
+    <lastmod>2017-10-28T17:20:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/10/28/supply-chain-discrepancies-rod/</loc>
+    <lastmod>2017-10-28T17:20:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/10/05/clean-data-r-programming/</loc>
+    <lastmod>2017-10-05T22:15:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/10/05/clean-data-r-programming/</loc>
+    <lastmod>2017-10-05T22:15:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/10/04/download-use-r-studio-first-program-complete-guide/</loc>
+    <lastmod>2017-10-04T01:10:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/10/04/download-use-r-studio-first-program-complete-guide/</loc>
+    <lastmod>2017-10-04T01:10:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/10/03/add-button-excel-run-macro/</loc>
+    <lastmod>2017-10-03T02:29:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/10/03/add-button-excel-run-macro/</loc>
+    <lastmod>2017-10-03T02:29:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/10/03/vba-convert-xlsx-csv-files-entire-directory/</loc>
+    <lastmod>2017-10-03T02:11:49+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/10/03/vba-convert-xlsx-csv-files-entire-directory/</loc>
+    <lastmod>2017-10-03T02:11:49+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/09/30/limostudio-photo-video-studio-10ft-adjustable-support-system-stand-review/</loc>
+    <lastmod>2017-09-30T05:20:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/09/30/limostudio-photo-video-studio-10ft-adjustable-support-system-stand-review/</loc>
+    <lastmod>2017-09-30T05:20:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/09/30/limostudio-9-x-15-ft-green-chromakey-green-screen/</loc>
+    <lastmod>2017-09-30T03:26:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/09/30/limostudio-9-x-15-ft-green-chromakey-green-screen/</loc>
+    <lastmod>2017-09-30T03:26:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/09/26/manipulate-data-automate-descriptive-statistics-vba/</loc>
+    <lastmod>2017-09-26T01:23:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/09/26/manipulate-data-automate-descriptive-statistics-vba/</loc>
+    <lastmod>2017-09-26T01:23:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/09/22/for-loops-cells-iterators-vba/</loc>
+    <lastmod>2017-09-22T01:31:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/09/22/for-loops-cells-iterators-vba/</loc>
+    <lastmod>2017-09-22T01:31:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/09/21/turn-flat-file-tabular-indexed-sections-data-manipulation-beta/</loc>
+    <lastmod>2017-09-21T03:16:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/09/21/turn-flat-file-tabular-indexed-sections-data-manipulation-beta/</loc>
+    <lastmod>2017-09-21T03:16:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/09/16/dynamic-ranges-modifying-macros/</loc>
+    <lastmod>2017-09-16T20:57:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/09/16/dynamic-ranges-modifying-macros/</loc>
+    <lastmod>2017-09-16T20:57:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/09/15/vba-range-debugger-option-explicit-integers/</loc>
+    <lastmod>2017-09-15T22:29:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/09/15/vba-range-debugger-option-explicit-integers/</loc>
+    <lastmod>2017-09-15T22:29:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/09/05/lets-talk-nuclear-bomb-yields/</loc>
+    <lastmod>2017-09-05T00:31:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/09/05/lets-talk-nuclear-bomb-yields/</loc>
+    <lastmod>2017-09-05T00:31:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/09/01/first-2-3-weeks-blog/</loc>
+    <lastmod>2017-09-01T21:13:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/09/01/first-2-3-weeks-blog/</loc>
+    <lastmod>2017-09-01T21:13:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/31/amazonbasics-60-inch-lightweight-tripod-bag-review/</loc>
+    <lastmod>2017-08-31T23:08:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/31/amazonbasics-60-inch-lightweight-tripod-bag-review/</loc>
+    <lastmod>2017-08-31T23:08:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/31/vba-macros-editor-code-excel/</loc>
+    <lastmod>2017-08-31T22:28:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/31/vba-macros-editor-code-excel/</loc>
+    <lastmod>2017-08-31T22:28:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/29/first-vba-excel-macro-tutorial-beginners/</loc>
+    <lastmod>2017-08-29T14:34:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/29/first-vba-excel-macro-tutorial-beginners/</loc>
+    <lastmod>2017-08-29T14:34:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/24/89/</loc>
+    <lastmod>2017-08-24T17:58:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/24/89/</loc>
+    <lastmod>2017-08-24T17:58:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/23/swissgear-travel-gear-scansmart-backpack-1900-review-amazon/</loc>
+    <lastmod>2017-08-23T01:33:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/23/swissgear-travel-gear-scansmart-backpack-1900-review-amazon/</loc>
+    <lastmod>2017-08-23T01:33:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/22/3-c-programming-basics-statements-operators/</loc>
+    <lastmod>2017-08-22T19:16:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/22/3-c-programming-basics-statements-operators/</loc>
+    <lastmod>2017-08-22T19:16:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/22/2-c-programming-basics/</loc>
+    <lastmod>2017-08-22T19:12:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/22/2-c-programming-basics/</loc>
+    <lastmod>2017-08-22T19:12:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/22/oklahoma-city-pizza-reviews-paseo-plaza-classen-curve/</loc>
+    <lastmod>2017-08-22T18:45:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/22/oklahoma-city-pizza-reviews-paseo-plaza-classen-curve/</loc>
+    <lastmod>2017-08-22T18:45:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/22/wheelchair-using-car-bike-rack-allowing-5-passengers-along-trunk-room-tact/</loc>
+    <lastmod>2017-08-22T18:35:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/22/wheelchair-using-car-bike-rack-allowing-5-passengers-along-trunk-room-tact/</loc>
+    <lastmod>2017-08-22T18:35:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/22/2-conditional-probability-explained/</loc>
+    <lastmod>2017-08-22T18:25:49+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/22/2-conditional-probability-explained/</loc>
+    <lastmod>2017-08-22T18:25:49+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/22/1-inclusion-exclusion-principle-explained-pictorial/</loc>
+    <lastmod>2017-08-22T18:24:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/22/1-inclusion-exclusion-principle-explained-pictorial/</loc>
+    <lastmod>2017-08-22T18:24:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/22/mark-gingrass-equipment-specialist-1670-series-government-job/</loc>
+    <lastmod>2017-08-22T18:13:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/22/mark-gingrass-equipment-specialist-1670-series-government-job/</loc>
+    <lastmod>2017-08-22T18:13:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/22/junior-force-council-walls-gates-process-supply-chain-mark-gingrass/</loc>
+    <lastmod>2017-08-22T17:54:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/22/junior-force-council-walls-gates-process-supply-chain-mark-gingrass/</loc>
+    <lastmod>2017-08-22T17:54:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/22/equipment-specialist-excess-inventory-demand-forecasting/</loc>
+    <lastmod>2017-08-22T17:48:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/22/equipment-specialist-excess-inventory-demand-forecasting/</loc>
+    <lastmod>2017-08-22T17:48:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/22/enmcs-engine-not-mission-capable-supply-explained/</loc>
+    <lastmod>2017-08-22T17:36:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/22/enmcs-engine-not-mission-capable-supply-explained/</loc>
+    <lastmod>2017-08-22T17:36:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/22/administrative-gated-process-art-possible-principles/</loc>
+    <lastmod>2017-08-22T17:25:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/22/administrative-gated-process-art-possible-principles/</loc>
+    <lastmod>2017-08-22T17:25:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/20/1-1-first-c-program-online-compiler-devc-and-downloading-microsoft-visual-studio/</loc>
+    <lastmod>2017-08-20T20:27:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/20/1-first-c-program-using-visual-studio-2015/</loc>
+    <lastmod>2017-08-20T20:24:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017/08/20/1-first-c-program-using-visual-studio-2015/</loc>
+    <lastmod>2017-08-20T20:24:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/1670/</loc>
+    <lastmod>2017-08-22T18:13:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/1900/</loc>
+    <lastmod>2017-08-23T01:33:16+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/60-inch/</loc>
+    <lastmod>2017-08-31T23:08:26+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -12,17 +850,1567 @@
   </url>
   
   <url>
+    <loc>/tags/air-force/</loc>
+    <lastmod>2017-12-23T04:31:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/amazon-reviews/</loc>
+    <lastmod>2017-12-23T21:23:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/c&#43;&#43;/</loc>
+    <lastmod>2017-11-04T01:31:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/c&#43;&#43;/</loc>
+    <lastmod>2017-12-16T21:17:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/career/</loc>
+    <lastmod>2019-01-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
+    <lastmod>2017-12-23T21:23:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/college-algebra/</loc>
+    <lastmod>2018-02-22T22:16:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/computer/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/costa-rica/</loc>
+    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/depot/</loc>
+    <lastmod>2017-12-23T04:31:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/editor/</loc>
+    <lastmod>2017-08-31T22:28:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/excel/</loc>
+    <lastmod>2017-09-15T22:29:57+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/execute/</loc>
+    <lastmod>2017-12-23T04:31:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/fun/</loc>
+    <lastmod>2017-12-07T05:18:33+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2017-11-27T23:32:59+00:00</lastmod>
+    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/how-to/</loc>
+    <lastmod>2018-02-22T23:53:33+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/kim-jong-un/</loc>
+    <lastmod>2017-09-05T00:31:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/macro/</loc>
+    <lastmod>2017-10-03T02:29:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/math/</loc>
+    <lastmod>2018-02-22T22:16:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mission/</loc>
+    <lastmod>2017-12-23T04:31:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/module/</loc>
+    <lastmod>2017-08-31T22:28:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/monteverde/</loc>
+    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/murrah/</loc>
+    <lastmod>2017-09-05T00:31:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/oklahoma-city/</loc>
+    <lastmod>2017-09-05T00:31:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/other-reviews/</loc>
+    <lastmod>2017-12-23T21:23:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/probability/</loc>
+    <lastmod>2017-12-17T06:14:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/programming/</loc>
+    <lastmod>2018-03-21T00:23:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/python/</loc>
+    <lastmod>2018-03-21T00:23:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r/</loc>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/r/</loc>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/r-statistics/</loc>
+    <lastmod>2018-01-10T10:22:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r-studio/</loc>
+    <lastmod>2017-10-04T01:10:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/references/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/reviews/</loc>
+    <lastmod>2017-12-23T21:23:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/rstudio/</loc>
+    <lastmod>2017-12-16T21:17:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/self-driving-car/</loc>
+    <lastmod>2018-03-21T00:23:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/sub/</loc>
+    <lastmod>2017-08-31T22:28:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/supply-chain/</loc>
+    <lastmod>2018-03-21T00:26:51+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
+    <lastmod>2017-08-22T18:13:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/tools/</loc>
+    <lastmod>2019-01-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/travel/</loc>
+    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/trump/</loc>
+    <lastmod>2017-12-07T05:18:33+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tutorial/</loc>
+    <lastmod>2018-02-22T22:16:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/vba/</loc>
+    <lastmod>2017-10-03T02:29:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/vba/</loc>
+    <lastmod>2017-12-16T21:17:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/video/</loc>
+    <lastmod>2017-08-31T22:28:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/aircraft/</loc>
+    <lastmod>2018-03-14T02:11:56+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/algebra/</loc>
+    <lastmod>2018-02-22T22:16:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/amazon/</loc>
+    <lastmod>2017-08-31T23:08:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/analysis/</loc>
+    <lastmod>2018-01-03T20:29:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/api/</loc>
+    <lastmod>2017-12-08T04:24:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/asymptote/</loc>
+    <lastmod>2018-02-14T04:33:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/atom/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/attributes/</loc>
+    <lastmod>2017-09-15T22:29:57+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/auto/</loc>
+    <lastmod>2017-12-16T23:59:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/automate/</loc>
+    <lastmod>2017-09-26T01:23:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/awaiting-maintenance/</loc>
+    <lastmod>2017-10-28T17:20:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/awm/</loc>
+    <lastmod>2017-10-28T17:20:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/backpack/</loc>
+    <lastmod>2017-08-23T01:33:16+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/beer/</loc>
+    <lastmod>2018-02-22T22:16:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/beginner/</loc>
+    <lastmod>2017-08-29T14:34:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/blog/</loc>
+    <lastmod>2017-12-09T20:50:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/bomb/</loc>
+    <lastmod>2017-09-05T00:31:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/button/</loc>
+    <lastmod>2017-10-03T02:29:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/buy/</loc>
+    <lastmod>2017-10-28T17:20:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/canopy/</loc>
+    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/career/</loc>
+    <lastmod>2017-12-16T21:17:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/cells/</loc>
+    <lastmod>2017-09-22T01:31:17+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/chain/</loc>
+    <lastmod>2017-10-28T17:20:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/chroma/</loc>
+    <lastmod>2017-12-23T21:23:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/chromakey/</loc>
+    <lastmod>2017-12-23T21:23:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/chug/</loc>
+    <lastmod>2018-02-22T22:16:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/clean-data/</loc>
+    <lastmod>2017-12-09T20:50:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/code/</loc>
+    <lastmod>2017-12-16T21:17:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/coding/</loc>
+    <lastmod>2017-12-16T21:17:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/college-algebra/</loc>
+    <lastmod>2018-02-18T16:57:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/compare/</loc>
+    <lastmod>2017-08-22T19:16:51+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/compile/</loc>
+    <lastmod>2017-08-20T20:27:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/condemnation/</loc>
+    <lastmod>2017-08-22T17:48:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/configuration/</loc>
+    <lastmod>2017-12-16T21:17:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/content_transofmer/</loc>
+    <lastmod>2017-12-07T05:18:33+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/contract/</loc>
+    <lastmod>2017-10-28T17:20:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/control/</loc>
+    <lastmod>2017-12-16T21:17:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/corpi/</loc>
+    <lastmod>2017-12-08T04:24:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/corpus/</loc>
+    <lastmod>2017-12-08T04:24:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/corsera/</loc>
+    <lastmod>2018-01-10T10:22:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/cost/</loc>
+    <lastmod>2017-08-22T17:48:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/costs/</loc>
+    <lastmod>2017-08-22T17:48:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/data-analsis/</loc>
+    <lastmod>2017-09-26T01:23:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/data-camp/</loc>
+    <lastmod>2018-01-10T10:22:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/data-manipulation/</loc>
+    <lastmod>2017-12-08T04:24:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/data-science/</loc>
+    <lastmod>2019-01-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/debug/</loc>
+    <lastmod>2017-09-22T01:31:17+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/deep-learning/</loc>
+    <lastmod>2018-01-10T10:22:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/demand/</loc>
+    <lastmod>2017-08-22T18:13:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/descriptive-statistics/</loc>
+    <lastmod>2017-09-26T01:23:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/devc&#43;&#43;/</loc>
+    <lastmod>2017-08-20T20:27:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/devcpp/</loc>
+    <lastmod>2017-08-20T20:27:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/diamond/</loc>
+    <lastmod>2017-12-07T05:18:33+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/discrepancy/</loc>
+    <lastmod>2017-10-28T17:20:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/dm_map/</loc>
+    <lastmod>2017-12-08T04:24:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/download/</loc>
+    <lastmod>2017-10-04T01:10:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/drink/</loc>
+    <lastmod>2018-02-22T22:16:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/dscm/</loc>
+    <lastmod>2017-12-23T04:31:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/dubug/</loc>
+    <lastmod>2017-09-15T22:29:57+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/dynamic-range/</loc>
+    <lastmod>2017-09-16T20:57:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/employer/</loc>
+    <lastmod>2017-12-16T21:17:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/equality/</loc>
+    <lastmod>2017-08-22T19:16:51+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/equation/</loc>
+    <lastmod>2018-02-18T16:57:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/equation-of-line/</loc>
+    <lastmod>2018-02-22T22:16:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/equipment-specialist/</loc>
+    <lastmod>2017-08-22T18:13:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/error/</loc>
+    <lastmod>2017-12-07T05:18:33+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/es/</loc>
+    <lastmod>2017-08-22T18:13:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/examples/</loc>
+    <lastmod>2017-11-04T01:31:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/excess/</loc>
+    <lastmod>2017-08-22T17:48:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/exchangeable/</loc>
+    <lastmod>2017-10-28T17:20:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/first-program/</loc>
+    <lastmod>2017-10-04T01:10:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/flow/</loc>
+    <lastmod>2018-02-18T16:57:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/flying/</loc>
+    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/for-loop/</loc>
+    <lastmod>2017-09-22T01:31:17+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/for-loops/</loc>
+    <lastmod>2017-09-22T01:31:17+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/forecast/</loc>
+    <lastmod>2017-08-22T18:13:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/formula/</loc>
+    <lastmod>2017-09-16T20:57:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/fun/</loc>
+    <lastmod>2017-12-07T05:18:33+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/gap/</loc>
+    <lastmod>2017-12-23T04:31:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/gasp/</loc>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/generate-content/</loc>
+    <lastmod>2017-12-16T23:59:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/git/</loc>
+    <lastmod>2017-12-16T21:17:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/github/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/gov/</loc>
+    <lastmod>2017-08-22T18:13:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/government/</loc>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/government/</loc>
+    <lastmod>2019-01-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/greater-than/</loc>
+    <lastmod>2017-08-22T19:16:51+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/green-screen/</loc>
+    <lastmod>2017-12-23T21:23:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/hello-world/</loc>
+    <lastmod>2017-08-20T20:27:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/horizontal-lines/</loc>
+    <lastmod>2018-02-14T04:33:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/how-it-works/</loc>
+    <lastmod>2017-12-23T21:23:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/hub/</loc>
+    <lastmod>2017-12-16T21:17:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/if/</loc>
+    <lastmod>2017-08-22T19:16:51+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/if-statements/</loc>
+    <lastmod>2017-08-22T19:12:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/integer/</loc>
+    <lastmod>2017-09-15T22:29:57+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/iterator/</loc>
+    <lastmod>2017-09-22T01:31:17+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/iterators/</loc>
+    <lastmod>2017-09-22T01:31:17+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/jaco/</loc>
+    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/jaco-beach/</loc>
+    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/jobs/</loc>
+    <lastmod>2017-12-16T21:17:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/kaggle/</loc>
+    <lastmod>2018-01-10T10:22:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/key/</loc>
+    <lastmod>2017-12-23T21:23:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/la-fortuna/</loc>
+    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/lead-times/</loc>
+    <lastmod>2017-10-28T17:20:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/lead./</loc>
+    <lastmod>2017-10-28T17:20:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/less-than/</loc>
+    <lastmod>2017-08-22T19:16:51+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/light/</loc>
+    <lastmod>2017-12-23T21:23:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/line/</loc>
+    <lastmod>2018-02-18T16:57:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/linear/</loc>
+    <lastmod>2018-02-14T04:35:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/linear-equation/</loc>
+    <lastmod>2018-02-14T04:31:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/linear-equations/</loc>
+    <lastmod>2018-02-14T04:38:17+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/live/</loc>
+    <lastmod>2017-12-23T21:23:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/machine-learning/</loc>
+    <lastmod>2018-01-10T10:22:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/management/</loc>
+    <lastmod>2017-12-23T04:31:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/manipulate/</loc>
+    <lastmod>2017-09-26T01:23:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/manuel-antonio/</loc>
+    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/markdown/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/math/</loc>
+    <lastmod>2018-02-22T22:16:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/matrix/</loc>
+    <lastmod>2017-12-08T04:24:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/method/</loc>
+    <lastmod>2017-09-15T22:29:57+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/micap/</loc>
+    <lastmod>2018-03-14T02:11:56+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mission-capable/</loc>
+    <lastmod>2018-03-14T02:11:56+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/nanodegree/</loc>
+    <lastmod>2018-03-14T23:06:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/newbie/</loc>
+    <lastmod>2017-08-29T14:34:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/nmcm/</loc>
+    <lastmod>2018-03-14T02:11:56+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/nmcs/</loc>
+    <lastmod>2018-03-14T02:11:56+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/nonogram/</loc>
+    <lastmod>2017-12-17T06:14:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/not-equal/</loc>
+    <lastmod>2017-08-22T19:16:51+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/nuclear/</loc>
+    <lastmod>2017-09-05T00:31:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/object/</loc>
+    <lastmod>2017-09-15T22:29:57+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/obs/</loc>
+    <lastmod>2017-12-23T21:23:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/online-broadcasting/</loc>
+    <lastmod>2017-12-23T21:23:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/online-compiler/</loc>
+    <lastmod>2017-08-20T20:27:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/operators/</loc>
+    <lastmod>2017-08-22T19:12:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/option/</loc>
+    <lastmod>2017-09-15T22:29:57+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/permutation/</loc>
+    <lastmod>2017-12-17T06:14:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/point-slope/</loc>
+    <lastmod>2018-02-14T04:38:17+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/points/</loc>
+    <lastmod>2018-02-14T04:38:17+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/program/</loc>
+    <lastmod>2017-08-22T17:48:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/programming/</loc>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/programming/</loc>
+    <lastmod>2018-03-21T00:23:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/progress/</loc>
+    <lastmod>2018-03-14T23:06:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/properties/</loc>
+    <lastmod>2017-09-15T22:29:57+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/publish/</loc>
+    <lastmod>2017-12-16T23:59:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/python/</loc>
+    <lastmod>2018-01-03T20:29:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/question-mark/</loc>
+    <lastmod>2017-12-07T05:18:33+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r/</loc>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/random-line/</loc>
+    <lastmod>2018-02-14T04:31:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/range/</loc>
+    <lastmod>2017-09-16T20:57:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/rate/</loc>
+    <lastmod>2018-02-22T22:16:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/rate-of-change/</loc>
+    <lastmod>2018-02-18T16:57:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/read-file/</loc>
+    <lastmod>2017-10-04T01:10:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/read.csv/</loc>
+    <lastmod>2017-10-04T01:10:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/recoding-macros/</loc>
+    <lastmod>2017-09-16T20:57:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/record/</loc>
+    <lastmod>2017-08-29T14:34:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/references/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/repair/</loc>
+    <lastmod>2017-10-28T17:20:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/report-of-discrepancy/</loc>
+    <lastmod>2017-10-28T17:20:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/repository/</loc>
+    <lastmod>2017-12-16T21:17:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/resources/</loc>
+    <lastmod>2018-01-10T10:22:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/resume/</loc>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/review/</loc>
+    <lastmod>2017-08-31T23:08:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/rod/</loc>
+    <lastmod>2017-10-28T17:20:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/run/</loc>
+    <lastmod>2017-08-20T20:27:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/scrape/</loc>
+    <lastmod>2017-12-09T20:50:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/scraper/</loc>
+    <lastmod>2017-11-21T17:07:51+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/scraping/</loc>
+    <lastmod>2017-12-09T20:50:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/sdc/</loc>
+    <lastmod>2018-03-14T23:06:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/selection/</loc>
+    <lastmod>2017-09-16T20:57:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/self-driving-car/</loc>
+    <lastmod>2018-03-14T23:06:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/self-improvement/</loc>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/sentiment/</loc>
+    <lastmod>2018-01-03T20:29:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/shortfalls/</loc>
+    <lastmod>2017-12-23T04:31:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/slope/</loc>
+    <lastmod>2018-02-22T22:16:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/software/</loc>
+    <lastmod>2017-12-16T21:17:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/sparce/</loc>
+    <lastmod>2017-12-08T04:24:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/special-character/</loc>
+    <lastmod>2017-12-07T05:18:33+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/statistics/</loc>
+    <lastmod>2017-10-04T01:10:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/stats/</loc>
+    <lastmod>2017-09-26T01:23:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/studio/</loc>
+    <lastmod>2017-12-16T21:17:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/supply/</loc>
+    <lastmod>2017-12-23T04:31:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/supply-chain/</loc>
+    <lastmod>2017-12-23T04:31:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/supportability/</loc>
+    <lastmod>2017-12-23T04:31:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/swissgear/</loc>
+    <lastmod>2017-08-23T01:33:16+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tech/</loc>
+    <lastmod>2017-12-16T21:17:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/termdocumentmatrix/</loc>
+    <lastmod>2017-12-08T04:24:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/text/</loc>
+    <lastmod>2017-12-16T23:59:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tm_map/</loc>
+    <lastmod>2017-12-07T05:18:33+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tnmcm/</loc>
+    <lastmod>2018-03-14T02:11:56+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tnmcs/</loc>
+    <lastmod>2018-03-14T02:11:56+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/token/</loc>
+    <lastmod>2017-11-21T17:07:51+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tolower/</loc>
+    <lastmod>2017-12-07T05:18:33+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tools/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/transportation/</loc>
+    <lastmod>2017-10-28T17:20:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/travel/</loc>
+    <lastmod>2017-08-23T01:33:16+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/traveling/</loc>
+    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tri-pod/</loc>
+    <lastmod>2017-08-31T23:08:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tripod/</loc>
+    <lastmod>2017-08-31T23:08:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tweet/</loc>
+    <lastmod>2018-01-03T20:29:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/twitter/</loc>
+    <lastmod>2017-12-16T23:59:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/udacity/</loc>
+    <lastmod>2018-03-14T23:06:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/usage/</loc>
+    <lastmod>2017-08-22T17:48:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/usajobs/</loc>
+    <lastmod>2017-08-22T18:13:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/vertical-lines/</loc>
+    <lastmod>2018-02-14T04:33:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/visual-studio/</loc>
+    <lastmod>2017-08-20T20:27:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/warehouse/</loc>
+    <lastmod>2017-08-22T17:48:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/wip/</loc>
+    <lastmod>2017-10-28T17:20:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/word-cloud/</loc>
+    <lastmod>2017-12-09T20:50:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/wordcloud/</loc>
+    <lastmod>2017-12-09T20:50:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/wordpress/</loc>
+    <lastmod>2017-12-16T23:59:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/work-in-progress/</loc>
+    <lastmod>2017-10-28T17:20:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/wp/</loc>
+    <lastmod>2017-12-16T23:59:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ymx&#43;b/</loc>
+    <lastmod>2018-02-14T04:35:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/zip-lines/</loc>
+    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Useful Excel Template Building with VBA Range Methods and Objects! | Mark Gingrass Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-135621341-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="http://www.devgin.com">DevGin</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+
+<div class="article-meta">
+<h1><span class="title">Useful Excel Template Building with VBA Range Methods and Objects!</span></h1>
+<h2 class="author">mtgingrass</h2>
+<h2 class="date">2017/09/15</h2>
+</div>
+
+<main>
+
+
+<h2 id="learn-practical-code-now">Learn practical code now!</h2>
+
+<p>Begin using this code immediately in the workforce! This tutorial will guide you through the use of <em>ranges</em> and how to extract <em>values</em> from cells and input <em>values</em> into cells.</p>
+
+<p>In this tutorial you will learn the basics of:</p>
+
+<ul>
+<li><p>Option Explicit - Why use it?</p></li>
+
+<li><p>Range - Useful for template building and more.</p></li>
+
+<li><p>Objects - What are they and tell me more!</p></li>
+
+<li><p>Debugger - Intro on how to troubleshoot with the debugger.</p></li>
+
+<li><p>Integer Variables - Storing data outside of Excel.</p></li>
+</ul>
+
+<p>Watch the Video for step by step instructions.</p>
+
+<p>[embed]<a href="https://youtu.be/jgwDwl3PjFA[/embed">https://youtu.be/jgwDwl3PjFA[/embed</a>]</p>
+
+<h2 id="code">Code</h2>
+
+<p>Copy and paste this code to get you started.</p>
+
+<pre><code>&lt;code&gt;
+Option Explicit
+'Range Object
+'Debugger
+'What is an object
+'Quick Intro to Integer Variable
+
+Sub my_range()
+    Range(&quot;A5&quot;).Value = 158
+    Range(&quot;A6&quot;).Value = &quot;Hello World&quot;
+    Range(&quot;A1&quot;).Select
+
+    Dim my_cool_int As Integer
+
+    my_cool_int = Range(&quot;A5&quot;).Value
+
+    Range(&quot;D10&quot;).Value = my_cool_int
+
+    Range(&quot;A1:D4&quot;).Value = 0
+
+End Sub&lt;/code&gt;
+</code></pre>
+
+<h2 id="range">Range,</h2>
+
+<p>Use Range to return a <em>Range</em> <strong>object</strong> that represents a single Excel cell or a range of cells. Once a Range object is created, you can extract data from cells or input data into cells with ease.</p>
+
+<p>There are many other types of options for Range objects as well; such as, making it bold, italics, changing font style or size, or even locking the cell for example.&lt;/P</p>
+
+<p><a href="//partners.hostgator.com/c/418006/178129/3094"><img src="//a.impactradius-go.com/display-ad/3094-178129" alt="" /></a><img src="//partners.hostgator.com/i/418006/178129/3094" alt="" /></p>
+
+<h2 id="objects">Objects</h2>
+
+<p>Visual Basic is an Object-Oriented (OO) language. What is an <strong>object</strong>? An object is just as it sounds, only in a coded language. A television is an object, a basketball is an object, and a car is an object.</p>
+
+<p>Objects have <em>methods</em> and <em>properties</em> (sometimes referred to as <em>attributes</em>).</p>
+
+<p>A <em>method</em> is a &ldquo;do something&rdquo; action. Turn the television on, change the station, set a timer, or change input methods are examples of <em>methods</em> of an <strong>object</strong>.</p>
+
+<p>Objects have _attributes_ as well. An <em>attribute</em> is asking the object, &ldquo;what color are you,&rdquo; or, &ldquo;how tall are you, &rdquo; or things such as, &ldquo;how many miles can you run,&rdquo; or &ldquo;what are you holding on to?&rdquo;</p>
+
+<h2 id="using-objects">Using Objects</h2>
+
+<p>Properties of objects are referenced through the &ldquo;dot&rdquo; operator. Simply type the name of the object and an actual &ldquo;dot&rdquo; after it.</p>
+
+<p>Example, a Television object might have a property such as <strong>my_TV.</strong>_Return<em>Channel</em>; where my_TV is a television <strong>object</strong> and _Return<em>Channel</em> is a <em>property</em> of that object. The properties name is &ldquo;Return_Channel.&rdquo;</p>
+
+<p><strong>my_TV.</strong>_Set<em>Volume</em> might be a television <strong>object</strong> called <strong>my_TV</strong> and a <em>method</em> _Set<em>Volume</em> that actually sets the televisions volume.</p>
+
+<h2 id="share-and-click-links">Share and Click Links</h2>
+
+<p>Thank you for watching this tutorial. Stay tuned for more VBA tutorials.</p>
+
+<p>Click the Link Below if you want to host yourname.com or check out the books!</p>
+
+<p><a href="//partners.hostgator.com/c/418006/178142/3094"><img src="//a.impactradius-go.com/display-ad/3094-178142" alt="" /></a><img src="//partners.hostgator.com/i/418006/178142/3094" alt="" /></p>
+
+</main>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+  <hr/>
+  &copy; <a href="https://markgingrass.com">Mark Gingrass</a> 2018 | <a href="https://github.com/mtgingrass">Github</a> | <a href="https://twitter.com/markgingrass">Twitter</a>
+  
+  </footer>
+  </body>
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "gingrass" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</html>
+

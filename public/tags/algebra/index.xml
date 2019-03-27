@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>algebra on Mark Gingrass Blog</title>
+    <link>/tags/algebra/</link>
+    <description>Recent content in algebra on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Feb 2018 22:16:14 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/algebra/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>011 Beer Catch Up - How Fast to Drink?</title>
+      <link>/post/2018/02/22/011-beer-catch-fast-drink/</link>
+      <pubDate>Thu, 22 Feb 2018 22:16:14 +0000</pubDate>
+      
+      <guid>/post/2018/02/22/011-beer-catch-fast-drink/</guid>
+      <description>[embed]https://youtu.be/Qnvd2OwKXvI[/embed]</description>
+    </item>
+    
+    <item>
+      <title>011 Beer Catch Up - How Fast to Drink?</title>
+      <link>/post/2018/02/22/011-beer-catch-fast-drink/</link>
+      <pubDate>Thu, 22 Feb 2018 22:16:14 +0000</pubDate>
+      
+      <guid>/post/2018/02/22/011-beer-catch-fast-drink/</guid>
+      <description>[embed]https://youtu.be/Qnvd2OwKXvI[/embed]</description>
+    </item>
+    
+  </channel>
+</rss>

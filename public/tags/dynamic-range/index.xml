@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dynamic range on Mark Gingrass Blog</title>
+    <link>/tags/dynamic-range/</link>
+    <description>Recent content in dynamic range on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Sep 2017 20:57:40 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/dynamic-range/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dynamic Ranges and Modifying Recorded Macros</title>
+      <link>/post/2017/09/16/dynamic-ranges-modifying-macros/</link>
+      <pubDate>Sat, 16 Sep 2017 20:57:40 +0000</pubDate>
+      
+      <guid>/post/2017/09/16/dynamic-ranges-modifying-macros/</guid>
+      <description>Build Templates In this tutorial, we will build upon the use of ranges and combine recording macros with modifying your own macros.
+In this tutorial you will learn the basics of:
+ Adding formulas from VBA to Excel
+ Dynamic Ranges
+ Modifying Recorded Macros
+ Selection object
+  Watch the Video for step by step instructions.
+[embed]https://youtu.be/q8u4BlB2D2g[/embed]
+ Code Copy and paste the code below to get you started.</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Ranges and Modifying Recorded Macros</title>
+      <link>/post/2017/09/16/dynamic-ranges-modifying-macros/</link>
+      <pubDate>Sat, 16 Sep 2017 20:57:40 +0000</pubDate>
+      
+      <guid>/post/2017/09/16/dynamic-ranges-modifying-macros/</guid>
+      <description>Build Templates In this tutorial, we will build upon the use of ranges and combine recording macros with modifying your own macros.
+In this tutorial you will learn the basics of:
+ Adding formulas from VBA to Excel
+ Dynamic Ranges
+ Modifying Recorded Macros
+ Selection object
+  Watch the Video for step by step instructions.
+[embed]https://youtu.be/q8u4BlB2D2g[/embed]
+Code Copy and paste the code below to get you started.</description>
+    </item>
+    
+  </channel>
+</rss>

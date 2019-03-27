@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linear on Mark Gingrass Blog</title>
+    <link>/tags/linear/</link>
+    <description>Recent content in linear on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Feb 2018 04:35:54 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/linear/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>004 Point Slope Form</title>
+      <link>/post/2018/02/14/004-point-slope-form/</link>
+      <pubDate>Wed, 14 Feb 2018 04:35:54 +0000</pubDate>
+      
+      <guid>/post/2018/02/14/004-point-slope-form/</guid>
+      <description>Giving two points, how do I find equation of a line?
+[embed]https://youtu.be/8BdIAPv4_mo[/embed]</description>
+    </item>
+    
+    <item>
+      <title>004 Point Slope Form</title>
+      <link>/post/2018/02/14/004-point-slope-form/</link>
+      <pubDate>Wed, 14 Feb 2018 04:35:54 +0000</pubDate>
+      
+      <guid>/post/2018/02/14/004-point-slope-form/</guid>
+      <description>Giving two points, how do I find equation of a line?
+[embed]https://youtu.be/8BdIAPv4_mo[/embed]</description>
+    </item>
+    
+  </channel>
+</rss>

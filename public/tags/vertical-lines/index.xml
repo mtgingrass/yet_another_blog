@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vertical lines on Mark Gingrass Blog</title>
+    <link>/tags/vertical-lines/</link>
+    <description>Recent content in vertical lines on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Feb 2018 04:33:44 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/vertical-lines/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>003 Horizontal and Vertical Lines</title>
+      <link>/post/2018/02/14/003-horizontal-vertical-lines/</link>
+      <pubDate>Wed, 14 Feb 2018 04:33:44 +0000</pubDate>
+      
+      <guid>/post/2018/02/14/003-horizontal-vertical-lines/</guid>
+      <description> Horizontal and Vertical Lines [embed]https://youtu.be/X48CBYhv2Rg[/embed]
+ </description>
+    </item>
+    
+    <item>
+      <title>003 Horizontal and Vertical Lines</title>
+      <link>/post/2018/02/14/003-horizontal-vertical-lines/</link>
+      <pubDate>Wed, 14 Feb 2018 04:33:44 +0000</pubDate>
+      
+      <guid>/post/2018/02/14/003-horizontal-vertical-lines/</guid>
+      <description>Horizontal and Vertical Lines [embed]https://youtu.be/X48CBYhv2Rg[/embed]</description>
+    </item>
+    
+  </channel>
+</rss>

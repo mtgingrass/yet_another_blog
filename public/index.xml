@@ -6,36 +6,1794 @@
     <description>Recent content in Home on Mark Gingrass Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Nov 2017 23:32:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Developing Minds</title>
-      <link>/post/site-index/</link>
-      <pubDate>Mon, 27 Nov 2017 23:32:59 +0000</pubDate>
+      <title>Detailed Trip to Costa Rica</title>
+      <link>/post/2019/02/18/detailed-trip-to-costa-rica/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/site-index/</guid>
-      <description>PROGRAMMING
- C++
- First Program / Visual Studio
- Online Compiler, DevC++
- Basics
- if statements &amp;amp; operators
- Dev C++ &amp;amp; for Loops
- while Loop
- while Loop
- do while Loops 3 min!
- Functions 1
- Functions 2
- Functions 3
- “Pause Function
- Dereferencing &amp;amp; Pointers
- Pass by Value &amp;amp; Ref
- GuessRandom Number
- Enumeration - enum
- struct with Examples</description>
+      <guid>/post/2019/02/18/detailed-trip-to-costa-rica/</guid>
+      <description>Pre-plan Where to go and why? I chose to go to Costa Rica for a few reasons:
+ It&amp;rsquo;s winter in February in Washington DC and I wanted to go some place warm. I found a good deal on plane tickets. I heard great things about the country. I want to learn Spanish. It offers both scenery/events as well as partying.  Ticket Details I purchased round trip tickets to Costa Rica from an app called Skyscanner.</description>
+    </item>
+    
+    <item>
+      <title>Job Roles - What do I actually do?</title>
+      <link>/post/2019/01/17/job-roles-what-do-i-actually-do/</link>
+      <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/01/17/job-roles-what-do-i-actually-do/</guid>
+      <description>My name is Mark and I am an Operations Research Analyst!
+This article is an overview of the roles an ORA is may perform within this my organization.
+Operations Researcher  What do you do for work?
+ I will explain my daily role as an Operations Research Analyst working for the FDA in the Center for Tobacco Products Office of Science in the following sections of this article.</description>
+    </item>
+    
+    <item>
+      <title>GASP</title>
+      <link>/post/2019/01/05/gasp/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/01/05/gasp/</guid>
+      <description>GASP Devgin Check out devgin.com for more
+ Event   Government Advances in Statistical Programming 2018
+Government Advances in Statistical Programming (GASP!) Workshop is a workshop focused on statistical programming for government applications held at the Bureau of Labor Statistics in Washington DC on October 24 to 25, 2018. This event was put on by Washington Statistical Society (WSS)
+Themes included R, data science applications, statistics, open source software and more.</description>
+    </item>
+    
+    <item>
+      <title>GASP</title>
+      <link>/post/2019/01/05/gasp/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/01/05/gasp/</guid>
+      <description>GASP Devgin Check out devgin.com for more
+Event  Government Advances in Statistical Programming 2018
+Government Advances in Statistical Programming (GASP!) Workshop is a workshop focused on statistical programming for government applications held at the Bureau of Labor Statistics in Washington DC on October 24 to 25, 2018. This event was put on by Washington Statistical Society (WSS)
+Themes included R, data science applications, statistics, open source software and more.</description>
+    </item>
+    
+    <item>
+      <title>Visual Resume</title>
+      <link>/post/2019/01/05/visual-resume/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/01/05/visual-resume/</guid>
+      <description>Visual Resume Timeline I came across this Github package by ndphillips and thought it was pretty cool and decided to make it even easier to setup. I really just wanted to play with it so here is my excuse.
+My Visual Resume
+  Setup Most people who have used R for a few weeks or months have probably already installed devtools. Just in case it isn’t already installed, simply uncomment line 18 to install for the first time</description>
+    </item>
+    
+    <item>
+      <title>Visual Resume</title>
+      <link>/post/2019/01/05/visual-resume/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/01/05/visual-resume/</guid>
+      <description>Visual Resume Timeline I came across this Github package by ndphillips and thought it was pretty cool and decided to make it even easier to setup. I really just wanted to play with it so here is my excuse.
+Setup Most people who have used R for a few weeks or months have probably already installed devtools. Just in case it isn&amp;rsquo;t already installed, simply uncomment line 18 to install for the first time</description>
+    </item>
+    
+    <item>
+      <title>Tools of the Job</title>
+      <link>/post/2018/12/16/tools-of-the-job/</link>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018/12/16/tools-of-the-job/</guid>
+      <description>Breaking into the tech world takes time! Forget about coding in C++ or Python or learning Ruby on Rails. Just figuring out which tools or Integrated Environments (IDE), or even which Operating System (OS) to use can be overwhelming.
+In this post, I am going to break down some of the tools I am currently using and why. I&amp;rsquo;m also going to try and break down my thought process of how I even found out which tools to use.</description>
+    </item>
+    
+    <item>
+      <title>Unique Skills</title>
+      <link>/post/2018/12/16/unique-skills/</link>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018/12/16/unique-skills/</guid>
+      <description>The question is, what are my transferable skills? What do I bring to the table? This is what this blog post is going to be all about, how to bring a unique set of skills to a field you have never been part of, and to use that for your advantage. Can I even do this?
+I will start with how I brought unique tools to a field I never thought I would be in.</description>
+    </item>
+    
+    <item>
+      <title>RSP POS DueOuts Supply Chain</title>
+      <link>/post/2018/03/21/rsp-pos-dueouts-supply-chain/</link>
+      <pubDate>Wed, 21 Mar 2018 00:26:51 +0000</pubDate>
+      
+      <guid>/post/2018/03/21/rsp-pos-dueouts-supply-chain/</guid>
+      <description>[embed]https://youtu.be/sIvfyeEu2po[/embed]</description>
+    </item>
+    
+    <item>
+      <title>RSP POS DueOuts Supply Chain</title>
+      <link>/post/2018/03/21/rsp-pos-dueouts-supply-chain/</link>
+      <pubDate>Wed, 21 Mar 2018 00:26:51 +0000</pubDate>
+      
+      <guid>/post/2018/03/21/rsp-pos-dueouts-supply-chain/</guid>
+      <description>[embed]https://youtu.be/sIvfyeEu2po[/embed]</description>
+    </item>
+    
+    <item>
+      <title>Set Up Python Virtual Env and Projects with Packages</title>
+      <link>/post/2018/03/21/set-python-virtual-env-projects-packages/</link>
+      <pubDate>Wed, 21 Mar 2018 00:23:48 +0000</pubDate>
+      
+      <guid>/post/2018/03/21/set-python-virtual-env-projects-packages/</guid>
+      <description>[embed]https://youtu.be/ZvQY-FdsYGE[/embed] Sometimes setting up Python and PyCharm and all packages is harder than writing actual code. In this video I show you how to set up a project in PyCharm, add a package (library) and run the code.</description>
+    </item>
+    
+    <item>
+      <title>Set Up Python Virtual Env and Projects with Packages</title>
+      <link>/post/2018/03/21/set-python-virtual-env-projects-packages/</link>
+      <pubDate>Wed, 21 Mar 2018 00:23:48 +0000</pubDate>
+      
+      <guid>/post/2018/03/21/set-python-virtual-env-projects-packages/</guid>
+      <description>[embed]https://youtu.be/ZvQY-FdsYGE[/embed] Sometimes setting up Python and PyCharm and all packages is harder than writing actual code. In this video I show you how to set up a project in PyCharm, add a package (library) and run the code.</description>
+    </item>
+    
+    <item>
+      <title>Gray Scale, Gaussian Blur, Canny Edge Detection, Hough Transform</title>
+      <link>/post/2018/03/20/gray-scale-gaussian-blur-canny-edge-detection-hough-transform/</link>
+      <pubDate>Tue, 20 Mar 2018 23:57:34 +0000</pubDate>
+      
+      <guid>/post/2018/03/20/gray-scale-gaussian-blur-canny-edge-detection-hough-transform/</guid>
+      <description>[embed]https://youtu.be/G019Av7XhGo[/embed]</description>
+    </item>
+    
+    <item>
+      <title>Gray Scale, Gaussian Blur, Canny Edge Detection, Hough Transform</title>
+      <link>/post/2018/03/20/gray-scale-gaussian-blur-canny-edge-detection-hough-transform/</link>
+      <pubDate>Tue, 20 Mar 2018 23:57:34 +0000</pubDate>
+      
+      <guid>/post/2018/03/20/gray-scale-gaussian-blur-canny-edge-detection-hough-transform/</guid>
+      <description>[embed]https://youtu.be/G019Av7XhGo[/embed]</description>
+    </item>
+    
+    <item>
+      <title>Udacity Self Driving Car Day 1</title>
+      <link>/post/2018/03/14/udacity-self-driving-car-day-1/</link>
+      <pubDate>Wed, 14 Mar 2018 23:06:01 +0000</pubDate>
+      
+      <guid>/post/2018/03/14/udacity-self-driving-car-day-1/</guid>
+      <description>[embed]https://youtu.be/BFbOj9p57jA[/embed]
+Self Driving Car Future The self driving car program takes about 3 months per term to complete with a total of 3 terms. The program is broken down into Computer Vision, Sensor Controls, and Planning. Average Salary of a SDC engineer is &amp;gt; $100K.
+ Self Driving Car Nano-degree Program I am documenting my Udacity Self Driving Car Nano-degree program progress. This video tells a little about my background and why I signed up for the program.</description>
+    </item>
+    
+    <item>
+      <title>Udacity Self Driving Car Day 1</title>
+      <link>/post/2018/03/14/udacity-self-driving-car-day-1/</link>
+      <pubDate>Wed, 14 Mar 2018 23:06:01 +0000</pubDate>
+      
+      <guid>/post/2018/03/14/udacity-self-driving-car-day-1/</guid>
+      <description>[embed]https://youtu.be/BFbOj9p57jA[/embed]
+Self Driving Car Future The self driving car program takes about 3 months per term to complete with a total of 3 terms. The program is broken down into Computer Vision, Sensor Controls, and Planning. Average Salary of a SDC engineer is &amp;gt; $100K.
+Self Driving Car Nano-degree Program I am documenting my Udacity Self Driving Car Nano-degree program progress. This video tells a little about my background and why I signed up for the program.</description>
+    </item>
+    
+    <item>
+      <title>Total Not Mission Capable due to Supply/Maintenance</title>
+      <link>/post/2018/03/14/total-not-mission-capable-due-supply-maintenance/</link>
+      <pubDate>Wed, 14 Mar 2018 02:11:56 +0000</pubDate>
+      
+      <guid>/post/2018/03/14/total-not-mission-capable-due-supply-maintenance/</guid>
+      <description>[embed]https://youtu.be/QFvfv1m4J44[/embed]
+Aircraft Availability explained by Mark Gingrass. The airfare uses metrics such as Aircraft Availability to measure how ready the Air Force is to fly.
+I am new to most of these terms so please correct me in the comments if I am wrong. I plan to revisit this once I gain a better understanding. This video should lead you in the right direction though.</description>
+    </item>
+    
+    <item>
+      <title>Total Not Mission Capable due to Supply/Maintenance</title>
+      <link>/post/2018/03/14/total-not-mission-capable-due-supply-maintenance/</link>
+      <pubDate>Wed, 14 Mar 2018 02:11:56 +0000</pubDate>
+      
+      <guid>/post/2018/03/14/total-not-mission-capable-due-supply-maintenance/</guid>
+      <description>[embed]https://youtu.be/QFvfv1m4J44[/embed]
+Aircraft Availability explained by Mark Gingrass. The airfare uses metrics such as Aircraft Availability to measure how ready the Air Force is to fly.
+I am new to most of these terms so please correct me in the comments if I am wrong. I plan to revisit this once I gain a better understanding. This video should lead you in the right direction though.</description>
+    </item>
+    
+    <item>
+      <title>Hyundai Elantra 2010 Back Seat Removal How To Tutorial</title>
+      <link>/post/2018/02/22/hyundai-elantra-2010-back-seat-removal-tutorial/</link>
+      <pubDate>Thu, 22 Feb 2018 23:53:33 +0000</pubDate>
+      
+      <guid>/post/2018/02/22/hyundai-elantra-2010-back-seat-removal-tutorial/</guid>
+      <description>[embed]https://youtu.be/P0XLd-aWJGM[/embed]
+Hyundai Elantra 2010 Back Seat Removal How To Tutorial. Remove backseat to install covers or just to replace them completely. As you can tell, this one needed a replacement BAD.
+You only need one size ratchet or a skateboard tool. Takes about 10 minutes to remove entire back seat bottom and tops.</description>
+    </item>
+    
+    <item>
+      <title>Hyundai Elantra 2010 Back Seat Removal How To Tutorial</title>
+      <link>/post/2018/02/22/hyundai-elantra-2010-back-seat-removal-tutorial/</link>
+      <pubDate>Thu, 22 Feb 2018 23:53:33 +0000</pubDate>
+      
+      <guid>/post/2018/02/22/hyundai-elantra-2010-back-seat-removal-tutorial/</guid>
+      <description>[embed]https://youtu.be/P0XLd-aWJGM[/embed]
+Hyundai Elantra 2010 Back Seat Removal How To Tutorial. Remove backseat to install covers or just to replace them completely. As you can tell, this one needed a replacement BAD.
+You only need one size ratchet or a skateboard tool. Takes about 10 minutes to remove entire back seat bottom and tops.</description>
+    </item>
+    
+    <item>
+      <title>011 Beer Catch Up - How Fast to Drink?</title>
+      <link>/post/2018/02/22/011-beer-catch-fast-drink/</link>
+      <pubDate>Thu, 22 Feb 2018 22:16:14 +0000</pubDate>
+      
+      <guid>/post/2018/02/22/011-beer-catch-fast-drink/</guid>
+      <description>[embed]https://youtu.be/Qnvd2OwKXvI[/embed]</description>
+    </item>
+    
+    <item>
+      <title>011 Beer Catch Up - How Fast to Drink?</title>
+      <link>/post/2018/02/22/011-beer-catch-fast-drink/</link>
+      <pubDate>Thu, 22 Feb 2018 22:16:14 +0000</pubDate>
+      
+      <guid>/post/2018/02/22/011-beer-catch-fast-drink/</guid>
+      <description>[embed]https://youtu.be/Qnvd2OwKXvI[/embed]</description>
+    </item>
+    
+    <item>
+      <title>010 Rates of Change - Chugging a Beer</title>
+      <link>/post/2018/02/18/010-rates-change-chugging-beer/</link>
+      <pubDate>Sun, 18 Feb 2018 16:57:21 +0000</pubDate>
+      
+      <guid>/post/2018/02/18/010-rates-change-chugging-beer/</guid>
+      <description>[latexpage]
+The Beer Problem I can chug a beer pretty fast. I recently timed myself drinking a full 12oz Beer (355mL) in just about 6 seconds. At what rate is the beer flowing down my throat?
+ Slope The slope formula, \(m = \frac{rise}{run}\), is a powerful tool for calculating and comparing steepness, or rates of changes. This is a very useful tool used in all aspects of engineering, mathematics, and even deep learning with neural networks.</description>
+    </item>
+    
+    <item>
+      <title>010 Rates of Change - Chugging a Beer</title>
+      <link>/post/2018/02/18/010-rates-change-chugging-beer/</link>
+      <pubDate>Sun, 18 Feb 2018 16:57:21 +0000</pubDate>
+      
+      <guid>/post/2018/02/18/010-rates-change-chugging-beer/</guid>
+      <description>[latexpage]
+The Beer Problem I can chug a beer pretty fast. I recently timed myself drinking a full 12oz Beer (355mL) in just about 6 seconds. At what rate is the beer flowing down my throat?
+Slope The slope formula, (m = \frac{rise}{run}), is a powerful tool for calculating and comparing steepness, or rates of changes. This is a very useful tool used in all aspects of engineering, mathematics, and even deep learning with neural networks.</description>
+    </item>
+    
+    <item>
+      <title>009 Beers per Hour Algebra Question</title>
+      <link>/post/2018/02/17/009-beers-per-hour-algebra-question/</link>
+      <pubDate>Sat, 17 Feb 2018 00:30:10 +0000</pubDate>
+      
+      <guid>/post/2018/02/17/009-beers-per-hour-algebra-question/</guid>
+      <description>[latexpage]
+The Beer Problem I stayed home and pre-gamed it with 4 beers before Ubering to the bar. I can normally throw down 3 Beers each hour at the bar. I was at the bar for 4 hours. How many Beers did I consume?
+ The ‘b’ Value The standard equation for a line is, \(y = mx + b\). As we have learned, the \(b\) part of the equation is where the line crosses the vertical access, often referred to as the initial condition.</description>
+    </item>
+    
+    <item>
+      <title>009 Beers per Hour Algebra Question</title>
+      <link>/post/2018/02/17/009-beers-per-hour-algebra-question/</link>
+      <pubDate>Sat, 17 Feb 2018 00:30:10 +0000</pubDate>
+      
+      <guid>/post/2018/02/17/009-beers-per-hour-algebra-question/</guid>
+      <description>[latexpage]
+The Beer Problem I stayed home and pre-gamed it with 4 beers before Ubering to the bar. I can normally throw down 3 Beers each hour at the bar. I was at the bar for 4 hours. How many Beers did I consume?
+The &amp;lsquo;b&amp;rsquo; Value The standard equation for a line is, (y = mx + b). As we have learned, the (b) part of the equation is where the line crosses the vertical access, often referred to as the initial condition.</description>
+    </item>
+    
+    <item>
+      <title>008 Direction of Slope, Positive, Negative, Zero, Undefined</title>
+      <link>/post/2018/02/16/008-direction-slope-positive-negative-zero-undefined/</link>
+      <pubDate>Fri, 16 Feb 2018 23:53:52 +0000</pubDate>
+      
+      <guid>/post/2018/02/16/008-direction-slope-positive-negative-zero-undefined/</guid>
+      <description>008 Direction of Slope, Positive, Negative, Zero, Undefined
+[embed]https://youtu.be/PQuZOjk0BeU[/embed]</description>
+    </item>
+    
+    <item>
+      <title>008 Direction of Slope, Positive, Negative, Zero, Undefined</title>
+      <link>/post/2018/02/16/008-direction-slope-positive-negative-zero-undefined/</link>
+      <pubDate>Fri, 16 Feb 2018 23:53:52 +0000</pubDate>
+      
+      <guid>/post/2018/02/16/008-direction-slope-positive-negative-zero-undefined/</guid>
+      <description>008 Direction of Slope, Positive, Negative, Zero, Undefined
+[embed]https://youtu.be/PQuZOjk0BeU[/embed]</description>
+    </item>
+    
+    <item>
+      <title>007 Giving Slope and a Point, find Equation of Line</title>
+      <link>/post/2018/02/16/007-giving-slope-point-find-equation-line/</link>
+      <pubDate>Fri, 16 Feb 2018 23:35:21 +0000</pubDate>
+      
+      <guid>/post/2018/02/16/007-giving-slope-point-find-equation-line/</guid>
+      <description>Giving Slope and a Point, find Equation of Line.
+[embed]https://youtu.be/DxvRwyz_gdY[/embed]</description>
+    </item>
+    
+    <item>
+      <title>007 Giving Slope and a Point, find Equation of Line</title>
+      <link>/post/2018/02/16/007-giving-slope-point-find-equation-line/</link>
+      <pubDate>Fri, 16 Feb 2018 23:35:21 +0000</pubDate>
+      
+      <guid>/post/2018/02/16/007-giving-slope-point-find-equation-line/</guid>
+      <description>Giving Slope and a Point, find Equation of Line.
+[embed]https://youtu.be/DxvRwyz_gdY[/embed]</description>
+    </item>
+    
+    <item>
+      <title>006 Two Points Giving, find equation of line</title>
+      <link>/post/2018/02/16/006-two-points-giving-find-equation-line/</link>
+      <pubDate>Fri, 16 Feb 2018 23:27:46 +0000</pubDate>
+      
+      <guid>/post/2018/02/16/006-two-points-giving-find-equation-line/</guid>
+      <description>Giving two points, find the equation of the line.
+[embed]https://youtu.be/Ogy0KOTwVno[/embed]</description>
+    </item>
+    
+    <item>
+      <title>006 Two Points Giving, find equation of line</title>
+      <link>/post/2018/02/16/006-two-points-giving-find-equation-line/</link>
+      <pubDate>Fri, 16 Feb 2018 23:27:46 +0000</pubDate>
+      
+      <guid>/post/2018/02/16/006-two-points-giving-find-equation-line/</guid>
+      <description>Giving two points, find the equation of the line.
+[embed]https://youtu.be/Ogy0KOTwVno[/embed]</description>
+    </item>
+    
+    <item>
+      <title>005 Solving for Line Giving Two Points</title>
+      <link>/post/2018/02/14/005-solving-line-giving-two-points/</link>
+      <pubDate>Wed, 14 Feb 2018 04:38:17 +0000</pubDate>
+      
+      <guid>/post/2018/02/14/005-solving-line-giving-two-points/</guid>
+      <description>Solve for equation of line giving two points. [embed]https://youtu.be/seNET6u2s9s[/embed]</description>
+    </item>
+    
+    <item>
+      <title>005 Solving for Line Giving Two Points</title>
+      <link>/post/2018/02/14/005-solving-line-giving-two-points/</link>
+      <pubDate>Wed, 14 Feb 2018 04:38:17 +0000</pubDate>
+      
+      <guid>/post/2018/02/14/005-solving-line-giving-two-points/</guid>
+      <description>Solve for equation of line giving two points. [embed]https://youtu.be/seNET6u2s9s[/embed]</description>
+    </item>
+    
+    <item>
+      <title>004 Point Slope Form</title>
+      <link>/post/2018/02/14/004-point-slope-form/</link>
+      <pubDate>Wed, 14 Feb 2018 04:35:54 +0000</pubDate>
+      
+      <guid>/post/2018/02/14/004-point-slope-form/</guid>
+      <description>Giving two points, how do I find equation of a line?
+[embed]https://youtu.be/8BdIAPv4_mo[/embed]</description>
+    </item>
+    
+    <item>
+      <title>004 Point Slope Form</title>
+      <link>/post/2018/02/14/004-point-slope-form/</link>
+      <pubDate>Wed, 14 Feb 2018 04:35:54 +0000</pubDate>
+      
+      <guid>/post/2018/02/14/004-point-slope-form/</guid>
+      <description>Giving two points, how do I find equation of a line?
+[embed]https://youtu.be/8BdIAPv4_mo[/embed]</description>
+    </item>
+    
+    <item>
+      <title>003 Horizontal and Vertical Lines</title>
+      <link>/post/2018/02/14/003-horizontal-vertical-lines/</link>
+      <pubDate>Wed, 14 Feb 2018 04:33:44 +0000</pubDate>
+      
+      <guid>/post/2018/02/14/003-horizontal-vertical-lines/</guid>
+      <description> Horizontal and Vertical Lines [embed]https://youtu.be/X48CBYhv2Rg[/embed]
+ </description>
+    </item>
+    
+    <item>
+      <title>003 Horizontal and Vertical Lines</title>
+      <link>/post/2018/02/14/003-horizontal-vertical-lines/</link>
+      <pubDate>Wed, 14 Feb 2018 04:33:44 +0000</pubDate>
+      
+      <guid>/post/2018/02/14/003-horizontal-vertical-lines/</guid>
+      <description>Horizontal and Vertical Lines [embed]https://youtu.be/X48CBYhv2Rg[/embed]</description>
+    </item>
+    
+    <item>
+      <title>002 Find Equation of Random Line</title>
+      <link>/post/2018/02/14/002-find-equation-random-line/</link>
+      <pubDate>Wed, 14 Feb 2018 04:31:26 +0000</pubDate>
+      
+      <guid>/post/2018/02/14/002-find-equation-random-line/</guid>
+      <description> Find Equation of the Line Last video, we graphed a line based on an equation. In this video, I show you how to find an equation of a line.
+[embed]https://youtu.be/Fq3eKsZ3lGs[/embed]
+ </description>
+    </item>
+    
+    <item>
+      <title>002 Find Equation of Random Line</title>
+      <link>/post/2018/02/14/002-find-equation-random-line/</link>
+      <pubDate>Wed, 14 Feb 2018 04:31:26 +0000</pubDate>
+      
+      <guid>/post/2018/02/14/002-find-equation-random-line/</guid>
+      <description>Find Equation of the Line Last video, we graphed a line based on an equation. In this video, I show you how to find an equation of a line.
+[embed]https://youtu.be/Fq3eKsZ3lGs[/embed]</description>
+    </item>
+    
+    <item>
+      <title>001 Linear Equations - College Algebra</title>
+      <link>/post/2018/02/14/001-linear-equations-college-algebra/</link>
+      <pubDate>Wed, 14 Feb 2018 04:26:29 +0000</pubDate>
+      
+      <guid>/post/2018/02/14/001-linear-equations-college-algebra/</guid>
+      <description>The first of many quick and dirty college algebra refresher tutorials. I plan on doing most of these with beer in hand and ad hoc. [embed]https://youtu.be/Q4jMq6rZHTU[/embed]</description>
+    </item>
+    
+    <item>
+      <title>001 Linear Equations - College Algebra</title>
+      <link>/post/2018/02/14/001-linear-equations-college-algebra/</link>
+      <pubDate>Wed, 14 Feb 2018 04:26:29 +0000</pubDate>
+      
+      <guid>/post/2018/02/14/001-linear-equations-college-algebra/</guid>
+      <description>The first of many quick and dirty college algebra refresher tutorials. I plan on doing most of these with beer in hand and ad hoc. [embed]https://youtu.be/Q4jMq6rZHTU[/embed]</description>
+    </item>
+    
+    <item>
+      <title>4 Essential Resources for learning R Programming</title>
+      <link>/post/2018/01/10/7-essential-resources-learning-r-programming/</link>
+      <pubDate>Wed, 10 Jan 2018 10:22:24 +0000</pubDate>
+      
+      <guid>/post/2018/01/10/7-essential-resources-learning-r-programming/</guid>
+      <description>[caption id=“attachment_604” align=“alignnone” width=“200” class=“center”]R Logo[/caption]
+Step by Step Guide to Learning R Step 1
+ Download R.
+ Download R Studio.
+  Learn R Fundamentals
+ Data Camp is a good place to start.
+ Corsera also has R courses for free.
+ Have experience with programming, you can start here.
+  Make your data pretty using ggplot2.
+ Jump into machine learning with Kaggle.
+ Titanic Machine Learning tutorial.</description>
+    </item>
+    
+    <item>
+      <title>4 Essential Resources for learning R Programming</title>
+      <link>/post/2018/01/10/7-essential-resources-learning-r-programming/</link>
+      <pubDate>Wed, 10 Jan 2018 10:22:24 +0000</pubDate>
+      
+      <guid>/post/2018/01/10/7-essential-resources-learning-r-programming/</guid>
+      <description>[caption id=&amp;ldquo;attachment_604&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;200&amp;rdquo; class=&amp;ldquo;center&amp;rdquo;]R Logo[/caption]
+Step by Step Guide to Learning R  Step 1
+ Download R.
+ Download R Studio.
+  Learn R Fundamentals
+ Data Camp is a good place to start.
+ Corsera also has R courses for free.
+ Have experience with programming, you can start here.
+  Make your data pretty using ggplot2.
+ Jump into machine learning with Kaggle.</description>
+    </item>
+    
+    <item>
+      <title>Simple Sentiment Analysis</title>
+      <link>/post/2018/01/03/simple-sentiment-analysis/</link>
+      <pubDate>Wed, 03 Jan 2018 20:29:46 +0000</pubDate>
+      
+      <guid>/post/2018/01/03/simple-sentiment-analysis/</guid>
+      <description>Sentiment Analysis This is a very basic sentiment analysis based on the last 2000 Tweets about @realDonaldTrump (as of Jan 2 2018).
+The data for positive and negative words are in the files on this repository.
+Or…Scrape your own Tweets by following this guide, or use the WordFreq.csv provided on the GitHub account.
+ The Code First, read in the negative and positive words. The WordFreq.csv file was created using R and tapping the Twitter API for specific Tweets.</description>
+    </item>
+    
+    <item>
+      <title>Simple Sentiment Analysis</title>
+      <link>/post/2018/01/03/simple-sentiment-analysis/</link>
+      <pubDate>Wed, 03 Jan 2018 20:29:46 +0000</pubDate>
+      
+      <guid>/post/2018/01/03/simple-sentiment-analysis/</guid>
+      <description>Sentiment Analysis This is a very basic sentiment analysis based on the last 2000 Tweets about @realDonaldTrump (as of Jan 2 2018).
+The data for positive and negative words are in the files on this repository.
+Or&amp;hellip;Scrape your own Tweets by following this guide, or use the WordFreq.csv provided on the GitHub account.
+The Code First, read in the negative and positive words. The WordFreq.csv file was created using R and tapping the Twitter API for specific Tweets.</description>
+    </item>
+    
+    <item>
+      <title>How Green Screens Really Work - The No BS Quick Tutorial</title>
+      <link>/post/2017/12/23/green-screens-really-work-no-bs-quick-tutorial/</link>
+      <pubDate>Sat, 23 Dec 2017 21:23:45 +0000</pubDate>
+      
+      <guid>/post/2017/12/23/green-screens-really-work-no-bs-quick-tutorial/</guid>
+      <description>Green Screens 101 - Fastest Tutorial Review of an affordable green screen that is transportable and sets up quickly. This short 4 minute video is the best way to show how to set up a green screen studio. I will provide the actual links to the products at the end of the review so the page is not cluttered with ads. Watch the video to be convinced how easy this is!</description>
+    </item>
+    
+    <item>
+      <title>How Green Screens Really Work - The No BS Quick Tutorial</title>
+      <link>/post/2017/12/23/green-screens-really-work-no-bs-quick-tutorial/</link>
+      <pubDate>Sat, 23 Dec 2017 21:23:45 +0000</pubDate>
+      
+      <guid>/post/2017/12/23/green-screens-really-work-no-bs-quick-tutorial/</guid>
+      <description>Green Screens 101 - Fastest Tutorial Review of an affordable green screen that is transportable and sets up quickly. This short 4 minute video is the best way to show how to set up a green screen studio. I will provide the actual links to the products at the end of the review so the page is not cluttered with ads. Watch the video to be convinced how easy this is!</description>
+    </item>
+    
+    <item>
+      <title>DSCM - Depot Supply Chain Management Roles</title>
+      <link>/post/2017/12/23/dscm-depot-supply-chain-management-roles/</link>
+      <pubDate>Sat, 23 Dec 2017 04:31:15 +0000</pubDate>
+      
+      <guid>/post/2017/12/23/dscm-depot-supply-chain-management-roles/</guid>
+      <description>Depot Supply Chain Management - DSCM In this short video, I summarize some of the roles of the DSCM (pronounced “disk-um”) within the Depot Supply Chain Management organizations.
+In short, the DSCM team understands the future requirements for the Air Force (AF) and makes sure the trickle down supply effects are supportable as well.
+Air Force Mission Predicted
+ Air Force Supply positions itself to meet the mission needs</description>
+    </item>
+    
+    <item>
+      <title>DSCM - Depot Supply Chain Management Roles</title>
+      <link>/post/2017/12/23/dscm-depot-supply-chain-management-roles/</link>
+      <pubDate>Sat, 23 Dec 2017 04:31:15 +0000</pubDate>
+      
+      <guid>/post/2017/12/23/dscm-depot-supply-chain-management-roles/</guid>
+      <description>Depot Supply Chain Management - DSCM In this short video, I summarize some of the roles of the DSCM (pronounced &amp;ldquo;disk-um&amp;rdquo;) within the Depot Supply Chain Management organizations.
+In short, the DSCM team understands the future requirements for the Air Force (AF) and makes sure the trickle down supply effects are supportable as well.
+ Air Force Mission Predicted
+ Air Force Supply positions itself to meet the mission needs</description>
+    </item>
+    
+    <item>
+      <title>Nonograms Permutations</title>
+      <link>/post/2017/12/17/nonograms-permutation-calculation/</link>
+      <pubDate>Sun, 17 Dec 2017 06:14:35 +0000</pubDate>
+      
+      <guid>/post/2017/12/17/nonograms-permutation-calculation/</guid>
+      <description>Nonogram Permutation This started with a friend asking for help figuring out a for loop. She wanted to know how many different ways she can arrange this setup. Nonograms are picture logic puzzles in which cells in a grid must be colored or left blank according to numbers at the side of the grid to reveal a hidden picture. I was playing around with figuring out how many permutations based on number of columns, hints, and hint values.</description>
+    </item>
+    
+    <item>
+      <title>Nonograms Permutations</title>
+      <link>/post/2017/12/17/nonograms-permutation-calculation/</link>
+      <pubDate>Sun, 17 Dec 2017 06:14:35 +0000</pubDate>
+      
+      <guid>/post/2017/12/17/nonograms-permutation-calculation/</guid>
+      <description>Nonogram Permutation This started with a friend asking for help figuring out a for loop. She wanted to know how many different ways she can arrange this setup. Nonograms are picture logic puzzles in which cells in a grid must be colored or left blank according to numbers at the side of the grid to reveal a hidden picture. I was playing around with figuring out how many permutations based on number of columns, hints, and hint values.</description>
+    </item>
+    
+    <item>
+      <title>Scrape Twitter, Text Manipulate, Autopost to WordPress</title>
+      <link>/post/2017/12/16/scrape-twitter-text-manipuplate-autopost-wordpress/</link>
+      <pubDate>Sat, 16 Dec 2017 23:59:34 +0000</pubDate>
+      
+      <guid>/post/2017/12/16/scrape-twitter-text-manipuplate-autopost-wordpress/</guid>
+      <description>Tweet, Scrape, Manip, Publish It is highly recommended to watch this short video before working with these files. The video explains how each file works and how to run this for your own site.
+I will also publish these on my GitHub site here. What is a GitHub you say? See previous post here for quick 5 minute tutorial
+Watch Video First [embed]https://youtu.be/ioNIAqZa3go[embed]
+Note that the below code has R Markdown language in it which makes publishing this particular post difficult.</description>
+    </item>
+    
+    <item>
+      <title>Scrape Twitter, Text Manipulate, Autopost to WordPress</title>
+      <link>/post/2017/12/16/scrape-twitter-text-manipuplate-autopost-wordpress/</link>
+      <pubDate>Sat, 16 Dec 2017 23:59:34 +0000</pubDate>
+      
+      <guid>/post/2017/12/16/scrape-twitter-text-manipuplate-autopost-wordpress/</guid>
+      <description>Tweet, Scrape, Manip, Publish It is highly recommended to watch this short video before working with these files. The video explains how each file works and how to run this for your own site.
+I will also publish these on my GitHub site here.  What is a GitHub you say? See previous post here for quick 5 minute tutorial
+Watch Video First [embed]https://youtu.be/ioNIAqZa3go[embed]
+Note that the below code has R Markdown language in it which makes publishing this particular post difficult.</description>
+    </item>
+    
+    <item>
+      <title>Five Minute GitHub Tutorial with RStudio - Simple!</title>
+      <link>/post/2017/12/16/five-minute-github-tutorial-rstudio-simple/</link>
+      <pubDate>Sat, 16 Dec 2017 21:17:30 +0000</pubDate>
+      
+      <guid>/post/2017/12/16/five-minute-github-tutorial-rstudio-simple/</guid>
+      <description>What is a GitHub? Recently, I went to search for a few jobs in the tech industry and one thing stood out with each of the sites I visited. Everyone was asking “What’s your GitHub address?” Admittedly, I didn’t have one until just the other day.
+ I posted this short five minute tutorial to get you started early!  GitHub is a repository for version control hosting of coding projects and much more.</description>
+    </item>
+    
+    <item>
+      <title>Five Minute GitHub Tutorial with RStudio - Simple!</title>
+      <link>/post/2017/12/16/five-minute-github-tutorial-rstudio-simple/</link>
+      <pubDate>Sat, 16 Dec 2017 21:17:30 +0000</pubDate>
+      
+      <guid>/post/2017/12/16/five-minute-github-tutorial-rstudio-simple/</guid>
+      <description>What is a GitHub? Recently, I went to search for a few jobs in the tech industry and one thing stood out with each of the sites I visited. Everyone was asking &amp;ldquo;What&amp;rsquo;s your GitHub address?&amp;rdquo; Admittedly, I didn&amp;rsquo;t have one until just the other day.
+I posted this short five minute tutorial to get you started early! GitHub is a repository for version control hosting of coding projects and much more.</description>
+    </item>
+    
+    <item>
+      <title>Data Cleanup with Solar Radiation Data Set</title>
+      <link>/post/2017/12/09/data-cleanup-solar-radiation-data-set/</link>
+      <pubDate>Sat, 09 Dec 2017 20:50:34 +0000</pubDate>
+      
+      <guid>/post/2017/12/09/data-cleanup-solar-radiation-data-set/</guid>
+      <description>Purpose Before you can run a statistical analysis, you may have to clean data. This post is all about using some techniques to clean data. This is not necessarily the best way, or even the correct way to do this; however, it is mean to generate your own ideas for cleaning data in the future.
+ Data Location The data comes from the Kaggle site here. It contains over 32,000 observations of Solar Radiation data.</description>
+    </item>
+    
+    <item>
+      <title>Data Cleanup with Solar Radiation Data Set</title>
+      <link>/post/2017/12/09/data-cleanup-solar-radiation-data-set/</link>
+      <pubDate>Sat, 09 Dec 2017 20:50:34 +0000</pubDate>
+      
+      <guid>/post/2017/12/09/data-cleanup-solar-radiation-data-set/</guid>
+      <description>Purpose Before you can run a statistical analysis, you may have to clean data. This post is all about using some techniques to clean data. This is not necessarily the best way, or even the correct way to do this; however, it is mean to generate your own ideas for cleaning data in the future.
+Data Location The data comes from the Kaggle site here. It contains over 32,000 observations of Solar Radiation data.</description>
+    </item>
+    
+    <item>
+      <title>Build Word Cloud from Twitter Using R</title>
+      <link>/post/2017/12/08/build-word-cloud-twitter-using-r/</link>
+      <pubDate>Fri, 08 Dec 2017 04:24:50 +0000</pubDate>
+      
+      <guid>/post/2017/12/08/build-word-cloud-twitter-using-r/</guid>
+      <description>How to create a WordCloud with Tweet data This is a follow up of this Twitter Scraper video I posted last week. If you have to, review previous video before proceeding to data manipulation and WordClouds!
+ In this video you will learn the essentials of:
+ How to connect to the Twitter API
+ What is a Corpus
+ What is a Term Document Matrix
+ Creating Word Clouds</description>
+    </item>
+    
+    <item>
+      <title>Build Word Cloud from Twitter Using R</title>
+      <link>/post/2017/12/08/build-word-cloud-twitter-using-r/</link>
+      <pubDate>Fri, 08 Dec 2017 04:24:50 +0000</pubDate>
+      
+      <guid>/post/2017/12/08/build-word-cloud-twitter-using-r/</guid>
+      <description>How to create a WordCloud with Tweet data This is a follow up of this Twitter Scraper video I posted last week. If you have to, review previous video before proceeding to data manipulation and WordClouds!
+In this video you will learn the essentials of:
+ How to connect to the Twitter API
+ What is a Corpus
+ What is a Term Document Matrix
+ Creating Word Clouds</description>
+    </item>
+    
+    <item>
+      <title>R Lowercase Function in Corpus Error Solved</title>
+      <link>/post/2017/12/07/r-tm_maptweet-corpus-content_transformertolower-error-solved/</link>
+      <pubDate>Thu, 07 Dec 2017 05:18:33 +0000</pubDate>
+      
+      <guid>/post/2017/12/07/r-tm_maptweet-corpus-content_transformertolower-error-solved/</guid>
+      <description>In my last video tutorial, I demonstrated the steps to tap into the power of the Twitter API to download Tweets based on search terms and import them into R. My plan was to make a follow up video showing how to clean the twitter data and run a Word Cloud on common terms.
+However, I ran into a slight snag early on.
+The code was supposed to be simple and quick.</description>
+    </item>
+    
+    <item>
+      <title>R Lowercase Function in Corpus Error Solved</title>
+      <link>/post/2017/12/07/r-tm_maptweet-corpus-content_transformertolower-error-solved/</link>
+      <pubDate>Thu, 07 Dec 2017 05:18:33 +0000</pubDate>
+      
+      <guid>/post/2017/12/07/r-tm_maptweet-corpus-content_transformertolower-error-solved/</guid>
+      <description>In my last video tutorial, I demonstrated the steps to tap into the power of the Twitter API to download Tweets based on search terms and import them into R. My plan was to make a follow up video showing how to clean the twitter data and run a Word Cloud on common terms.
+However, I ran into a slight snag early on.
+The code was supposed to be simple and quick.</description>
+    </item>
+    
+    <item>
+      <title>R Programming Twitter Scraper</title>
+      <link>/post/2017/11/21/r-programming-twitter-scraper/</link>
+      <pubDate>Tue, 21 Nov 2017 17:07:51 +0000</pubDate>
+      
+      <guid>/post/2017/11/21/r-programming-twitter-scraper/</guid>
+      <description>Create a Twitter Scrapper using R programming language in these very simple steps:
+[embed]https://youtu.be/1_K01qD4Exw[/embed]
+Follow these simple steps to start srapping:
+Create Twitter API Application first: https://apps.twitter.com/.
+ Copy the code below into an R script.
+ Install packages “twitteR” and “ROAuth” if required.
+ Change the search terms to your liking.
+ library(twitteR) library(ROAuth)
+Set API Keys api_key &amp;lt;- “XXXXXXXXXXXXXXXXXXXX” api_secret &amp;lt;- “xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx”
+access_token &amp;lt;- “xxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx” access_token_secret &amp;lt;- “xxxxxxxxxxxxxxxxxxxxxxxxxxxx”</description>
+    </item>
+    
+    <item>
+      <title>R Programming Twitter Scraper</title>
+      <link>/post/2017/11/21/r-programming-twitter-scraper/</link>
+      <pubDate>Tue, 21 Nov 2017 17:07:51 +0000</pubDate>
+      
+      <guid>/post/2017/11/21/r-programming-twitter-scraper/</guid>
+      <description>Create a Twitter Scrapper using R programming language in these very simple steps:
+[embed]https://youtu.be/1_K01qD4Exw[/embed]
+Follow these simple steps to start srapping:
+ Create Twitter API Application first: https://apps.twitter.com/.
+ Copy the code below into an R script.
+ Install packages &amp;ldquo;twitteR&amp;rdquo; and &amp;ldquo;ROAuth&amp;rdquo; if required.
+ Change the search terms to your liking.
+ library(twitteR) library(ROAuth)
+Set API Keys api_key &amp;lt;- &amp;ldquo;XXXXXXXXXXXXXXXXXXXX&amp;rdquo; api_secret &amp;lt;- &amp;ldquo;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;rdquo;
+access_token &amp;lt;- &amp;ldquo;xxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;rdquo; access_token_secret &amp;lt;- &amp;ldquo;xxxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>19. C&#43;&#43; Separate Interface from Implementation</title>
+      <link>/post/2017/11/04/19-c-separate-interface-implementation/</link>
+      <pubDate>Sat, 04 Nov 2017 01:31:46 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/19-c-separate-interface-implementation/</guid>
+      <description>Separate class interface from implantation. In the video I talk abut “definition” being separate from “Implementation”; however, what I mean to say is, “definition separate from interface.”
+[embed]https://youtu.be/hv0lv783KqQ[/embed]</description>
+    </item>
+    
+    <item>
+      <title>19. C&#43;&#43; Separate Interface from Implementation</title>
+      <link>/post/2017/11/04/19-c-separate-interface-implementation/</link>
+      <pubDate>Sat, 04 Nov 2017 01:31:46 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/19-c-separate-interface-implementation/</guid>
+      <description>Separate class interface from implantation. In the video I talk abut &amp;ldquo;definition&amp;rdquo; being separate from &amp;ldquo;Implementation&amp;rdquo;; however, what I mean to say is, &amp;ldquo;definition separate from interface.&amp;rdquo;
+[embed]https://youtu.be/hv0lv783KqQ[/embed]</description>
+    </item>
+    
+    <item>
+      <title>18. C&#43;&#43; class constructors, private member functions, default</title>
+      <link>/post/2017/11/04/18-c-class-constructors-private-member-functions-default/</link>
+      <pubDate>Sat, 04 Nov 2017 01:31:04 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/18-c-class-constructors-private-member-functions-default/</guid>
+      <description>default constructor in C++ with object/class called Circle. How to use member functions within a class and override member functions.
+[embed]https://youtu.be/6N5bBjjxICo[/embed]</description>
+    </item>
+    
+    <item>
+      <title>18. C&#43;&#43; class constructors, private member functions, default</title>
+      <link>/post/2017/11/04/18-c-class-constructors-private-member-functions-default/</link>
+      <pubDate>Sat, 04 Nov 2017 01:31:04 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/18-c-class-constructors-private-member-functions-default/</guid>
+      <description>default constructor in C++ with object/class called Circle. How to use member functions within a class and override member functions.
+[embed]https://youtu.be/6N5bBjjxICo[/embed]</description>
+    </item>
+    
+    <item>
+      <title>17. C&#43;&#43; Tutorial - First Class Example Point Object C&#43;&#43;</title>
+      <link>/post/2017/11/04/17-c-tutorial-first-class-example-point-object-c/</link>
+      <pubDate>Sat, 04 Nov 2017 01:30:30 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/17-c-tutorial-first-class-example-point-object-c/</guid>
+      <description>First class example in C++. We create a crude “Point” object and learn bout get and set functions. Private and public member functions and what objects are.
+[embed]https://youtu.be/mU3yjD4aWwc[/embed]</description>
+    </item>
+    
+    <item>
+      <title>17. C&#43;&#43; Tutorial - First Class Example Point Object C&#43;&#43;</title>
+      <link>/post/2017/11/04/17-c-tutorial-first-class-example-point-object-c/</link>
+      <pubDate>Sat, 04 Nov 2017 01:30:30 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/17-c-tutorial-first-class-example-point-object-c/</guid>
+      <description>First class example in C++. We create a crude &amp;ldquo;Point&amp;rdquo; object and learn bout get and set functions. Private and public member functions and what objects are.
+[embed]https://youtu.be/mU3yjD4aWwc[/embed]</description>
+    </item>
+    
+    <item>
+      <title>16. C&#43;&#43; Enum Example 2 or why not Standard String Array</title>
+      <link>/post/2017/11/04/16-c-enum-example-2-not-standard-string-array/</link>
+      <pubDate>Sat, 04 Nov 2017 01:29:47 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/16-c-enum-example-2-not-standard-string-array/</guid>
+      <description>C++ Enum Example 2 or standard String.
+[embed]https://youtu.be/SisaLVV8Ws8[/embed]</description>
+    </item>
+    
+    <item>
+      <title>16. C&#43;&#43; Enum Example 2 or why not Standard String Array</title>
+      <link>/post/2017/11/04/16-c-enum-example-2-not-standard-string-array/</link>
+      <pubDate>Sat, 04 Nov 2017 01:29:47 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/16-c-enum-example-2-not-standard-string-array/</guid>
+      <description>C++ Enum Example 2 or standard String.
+[embed]https://youtu.be/SisaLVV8Ws8[/embed]</description>
+    </item>
+    
+    <item>
+      <title>15. C&#43;&#43; IDE Auto Quote Pesky Workaround - Visual Studio/DevC&#43;&#43; IDE</title>
+      <link>/post/2017/11/04/15-c-ide-auto-quote-pesky-workaround-visual-studiodevc-ide/</link>
+      <pubDate>Sat, 04 Nov 2017 01:27:30 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/15-c-ide-auto-quote-pesky-workaround-visual-studiodevc-ide/</guid>
+      <description>IDE Auto Quote Pesky Workaround with C++ and other languages - Visual Studio/DevC++ IDE. Don’t you hate that pesky auto quote completion? You can disable it through the options or you can do this trick presented and ignore it.
+[embed]https://youtu.be/9en3IQqpyjY[/embed]</description>
+    </item>
+    
+    <item>
+      <title>15. C&#43;&#43; IDE Auto Quote Pesky Workaround - Visual Studio/DevC&#43;&#43; IDE</title>
+      <link>/post/2017/11/04/15-c-ide-auto-quote-pesky-workaround-visual-studiodevc-ide/</link>
+      <pubDate>Sat, 04 Nov 2017 01:27:30 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/15-c-ide-auto-quote-pesky-workaround-visual-studiodevc-ide/</guid>
+      <description>IDE Auto Quote Pesky Workaround with C++ and other languages - Visual Studio/DevC++ IDE. Don&amp;rsquo;t you hate that pesky auto quote completion? You can disable it through the options or you can do this trick presented and ignore it.
+[embed]https://youtu.be/9en3IQqpyjY[/embed]</description>
+    </item>
+    
+    <item>
+      <title>14.2 Struct Example C&#43;&#43;</title>
+      <link>/post/2017/11/04/14-2-struct-example-c/</link>
+      <pubDate>Sat, 04 Nov 2017 01:27:21 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/14-2-struct-example-c/</guid>
+      <description>Another struct example. I actually forgot I already uploaded one before. here is another example
+[embed]https://youtu.be/R2cViOOgA2w[/embed]</description>
+    </item>
+    
+    <item>
+      <title>14.2 Struct Example C&#43;&#43;</title>
+      <link>/post/2017/11/04/14-2-struct-example-c/</link>
+      <pubDate>Sat, 04 Nov 2017 01:27:21 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/14-2-struct-example-c/</guid>
+      <description>Another struct example. I actually forgot I already uploaded one before. here is another example
+[embed]https://youtu.be/R2cViOOgA2w[/embed]</description>
+    </item>
+    
+    <item>
+      <title>14. C&#43;&#43; Programming struct keyword and examples</title>
+      <link>/post/2017/11/04/14-c-programming-struct-keyword-examples/</link>
+      <pubDate>Sat, 04 Nov 2017 01:26:40 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/14-c-programming-struct-keyword-examples/</guid>
+      <description>How to use structures in C++ programming
+[embed]https://www.youtube.com/watch?v=R2cViOOgA2w&amp;amp;t;=14s&amp;amp;list;=PL0oBhq0tLsOBzIXpM98ezhrBHse5IJ776&amp;amp;index;=17[/embed]</description>
+    </item>
+    
+    <item>
+      <title>14. C&#43;&#43; Programming struct keyword and examples</title>
+      <link>/post/2017/11/04/14-c-programming-struct-keyword-examples/</link>
+      <pubDate>Sat, 04 Nov 2017 01:26:40 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/14-c-programming-struct-keyword-examples/</guid>
+      <description>How to use structures in C++ programming
+[embed]https://www.youtube.com/watch?v=R2cViOOgA2w&amp;amp;t;=14s&amp;list;=PL0oBhq0tLsOBzIXpM98ezhrBHse5IJ776&amp;index;=17[/embed]</description>
+    </item>
+    
+    <item>
+      <title>13. Enumeration - enum in C&#43;&#43; Programming Tutorial</title>
+      <link>/post/2017/11/04/13-enumeration-enum-c-programming-tutorial/</link>
+      <pubDate>Sat, 04 Nov 2017 01:25:51 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/13-enumeration-enum-c-programming-tutorial/</guid>
+      <description>Using enumerated values in C++.
+[embed]https://youtu.be/FGmG8cvAA7g[/embed]</description>
+    </item>
+    
+    <item>
+      <title>13. Enumeration - enum in C&#43;&#43; Programming Tutorial</title>
+      <link>/post/2017/11/04/13-enumeration-enum-c-programming-tutorial/</link>
+      <pubDate>Sat, 04 Nov 2017 01:25:51 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/13-enumeration-enum-c-programming-tutorial/</guid>
+      <description>Using enumerated values in C++.
+[embed]https://youtu.be/FGmG8cvAA7g[/embed]</description>
+    </item>
+    
+    <item>
+      <title>12. C&#43;&#43; Programming: Guess the Random Number</title>
+      <link>/post/2017/11/04/12-c-programming-guess-random-number/</link>
+      <pubDate>Sat, 04 Nov 2017 01:25:00 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/12-c-programming-guess-random-number/</guid>
+      <description>Random number generator game using C++ Programming concepts including using functions, creating functions, bool, controls statements and loops.
+[embed]https://youtu.be/m0ByQy4fRqg[/embed]</description>
+    </item>
+    
+    <item>
+      <title>12. C&#43;&#43; Programming: Guess the Random Number</title>
+      <link>/post/2017/11/04/12-c-programming-guess-random-number/</link>
+      <pubDate>Sat, 04 Nov 2017 01:25:00 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/12-c-programming-guess-random-number/</guid>
+      <description>Random number generator game using C++ Programming concepts including using functions, creating functions, bool, controls statements and loops.
+[embed]https://youtu.be/m0ByQy4fRqg[/embed]</description>
+    </item>
+    
+    <item>
+      <title>11. Pass by Value and Reference C&#43;&#43; Programming Functions Tutorial</title>
+      <link>/post/2017/11/04/11-pass-value-reference-c-programming-functions-tutorial/</link>
+      <pubDate>Sat, 04 Nov 2017 01:24:12 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/11-pass-value-reference-c-programming-functions-tutorial/</guid>
+      <description>Pass by Value and By Reference C++ Programming. This might be the most confusing topic yet, pointers and references being passed into functions. I will further explain pointers in another video off the screen. I will use a whiteboard in the next video to clear some things up.  [embed]https://youtu.be/FKw-G8H9xrs[/embed]</description>
+    </item>
+    
+    <item>
+      <title>11. Pass by Value and Reference C&#43;&#43; Programming Functions Tutorial</title>
+      <link>/post/2017/11/04/11-pass-value-reference-c-programming-functions-tutorial/</link>
+      <pubDate>Sat, 04 Nov 2017 01:24:12 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/11-pass-value-reference-c-programming-functions-tutorial/</guid>
+      <description>Pass by Value and By Reference C++ Programming. This might be the most confusing topic yet, pointers and references being passed into functions. I will further explain pointers in another video off the screen. I will use a whiteboard in the next video to clear some things up.  [embed]https://youtu.be/FKw-G8H9xrs[/embed]</description>
+    </item>
+    
+    <item>
+      <title>10. C&#43;&#43; Programming - Dereferencing Operator and Pointers / References</title>
+      <link>/post/2017/11/04/10-c-programming-dereferencing-operator-pointers-references/</link>
+      <pubDate>Sat, 04 Nov 2017 01:23:28 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/10-c-programming-dereferencing-operator-pointers-references/</guid>
+      <description>C++ Programming tutorial using pointers and dereferencing operator. Sometimes called the indirection operator. Pointers store memory locations.
+[embed]https://youtu.be/653uG59ivNQ[/embed]</description>
+    </item>
+    
+    <item>
+      <title>10. C&#43;&#43; Programming - Dereferencing Operator and Pointers / References</title>
+      <link>/post/2017/11/04/10-c-programming-dereferencing-operator-pointers-references/</link>
+      <pubDate>Sat, 04 Nov 2017 01:23:28 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/10-c-programming-dereferencing-operator-pointers-references/</guid>
+      <description>C++ Programming tutorial using pointers and dereferencing operator. Sometimes called the indirection operator. Pointers store memory locations.
+[embed]https://youtu.be/653uG59ivNQ[/embed]</description>
+    </item>
+    
+    <item>
+      <title>9. C&#43;&#43; Programming Tutorial - Yet another &#34;pause&#34; function. The most correct way!</title>
+      <link>/post/2017/11/04/9-c-programming-tutorial-yet-another-pause-function-correct-way/</link>
+      <pubDate>Sat, 04 Nov 2017 01:22:46 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/9-c-programming-tutorial-yet-another-pause-function-correct-way/</guid>
+      <description>[embed]https://youtu.be/FlUy8QtrzkQ[/embed]
+According tohttp://www.cplusplus.com/forum/articl…, the most correct way to put a “pause” function in your C++ program is talked about. I advice you to keep this as a reference and copy/paste into your code whenever you need it.</description>
+    </item>
+    
+    <item>
+      <title>9. C&#43;&#43; Programming Tutorial - Yet another &#34;pause&#34; function. The most correct way!</title>
+      <link>/post/2017/11/04/9-c-programming-tutorial-yet-another-pause-function-correct-way/</link>
+      <pubDate>Sat, 04 Nov 2017 01:22:46 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/9-c-programming-tutorial-yet-another-pause-function-correct-way/</guid>
+      <description>[embed]https://youtu.be/FlUy8QtrzkQ[/embed]
+According tohttp://www.cplusplus.com/forum/articl&amp;hellip;, the most correct way to put a &amp;ldquo;pause&amp;rdquo; function in your C++ program is talked about. I advice you to keep this as a reference and copy/paste into your code whenever you need it.</description>
+    </item>
+    
+    <item>
+      <title>8.3 C&#43;&#43; Functions Part 3</title>
+      <link>/post/2017/11/04/8-3-c-functions-part-3/</link>
+      <pubDate>Sat, 04 Nov 2017 01:21:24 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/8-3-c-functions-part-3/</guid>
+      <description>C++ functions part 3. Scoping rules and memory locations. Using variables within functions.
+[embed]https://youtu.be/DpEqA9-s-bs[/embed]</description>
+    </item>
+    
+    <item>
+      <title>8.3 C&#43;&#43; Functions Part 3</title>
+      <link>/post/2017/11/04/8-3-c-functions-part-3/</link>
+      <pubDate>Sat, 04 Nov 2017 01:21:24 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/8-3-c-functions-part-3/</guid>
+      <description>C++ functions part 3. Scoping rules and memory locations. Using variables within functions.
+[embed]https://youtu.be/DpEqA9-s-bs[/embed]</description>
+    </item>
+    
+    <item>
+      <title>8.2 C&#43;&#43; Functions Part 2</title>
+      <link>/post/2017/11/04/8-2-c-functions-part-2/</link>
+      <pubDate>Sat, 04 Nov 2017 01:20:50 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/8-2-c-functions-part-2/</guid>
+      <description>C++ Functions with a return value and multiple input parameters.
+[embed]https://youtu.be/C1xWJ1Phj2M[/embed]</description>
+    </item>
+    
+    <item>
+      <title>8.2 C&#43;&#43; Functions Part 2</title>
+      <link>/post/2017/11/04/8-2-c-functions-part-2/</link>
+      <pubDate>Sat, 04 Nov 2017 01:20:50 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/8-2-c-functions-part-2/</guid>
+      <description>C++ Functions with a return value and multiple input parameters.
+[embed]https://youtu.be/C1xWJ1Phj2M[/embed]</description>
+    </item>
+    
+    <item>
+      <title>8.1 C&#43;&#43; Functions Part 1</title>
+      <link>/post/2017/11/04/8-1-c-functions-part-1/</link>
+      <pubDate>Sat, 04 Nov 2017 01:20:15 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/8-1-c-functions-part-1/</guid>
+      <description>The most basic C++ function that simply prints stuff to the console window. Also, avoid system(“pause”) at all cost.
+[embed]https://youtu.be/KXgN_8Zq5Kk[/embed]</description>
+    </item>
+    
+    <item>
+      <title>8.1 C&#43;&#43; Functions Part 1</title>
+      <link>/post/2017/11/04/8-1-c-functions-part-1/</link>
+      <pubDate>Sat, 04 Nov 2017 01:20:15 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/8-1-c-functions-part-1/</guid>
+      <description>The most basic C++ function that simply prints stuff to the console window. Also, avoid system(&amp;ldquo;pause&amp;rdquo;) at all cost.
+[embed]https://youtu.be/KXgN_8Zq5Kk[/embed]</description>
+    </item>
+    
+    <item>
+      <title>7. C&#43;&#43; Do While Loops Tutorial under 3 min!</title>
+      <link>/post/2017/11/04/7-c-loops-tutorial-3-min/</link>
+      <pubDate>Sat, 04 Nov 2017 01:19:23 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/7-c-loops-tutorial-3-min/</guid>
+      <description>C++ Do While Loops Tutorial in under 3 minutes. SHOW MORE
+[embed]https://youtu.be/3cmkmTs3y84[/embed]</description>
+    </item>
+    
+    <item>
+      <title>7. C&#43;&#43; Do While Loops Tutorial under 3 min!</title>
+      <link>/post/2017/11/04/7-c-loops-tutorial-3-min/</link>
+      <pubDate>Sat, 04 Nov 2017 01:19:23 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/7-c-loops-tutorial-3-min/</guid>
+      <description>C++ Do While Loops Tutorial in under 3 minutes. SHOW MORE
+[embed]https://youtu.be/3cmkmTs3y84[/embed]</description>
+    </item>
+    
+    <item>
+      <title>6. C &#43;&#43; Programming While Loop</title>
+      <link>/post/2017/11/04/6-c-programming-loop/</link>
+      <pubDate>Sat, 04 Nov 2017 01:18:28 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/6-c-programming-loop/</guid>
+      <description>C ++ Programming While Loop using a practical application.
+[embed]https://youtu.be/tmi15fqICYY[/embed]</description>
+    </item>
+    
+    <item>
+      <title>6. C &#43;&#43; Programming While Loop</title>
+      <link>/post/2017/11/04/6-c-programming-loop/</link>
+      <pubDate>Sat, 04 Nov 2017 01:18:28 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/6-c-programming-loop/</guid>
+      <description>C ++ Programming While Loop using a practical application.
+[embed]https://youtu.be/tmi15fqICYY[/embed]</description>
+    </item>
+    
+    <item>
+      <title>5. C &#43;&#43; Programming While Loop</title>
+      <link>/post/2017/11/04/watch-real-story-amazon-post-21k-views-ad-510-6-c-programming-loop-mark-gingrass-1-9k-views-253-7-c-loops-tutorial-3-min-mark-gingrass-1-5k-views-10018-q/</link>
+      <pubDate>Sat, 04 Nov 2017 01:17:32 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/watch-real-story-amazon-post-21k-views-ad-510-6-c-programming-loop-mark-gingrass-1-9k-views-253-7-c-loops-tutorial-3-min-mark-gingrass-1-5k-views-10018-q/</guid>
+      <description>C++ Arrays for Loop and const tutorial with an online c++ compiler.
+[embed]https://youtu.be/FkfxIxNyHo0[/embed]</description>
+    </item>
+    
+    <item>
+      <title>5. C &#43;&#43; Programming While Loop</title>
+      <link>/post/2017/11/04/watch-real-story-amazon-post-21k-views-ad-510-6-c-programming-loop-mark-gingrass-1-9k-views-253-7-c-loops-tutorial-3-min-mark-gingrass-1-5k-views-10018-q/</link>
+      <pubDate>Sat, 04 Nov 2017 01:17:32 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/watch-real-story-amazon-post-21k-views-ad-510-6-c-programming-loop-mark-gingrass-1-9k-views-253-7-c-loops-tutorial-3-min-mark-gingrass-1-5k-views-10018-q/</guid>
+      <description>C++ Arrays for Loop and const tutorial with an online c++ compiler.
+[embed]https://youtu.be/FkfxIxNyHo0[/embed]</description>
+    </item>
+    
+    <item>
+      <title>4. Dev C&#43;&#43; Download and for Loops C&#43;&#43; Tutorial</title>
+      <link>/post/2017/11/04/4-dev-c-download-loops-c-tutorial/</link>
+      <pubDate>Sat, 04 Nov 2017 01:16:37 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/4-dev-c-download-loops-c-tutorial/</guid>
+      <description>Dev C++ Download and for Loops C++ Tutorial 4. Using a portable IDE/Compiler to create C++ for loops.
+I will have a condensed version of all loops in next episode. [embed]https://youtu.be/VzmpwSKVtl8[/embed]</description>
+    </item>
+    
+    <item>
+      <title>4. Dev C&#43;&#43; Download and for Loops C&#43;&#43; Tutorial</title>
+      <link>/post/2017/11/04/4-dev-c-download-loops-c-tutorial/</link>
+      <pubDate>Sat, 04 Nov 2017 01:16:37 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/4-dev-c-download-loops-c-tutorial/</guid>
+      <description>Dev C++ Download and for Loops C++ Tutorial 4. Using a portable IDE/Compiler to create C++ for loops.
+I will have a condensed version of all loops in next episode. [embed]https://youtu.be/VzmpwSKVtl8[/embed]</description>
+    </item>
+    
+    <item>
+      <title>Supply Chain Discrepancies ROD</title>
+      <link>/post/2017/10/28/supply-chain-discrepancies-rod/</link>
+      <pubDate>Sat, 28 Oct 2017 17:20:26 +0000</pubDate>
+      
+      <guid>/post/2017/10/28/supply-chain-discrepancies-rod/</guid>
+      <description>Supply chain management activities should be designed to maximize customer value and achieve a competitive advantage. Supply chains should be efficient and timely. A full supply chain encompasses product development, sourcing (contracts), production (repairs), and logistics (transportation), as well as the software suites to handle the information exchanges.
+The product (our assets) has to ultimately get to the end user, or customer. When the customer doesn’t receive the parts that were planned, it could have overwhelming negative effects.</description>
+    </item>
+    
+    <item>
+      <title>Supply Chain Discrepancies ROD</title>
+      <link>/post/2017/10/28/supply-chain-discrepancies-rod/</link>
+      <pubDate>Sat, 28 Oct 2017 17:20:26 +0000</pubDate>
+      
+      <guid>/post/2017/10/28/supply-chain-discrepancies-rod/</guid>
+      <description>Supply chain management activities should be designed to maximize customer value and achieve a competitive advantage. Supply chains should be efficient and timely. A full supply chain encompasses product development, sourcing (contracts), production (repairs), and logistics (transportation), as well as the software suites to handle the information exchanges.
+The product (our assets) has to ultimately get to the end user, or customer. When the customer doesn&amp;rsquo;t receive the parts that were planned, it could have overwhelming negative effects.</description>
+    </item>
+    
+    <item>
+      <title>Clean Data Outliers Using R Programming -</title>
+      <link>/post/2017/10/05/clean-data-r-programming/</link>
+      <pubDate>Thu, 05 Oct 2017 22:15:10 +0000</pubDate>
+      
+      <guid>/post/2017/10/05/clean-data-r-programming/</guid>
+      <description>Using R to Extract and Delete Outliers in Data Automate the extraction of outliers from your data-set using R programming and exclude the outliers.
+ What to expect  How to read in a *.csv file and store it as a data frame in R
+ How to extract all rows of data that are equal to a certain string
+ How to extract a single column of the specific data for analysis</description>
+    </item>
+    
+    <item>
+      <title>Clean Data Outliers Using R Programming -</title>
+      <link>/post/2017/10/05/clean-data-r-programming/</link>
+      <pubDate>Thu, 05 Oct 2017 22:15:10 +0000</pubDate>
+      
+      <guid>/post/2017/10/05/clean-data-r-programming/</guid>
+      <description>Using R to Extract and Delete Outliers in Data Automate the extraction of outliers from your data-set using R programming and exclude the outliers.
+What to expect  How to read in a *.csv file and store it as a data frame in R
+ How to extract all rows of data that are equal to a certain string
+ How to extract a single column of the specific data for analysis</description>
+    </item>
+    
+    <item>
+      <title>Download and Use R Studio First Program - Complete Guide</title>
+      <link>/post/2017/10/04/download-use-r-studio-first-program-complete-guide/</link>
+      <pubDate>Wed, 04 Oct 2017 01:10:07 +0000</pubDate>
+      
+      <guid>/post/2017/10/04/download-use-r-studio-first-program-complete-guide/</guid>
+      <description> How to Download R and R Studio. After this tutorial, you will know where to download R and R studio as well as create your own R scripts.
+ Where to Download R
+ Where to Download R Studio
+ Create your first script and read in a data file!
+   Watch Video [embed]https://youtu.be/tFseuxP4C3k[/embed]
+ Download Links  The R Project for Statistics
+ R Studio
+   </description>
+    </item>
+    
+    <item>
+      <title>Download and Use R Studio First Program - Complete Guide</title>
+      <link>/post/2017/10/04/download-use-r-studio-first-program-complete-guide/</link>
+      <pubDate>Wed, 04 Oct 2017 01:10:07 +0000</pubDate>
+      
+      <guid>/post/2017/10/04/download-use-r-studio-first-program-complete-guide/</guid>
+      <description> How to Download R and R Studio. After this tutorial, you will know where to download R and R studio as well as create your own R scripts.
+ Where to Download R
+ Where to Download R Studio
+ Create your first script and read in a data file!
+  Watch Video [embed]https://youtu.be/tFseuxP4C3k[/embed]
+Download Links  The R Project for Statistics
+ R Studio
+  </description>
+    </item>
+    
+    <item>
+      <title>Add a Button To Excel to Run a Macro</title>
+      <link>/post/2017/10/03/add-button-excel-run-macro/</link>
+      <pubDate>Tue, 03 Oct 2017 02:29:24 +0000</pubDate>
+      
+      <guid>/post/2017/10/03/add-button-excel-run-macro/</guid>
+      <description>Adding Button for GUI Interface. Now that you have a few macros under your belt (some from scratch, some recorded, and some cut/pasted from the internet), it’s time to make a user interface for them.
+In this tutorial, I will show you how to insert a simple button control to activate your macro. This is a very easy process and it will save you from having to explain to users how to get into the VBA editor.</description>
+    </item>
+    
+    <item>
+      <title>Add a Button To Excel to Run a Macro</title>
+      <link>/post/2017/10/03/add-button-excel-run-macro/</link>
+      <pubDate>Tue, 03 Oct 2017 02:29:24 +0000</pubDate>
+      
+      <guid>/post/2017/10/03/add-button-excel-run-macro/</guid>
+      <description>Adding Button for GUI Interface. Now that you have a few macros under your belt (some from scratch, some recorded, and some cut/pasted from the internet), it&amp;rsquo;s time to make a user interface for them.
+In this tutorial, I will show you how to insert a simple button control to activate your macro. This is a very easy process and it will save you from having to explain to users how to get into the VBA editor.</description>
+    </item>
+    
+    <item>
+      <title>VBA Convert XLSX to CSV Files - Entire Directory</title>
+      <link>/post/2017/10/03/vba-convert-xlsx-csv-files-entire-directory/</link>
+      <pubDate>Tue, 03 Oct 2017 02:11:49 +0000</pubDate>
+      
+      <guid>/post/2017/10/03/vba-convert-xlsx-csv-files-entire-directory/</guid>
+      <description>Convert File Extensions. Sometimes, you find yourself converting one file extension to another for various reasons. Many software programs will not read files such as a .xlsx or .xlsm Excel file. They will, however, easily read a .csv file.
+In this tutorial, I will show you how to use an already created macro to convert an entire directory of files to a new file extensions almost instantly. Saves a tremendous amount of time using macros for this.</description>
+    </item>
+    
+    <item>
+      <title>VBA Convert XLSX to CSV Files - Entire Directory</title>
+      <link>/post/2017/10/03/vba-convert-xlsx-csv-files-entire-directory/</link>
+      <pubDate>Tue, 03 Oct 2017 02:11:49 +0000</pubDate>
+      
+      <guid>/post/2017/10/03/vba-convert-xlsx-csv-files-entire-directory/</guid>
+      <description>Convert File Extensions. Sometimes, you find yourself converting one file extension to another for various reasons. Many software programs will not read files such as a .xlsx or .xlsm Excel file. They will, however, easily read a .csv file.
+In this tutorial, I will show you how to use an already created macro to convert an entire directory of files to a new file extensions almost instantly. Saves a tremendous amount of time using macros for this.</description>
+    </item>
+    
+    <item>
+      <title>LimoStudio Green Screen 10Ft Stand Review</title>
+      <link>/post/2017/09/30/limostudio-photo-video-studio-10ft-adjustable-support-system-stand-review/</link>
+      <pubDate>Sat, 30 Sep 2017 05:20:30 +0000</pubDate>
+      
+      <guid>/post/2017/09/30/limostudio-photo-video-studio-10ft-adjustable-support-system-stand-review/</guid>
+      <description>LimoStudio Photo Video Studio 10Ft Adjustable Support System Stand LimoStudio can be found all over thew web showcasing their photo and video products. I chose to purchase their green screen based on the Amazon reviews. A healthy 4 stars with over 3,000 reviews!
+Check out the video review and recommendation below.
+ Video Review [embed]https://youtu.be/rGr-sME_7_Y[/embed]
+ Setup Whenever you purchase something that requires a setup, you always dred what is to come!</description>
+    </item>
+    
+    <item>
+      <title>LimoStudio Green Screen 10Ft Stand Review</title>
+      <link>/post/2017/09/30/limostudio-photo-video-studio-10ft-adjustable-support-system-stand-review/</link>
+      <pubDate>Sat, 30 Sep 2017 05:20:30 +0000</pubDate>
+      
+      <guid>/post/2017/09/30/limostudio-photo-video-studio-10ft-adjustable-support-system-stand-review/</guid>
+      <description>LimoStudio Photo Video Studio 10Ft Adjustable Support System Stand LimoStudio can be found all over thew web showcasing their photo and video products. I chose to purchase their green screen based on the Amazon reviews. A healthy 4 stars with over 3,000 reviews!
+Check out the video review and recommendation below.
+Video Review [embed]https://youtu.be/rGr-sME_7_Y[/embed]
+Setup Whenever you purchase something that requires a setup, you always dred what is to come!</description>
+    </item>
+    
+    <item>
+      <title>LimoStudio 9 x 15 ft. Green Chromakey Green Screen</title>
+      <link>/post/2017/09/30/limostudio-9-x-15-ft-green-chromakey-green-screen/</link>
+      <pubDate>Sat, 30 Sep 2017 03:26:20 +0000</pubDate>
+      
+      <guid>/post/2017/09/30/limostudio-9-x-15-ft-green-chromakey-green-screen/</guid>
+      <description>LimoStudio Chromakey Green Screen Just as I stated with the previous review of the LimoStudio Stand, whenever I make a purchase on Amazon, I look at their rating (how many stars) and the quantity of people who actually did rate them. If the business has a 5 star rating with only six reviews, I keep searching. However, if they have a 4.5 star rating with over 100 reviews, that speaks volumes to me.</description>
+    </item>
+    
+    <item>
+      <title>LimoStudio 9 x 15 ft. Green Chromakey Green Screen</title>
+      <link>/post/2017/09/30/limostudio-9-x-15-ft-green-chromakey-green-screen/</link>
+      <pubDate>Sat, 30 Sep 2017 03:26:20 +0000</pubDate>
+      
+      <guid>/post/2017/09/30/limostudio-9-x-15-ft-green-chromakey-green-screen/</guid>
+      <description>LimoStudio Chromakey Green Screen Just as I stated with the previous review of the LimoStudio Stand, whenever I make a purchase on Amazon, I look at their rating (how many stars) and the quantity of people who actually did rate them. If the business has a 5 star rating with only six reviews, I keep searching. However, if they have a 4.5 star rating with over 100 reviews, that speaks volumes to me.</description>
+    </item>
+    
+    <item>
+      <title>Manipulate Data and Automate Descriptive Statistics with VBA</title>
+      <link>/post/2017/09/26/manipulate-data-automate-descriptive-statistics-vba/</link>
+      <pubDate>Tue, 26 Sep 2017 01:23:20 +0000</pubDate>
+      
+      <guid>/post/2017/09/26/manipulate-data-automate-descriptive-statistics-vba/</guid>
+      <description>[embed]https://youtu.be/L2GoeXv_Ro0[/embed]
+Get the code below and automate your work! Watch video and learn how you can manipulate data into multiple tabs with VBA automaticall. Draft version below. Stay tuned for updates as this progresses.
+&amp;lt;code&amp;gt;Option Explicit Sub Initialize_Data() Application.ScreenUpdating = False Call DefBusRules Call flat_file_to_tabs Call IndexIt Call format_raw_Data Call desc_stats(10) Worksheets(&amp;quot;Def &amp;amp; Bus Rules &amp;amp; Overview&amp;quot;).Select Range(&amp;quot;A1&amp;quot;).Select Application.ScreenUpdating = True End Sub Sub flat_file_to_tabs() &amp;#39;Declaration of Variables Dim lng_LastRow As Long Dim r1 As Long Dim int_StartingRow As Integer Dim int_StartingCol As Integer Dim str_CurrentMDS As String Dim int_HeaderRow As Long Worksheets(&amp;quot;Raw Data&amp;quot;).</description>
+    </item>
+    
+    <item>
+      <title>Manipulate Data and Automate Descriptive Statistics with VBA</title>
+      <link>/post/2017/09/26/manipulate-data-automate-descriptive-statistics-vba/</link>
+      <pubDate>Tue, 26 Sep 2017 01:23:20 +0000</pubDate>
+      
+      <guid>/post/2017/09/26/manipulate-data-automate-descriptive-statistics-vba/</guid>
+      <description>[embed]https://youtu.be/L2GoeXv_Ro0[/embed]
+Get the code below and automate your work! Watch video and learn how you can manipulate data into multiple tabs with VBA automaticall. Draft version below. Stay tuned for updates as this progresses.
+&amp;lt;code&amp;gt;Option Explicit Sub Initialize_Data() Application.ScreenUpdating = False Call DefBusRules Call flat_file_to_tabs Call IndexIt Call format_raw_Data Call desc_stats(10) Worksheets(&amp;quot;Def &amp;amp; Bus Rules &amp;amp; Overview&amp;quot;).Select Range(&amp;quot;A1&amp;quot;).Select Application.ScreenUpdating = True End Sub Sub flat_file_to_tabs() &#39;Declaration of Variables Dim lng_LastRow As Long Dim r1 As Long Dim int_StartingRow As Integer Dim int_StartingCol As Integer Dim str_CurrentMDS As String Dim int_HeaderRow As Long Worksheets(&amp;quot;Raw Data&amp;quot;).</description>
+    </item>
+    
+    <item>
+      <title>For Loops, Cells &amp; Iterators with VBA</title>
+      <link>/post/2017/09/22/for-loops-cells-iterators-vba/</link>
+      <pubDate>Fri, 22 Sep 2017 01:31:17 +0000</pubDate>
+      
+      <guid>/post/2017/09/22/for-loops-cells-iterators-vba/</guid>
+      <description>Cells and for loops. In this tutorial, we will take a lateral approach to ranges and instead, use cells.
+This quick 5 minute video will walk you through why cells are easier to work with when iterating through loops; specifically, for loops. In addition, this video shows you the value of the debugger when testing programs at runtime. In this tutorial you will learn the basics of:
+ Cells instead of Range</description>
+    </item>
+    
+    <item>
+      <title>For Loops, Cells &amp; Iterators with VBA</title>
+      <link>/post/2017/09/22/for-loops-cells-iterators-vba/</link>
+      <pubDate>Fri, 22 Sep 2017 01:31:17 +0000</pubDate>
+      
+      <guid>/post/2017/09/22/for-loops-cells-iterators-vba/</guid>
+      <description>Cells and for loops. In this tutorial, we will take a lateral approach to ranges and instead, use cells.
+This quick 5 minute video will walk you through why cells are easier to work with when iterating through loops; specifically, for loops. In addition, this video shows you the value of the debugger when testing programs at runtime. In this tutorial you will learn the basics of:
+ Cells instead of Range</description>
+    </item>
+    
+    <item>
+      <title>Turn Flat File into tabular indexed sections (data manipulation beta)</title>
+      <link>/post/2017/09/21/turn-flat-file-tabular-indexed-sections-data-manipulation-beta/</link>
+      <pubDate>Thu, 21 Sep 2017 03:16:48 +0000</pubDate>
+      
+      <guid>/post/2017/09/21/turn-flat-file-tabular-indexed-sections-data-manipulation-beta/</guid>
+      <description>Watch the video on how I take a raw data file with almost 4,000 rows and convert them into tabular sections of data based on a certain column/header value.
+I created this today to complete a work tasking but plan on modifying it in the coming days/weeks to be much more user friendly. Despite, this is very useful code for anyone.
+[embed]https://youtu.be/2d4L-hmdSmk[/embed] Feel free to modify to your liking and share.</description>
+    </item>
+    
+    <item>
+      <title>Turn Flat File into tabular indexed sections (data manipulation beta)</title>
+      <link>/post/2017/09/21/turn-flat-file-tabular-indexed-sections-data-manipulation-beta/</link>
+      <pubDate>Thu, 21 Sep 2017 03:16:48 +0000</pubDate>
+      
+      <guid>/post/2017/09/21/turn-flat-file-tabular-indexed-sections-data-manipulation-beta/</guid>
+      <description>Watch the video on how I take a raw data file with almost 4,000 rows and convert them into tabular sections of data based on a certain column/header value.
+I created this today to complete a work tasking but plan on modifying it in the coming days/weeks to be much more user friendly. Despite, this is very useful code for anyone.
+[embed]https://youtu.be/2d4L-hmdSmk[/embed] Feel free to modify to your liking and share.</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Ranges and Modifying Recorded Macros</title>
+      <link>/post/2017/09/16/dynamic-ranges-modifying-macros/</link>
+      <pubDate>Sat, 16 Sep 2017 20:57:40 +0000</pubDate>
+      
+      <guid>/post/2017/09/16/dynamic-ranges-modifying-macros/</guid>
+      <description>Build Templates In this tutorial, we will build upon the use of ranges and combine recording macros with modifying your own macros.
+In this tutorial you will learn the basics of:
+ Adding formulas from VBA to Excel
+ Dynamic Ranges
+ Modifying Recorded Macros
+ Selection object
+  Watch the Video for step by step instructions.
+[embed]https://youtu.be/q8u4BlB2D2g[/embed]
+ Code Copy and paste the code below to get you started.</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Ranges and Modifying Recorded Macros</title>
+      <link>/post/2017/09/16/dynamic-ranges-modifying-macros/</link>
+      <pubDate>Sat, 16 Sep 2017 20:57:40 +0000</pubDate>
+      
+      <guid>/post/2017/09/16/dynamic-ranges-modifying-macros/</guid>
+      <description>Build Templates In this tutorial, we will build upon the use of ranges and combine recording macros with modifying your own macros.
+In this tutorial you will learn the basics of:
+ Adding formulas from VBA to Excel
+ Dynamic Ranges
+ Modifying Recorded Macros
+ Selection object
+  Watch the Video for step by step instructions.
+[embed]https://youtu.be/q8u4BlB2D2g[/embed]
+Code Copy and paste the code below to get you started.</description>
+    </item>
+    
+    <item>
+      <title>Useful Excel Template Building with VBA Range Methods and Objects!</title>
+      <link>/post/2017/09/15/vba-range-debugger-option-explicit-integers/</link>
+      <pubDate>Fri, 15 Sep 2017 22:29:57 +0000</pubDate>
+      
+      <guid>/post/2017/09/15/vba-range-debugger-option-explicit-integers/</guid>
+      <description>Learn practical code now! Begin using this code immediately in the workforce! This tutorial will guide you through the use of ranges and how to extract values from cells and input values into cells.
+In this tutorial you will learn the basics of:
+ Option Explicit - Why use it?
+ Range - Useful for template building and more.
+ Objects - What are they and tell me more!</description>
+    </item>
+    
+    <item>
+      <title>Useful Excel Template Building with VBA Range Methods and Objects!</title>
+      <link>/post/2017/09/15/vba-range-debugger-option-explicit-integers/</link>
+      <pubDate>Fri, 15 Sep 2017 22:29:57 +0000</pubDate>
+      
+      <guid>/post/2017/09/15/vba-range-debugger-option-explicit-integers/</guid>
+      <description>Learn practical code now! Begin using this code immediately in the workforce! This tutorial will guide you through the use of ranges and how to extract values from cells and input values into cells.
+In this tutorial you will learn the basics of:
+ Option Explicit - Why use it?
+ Range - Useful for template building and more.
+ Objects - What are they and tell me more!</description>
+    </item>
+    
+    <item>
+      <title>Let&#39;s Talk Nuclear Bomb Yields</title>
+      <link>/post/2017/09/05/lets-talk-nuclear-bomb-yields/</link>
+      <pubDate>Tue, 05 Sep 2017 00:31:06 +0000</pubDate>
+      
+      <guid>/post/2017/09/05/lets-talk-nuclear-bomb-yields/</guid>
+      <description>What is a kilo-ton (kt) anyway? For all practical purposes, the “yield” of a nuclear bomb is a measure of how many tons or megatons of TNT it would take to match the detonation power of the nuclear explosion.
+Using a truck-based fertilizer bomb, Oklahoma’s Cities Alfred P. Murrah Federal Building was destroyed with about 0.002 kt of explosive power. Nagasaki’s “Fat Man”gravity bomb was just over 20 kt, or about 10,000 times more powerful than the Murrah bombing.</description>
+    </item>
+    
+    <item>
+      <title>Let&#39;s Talk Nuclear Bomb Yields</title>
+      <link>/post/2017/09/05/lets-talk-nuclear-bomb-yields/</link>
+      <pubDate>Tue, 05 Sep 2017 00:31:06 +0000</pubDate>
+      
+      <guid>/post/2017/09/05/lets-talk-nuclear-bomb-yields/</guid>
+      <description>What is a kilo-ton (kt) anyway? For all practical purposes, the &amp;ldquo;yield&amp;rdquo; of a nuclear bomb is a measure of how many tons or megatons of TNT it would take to match the detonation power of the nuclear explosion.
+Using a truck-based fertilizer bomb, Oklahoma&amp;rsquo;s Cities Alfred P. Murrah Federal Building was destroyed with about 0.002 kt of explosive power. Nagasaki&amp;rsquo;s &amp;rdquo;Fat Man&amp;ldquo;gravity bomb was just over 20 kt, or about 10,000 times more powerful than the Murrah bombing.</description>
+    </item>
+    
+    <item>
+      <title>First 2-3 Weeks of Blog - How It&#39;s Doing</title>
+      <link>/post/2017/09/01/first-2-3-weeks-blog/</link>
+      <pubDate>Fri, 01 Sep 2017 21:13:57 +0000</pubDate>
+      
+      <guid>/post/2017/09/01/first-2-3-weeks-blog/</guid>
+      <description>Part 1 - First Weeks - Moderate Success Watch the first four part mini-video series video blogs as I discuss the progress of…this blog. You won’t regret it if you ever want to make money off a blog. These short clips are short enough to breeze through in no time, yet very motivational and effective. Real content here!
+For speed users, open the video up and play at 1.25x speed and save time.</description>
+    </item>
+    
+    <item>
+      <title>First 2-3 Weeks of Blog - How It&#39;s Doing</title>
+      <link>/post/2017/09/01/first-2-3-weeks-blog/</link>
+      <pubDate>Fri, 01 Sep 2017 21:13:57 +0000</pubDate>
+      
+      <guid>/post/2017/09/01/first-2-3-weeks-blog/</guid>
+      <description>Part 1 - First Weeks - Moderate Success Watch the first four part mini-video series video blogs as I discuss the progress of&amp;hellip;this blog. You won&amp;rsquo;t regret it if you ever want to make money off a blog. These short clips are short enough to breeze through in no time, yet very motivational and effective. Real content here!
+For speed users, open the video up and play at 1.25x speed and save time.</description>
+    </item>
+    
+    <item>
+      <title>AmazonBasics 60-Inch Lightweight Tripod with Bag Review</title>
+      <link>/post/2017/08/31/amazonbasics-60-inch-lightweight-tripod-bag-review/</link>
+      <pubDate>Thu, 31 Aug 2017 23:08:26 +0000</pubDate>
+      
+      <guid>/post/2017/08/31/amazonbasics-60-inch-lightweight-tripod-bag-review/</guid>
+      <description> [embed]https://youtu.be/oxOTuqTxO6I[/embed]
+AmazonBasics 60-Inch Lightweight Tripod with Bag. Amazon’s tripod video review. This tripod will not test the stand of time. The rivets will eventually fall out. It’s still useable but very flimsy. Overall, $21 for a good year and half of use if you are some what careful. If you want something to last years, this is not your tripod.
+ </description>
+    </item>
+    
+    <item>
+      <title>AmazonBasics 60-Inch Lightweight Tripod with Bag Review</title>
+      <link>/post/2017/08/31/amazonbasics-60-inch-lightweight-tripod-bag-review/</link>
+      <pubDate>Thu, 31 Aug 2017 23:08:26 +0000</pubDate>
+      
+      <guid>/post/2017/08/31/amazonbasics-60-inch-lightweight-tripod-bag-review/</guid>
+      <description>[embed]https://youtu.be/oxOTuqTxO6I[/embed]
+AmazonBasics 60-Inch Lightweight Tripod with Bag. Amazon&amp;rsquo;s tripod video review. This tripod will not test the stand of time. The rivets will eventually fall out. It&amp;rsquo;s still useable but very flimsy. Overall, $21 for a good year and half of use if you are some what careful. If you want something to last years, this is not your tripod.</description>
+    </item>
+    
+    <item>
+      <title>Overview of the VBA Editor, Reading VBA Code, and Eliminating Waste</title>
+      <link>/post/2017/08/31/vba-macros-editor-code-excel/</link>
+      <pubDate>Thu, 31 Aug 2017 22:28:32 +0000</pubDate>
+      
+      <guid>/post/2017/08/31/vba-macros-editor-code-excel/</guid>
+      <description>[embed]https://youtu.be/GNulOwQT0mk[/embed]
+Overview of the VBA Editor, Reading VBA Code, and Eliminating Waste First, a quick overview of how to record and run macros. Then the tutorial shows the user how to manually check the VBA code for a particular macro. How to change module names and macro names. Also a few key terms such as Integrated Development Environment (IDE).
+A few key takeaways form this tutorial.
+Open the VBA Editor</description>
+    </item>
+    
+    <item>
+      <title>Overview of the VBA Editor, Reading VBA Code, and Eliminating Waste</title>
+      <link>/post/2017/08/31/vba-macros-editor-code-excel/</link>
+      <pubDate>Thu, 31 Aug 2017 22:28:32 +0000</pubDate>
+      
+      <guid>/post/2017/08/31/vba-macros-editor-code-excel/</guid>
+      <description>[embed]https://youtu.be/GNulOwQT0mk[/embed]
+Overview of the VBA Editor, Reading VBA Code, and Eliminating Waste First, a quick overview of how to record and run macros. Then the tutorial shows the user how to manually check the VBA code for a particular macro. How to change module names and macro names. Also a few key terms such as Integrated Development Environment (IDE).
+A few key takeaways form this tutorial.
+ Open the VBA Editor</description>
+    </item>
+    
+    <item>
+      <title>Very First VBA Excel Macro Tutorial for Beginners</title>
+      <link>/post/2017/08/29/first-vba-excel-macro-tutorial-beginners/</link>
+      <pubDate>Tue, 29 Aug 2017 14:34:06 +0000</pubDate>
+      
+      <guid>/post/2017/08/29/first-vba-excel-macro-tutorial-beginners/</guid>
+      <description>Recording your first Macro with Microsoft Excel Have you ever had a task that you repeat over and over again in Microsoft Excel? This tutorial will teach the absolute beginner how to start recording and using macros. This will make your work day much more efficient. So click the short video and start being more productive!
+[embed]https://youtu.be/9-_UZBBM3RQ[/embed]
+ Quick Start Guide: How To Record First Macro Click on File and select Options.</description>
+    </item>
+    
+    <item>
+      <title>Very First VBA Excel Macro Tutorial for Beginners</title>
+      <link>/post/2017/08/29/first-vba-excel-macro-tutorial-beginners/</link>
+      <pubDate>Tue, 29 Aug 2017 14:34:06 +0000</pubDate>
+      
+      <guid>/post/2017/08/29/first-vba-excel-macro-tutorial-beginners/</guid>
+      <description>Recording your first Macro with Microsoft Excel Have you ever had a task that you repeat over and over again in Microsoft Excel? This tutorial will teach the absolute beginner how to start recording and using macros. This will make your work day much more efficient. So click the short video and start being more productive!
+[embed]https://youtu.be/9-_UZBBM3RQ[/embed]
+Quick Start Guide: How To Record First Macro  Click on File and select Options.</description>
+    </item>
+    
+    <item>
+      <title>6 Steps to Link all .csv Files as Tables - Access / VBA</title>
+      <link>/post/2017/08/24/89/</link>
+      <pubDate>Thu, 24 Aug 2017 17:58:01 +0000</pubDate>
+      
+      <guid>/post/2017/08/24/89/</guid>
+      <description>Ever want to link an entire directory of “*.csv&amp;quot; files to a Microsoft Access database? Manually, this could be tedious and exhausting.
+I will walk you through six easy steps to automate the process using VBA and allow you to link hundreds of files in seconds! (Also see video tutorial at the bottom) [caption id=“attachment_133” align=“alignnone” width=“300”]Relational table links - Microsoft Access[/caption] What typically happens, is the customer sends a daily Excel file and you store it in a directory for archival purposes.</description>
+    </item>
+    
+    <item>
+      <title>6 Steps to Link all .csv Files as Tables - Access / VBA</title>
+      <link>/post/2017/08/24/89/</link>
+      <pubDate>Thu, 24 Aug 2017 17:58:01 +0000</pubDate>
+      
+      <guid>/post/2017/08/24/89/</guid>
+      <description>Ever want to link an entire directory of &amp;ldquo;*.csv&amp;rdquo; files to a Microsoft Access database? Manually, this could be tedious and exhausting.
+I will walk you through six easy steps to automate the process using VBA and allow you to link hundreds of files in seconds! (Also see video tutorial at the bottom) [caption id=&amp;ldquo;attachment_133&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;]Relational table links - Microsoft Access[/caption] What typically happens, is the customer sends a daily Excel file and you store it in a directory for archival purposes.</description>
+    </item>
+    
+    <item>
+      <title>SwissGear Travel Gear ScanSmart Backpack 1900 Review Full of Stuff</title>
+      <link>/post/2017/08/23/swissgear-travel-gear-scansmart-backpack-1900-review-amazon/</link>
+      <pubDate>Wed, 23 Aug 2017 01:33:16 +0000</pubDate>
+      
+      <guid>/post/2017/08/23/swissgear-travel-gear-scansmart-backpack-1900-review-amazon/</guid>
+      <description>SwissGear Travel ScanSmart backpack 1900 Click Play on the Video for a review of this backpack.
+[embed]https://youtu.be/VTTnRMyFkB8[/embed]
+I purposely bought the SwissGear Travel ScanSmart backpack 1900 because it can hold two laptops at the same time. I quickly realized that I made the right decision. You can find this on Amazon for about $49-$69 for prime members here.
+I beat the heck out of this backpack and over stuffed it lots of times.</description>
+    </item>
+    
+    <item>
+      <title>SwissGear Travel Gear ScanSmart Backpack 1900 Review Full of Stuff</title>
+      <link>/post/2017/08/23/swissgear-travel-gear-scansmart-backpack-1900-review-amazon/</link>
+      <pubDate>Wed, 23 Aug 2017 01:33:16 +0000</pubDate>
+      
+      <guid>/post/2017/08/23/swissgear-travel-gear-scansmart-backpack-1900-review-amazon/</guid>
+      <description>SwissGear Travel ScanSmart backpack 1900 Click Play on the Video for a review of this backpack.
+[embed]https://youtu.be/VTTnRMyFkB8[/embed]
+I purposely bought the SwissGear Travel ScanSmart backpack 1900 because it can hold two laptops at the same time. I quickly realized that I made the right decision. You can find this on Amazon for about $49-$69 for prime members here.
+I beat the heck out of this backpack and over stuffed it lots of times.</description>
+    </item>
+    
+    <item>
+      <title>3. C&#43;&#43; Programming Basics (if statements and operators)</title>
+      <link>/post/2017/08/22/3-c-programming-basics-statements-operators/</link>
+      <pubDate>Tue, 22 Aug 2017 19:16:51 +0000</pubDate>
+      
+      <guid>/post/2017/08/22/3-c-programming-basics-statements-operators/</guid>
+      <description>[embed]https://youtu.be/VzmpwSKVtl8?list=PL0oBhq0tLsOBzIXpM98ezhrBHse5IJ776[/embed]
+Using Visual Studio 2015 to create another C++ program.
+This tutorial teaches the beginner programmer the basics of how to use if statements and comparison operators using C++.
+First by taking input from the keyboard and storing the user input into user defined variables. Next, printing the variables back to the output device, the screen, letting the user know if the numbers are equal, greater than, less than or not equal to each other.</description>
+    </item>
+    
+    <item>
+      <title>3. C&#43;&#43; Programming Basics (if statements and operators)</title>
+      <link>/post/2017/08/22/3-c-programming-basics-statements-operators/</link>
+      <pubDate>Tue, 22 Aug 2017 19:16:51 +0000</pubDate>
+      
+      <guid>/post/2017/08/22/3-c-programming-basics-statements-operators/</guid>
+      <description>[embed]https://youtu.be/VzmpwSKVtl8?list=PL0oBhq0tLsOBzIXpM98ezhrBHse5IJ776[/embed]
+Using Visual Studio 2015 to create another C++ program.
+This tutorial teaches the beginner programmer the basics of how to use if statements and comparison operators using C++.
+First by taking input from the keyboard and storing the user input into user defined variables. Next, printing the variables back to the output device, the screen, letting the user know if the numbers are equal, greater than, less than or not equal to each other.</description>
+    </item>
+    
+    <item>
+      <title>2. C&#43;&#43; Programming Basics</title>
+      <link>/post/2017/08/22/2-c-programming-basics/</link>
+      <pubDate>Tue, 22 Aug 2017 19:12:24 +0000</pubDate>
+      
+      <guid>/post/2017/08/22/2-c-programming-basics/</guid>
+      <description>[embed]https://youtu.be/k4r8I7qMU7w?list=PL0oBhq0tLsOBzIXpM98ezhrBHse5IJ776[/embed]
+Now learn how to print to the screen and get user input from the keyboard in this tutorial!
+Code is below just in case you get stuck or want to cut/paste into your own program.
+&amp;lt;code&amp;gt;//ConsoleApplication3.cpp : Defines the entry point for the program #include &amp;quot;stdafx.h&amp;quot; #include int main() { int integer1 = 0, integer 2 = 0; std::cout &amp;lt;&amp;lt; &amp;quot;Enter the first integer\n&amp;quot;; std::cin &amp;lt;&amp;lt; integer1; std::cout &amp;lt;&amp;lt; &amp;quot;Enter second integers\n&amp;quot;; std::cin &amp;gt;&amp;gt; integer2; //Pause Code int pause; std::cin &amp;gt;&amp;gt; pause; return 0; } &amp;lt;/code&amp;gt; Let’s break the code down line by line once again.</description>
+    </item>
+    
+    <item>
+      <title>2. C&#43;&#43; Programming Basics</title>
+      <link>/post/2017/08/22/2-c-programming-basics/</link>
+      <pubDate>Tue, 22 Aug 2017 19:12:24 +0000</pubDate>
+      
+      <guid>/post/2017/08/22/2-c-programming-basics/</guid>
+      <description>[embed]https://youtu.be/k4r8I7qMU7w?list=PL0oBhq0tLsOBzIXpM98ezhrBHse5IJ776[/embed]
+Now learn how to print to the screen and get user input from the keyboard in this tutorial!
+Code is below just in case you get stuck or want to cut/paste into your own program.
+&amp;lt;code&amp;gt;//ConsoleApplication3.cpp : Defines the entry point for the program #include &amp;quot;stdafx.h&amp;quot; #include int main() { int integer1 = 0, integer 2 = 0; std::cout &amp;lt;&amp;lt; &amp;quot;Enter the first integer\n&amp;quot;; std::cin &amp;lt;&amp;lt; integer1; std::cout &amp;lt;&amp;lt; &amp;quot;Enter second integers\n&amp;quot;; std::cin &amp;gt;&amp;gt; integer2; //Pause Code int pause; std::cin &amp;gt;&amp;gt; pause; return 0; } &amp;lt;/code&amp;gt;  Let&amp;rsquo;s break the code down line by line once again.</description>
+    </item>
+    
+    <item>
+      <title>Oklahoma City Pizza Reviews - Paseo, Plaza, and Classen Curve</title>
+      <link>/post/2017/08/22/oklahoma-city-pizza-reviews-paseo-plaza-classen-curve/</link>
+      <pubDate>Tue, 22 Aug 2017 18:45:52 +0000</pubDate>
+      
+      <guid>/post/2017/08/22/oklahoma-city-pizza-reviews-paseo-plaza-classen-curve/</guid>
+      <description>[embed]https://youtu.be/BdBOOenLd9A?list=PL0oBhq0tLsOBxiq5q__xcWV5WOqS9HGe3[/embed]
+Quick review of Picasso’s, Sauced, Empire Slice, Hideaway, The Other Room, and Upper Crust all in the Oklahoma City, OK and metro areas. Plaza District, Paseo District, and Classen Curve.
+I like the pizza places that are not chain restaurants and have a great atmosphere where beer is served and they do not sell cheap beer.</description>
+    </item>
+    
+    <item>
+      <title>Oklahoma City Pizza Reviews - Paseo, Plaza, and Classen Curve</title>
+      <link>/post/2017/08/22/oklahoma-city-pizza-reviews-paseo-plaza-classen-curve/</link>
+      <pubDate>Tue, 22 Aug 2017 18:45:52 +0000</pubDate>
+      
+      <guid>/post/2017/08/22/oklahoma-city-pizza-reviews-paseo-plaza-classen-curve/</guid>
+      <description>[embed]https://youtu.be/BdBOOenLd9A?list=PL0oBhq0tLsOBxiq5q__xcWV5WOqS9HGe3[/embed]
+Quick review of Picasso&amp;rsquo;s, Sauced, Empire Slice, Hideaway, The Other Room, and Upper Crust all in the Oklahoma City, OK and metro areas. Plaza District, Paseo District, and Classen Curve.
+I like the pizza places that are not chain restaurants and have a great atmosphere where beer is served and they do not sell cheap beer.</description>
+    </item>
+    
+    <item>
+      <title>Wheelchair using a car bike rack allowing 5 passengers along with trunk room in tact.</title>
+      <link>/post/2017/08/22/wheelchair-using-car-bike-rack-allowing-5-passengers-along-trunk-room-tact/</link>
+      <pubDate>Tue, 22 Aug 2017 18:35:50 +0000</pubDate>
+      
+      <guid>/post/2017/08/22/wheelchair-using-car-bike-rack-allowing-5-passengers-along-trunk-room-tact/</guid>
+      <description>[embed]https://youtu.be/fUY7hh42DOA?list=PL0oBhq0tLsOBxiq5q__xcWV5WOqS9HGe3[/embed]
+How to use a bicycle rack (Saris brand) to hold a wheel chair for a T-4/T-5 Complete Paraplegic. David Gingrass demonstrates how to transfer into passenger seat of car. Car will not hold 5 passengers and keep the trunk room. Bike rack.</description>
+    </item>
+    
+    <item>
+      <title>Wheelchair using a car bike rack allowing 5 passengers along with trunk room in tact.</title>
+      <link>/post/2017/08/22/wheelchair-using-car-bike-rack-allowing-5-passengers-along-trunk-room-tact/</link>
+      <pubDate>Tue, 22 Aug 2017 18:35:50 +0000</pubDate>
+      
+      <guid>/post/2017/08/22/wheelchair-using-car-bike-rack-allowing-5-passengers-along-trunk-room-tact/</guid>
+      <description>[embed]https://youtu.be/fUY7hh42DOA?list=PL0oBhq0tLsOBxiq5q__xcWV5WOqS9HGe3[/embed]
+How to use a bicycle rack (Saris brand) to hold a wheel chair for a T-4/T-5 Complete Paraplegic. David Gingrass demonstrates how to transfer into passenger seat of car. Car will not hold 5 passengers and keep the trunk room. Bike rack.</description>
+    </item>
+    
+    <item>
+      <title>2. Conditional Probability Explained</title>
+      <link>/post/2017/08/22/2-conditional-probability-explained/</link>
+      <pubDate>Tue, 22 Aug 2017 18:25:49 +0000</pubDate>
+      
+      <guid>/post/2017/08/22/2-conditional-probability-explained/</guid>
+      <description>[embed]https://youtu.be/63Blzu_WxJg?list=PL0oBhq0tLsOBTX711xfCMcxPrqzfjLxW3[/embed]
+Conditional Probability Explained.
+Learn more by checking out these books below.</description>
+    </item>
+    
+    <item>
+      <title>2. Conditional Probability Explained</title>
+      <link>/post/2017/08/22/2-conditional-probability-explained/</link>
+      <pubDate>Tue, 22 Aug 2017 18:25:49 +0000</pubDate>
+      
+      <guid>/post/2017/08/22/2-conditional-probability-explained/</guid>
+      <description>[embed]https://youtu.be/63Blzu_WxJg?list=PL0oBhq0tLsOBTX711xfCMcxPrqzfjLxW3[/embed]
+Conditional Probability Explained.
+Learn more by checking out these books below.</description>
+    </item>
+    
+    <item>
+      <title>1. Inclusion Exclusion Principle explained pictorial</title>
+      <link>/post/2017/08/22/1-inclusion-exclusion-principle-explained-pictorial/</link>
+      <pubDate>Tue, 22 Aug 2017 18:24:14 +0000</pubDate>
+      
+      <guid>/post/2017/08/22/1-inclusion-exclusion-principle-explained-pictorial/</guid>
+      <description>[embed]https://youtu.be/RU12QoQ2s3s?list=PL0oBhq0tLsOBTX711xfCMcxPrqzfjLxW3[/embed]
+Inclusion Exclusion Principle explained pictorial
+Learn more by checking out these books below.</description>
+    </item>
+    
+    <item>
+      <title>1. Inclusion Exclusion Principle explained pictorial</title>
+      <link>/post/2017/08/22/1-inclusion-exclusion-principle-explained-pictorial/</link>
+      <pubDate>Tue, 22 Aug 2017 18:24:14 +0000</pubDate>
+      
+      <guid>/post/2017/08/22/1-inclusion-exclusion-principle-explained-pictorial/</guid>
+      <description>[embed]https://youtu.be/RU12QoQ2s3s?list=PL0oBhq0tLsOBTX711xfCMcxPrqzfjLxW3[/embed]
+Inclusion Exclusion Principle explained pictorial
+Learn more by checking out these books below.</description>
+    </item>
+    
+    <item>
+      <title>Equipment Specialist 1670 Series Government Job</title>
+      <link>/post/2017/08/22/mark-gingrass-equipment-specialist-1670-series-government-job/</link>
+      <pubDate>Tue, 22 Aug 2017 18:13:14 +0000</pubDate>
+      
+      <guid>/post/2017/08/22/mark-gingrass-equipment-specialist-1670-series-government-job/</guid>
+      <description>An Equipment Specialist (ES) is a person who knows the equipment inside and out. Not only must the ES expertly understand the equipment directly, he must know the support equipment, software, demand forecasting, and technical aspects surrounding the equipment.
+Watch this short video clip to understand even more about what an ES does on a daily basis.
+[embed]https://youtu.be/f6PcN-8O33w?list=PL0oBhq0tLsOBddC4U3TZR0-jlZOXadogu[/embed]
+During a class in the Employee Enhancement Program we had to brief about our jobs.</description>
+    </item>
+    
+    <item>
+      <title>Equipment Specialist 1670 Series Government Job</title>
+      <link>/post/2017/08/22/mark-gingrass-equipment-specialist-1670-series-government-job/</link>
+      <pubDate>Tue, 22 Aug 2017 18:13:14 +0000</pubDate>
+      
+      <guid>/post/2017/08/22/mark-gingrass-equipment-specialist-1670-series-government-job/</guid>
+      <description>An Equipment Specialist (ES) is a person who knows the equipment inside and out. Not only must the ES expertly understand the equipment directly, he must know the support equipment, software, demand forecasting, and technical aspects surrounding the equipment.
+Watch this short video clip to understand even more about what an ES does on a daily basis.
+[embed]https://youtu.be/f6PcN-8O33w?list=PL0oBhq0tLsOBddC4U3TZR0-jlZOXadogu[/embed]
+During a class in the Employee Enhancement Program we had to brief about our jobs.</description>
+    </item>
+    
+    <item>
+      <title>Junior Force Council Walls Gates Process Supply Chain - Mark Gingrass</title>
+      <link>/post/2017/08/22/junior-force-council-walls-gates-process-supply-chain-mark-gingrass/</link>
+      <pubDate>Tue, 22 Aug 2017 17:54:48 +0000</pubDate>
+      
+      <guid>/post/2017/08/22/junior-force-council-walls-gates-process-supply-chain-mark-gingrass/</guid>
+      <description>[embed]https://youtu.be/4GT5O-3dJ-I?list=PL0oBhq0tLsOBddC4U3TZR0-jlZOXadogu[/embed]
+Mark Gingrass briefing on the current state of the supply chain, gated process, and walking the walls using the Art of the Possible Principles General Litchfield stood up. Finally an overview of functional areas of excellence vs total complete value stream end to end.</description>
+    </item>
+    
+    <item>
+      <title>Junior Force Council Walls Gates Process Supply Chain - Mark Gingrass</title>
+      <link>/post/2017/08/22/junior-force-council-walls-gates-process-supply-chain-mark-gingrass/</link>
+      <pubDate>Tue, 22 Aug 2017 17:54:48 +0000</pubDate>
+      
+      <guid>/post/2017/08/22/junior-force-council-walls-gates-process-supply-chain-mark-gingrass/</guid>
+      <description>[embed]https://youtu.be/4GT5O-3dJ-I?list=PL0oBhq0tLsOBddC4U3TZR0-jlZOXadogu[/embed]
+Mark Gingrass briefing on the current state of the supply chain, gated process, and walking the walls using the Art of the Possible Principles General Litchfield stood up. Finally an overview of functional areas of excellence vs total complete value stream end to end.</description>
+    </item>
+    
+    <item>
+      <title>Equipment Specialist Excess Inventory Demand Forecasting</title>
+      <link>/post/2017/08/22/equipment-specialist-excess-inventory-demand-forecasting/</link>
+      <pubDate>Tue, 22 Aug 2017 17:48:24 +0000</pubDate>
+      
+      <guid>/post/2017/08/22/equipment-specialist-excess-inventory-demand-forecasting/</guid>
+      <description>Excess inventory has pros and cons depending on a variety of factors. Sometimes, a reserve stock of parts on hand is needed because the cost of not having a part immediately is too high.
+Inventory has costs. It costs money to store, secure, and account for the parts. It has hidden costs as well. For example, the excess parts cost money to manufacture, repair, or buy. That money could have been used for making different parts that may be needed more.</description>
+    </item>
+    
+    <item>
+      <title>Equipment Specialist Excess Inventory Demand Forecasting</title>
+      <link>/post/2017/08/22/equipment-specialist-excess-inventory-demand-forecasting/</link>
+      <pubDate>Tue, 22 Aug 2017 17:48:24 +0000</pubDate>
+      
+      <guid>/post/2017/08/22/equipment-specialist-excess-inventory-demand-forecasting/</guid>
+      <description>Excess inventory has pros and cons depending on a variety of factors. Sometimes, a reserve stock of parts on hand is needed because the cost of not having a part immediately is too high.
+Inventory has costs. It costs money to store, secure, and account for the parts. It has hidden costs as well. For example, the excess parts cost money to manufacture, repair, or buy. That money could have been used for making different parts that may be needed more.</description>
+    </item>
+    
+    <item>
+      <title>ENMCS - Engine Not Mission Capable Supply Explained</title>
+      <link>/post/2017/08/22/enmcs-engine-not-mission-capable-supply-explained/</link>
+      <pubDate>Tue, 22 Aug 2017 17:36:31 +0000</pubDate>
+      
+      <guid>/post/2017/08/22/enmcs-engine-not-mission-capable-supply-explained/</guid>
+      <description>[embed]https://youtu.be/cXvHQ617ksU?list=PL0oBhq0tLsOBddC4U3TZR0-jlZOXadogu[/embed]
+A quick lesson in logistics with the supply chain. ENMCS - Engine Not Mission Capable Supply Explained. From DLA supply to retail to the shops for repair and production.
+Click on a book below to learn more and help this site out. You do not have to purchase these particular books but worth a look. Click below. Thank you.</description>
+    </item>
+    
+    <item>
+      <title>ENMCS - Engine Not Mission Capable Supply Explained</title>
+      <link>/post/2017/08/22/enmcs-engine-not-mission-capable-supply-explained/</link>
+      <pubDate>Tue, 22 Aug 2017 17:36:31 +0000</pubDate>
+      
+      <guid>/post/2017/08/22/enmcs-engine-not-mission-capable-supply-explained/</guid>
+      <description>[embed]https://youtu.be/cXvHQ617ksU?list=PL0oBhq0tLsOBddC4U3TZR0-jlZOXadogu[/embed]
+A quick lesson in logistics with the supply chain. ENMCS - Engine Not Mission Capable Supply Explained. From DLA supply to retail to the shops for repair and production.
+Click on a book below to learn more and help this site out. You do not have to purchase these particular books but worth a look. Click below. Thank you.</description>
+    </item>
+    
+    <item>
+      <title>Administrative Gated Process with the Art of the Possible Principles</title>
+      <link>/post/2017/08/22/administrative-gated-process-art-possible-principles/</link>
+      <pubDate>Tue, 22 Aug 2017 17:25:52 +0000</pubDate>
+      
+      <guid>/post/2017/08/22/administrative-gated-process-art-possible-principles/</guid>
+      <description>[embed]https://youtu.be/-a18FUmgZmY?list=PL0oBhq0tLsOBddC4U3TZR0-jlZOXadogu[/embed]
+Administrative Gated Process with the Art of the Possible Principles.General Litchfield’s Art of the Possible applied to the administrative process. Production machine broken down with gated process. Flow days, input/exit criteria, outputs, CPI/Continuous Process Improvement, Rapid Improvement events for supply chain managers.
+Click on a book below to learn more and help this site out. You do not have to purchase these particular books but worth a look. Click below.</description>
+    </item>
+    
+    <item>
+      <title>Administrative Gated Process with the Art of the Possible Principles</title>
+      <link>/post/2017/08/22/administrative-gated-process-art-possible-principles/</link>
+      <pubDate>Tue, 22 Aug 2017 17:25:52 +0000</pubDate>
+      
+      <guid>/post/2017/08/22/administrative-gated-process-art-possible-principles/</guid>
+      <description>[embed]https://youtu.be/-a18FUmgZmY?list=PL0oBhq0tLsOBddC4U3TZR0-jlZOXadogu[/embed]
+Administrative Gated Process with the Art of the Possible Principles.General Litchfield&amp;rsquo;s Art of the Possible applied to the administrative process. Production machine broken down with gated process. Flow days, input/exit criteria, outputs, CPI/Continuous Process Improvement, Rapid Improvement events for supply chain managers.
+Click on a book below to learn more and help this site out. You do not have to purchase these particular books but worth a look. Click below.</description>
+    </item>
+    
+    <item>
+      <title>First C&#43;&#43; Program; Online Compiler, DevC&#43;&#43; and Downloading Free Compilers!</title>
+      <link>/post/2017/08/20/1-1-first-c-program-online-compiler-devc-and-downloading-microsoft-visual-studio/</link>
+      <pubDate>Sun, 20 Aug 2017 20:27:05 +0000</pubDate>
+      
+      <guid>/post/2017/08/20/1-1-first-c-program-online-compiler-devc-and-downloading-microsoft-visual-studio/</guid>
+      <description>H-e-l-l-o W-o-r-l-d, And welcome to, what is most likely, your first C++ tutorial. You have taking the first step to entering into the world of programming. What better choice than to begin your journey with learning C++?
+In this post, you will learn how to download free compilers and create your first &amp;ldquo;Hello World&amp;rdquo; program. Or, perhaps, if you want to just dabble a bit, get your feet wet with a free online complier.</description>
+    </item>
+    
+    <item>
+      <title>1. First C&#43;&#43; Program using Visual Studio 2015</title>
+      <link>/post/2017/08/20/1-first-c-program-using-visual-studio-2015/</link>
+      <pubDate>Sun, 20 Aug 2017 20:24:53 +0000</pubDate>
+      
+      <guid>/post/2017/08/20/1-first-c-program-using-visual-studio-2015/</guid>
+      <description>[embed]https://www.youtube.com/watch?v=_iHMXDzyrhk&amp;amp;t;=621s&amp;amp;index;=1&amp;amp;list;=PL0oBhq0tLsOBzIXpM98ezhrBHse5IJ776[/embed]
+Your very first C++ program using a free version of Visual Studio 2015.. I increase font size in the later videos to help with readability.
+Don’t have Visual Studio or want to choose other alternatives? No problem. This post will show you how to get started using an Online compiler, DevC++ (free) and how to download Visual Studio Community 2015.
+I highly recommend any of the Deitel &amp;amp; Deitel books like this one linked: http://amzn.</description>
+    </item>
+    
+    <item>
+      <title>1. First C&#43;&#43; Program using Visual Studio 2015</title>
+      <link>/post/2017/08/20/1-first-c-program-using-visual-studio-2015/</link>
+      <pubDate>Sun, 20 Aug 2017 20:24:53 +0000</pubDate>
+      
+      <guid>/post/2017/08/20/1-first-c-program-using-visual-studio-2015/</guid>
+      <description>[embed]https://www.youtube.com/watch?v=_iHMXDzyrhk&amp;amp;t;=621s&amp;index;=1&amp;list;=PL0oBhq0tLsOBzIXpM98ezhrBHse5IJ776[/embed]
+Your very first C++ program using a free version of Visual Studio 2015. . I increase font size in the later videos to help with readability.
+Don&amp;rsquo;t have Visual Studio or want to choose other alternatives? No problem. This post will show you how to get started using an Online compiler, DevC++ (free) and how to download Visual Studio Community 2015.
+I highly recommend any of the Deitel &amp;amp; Deitel books like this one linked: http://amzn.</description>
     </item>
     
     <item>

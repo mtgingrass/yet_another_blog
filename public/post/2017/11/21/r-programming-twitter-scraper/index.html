@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>R Programming Twitter Scraper | Mark Gingrass Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-135621341-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="http://www.devgin.com">DevGin</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+
+<div class="article-meta">
+<h1><span class="title">R Programming Twitter Scraper</span></h1>
+<h2 class="author">mtgingrass</h2>
+<h2 class="date">2017/11/21</h2>
+</div>
+
+<main>
+
+
+<p>Create a Twitter Scrapper using R programming language in these very simple steps:</p>
+
+<p>[embed]<a href="https://youtu.be/1_K01qD4Exw[/embed">https://youtu.be/1_K01qD4Exw[/embed</a>]</p>
+
+<p>Follow these simple steps to start srapping:</p>
+
+<ol>
+<li><p>Create Twitter API Application first: <a href="https://apps.twitter.com/">https://apps.twitter.com/</a>.</p></li>
+
+<li><p>Copy the code below into an R script.</p></li>
+
+<li><p>Install packages &ldquo;twitteR&rdquo; and &ldquo;ROAuth&rdquo; if required.</p></li>
+
+<li><p>Change the search terms to your liking.</p>
+
+<p><code>
+library(twitteR)
+library(ROAuth)</p>
+
+<h1 id="set-api-keys">Set API Keys</h1>
+
+<p>api_key &lt;- &ldquo;XXXXXXXXXXXXXXXXXXXX&rdquo;
+api_secret &lt;- &ldquo;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&rdquo;</p>
+
+<p>access_token &lt;- &ldquo;xxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&rdquo;
+access_token_secret &lt;- &ldquo;xxxxxxxxxxxxxxxxxxxxxxxxxxxx&rdquo;</p>
+
+<p>setup_twitter_oauth(api_key, api_secret, access_token, access_token_secret)</p>
+
+<h1 id="grab-latest-tweets">Grab latest tweets</h1>
+
+<p>tweets_trump = searchTwitter(&lsquo;from:realDonaldTrump&rsquo;, n=50)
+tweets_trump2 = searchTwitter(&lsquo;@realDonaldTrump&rsquo;, n = 200)
+tweets_trump3 = searchTwitter(&lsquo;morning+bacon&rsquo;, n=100)</p>
+
+<h1 id="transform-tweets-list-into-a-data-frame">Transform tweets list into a data frame</h1>
+
+<p>tweets.df &lt;- twListToDF(tweets_trump)
+tweets.df2 = twListToDF(tweets_trump2)
+tweets.df3 = twListToDF(tweets_trump3)</p>
+
+<p>write.csv(tweets.df, file = &ldquo;tweets.csv&rdquo;, row.names = FALSE)
+write.csv(tweets.df2, file = &ldquo;tweets2.csv&rdquo;, row.names = FALSE)
+write.csv(tweets.df3, file = &ldquo;tweets3.csv&rdquo;, row.names = FALSE)
+</code></p></li>
+</ol>
+
+<p>Example Output Files here:</p>
+
+<p><a href="http://devgin.com/wp-content/uploads/2017/11/tweets.csv">tweets</a></p>
+
+<p><a href="http://devgin.com/wp-content/uploads/2017/11/tweets2.csv">tweets2</a></p>
+
+<p><a href="http://devgin.com/wp-content/uploads/2017/11/tweets3.csv">tweets3</a></p>
+
+<p>When dealing with Corpi and text, you may encounter an issue as I had in this <a href="http://devgin.com/r-tm_maptweet-corpus-content_transformertolower-error-solved/">post</a> involving putting the  text to lowercase. An odd error but <a href="http://devgin.com/r-tm_maptweet-corpus-content_transformertolower-error-solved/">solved!</a></p>
+
+</main>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+  <hr/>
+  &copy; <a href="https://markgingrass.com">Mark Gingrass</a> 2018 | <a href="https://github.com/mtgingrass">Github</a> | <a href="https://twitter.com/markgingrass">Twitter</a>
+  
+  </footer>
+  </body>
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "gingrass" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</html>
+

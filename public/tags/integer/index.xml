@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>integer on Mark Gingrass Blog</title>
+    <link>/tags/integer/</link>
+    <description>Recent content in integer on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Sep 2017 22:29:57 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/integer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Useful Excel Template Building with VBA Range Methods and Objects!</title>
+      <link>/post/2017/09/15/vba-range-debugger-option-explicit-integers/</link>
+      <pubDate>Fri, 15 Sep 2017 22:29:57 +0000</pubDate>
+      
+      <guid>/post/2017/09/15/vba-range-debugger-option-explicit-integers/</guid>
+      <description>Learn practical code now! Begin using this code immediately in the workforce! This tutorial will guide you through the use of ranges and how to extract values from cells and input values into cells.
+In this tutorial you will learn the basics of:
+ Option Explicit - Why use it?
+ Range - Useful for template building and more.
+ Objects - What are they and tell me more!</description>
+    </item>
+    
+    <item>
+      <title>Useful Excel Template Building with VBA Range Methods and Objects!</title>
+      <link>/post/2017/09/15/vba-range-debugger-option-explicit-integers/</link>
+      <pubDate>Fri, 15 Sep 2017 22:29:57 +0000</pubDate>
+      
+      <guid>/post/2017/09/15/vba-range-debugger-option-explicit-integers/</guid>
+      <description>Learn practical code now! Begin using this code immediately in the workforce! This tutorial will guide you through the use of ranges and how to extract values from cells and input values into cells.
+In this tutorial you will learn the basics of:
+ Option Explicit - Why use it?
+ Range - Useful for template building and more.
+ Objects - What are they and tell me more!</description>
+    </item>
+    
+  </channel>
+</rss>

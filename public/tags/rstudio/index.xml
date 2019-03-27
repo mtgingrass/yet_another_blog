@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rstudio on Mark Gingrass Blog</title>
+    <link>/tags/rstudio/</link>
+    <description>Recent content in Rstudio on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Dec 2017 21:17:30 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/rstudio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Five Minute GitHub Tutorial with RStudio - Simple!</title>
+      <link>/post/2017/12/16/five-minute-github-tutorial-rstudio-simple/</link>
+      <pubDate>Sat, 16 Dec 2017 21:17:30 +0000</pubDate>
+      
+      <guid>/post/2017/12/16/five-minute-github-tutorial-rstudio-simple/</guid>
+      <description>What is a GitHub? Recently, I went to search for a few jobs in the tech industry and one thing stood out with each of the sites I visited. Everyone was asking “What’s your GitHub address?” Admittedly, I didn’t have one until just the other day.
+ I posted this short five minute tutorial to get you started early!  GitHub is a repository for version control hosting of coding projects and much more.</description>
+    </item>
+    
+    <item>
+      <title>Five Minute GitHub Tutorial with RStudio - Simple!</title>
+      <link>/post/2017/12/16/five-minute-github-tutorial-rstudio-simple/</link>
+      <pubDate>Sat, 16 Dec 2017 21:17:30 +0000</pubDate>
+      
+      <guid>/post/2017/12/16/five-minute-github-tutorial-rstudio-simple/</guid>
+      <description>What is a GitHub? Recently, I went to search for a few jobs in the tech industry and one thing stood out with each of the sites I visited. Everyone was asking &amp;ldquo;What&amp;rsquo;s your GitHub address?&amp;rdquo; Admittedly, I didn&amp;rsquo;t have one until just the other day.
+I posted this short five minute tutorial to get you started early! GitHub is a repository for version control hosting of coding projects and much more.</description>
+    </item>
+    
+  </channel>
+</rss>

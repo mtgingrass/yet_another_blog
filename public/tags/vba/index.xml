@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VBA on Mark Gingrass Blog</title>
+    <link>/tags/vba/</link>
+    <description>Recent content in VBA on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Oct 2017 02:29:24 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/vba/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Add a Button To Excel to Run a Macro</title>
+      <link>/post/2017/10/03/add-button-excel-run-macro/</link>
+      <pubDate>Tue, 03 Oct 2017 02:29:24 +0000</pubDate>
+      
+      <guid>/post/2017/10/03/add-button-excel-run-macro/</guid>
+      <description>Adding Button for GUI Interface. Now that you have a few macros under your belt (some from scratch, some recorded, and some cut/pasted from the internet), it’s time to make a user interface for them.
+In this tutorial, I will show you how to insert a simple button control to activate your macro. This is a very easy process and it will save you from having to explain to users how to get into the VBA editor.</description>
+    </item>
+    
+    <item>
+      <title>Add a Button To Excel to Run a Macro</title>
+      <link>/post/2017/10/03/add-button-excel-run-macro/</link>
+      <pubDate>Tue, 03 Oct 2017 02:29:24 +0000</pubDate>
+      
+      <guid>/post/2017/10/03/add-button-excel-run-macro/</guid>
+      <description>Adding Button for GUI Interface. Now that you have a few macros under your belt (some from scratch, some recorded, and some cut/pasted from the internet), it&amp;rsquo;s time to make a user interface for them.
+In this tutorial, I will show you how to insert a simple button control to activate your macro. This is a very easy process and it will save you from having to explain to users how to get into the VBA editor.</description>
+    </item>
+    
+    <item>
+      <title>Manipulate Data and Automate Descriptive Statistics with VBA</title>
+      <link>/post/2017/09/26/manipulate-data-automate-descriptive-statistics-vba/</link>
+      <pubDate>Tue, 26 Sep 2017 01:23:20 +0000</pubDate>
+      
+      <guid>/post/2017/09/26/manipulate-data-automate-descriptive-statistics-vba/</guid>
+      <description>[embed]https://youtu.be/L2GoeXv_Ro0[/embed]
+Get the code below and automate your work! Watch video and learn how you can manipulate data into multiple tabs with VBA automaticall. Draft version below. Stay tuned for updates as this progresses.
+&amp;lt;code&amp;gt;Option Explicit Sub Initialize_Data() Application.ScreenUpdating = False Call DefBusRules Call flat_file_to_tabs Call IndexIt Call format_raw_Data Call desc_stats(10) Worksheets(&amp;quot;Def &amp;amp; Bus Rules &amp;amp; Overview&amp;quot;).Select Range(&amp;quot;A1&amp;quot;).Select Application.ScreenUpdating = True End Sub Sub flat_file_to_tabs() &amp;#39;Declaration of Variables Dim lng_LastRow As Long Dim r1 As Long Dim int_StartingRow As Integer Dim int_StartingCol As Integer Dim str_CurrentMDS As String Dim int_HeaderRow As Long Worksheets(&amp;quot;Raw Data&amp;quot;).</description>
+    </item>
+    
+    <item>
+      <title>Manipulate Data and Automate Descriptive Statistics with VBA</title>
+      <link>/post/2017/09/26/manipulate-data-automate-descriptive-statistics-vba/</link>
+      <pubDate>Tue, 26 Sep 2017 01:23:20 +0000</pubDate>
+      
+      <guid>/post/2017/09/26/manipulate-data-automate-descriptive-statistics-vba/</guid>
+      <description>[embed]https://youtu.be/L2GoeXv_Ro0[/embed]
+Get the code below and automate your work! Watch video and learn how you can manipulate data into multiple tabs with VBA automaticall. Draft version below. Stay tuned for updates as this progresses.
+&amp;lt;code&amp;gt;Option Explicit Sub Initialize_Data() Application.ScreenUpdating = False Call DefBusRules Call flat_file_to_tabs Call IndexIt Call format_raw_Data Call desc_stats(10) Worksheets(&amp;quot;Def &amp;amp; Bus Rules &amp;amp; Overview&amp;quot;).Select Range(&amp;quot;A1&amp;quot;).Select Application.ScreenUpdating = True End Sub Sub flat_file_to_tabs() &#39;Declaration of Variables Dim lng_LastRow As Long Dim r1 As Long Dim int_StartingRow As Integer Dim int_StartingCol As Integer Dim str_CurrentMDS As String Dim int_HeaderRow As Long Worksheets(&amp;quot;Raw Data&amp;quot;).</description>
+    </item>
+    
+    <item>
+      <title>Useful Excel Template Building with VBA Range Methods and Objects!</title>
+      <link>/post/2017/09/15/vba-range-debugger-option-explicit-integers/</link>
+      <pubDate>Fri, 15 Sep 2017 22:29:57 +0000</pubDate>
+      
+      <guid>/post/2017/09/15/vba-range-debugger-option-explicit-integers/</guid>
+      <description>Learn practical code now! Begin using this code immediately in the workforce! This tutorial will guide you through the use of ranges and how to extract values from cells and input values into cells.
+In this tutorial you will learn the basics of:
+ Option Explicit - Why use it?
+ Range - Useful for template building and more.
+ Objects - What are they and tell me more!</description>
+    </item>
+    
+    <item>
+      <title>Useful Excel Template Building with VBA Range Methods and Objects!</title>
+      <link>/post/2017/09/15/vba-range-debugger-option-explicit-integers/</link>
+      <pubDate>Fri, 15 Sep 2017 22:29:57 +0000</pubDate>
+      
+      <guid>/post/2017/09/15/vba-range-debugger-option-explicit-integers/</guid>
+      <description>Learn practical code now! Begin using this code immediately in the workforce! This tutorial will guide you through the use of ranges and how to extract values from cells and input values into cells.
+In this tutorial you will learn the basics of:
+ Option Explicit - Why use it?
+ Range - Useful for template building and more.
+ Objects - What are they and tell me more!</description>
+    </item>
+    
+    <item>
+      <title>Overview of the VBA Editor, Reading VBA Code, and Eliminating Waste</title>
+      <link>/post/2017/08/31/vba-macros-editor-code-excel/</link>
+      <pubDate>Thu, 31 Aug 2017 22:28:32 +0000</pubDate>
+      
+      <guid>/post/2017/08/31/vba-macros-editor-code-excel/</guid>
+      <description>[embed]https://youtu.be/GNulOwQT0mk[/embed]
+Overview of the VBA Editor, Reading VBA Code, and Eliminating Waste First, a quick overview of how to record and run macros. Then the tutorial shows the user how to manually check the VBA code for a particular macro. How to change module names and macro names. Also a few key terms such as Integrated Development Environment (IDE).
+A few key takeaways form this tutorial.
+Open the VBA Editor</description>
+    </item>
+    
+    <item>
+      <title>Overview of the VBA Editor, Reading VBA Code, and Eliminating Waste</title>
+      <link>/post/2017/08/31/vba-macros-editor-code-excel/</link>
+      <pubDate>Thu, 31 Aug 2017 22:28:32 +0000</pubDate>
+      
+      <guid>/post/2017/08/31/vba-macros-editor-code-excel/</guid>
+      <description>[embed]https://youtu.be/GNulOwQT0mk[/embed]
+Overview of the VBA Editor, Reading VBA Code, and Eliminating Waste First, a quick overview of how to record and run macros. Then the tutorial shows the user how to manually check the VBA code for a particular macro. How to change module names and macro names. Also a few key terms such as Integrated Development Environment (IDE).
+A few key takeaways form this tutorial.
+ Open the VBA Editor</description>
+    </item>
+    
+    <item>
+      <title>Very First VBA Excel Macro Tutorial for Beginners</title>
+      <link>/post/2017/08/29/first-vba-excel-macro-tutorial-beginners/</link>
+      <pubDate>Tue, 29 Aug 2017 14:34:06 +0000</pubDate>
+      
+      <guid>/post/2017/08/29/first-vba-excel-macro-tutorial-beginners/</guid>
+      <description>Recording your first Macro with Microsoft Excel Have you ever had a task that you repeat over and over again in Microsoft Excel? This tutorial will teach the absolute beginner how to start recording and using macros. This will make your work day much more efficient. So click the short video and start being more productive!
+[embed]https://youtu.be/9-_UZBBM3RQ[/embed]
+ Quick Start Guide: How To Record First Macro Click on File and select Options.</description>
+    </item>
+    
+    <item>
+      <title>Very First VBA Excel Macro Tutorial for Beginners</title>
+      <link>/post/2017/08/29/first-vba-excel-macro-tutorial-beginners/</link>
+      <pubDate>Tue, 29 Aug 2017 14:34:06 +0000</pubDate>
+      
+      <guid>/post/2017/08/29/first-vba-excel-macro-tutorial-beginners/</guid>
+      <description>Recording your first Macro with Microsoft Excel Have you ever had a task that you repeat over and over again in Microsoft Excel? This tutorial will teach the absolute beginner how to start recording and using macros. This will make your work day much more efficient. So click the short video and start being more productive!
+[embed]https://youtu.be/9-_UZBBM3RQ[/embed]
+Quick Start Guide: How To Record First Macro  Click on File and select Options.</description>
+    </item>
+    
+  </channel>
+</rss>

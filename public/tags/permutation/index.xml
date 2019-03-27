@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>permutation on Mark Gingrass Blog</title>
+    <link>/tags/permutation/</link>
+    <description>Recent content in permutation on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Dec 2017 06:14:35 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/permutation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nonograms Permutations</title>
+      <link>/post/2017/12/17/nonograms-permutation-calculation/</link>
+      <pubDate>Sun, 17 Dec 2017 06:14:35 +0000</pubDate>
+      
+      <guid>/post/2017/12/17/nonograms-permutation-calculation/</guid>
+      <description>Nonogram Permutation This started with a friend asking for help figuring out a for loop. She wanted to know how many different ways she can arrange this setup. Nonograms are picture logic puzzles in which cells in a grid must be colored or left blank according to numbers at the side of the grid to reveal a hidden picture. I was playing around with figuring out how many permutations based on number of columns, hints, and hint values.</description>
+    </item>
+    
+    <item>
+      <title>Nonograms Permutations</title>
+      <link>/post/2017/12/17/nonograms-permutation-calculation/</link>
+      <pubDate>Sun, 17 Dec 2017 06:14:35 +0000</pubDate>
+      
+      <guid>/post/2017/12/17/nonograms-permutation-calculation/</guid>
+      <description>Nonogram Permutation This started with a friend asking for help figuring out a for loop. She wanted to know how many different ways she can arrange this setup. Nonograms are picture logic puzzles in which cells in a grid must be colored or left blank according to numbers at the side of the grid to reveal a hidden picture. I was playing around with figuring out how many permutations based on number of columns, hints, and hint values.</description>
+    </item>
+    
+  </channel>
+</rss>

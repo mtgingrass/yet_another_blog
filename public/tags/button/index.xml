@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>button on Mark Gingrass Blog</title>
+    <link>/tags/button/</link>
+    <description>Recent content in button on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Oct 2017 02:29:24 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/button/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Add a Button To Excel to Run a Macro</title>
+      <link>/post/2017/10/03/add-button-excel-run-macro/</link>
+      <pubDate>Tue, 03 Oct 2017 02:29:24 +0000</pubDate>
+      
+      <guid>/post/2017/10/03/add-button-excel-run-macro/</guid>
+      <description>Adding Button for GUI Interface. Now that you have a few macros under your belt (some from scratch, some recorded, and some cut/pasted from the internet), it’s time to make a user interface for them.
+In this tutorial, I will show you how to insert a simple button control to activate your macro. This is a very easy process and it will save you from having to explain to users how to get into the VBA editor.</description>
+    </item>
+    
+    <item>
+      <title>Add a Button To Excel to Run a Macro</title>
+      <link>/post/2017/10/03/add-button-excel-run-macro/</link>
+      <pubDate>Tue, 03 Oct 2017 02:29:24 +0000</pubDate>
+      
+      <guid>/post/2017/10/03/add-button-excel-run-macro/</guid>
+      <description>Adding Button for GUI Interface. Now that you have a few macros under your belt (some from scratch, some recorded, and some cut/pasted from the internet), it&amp;rsquo;s time to make a user interface for them.
+In this tutorial, I will show you how to insert a simple button control to activate your macro. This is a very easy process and it will save you from having to explain to users how to get into the VBA editor.</description>
+    </item>
+    
+  </channel>
+</rss>

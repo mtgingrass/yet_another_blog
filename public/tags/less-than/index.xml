@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>less than on Mark Gingrass Blog</title>
+    <link>/tags/less-than/</link>
+    <description>Recent content in less than on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Aug 2017 19:16:51 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/less-than/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>3. C&#43;&#43; Programming Basics (if statements and operators)</title>
+      <link>/post/2017/08/22/3-c-programming-basics-statements-operators/</link>
+      <pubDate>Tue, 22 Aug 2017 19:16:51 +0000</pubDate>
+      
+      <guid>/post/2017/08/22/3-c-programming-basics-statements-operators/</guid>
+      <description>[embed]https://youtu.be/VzmpwSKVtl8?list=PL0oBhq0tLsOBzIXpM98ezhrBHse5IJ776[/embed]
+Using Visual Studio 2015 to create another C++ program.
+This tutorial teaches the beginner programmer the basics of how to use if statements and comparison operators using C++.
+First by taking input from the keyboard and storing the user input into user defined variables. Next, printing the variables back to the output device, the screen, letting the user know if the numbers are equal, greater than, less than or not equal to each other.</description>
+    </item>
+    
+    <item>
+      <title>3. C&#43;&#43; Programming Basics (if statements and operators)</title>
+      <link>/post/2017/08/22/3-c-programming-basics-statements-operators/</link>
+      <pubDate>Tue, 22 Aug 2017 19:16:51 +0000</pubDate>
+      
+      <guid>/post/2017/08/22/3-c-programming-basics-statements-operators/</guid>
+      <description>[embed]https://youtu.be/VzmpwSKVtl8?list=PL0oBhq0tLsOBzIXpM98ezhrBHse5IJ776[/embed]
+Using Visual Studio 2015 to create another C++ program.
+This tutorial teaches the beginner programmer the basics of how to use if statements and comparison operators using C++.
+First by taking input from the keyboard and storing the user input into user defined variables. Next, printing the variables back to the output device, the screen, letting the user know if the numbers are equal, greater than, less than or not equal to each other.</description>
+    </item>
+    
+  </channel>
+</rss>

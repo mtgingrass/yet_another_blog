@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>read file on Mark Gingrass Blog</title>
+    <link>/tags/read-file/</link>
+    <description>Recent content in read file on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Oct 2017 01:10:07 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/read-file/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Download and Use R Studio First Program - Complete Guide</title>
+      <link>/post/2017/10/04/download-use-r-studio-first-program-complete-guide/</link>
+      <pubDate>Wed, 04 Oct 2017 01:10:07 +0000</pubDate>
+      
+      <guid>/post/2017/10/04/download-use-r-studio-first-program-complete-guide/</guid>
+      <description> How to Download R and R Studio. After this tutorial, you will know where to download R and R studio as well as create your own R scripts.
+ Where to Download R
+ Where to Download R Studio
+ Create your first script and read in a data file!
+   Watch Video [embed]https://youtu.be/tFseuxP4C3k[/embed]
+ Download Links  The R Project for Statistics
+ R Studio
+   </description>
+    </item>
+    
+    <item>
+      <title>Download and Use R Studio First Program - Complete Guide</title>
+      <link>/post/2017/10/04/download-use-r-studio-first-program-complete-guide/</link>
+      <pubDate>Wed, 04 Oct 2017 01:10:07 +0000</pubDate>
+      
+      <guid>/post/2017/10/04/download-use-r-studio-first-program-complete-guide/</guid>
+      <description> How to Download R and R Studio. After this tutorial, you will know where to download R and R studio as well as create your own R scripts.
+ Where to Download R
+ Where to Download R Studio
+ Create your first script and read in a data file!
+  Watch Video [embed]https://youtu.be/tFseuxP4C3k[/embed]
+Download Links  The R Project for Statistics
+ R Studio
+  </description>
+    </item>
+    
+  </channel>
+</rss>

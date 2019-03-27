@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Turn Flat File into tabular indexed sections (data manipulation beta) | Mark Gingrass Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-135621341-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="http://www.devgin.com">DevGin</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+
+<div class="article-meta">
+<h1><span class="title">Turn Flat File into tabular indexed sections (data manipulation beta)</span></h1>
+<h2 class="author">mtgingrass</h2>
+<h2 class="date">2017/09/21</h2>
+</div>
+
+<main>
+
+
+
+<p>Watch the video on how I take a raw data file with almost 4,000 rows and convert them into tabular sections of data based on a certain column/header value.</p>
+<p>I created this today to complete a work tasking but plan on modifying it in the coming days/weeks to be much more user friendly. Despite, this is very useful code for anyone.</p>
+<p>[embed]<a href="https://youtu.be/2d4L-hmdSmk%5B/embed%5D" class="uri">https://youtu.be/2d4L-hmdSmk[/embed]</a> Feel free to modify to your liking and share. I will write up better explanations as this matures so please check back.</p>
+<p>Copy/paste code into your macro:</p>
+<p><a href="https://www.amazon.com/gp/product/B074XV4FTV/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B074XV4FTV&amp;linkCode=as2&amp;tag=dynamic-ranges-modifying-macros-2-20&amp;linkId=1c43b6e9fabebe5e83c06bb01c992fa7"><img src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=US&amp;ASIN=B074XV4FTV&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL250_&amp;tag=dynamic-ranges-modifying-macros-2-20" /></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=dynamic-ranges-modifying-macros-2-20&amp;l=am2&amp;o=1&amp;a=B074XV4FTV" /></p>
+<pre><code>&lt;code&gt;
+&#39;Mark Gingrass (beta 1)
+&#39;Watch how I take a raw data file with almost 4,000 rows and convert them into tabular sections of data
+&#39;based on a certain column/header value. I created this today to complete a work tasking but plan on
+&#39;modifying it in the coming days/weeks to be much more user friendly. Despite, this is very useful code for anyone.
+&#39;Feel free to modify to your liking and share.
+Option Explicit
+
+Sub Initialize_Data()
+    Call DefBusRules
+    Call flat_file_to_tabs
+    Call IndexIt
+End Sub
+
+Sub flat_file_to_tabs()
+
+    &#39;Declaration of Variables
+    Dim lng_LastRow As Long
+    Dim r1 As Long
+    Dim int_StartingRow As Integer
+    Dim int_StartingCol As Integer
+    Dim str_CurrentMDS As String
+    Dim int_HeaderRow As Long
+    
+    Worksheets(&quot;Raw Data&quot;).Activate
+    &#39;Inititializers
+    int_StartingRow = InputBox(&quot;Starting Row of Data: &quot;)
+    int_StartingCol = InputBox(&quot;Column of Interest: &quot;)
+    int_HeaderRow = InputBox(&quot;Header Row (0 for none): &quot;)
+
+
+    &#39;Get row count
+    lng_LastRow = Cells(Rows.Count, int_StartingCol).End(xlUp).Row
+    
+    &#39;Get first MDS
+    str_CurrentMDS = Cells(int_StartingRow, int_StartingCol).Value
+       
+    &#39;Loop through rows finding unique MDS&#39;s
+    For r1 = int_StartingRow To lng_LastRow
+        If Cells(r1, int_StartingCol).Value = str_CurrentMDS Then
+            Call copy_paste_row(int_HeaderRow, r1, str_CurrentMDS)
+        Else
+        &#39;insert blank row on top - may need to add more blanks for late ruse
+            str_CurrentMDS = Cells(r1 + 1, int_StartingCol)
+        End If
+    Next
+     Application.ScreenUpdating = True
+End Sub
+
+Sub copy_paste_row(int_HeaderRow As Long, int_RowToCopy As Long, str_TabName As String)
+    Application.ScreenUpdating = False
+    
+    Dim lng_LastRow As Long
+    Dim wsTest As Worksheet
+    Dim offset As Integer
+    
+    offset = 5
+    
+    &#39;test to see if tab already exists
+    Set wsTest = Nothing
+        On Error Resume Next
+    Set wsTest = ActiveWorkbook.Worksheets(str_TabName)
+    On Error GoTo 0
+     
+    &#39;if tab does not exist, create one and insert header
+    If wsTest Is Nothing Then
+        Worksheets.Add.Name = str_TabName
+        Worksheets(&quot;Raw Data&quot;).Activate
+        Rows(int_HeaderRow).Select
+        Selection.Copy
+        Worksheets(str_TabName).Activate
+        Rows(offset).Select
+        ActiveSheet.Paste
+    End If
+    
+    &#39;Raw Data sheet should be active
+    &#39;paste row to the sheet
+    Rows(int_RowToCopy).Select
+    Selection.Copy
+    
+    &#39;go back to sheet
+    Worksheets(str_TabName).Activate
+    lng_LastRow = Cells(Rows.Count, 1).End(xlUp).Row
+    Rows(lng_LastRow + 1).Select
+    ActiveSheet.Paste
+    Sheets(str_TabName).Select
+    Application.CutCopyMode = False
+    
+    &#39;Go back to original sheet
+    Sheets(&quot;Raw Data&quot;).Select
+End Sub
+
+Option Explicit
+
+Sub DefBusRules()
+&#39;
+&#39; DefBusRules Macro
+&#39;
+
+&#39;
+&#39;test to see if tab already exists
+    Dim wsTest As Worksheet
+    
+    Set wsTest = Nothing
+        On Error Resume Next
+    Set wsTest = ActiveWorkbook.Worksheets(&quot;Def &amp; Bus Rules &amp; Overview&quot;)
+    On Error GoTo 0
+     
+    &#39;if tab does not exist, create one and insert header
+    If wsTest Is Nothing Then
+        Worksheets.Add.Name = &quot;Def &amp; Bus Rules &amp; Overview&quot;
+        Worksheets(&quot;Def &amp; Bus Rules &amp; Overview&quot;).Activate
+    End If
+    
+    Sheets(&quot;Def &amp; Bus Rules &amp; Overview&quot;).Select
+    Sheets(&quot;Def &amp; Bus Rules &amp; Overview&quot;).Name = &quot;Def &amp; Bus Rules &amp; Overview&quot;
+    ActiveCell.FormulaR1C1 = &quot;POC&quot;
+    Range(&quot;C1&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;9/20/2017&quot;
+    Range(&quot;D1&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;Email: &quot;
+    Range(&quot;B3&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;Definitions and Business Rules&quot;
+    Columns(&quot;B:B&quot;).Select
+    Selection.ColumnWidth = 27.43
+    Range(&quot;B5&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;Data Source&quot;
+    Range(&quot;B6&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;Data Pull Date&quot;
+    Range(&quot;B8&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;Data Source&quot;
+    Range(&quot;B9&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;Data Pull Date&quot;
+    Range(&quot;B12&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;Generic Rules Applied&quot;
+    Range(&quot;B13&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;Outliers&quot;
+    Range(&quot;B14&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;#NA&quot;
+    Range(&quot;B15&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;Blanks&quot;
+    Range(&quot;B16&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;Zeros&quot;
+    Range(&quot;B18&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;Raw Data Key&quot;
+    Range(&quot;B23&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;Findings and Further Analysis&quot;
+    Range(&quot;C3&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;&#39;---&quot;
+    Range(&quot;C5&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;&#39;---&quot;
+    Range(&quot;C6&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;&#39;---&quot;
+    Range(&quot;C8&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;&#39;---&quot;
+    Range(&quot;C9&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;&#39;---&quot;
+    Range(&quot;C12&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;&#39;---&quot;
+    Range(&quot;C13&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;&#39;---&quot;
+    Range(&quot;C14&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;&#39;---&quot;
+    Range(&quot;C15&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;&#39;---&quot;
+    Range(&quot;C16&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;&#39;---&quot;
+    Range(&quot;C19&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;&#39;---&quot;
+    Range(&quot;C20&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;&#39;---&quot;
+    Range(&quot;C21&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;&#39;---&quot;
+    Range(&quot;C24&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;&#39;---&quot;
+    Range(&quot;C25&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;&#39;---&quot;
+    Range(&quot;C26&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;&#39;---&quot;
+    Range(&quot;B3,B12,B18,B23&quot;).Select
+    Range(&quot;B23&quot;).Activate
+    Selection.Font.Size = 12
+    Selection.Font.Size = 14
+    Selection.Font.Size = 16
+    Selection.Font.Size = 14
+    Selection.Font.Bold = True
+    Range(&quot;B5:B9,B13:B16,B19:B22,B24:B26&quot;).Select
+    Range(&quot;B24&quot;).Activate
+    With Selection
+        .HorizontalAlignment = xlRight
+        .VerticalAlignment = xlBottom
+        .WrapText = False
+        .Orientation = 0
+        .AddIndent = False
+        .IndentLevel = 0
+        .ShrinkToFit = False
+        .ReadingOrder = xlContext
+        .MergeCells = False
+    End With
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 15773696
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    With Selection.Font
+        .ThemeColor = xlThemeColorDark1
+        .TintAndShade = 0
+    End With
+    Range(&quot;C3:C26&quot;).Select
+    With Selection
+        .HorizontalAlignment = xlCenter
+        .VerticalAlignment = xlBottom
+        .WrapText = False
+        .Orientation = 0
+        .AddIndent = False
+        .IndentLevel = 0
+        .ShrinkToFit = False
+        .ReadingOrder = xlContext
+        .MergeCells = False
+    End With
+    ActiveWindow.SmallScroll Down:=-12
+    Range(&quot;M1&quot;).Select
+    ActiveCell.FormulaR1C1 = &quot;Tab Index&quot;
+    Range(&quot;M1&quot;).Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 15773696
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    With Selection
+        .HorizontalAlignment = xlRight
+        .VerticalAlignment = xlBottom
+        .WrapText = False
+        .Orientation = 0
+        .AddIndent = False
+        .IndentLevel = 0
+        .ShrinkToFit = False
+        .ReadingOrder = xlContext
+        .MergeCells = False
+    End With
+    Selection.Font.Bold = True
+    Columns(&quot;M:M&quot;).ColumnWidth = 12.43
+    Range(&quot;M5&quot;).Select
+    
+    Columns(&quot;C:C&quot;).EntireColumn.AutoFit
+    Columns(&quot;D:D&quot;).ColumnWidth = 72.14
+    
+    
+    
+    Call Add_Borders
+End Sub
+
+
+
+
+Sub Add_Borders()
+&#39;
+&#39; Macro3 Macro
+&#39;
+
+&#39;
+    Range(&quot;B5&quot;).Select
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    With Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeRight)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    Selection.Borders(xlInsideVertical).LineStyle = xlNone
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+    Range(&quot;B6&quot;).Select
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    With Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeRight)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    Selection.Borders(xlInsideVertical).LineStyle = xlNone
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+    Range(&quot;B7&quot;).Select
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    With Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeRight)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    Selection.Borders(xlInsideVertical).LineStyle = xlNone
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+    Range(&quot;B8&quot;).Select
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    With Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeRight)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    Selection.Borders(xlInsideVertical).LineStyle = xlNone
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+    Range(&quot;B9&quot;).Select
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    With Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeRight)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    Selection.Borders(xlInsideVertical).LineStyle = xlNone
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+    Range(&quot;B13&quot;).Select
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    With Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeRight)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    Selection.Borders(xlInsideVertical).LineStyle = xlNone
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+    Range(&quot;B14&quot;).Select
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    With Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeRight)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    Selection.Borders(xlInsideVertical).LineStyle = xlNone
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+    Range(&quot;B15&quot;).Select
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    With Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeRight)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    Selection.Borders(xlInsideVertical).LineStyle = xlNone
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+    Range(&quot;B19&quot;).Select
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    With Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeRight)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    Selection.Borders(xlInsideVertical).LineStyle = xlNone
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+    Range(&quot;B20&quot;).Select
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    With Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeRight)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    Selection.Borders(xlInsideVertical).LineStyle = xlNone
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+    Range(&quot;B21:B22&quot;).Select
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    With Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeRight)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    Selection.Borders(xlInsideVertical).LineStyle = xlNone
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+    Range(&quot;B21:B22&quot;).Select
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    With Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeRight)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    Selection.Borders(xlInsideVertical).LineStyle = xlNone
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+    Range(&quot;B21&quot;).Select
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    With Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeRight)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    Selection.Borders(xlInsideVertical).LineStyle = xlNone
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+    Range(&quot;B24&quot;).Select
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    With Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeRight)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    Selection.Borders(xlInsideVertical).LineStyle = xlNone
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+    Range(&quot;B25&quot;).Select
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    With Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeRight)
+        .LineStyle = xlContinuous
+        .ThemeColor = 1
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    Selection.Borders(xlInsideVertical).LineStyle = xlNone
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+End Sub
+
+Sub IndexIt()
+    Dim Ws As Worksheet, WsInd As Worksheet, lStartRow%, lStartCol, sBackRange As String
+     &#39;##1: Where should the back-to-index-page link be, change if necessary
+    sBackRange = &quot;A1&quot;
+     
+    lStartRow = 2
+    lStartCol = 13
+     
+    Set WsInd = Worksheets(&quot;Def &amp; Bus Rules &amp; Overview&quot;)
+
+     
+     &#39;Add the links
+    For Each Ws In Worksheets
+        If Ws.Name &lt;&gt; WsInd.Name Then
+            WsInd.Hyperlinks.Add WsInd.Cells(lStartRow, lStartCol), &quot;&quot;, &quot;&#39;&quot; &amp; Ws.Name &amp; &quot;&#39;!A1&quot;
+            WsInd.Cells(lStartRow, lStartCol).Value = Ws.Name
+            lStartRow = lStartRow + 1
+             
+             &#39;##2: Add link back to index, comment the following 2 lines if you don&#39;t want this part
+            Ws.Hyperlinks.Add Ws.Range(sBackRange), &quot;&quot;, &quot;&#39;&quot; &amp; WsInd.Name &amp; &quot;&#39;&quot; &amp; &quot;!A1&quot;
+            Ws.Range(sBackRange).Value = &quot;Back to Index&quot;
+        End If
+    Next Ws
+     
+    WsInd.Activate
+End Sub
+
+&lt;/code&gt;</code></pre>
+
+</main>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+  <hr/>
+  &copy; <a href="https://markgingrass.com">Mark Gingrass</a> 2018 | <a href="https://github.com/mtgingrass">Github</a> | <a href="https://twitter.com/markgingrass">Twitter</a>
+  
+  </footer>
+  </body>
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "gingrass" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</html>
+

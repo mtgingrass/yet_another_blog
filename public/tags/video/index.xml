@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Video on Mark Gingrass Blog</title>
+    <link>/tags/video/</link>
+    <description>Recent content in Video on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Aug 2017 22:28:32 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/video/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Overview of the VBA Editor, Reading VBA Code, and Eliminating Waste</title>
+      <link>/post/2017/08/31/vba-macros-editor-code-excel/</link>
+      <pubDate>Thu, 31 Aug 2017 22:28:32 +0000</pubDate>
+      
+      <guid>/post/2017/08/31/vba-macros-editor-code-excel/</guid>
+      <description>[embed]https://youtu.be/GNulOwQT0mk[/embed]
+Overview of the VBA Editor, Reading VBA Code, and Eliminating Waste First, a quick overview of how to record and run macros. Then the tutorial shows the user how to manually check the VBA code for a particular macro. How to change module names and macro names. Also a few key terms such as Integrated Development Environment (IDE).
+A few key takeaways form this tutorial.
+Open the VBA Editor</description>
+    </item>
+    
+    <item>
+      <title>Overview of the VBA Editor, Reading VBA Code, and Eliminating Waste</title>
+      <link>/post/2017/08/31/vba-macros-editor-code-excel/</link>
+      <pubDate>Thu, 31 Aug 2017 22:28:32 +0000</pubDate>
+      
+      <guid>/post/2017/08/31/vba-macros-editor-code-excel/</guid>
+      <description>[embed]https://youtu.be/GNulOwQT0mk[/embed]
+Overview of the VBA Editor, Reading VBA Code, and Eliminating Waste First, a quick overview of how to record and run macros. Then the tutorial shows the user how to manually check the VBA code for a particular macro. How to change module names and macro names. Also a few key terms such as Integrated Development Environment (IDE).
+A few key takeaways form this tutorial.
+ Open the VBA Editor</description>
+    </item>
+    
+  </channel>
+</rss>

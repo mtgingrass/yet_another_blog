@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>publish on Mark Gingrass Blog</title>
+    <link>/tags/publish/</link>
+    <description>Recent content in publish on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Dec 2017 23:59:34 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/publish/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Scrape Twitter, Text Manipulate, Autopost to WordPress</title>
+      <link>/post/2017/12/16/scrape-twitter-text-manipuplate-autopost-wordpress/</link>
+      <pubDate>Sat, 16 Dec 2017 23:59:34 +0000</pubDate>
+      
+      <guid>/post/2017/12/16/scrape-twitter-text-manipuplate-autopost-wordpress/</guid>
+      <description>Tweet, Scrape, Manip, Publish It is highly recommended to watch this short video before working with these files. The video explains how each file works and how to run this for your own site.
+I will also publish these on my GitHub site here. What is a GitHub you say? See previous post here for quick 5 minute tutorial
+Watch Video First [embed]https://youtu.be/ioNIAqZa3go[embed]
+Note that the below code has R Markdown language in it which makes publishing this particular post difficult.</description>
+    </item>
+    
+    <item>
+      <title>Scrape Twitter, Text Manipulate, Autopost to WordPress</title>
+      <link>/post/2017/12/16/scrape-twitter-text-manipuplate-autopost-wordpress/</link>
+      <pubDate>Sat, 16 Dec 2017 23:59:34 +0000</pubDate>
+      
+      <guid>/post/2017/12/16/scrape-twitter-text-manipuplate-autopost-wordpress/</guid>
+      <description>Tweet, Scrape, Manip, Publish It is highly recommended to watch this short video before working with these files. The video explains how each file works and how to run this for your own site.
+I will also publish these on my GitHub site here.  What is a GitHub you say? See previous post here for quick 5 minute tutorial
+Watch Video First [embed]https://youtu.be/ioNIAqZa3go[embed]
+Note that the below code has R Markdown language in it which makes publishing this particular post difficult.</description>
+    </item>
+    
+    <item>
+      <title>Data Cleanup with Solar Radiation Data Set</title>
+      <link>/post/2017/12/09/data-cleanup-solar-radiation-data-set/</link>
+      <pubDate>Sat, 09 Dec 2017 20:50:34 +0000</pubDate>
+      
+      <guid>/post/2017/12/09/data-cleanup-solar-radiation-data-set/</guid>
+      <description>Purpose Before you can run a statistical analysis, you may have to clean data. This post is all about using some techniques to clean data. This is not necessarily the best way, or even the correct way to do this; however, it is mean to generate your own ideas for cleaning data in the future.
+ Data Location The data comes from the Kaggle site here. It contains over 32,000 observations of Solar Radiation data.</description>
+    </item>
+    
+    <item>
+      <title>Data Cleanup with Solar Radiation Data Set</title>
+      <link>/post/2017/12/09/data-cleanup-solar-radiation-data-set/</link>
+      <pubDate>Sat, 09 Dec 2017 20:50:34 +0000</pubDate>
+      
+      <guid>/post/2017/12/09/data-cleanup-solar-radiation-data-set/</guid>
+      <description>Purpose Before you can run a statistical analysis, you may have to clean data. This post is all about using some techniques to clean data. This is not necessarily the best way, or even the correct way to do this; however, it is mean to generate your own ideas for cleaning data in the future.
+Data Location The data comes from the Kaggle site here. It contains over 32,000 observations of Solar Radiation data.</description>
+    </item>
+    
+  </channel>
+</rss>

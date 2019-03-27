@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R Statistics on Mark Gingrass Blog</title>
+    <link>/categories/r-statistics/</link>
+    <description>Recent content in R Statistics on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Jan 2018 10:22:24 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/r-statistics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>4 Essential Resources for learning R Programming</title>
+      <link>/post/2018/01/10/7-essential-resources-learning-r-programming/</link>
+      <pubDate>Wed, 10 Jan 2018 10:22:24 +0000</pubDate>
+      
+      <guid>/post/2018/01/10/7-essential-resources-learning-r-programming/</guid>
+      <description>[caption id=“attachment_604” align=“alignnone” width=“200” class=“center”]R Logo[/caption]
+Step by Step Guide to Learning R Step 1
+ Download R.
+ Download R Studio.
+  Learn R Fundamentals
+ Data Camp is a good place to start.
+ Corsera also has R courses for free.
+ Have experience with programming, you can start here.
+  Make your data pretty using ggplot2.
+ Jump into machine learning with Kaggle.
+ Titanic Machine Learning tutorial.</description>
+    </item>
+    
+    <item>
+      <title>4 Essential Resources for learning R Programming</title>
+      <link>/post/2018/01/10/7-essential-resources-learning-r-programming/</link>
+      <pubDate>Wed, 10 Jan 2018 10:22:24 +0000</pubDate>
+      
+      <guid>/post/2018/01/10/7-essential-resources-learning-r-programming/</guid>
+      <description>[caption id=&amp;ldquo;attachment_604&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;200&amp;rdquo; class=&amp;ldquo;center&amp;rdquo;]R Logo[/caption]
+Step by Step Guide to Learning R  Step 1
+ Download R.
+ Download R Studio.
+  Learn R Fundamentals
+ Data Camp is a good place to start.
+ Corsera also has R courses for free.
+ Have experience with programming, you can start here.
+  Make your data pretty using ggplot2.
+ Jump into machine learning with Kaggle.</description>
+    </item>
+    
+    <item>
+      <title>Scrape Twitter, Text Manipulate, Autopost to WordPress</title>
+      <link>/post/2017/12/16/scrape-twitter-text-manipuplate-autopost-wordpress/</link>
+      <pubDate>Sat, 16 Dec 2017 23:59:34 +0000</pubDate>
+      
+      <guid>/post/2017/12/16/scrape-twitter-text-manipuplate-autopost-wordpress/</guid>
+      <description>Tweet, Scrape, Manip, Publish It is highly recommended to watch this short video before working with these files. The video explains how each file works and how to run this for your own site.
+I will also publish these on my GitHub site here. What is a GitHub you say? See previous post here for quick 5 minute tutorial
+Watch Video First [embed]https://youtu.be/ioNIAqZa3go[embed]
+Note that the below code has R Markdown language in it which makes publishing this particular post difficult.</description>
+    </item>
+    
+    <item>
+      <title>Scrape Twitter, Text Manipulate, Autopost to WordPress</title>
+      <link>/post/2017/12/16/scrape-twitter-text-manipuplate-autopost-wordpress/</link>
+      <pubDate>Sat, 16 Dec 2017 23:59:34 +0000</pubDate>
+      
+      <guid>/post/2017/12/16/scrape-twitter-text-manipuplate-autopost-wordpress/</guid>
+      <description>Tweet, Scrape, Manip, Publish It is highly recommended to watch this short video before working with these files. The video explains how each file works and how to run this for your own site.
+I will also publish these on my GitHub site here.  What is a GitHub you say? See previous post here for quick 5 minute tutorial
+Watch Video First [embed]https://youtu.be/ioNIAqZa3go[embed]
+Note that the below code has R Markdown language in it which makes publishing this particular post difficult.</description>
+    </item>
+    
+    <item>
+      <title>Five Minute GitHub Tutorial with RStudio - Simple!</title>
+      <link>/post/2017/12/16/five-minute-github-tutorial-rstudio-simple/</link>
+      <pubDate>Sat, 16 Dec 2017 21:17:30 +0000</pubDate>
+      
+      <guid>/post/2017/12/16/five-minute-github-tutorial-rstudio-simple/</guid>
+      <description>What is a GitHub? Recently, I went to search for a few jobs in the tech industry and one thing stood out with each of the sites I visited. Everyone was asking “What’s your GitHub address?” Admittedly, I didn’t have one until just the other day.
+ I posted this short five minute tutorial to get you started early!  GitHub is a repository for version control hosting of coding projects and much more.</description>
+    </item>
+    
+    <item>
+      <title>Five Minute GitHub Tutorial with RStudio - Simple!</title>
+      <link>/post/2017/12/16/five-minute-github-tutorial-rstudio-simple/</link>
+      <pubDate>Sat, 16 Dec 2017 21:17:30 +0000</pubDate>
+      
+      <guid>/post/2017/12/16/five-minute-github-tutorial-rstudio-simple/</guid>
+      <description>What is a GitHub? Recently, I went to search for a few jobs in the tech industry and one thing stood out with each of the sites I visited. Everyone was asking &amp;ldquo;What&amp;rsquo;s your GitHub address?&amp;rdquo; Admittedly, I didn&amp;rsquo;t have one until just the other day.
+I posted this short five minute tutorial to get you started early! GitHub is a repository for version control hosting of coding projects and much more.</description>
+    </item>
+    
+    <item>
+      <title>Data Cleanup with Solar Radiation Data Set</title>
+      <link>/post/2017/12/09/data-cleanup-solar-radiation-data-set/</link>
+      <pubDate>Sat, 09 Dec 2017 20:50:34 +0000</pubDate>
+      
+      <guid>/post/2017/12/09/data-cleanup-solar-radiation-data-set/</guid>
+      <description>Purpose Before you can run a statistical analysis, you may have to clean data. This post is all about using some techniques to clean data. This is not necessarily the best way, or even the correct way to do this; however, it is mean to generate your own ideas for cleaning data in the future.
+ Data Location The data comes from the Kaggle site here. It contains over 32,000 observations of Solar Radiation data.</description>
+    </item>
+    
+    <item>
+      <title>Data Cleanup with Solar Radiation Data Set</title>
+      <link>/post/2017/12/09/data-cleanup-solar-radiation-data-set/</link>
+      <pubDate>Sat, 09 Dec 2017 20:50:34 +0000</pubDate>
+      
+      <guid>/post/2017/12/09/data-cleanup-solar-radiation-data-set/</guid>
+      <description>Purpose Before you can run a statistical analysis, you may have to clean data. This post is all about using some techniques to clean data. This is not necessarily the best way, or even the correct way to do this; however, it is mean to generate your own ideas for cleaning data in the future.
+Data Location The data comes from the Kaggle site here. It contains over 32,000 observations of Solar Radiation data.</description>
+    </item>
+    
+    <item>
+      <title>Build Word Cloud from Twitter Using R</title>
+      <link>/post/2017/12/08/build-word-cloud-twitter-using-r/</link>
+      <pubDate>Fri, 08 Dec 2017 04:24:50 +0000</pubDate>
+      
+      <guid>/post/2017/12/08/build-word-cloud-twitter-using-r/</guid>
+      <description>How to create a WordCloud with Tweet data This is a follow up of this Twitter Scraper video I posted last week. If you have to, review previous video before proceeding to data manipulation and WordClouds!
+ In this video you will learn the essentials of:
+ How to connect to the Twitter API
+ What is a Corpus
+ What is a Term Document Matrix
+ Creating Word Clouds</description>
+    </item>
+    
+    <item>
+      <title>Build Word Cloud from Twitter Using R</title>
+      <link>/post/2017/12/08/build-word-cloud-twitter-using-r/</link>
+      <pubDate>Fri, 08 Dec 2017 04:24:50 +0000</pubDate>
+      
+      <guid>/post/2017/12/08/build-word-cloud-twitter-using-r/</guid>
+      <description>How to create a WordCloud with Tweet data This is a follow up of this Twitter Scraper video I posted last week. If you have to, review previous video before proceeding to data manipulation and WordClouds!
+In this video you will learn the essentials of:
+ How to connect to the Twitter API
+ What is a Corpus
+ What is a Term Document Matrix
+ Creating Word Clouds</description>
+    </item>
+    
+    <item>
+      <title>R Lowercase Function in Corpus Error Solved</title>
+      <link>/post/2017/12/07/r-tm_maptweet-corpus-content_transformertolower-error-solved/</link>
+      <pubDate>Thu, 07 Dec 2017 05:18:33 +0000</pubDate>
+      
+      <guid>/post/2017/12/07/r-tm_maptweet-corpus-content_transformertolower-error-solved/</guid>
+      <description>In my last video tutorial, I demonstrated the steps to tap into the power of the Twitter API to download Tweets based on search terms and import them into R. My plan was to make a follow up video showing how to clean the twitter data and run a Word Cloud on common terms.
+However, I ran into a slight snag early on.
+The code was supposed to be simple and quick.</description>
+    </item>
+    
+    <item>
+      <title>R Lowercase Function in Corpus Error Solved</title>
+      <link>/post/2017/12/07/r-tm_maptweet-corpus-content_transformertolower-error-solved/</link>
+      <pubDate>Thu, 07 Dec 2017 05:18:33 +0000</pubDate>
+      
+      <guid>/post/2017/12/07/r-tm_maptweet-corpus-content_transformertolower-error-solved/</guid>
+      <description>In my last video tutorial, I demonstrated the steps to tap into the power of the Twitter API to download Tweets based on search terms and import them into R. My plan was to make a follow up video showing how to clean the twitter data and run a Word Cloud on common terms.
+However, I ran into a slight snag early on.
+The code was supposed to be simple and quick.</description>
+    </item>
+    
+    <item>
+      <title>R Programming Twitter Scraper</title>
+      <link>/post/2017/11/21/r-programming-twitter-scraper/</link>
+      <pubDate>Tue, 21 Nov 2017 17:07:51 +0000</pubDate>
+      
+      <guid>/post/2017/11/21/r-programming-twitter-scraper/</guid>
+      <description>Create a Twitter Scrapper using R programming language in these very simple steps:
+[embed]https://youtu.be/1_K01qD4Exw[/embed]
+Follow these simple steps to start srapping:
+Create Twitter API Application first: https://apps.twitter.com/.
+ Copy the code below into an R script.
+ Install packages “twitteR” and “ROAuth” if required.
+ Change the search terms to your liking.
+ library(twitteR) library(ROAuth)
+Set API Keys api_key &amp;lt;- “XXXXXXXXXXXXXXXXXXXX” api_secret &amp;lt;- “xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx”
+access_token &amp;lt;- “xxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx” access_token_secret &amp;lt;- “xxxxxxxxxxxxxxxxxxxxxxxxxxxx”</description>
+    </item>
+    
+    <item>
+      <title>R Programming Twitter Scraper</title>
+      <link>/post/2017/11/21/r-programming-twitter-scraper/</link>
+      <pubDate>Tue, 21 Nov 2017 17:07:51 +0000</pubDate>
+      
+      <guid>/post/2017/11/21/r-programming-twitter-scraper/</guid>
+      <description>Create a Twitter Scrapper using R programming language in these very simple steps:
+[embed]https://youtu.be/1_K01qD4Exw[/embed]
+Follow these simple steps to start srapping:
+ Create Twitter API Application first: https://apps.twitter.com/.
+ Copy the code below into an R script.
+ Install packages &amp;ldquo;twitteR&amp;rdquo; and &amp;ldquo;ROAuth&amp;rdquo; if required.
+ Change the search terms to your liking.
+ library(twitteR) library(ROAuth)
+Set API Keys api_key &amp;lt;- &amp;ldquo;XXXXXXXXXXXXXXXXXXXX&amp;rdquo; api_secret &amp;lt;- &amp;ldquo;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;rdquo;
+access_token &amp;lt;- &amp;ldquo;xxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;rdquo; access_token_secret &amp;lt;- &amp;ldquo;xxxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Clean Data Outliers Using R Programming -</title>
+      <link>/post/2017/10/05/clean-data-r-programming/</link>
+      <pubDate>Thu, 05 Oct 2017 22:15:10 +0000</pubDate>
+      
+      <guid>/post/2017/10/05/clean-data-r-programming/</guid>
+      <description>Using R to Extract and Delete Outliers in Data Automate the extraction of outliers from your data-set using R programming and exclude the outliers.
+ What to expect  How to read in a *.csv file and store it as a data frame in R
+ How to extract all rows of data that are equal to a certain string
+ How to extract a single column of the specific data for analysis</description>
+    </item>
+    
+    <item>
+      <title>Clean Data Outliers Using R Programming -</title>
+      <link>/post/2017/10/05/clean-data-r-programming/</link>
+      <pubDate>Thu, 05 Oct 2017 22:15:10 +0000</pubDate>
+      
+      <guid>/post/2017/10/05/clean-data-r-programming/</guid>
+      <description>Using R to Extract and Delete Outliers in Data Automate the extraction of outliers from your data-set using R programming and exclude the outliers.
+What to expect  How to read in a *.csv file and store it as a data frame in R
+ How to extract all rows of data that are equal to a certain string
+ How to extract a single column of the specific data for analysis</description>
+    </item>
+    
+    <item>
+      <title>Download and Use R Studio First Program - Complete Guide</title>
+      <link>/post/2017/10/04/download-use-r-studio-first-program-complete-guide/</link>
+      <pubDate>Wed, 04 Oct 2017 01:10:07 +0000</pubDate>
+      
+      <guid>/post/2017/10/04/download-use-r-studio-first-program-complete-guide/</guid>
+      <description> How to Download R and R Studio. After this tutorial, you will know where to download R and R studio as well as create your own R scripts.
+ Where to Download R
+ Where to Download R Studio
+ Create your first script and read in a data file!
+   Watch Video [embed]https://youtu.be/tFseuxP4C3k[/embed]
+ Download Links  The R Project for Statistics
+ R Studio
+   </description>
+    </item>
+    
+    <item>
+      <title>Download and Use R Studio First Program - Complete Guide</title>
+      <link>/post/2017/10/04/download-use-r-studio-first-program-complete-guide/</link>
+      <pubDate>Wed, 04 Oct 2017 01:10:07 +0000</pubDate>
+      
+      <guid>/post/2017/10/04/download-use-r-studio-first-program-complete-guide/</guid>
+      <description> How to Download R and R Studio. After this tutorial, you will know where to download R and R studio as well as create your own R scripts.
+ Where to Download R
+ Where to Download R Studio
+ Create your first script and read in a data file!
+  Watch Video [embed]https://youtu.be/tFseuxP4C3k[/embed]
+Download Links  The R Project for Statistics
+ R Studio
+  </description>
+    </item>
+    
+  </channel>
+</rss>

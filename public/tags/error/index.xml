@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>error on Mark Gingrass Blog</title>
+    <link>/tags/error/</link>
+    <description>Recent content in error on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Dec 2017 05:18:33 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/error/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R Lowercase Function in Corpus Error Solved</title>
+      <link>/post/2017/12/07/r-tm_maptweet-corpus-content_transformertolower-error-solved/</link>
+      <pubDate>Thu, 07 Dec 2017 05:18:33 +0000</pubDate>
+      
+      <guid>/post/2017/12/07/r-tm_maptweet-corpus-content_transformertolower-error-solved/</guid>
+      <description>In my last video tutorial, I demonstrated the steps to tap into the power of the Twitter API to download Tweets based on search terms and import them into R. My plan was to make a follow up video showing how to clean the twitter data and run a Word Cloud on common terms.
+However, I ran into a slight snag early on.
+The code was supposed to be simple and quick.</description>
+    </item>
+    
+    <item>
+      <title>R Lowercase Function in Corpus Error Solved</title>
+      <link>/post/2017/12/07/r-tm_maptweet-corpus-content_transformertolower-error-solved/</link>
+      <pubDate>Thu, 07 Dec 2017 05:18:33 +0000</pubDate>
+      
+      <guid>/post/2017/12/07/r-tm_maptweet-corpus-content_transformertolower-error-solved/</guid>
+      <description>In my last video tutorial, I demonstrated the steps to tap into the power of the Twitter API to download Tweets based on search terms and import them into R. My plan was to make a follow up video showing how to clean the twitter data and run a Word Cloud on common terms.
+However, I ran into a slight snag early on.
+The code was supposed to be simple and quick.</description>
+    </item>
+    
+  </channel>
+</rss>

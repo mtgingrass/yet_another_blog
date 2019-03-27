@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data manipulation on Mark Gingrass Blog</title>
+    <link>/tags/data-manipulation/</link>
+    <description>Recent content in data manipulation on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 Dec 2017 04:24:50 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/data-manipulation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Build Word Cloud from Twitter Using R</title>
+      <link>/post/2017/12/08/build-word-cloud-twitter-using-r/</link>
+      <pubDate>Fri, 08 Dec 2017 04:24:50 +0000</pubDate>
+      
+      <guid>/post/2017/12/08/build-word-cloud-twitter-using-r/</guid>
+      <description>How to create a WordCloud with Tweet data This is a follow up of this Twitter Scraper video I posted last week. If you have to, review previous video before proceeding to data manipulation and WordClouds!
+ In this video you will learn the essentials of:
+ How to connect to the Twitter API
+ What is a Corpus
+ What is a Term Document Matrix
+ Creating Word Clouds</description>
+    </item>
+    
+    <item>
+      <title>Build Word Cloud from Twitter Using R</title>
+      <link>/post/2017/12/08/build-word-cloud-twitter-using-r/</link>
+      <pubDate>Fri, 08 Dec 2017 04:24:50 +0000</pubDate>
+      
+      <guid>/post/2017/12/08/build-word-cloud-twitter-using-r/</guid>
+      <description>How to create a WordCloud with Tweet data This is a follow up of this Twitter Scraper video I posted last week. If you have to, review previous video before proceeding to data manipulation and WordClouds!
+In this video you will learn the essentials of:
+ How to connect to the Twitter API
+ What is a Corpus
+ What is a Term Document Matrix
+ Creating Word Clouds</description>
+    </item>
+    
+  </channel>
+</rss>

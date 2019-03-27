@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>examples on Mark Gingrass Blog</title>
+    <link>/tags/examples/</link>
+    <description>Recent content in examples on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Nov 2017 01:31:46 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/examples/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>19. C&#43;&#43; Separate Interface from Implementation</title>
+      <link>/post/2017/11/04/19-c-separate-interface-implementation/</link>
+      <pubDate>Sat, 04 Nov 2017 01:31:46 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/19-c-separate-interface-implementation/</guid>
+      <description>Separate class interface from implantation. In the video I talk abut “definition” being separate from “Implementation”; however, what I mean to say is, “definition separate from interface.”
+[embed]https://youtu.be/hv0lv783KqQ[/embed]</description>
+    </item>
+    
+    <item>
+      <title>19. C&#43;&#43; Separate Interface from Implementation</title>
+      <link>/post/2017/11/04/19-c-separate-interface-implementation/</link>
+      <pubDate>Sat, 04 Nov 2017 01:31:46 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/19-c-separate-interface-implementation/</guid>
+      <description>Separate class interface from implantation. In the video I talk abut &amp;ldquo;definition&amp;rdquo; being separate from &amp;ldquo;Implementation&amp;rdquo;; however, what I mean to say is, &amp;ldquo;definition separate from interface.&amp;rdquo;
+[embed]https://youtu.be/hv0lv783KqQ[/embed]</description>
+    </item>
+    
+    <item>
+      <title>18. C&#43;&#43; class constructors, private member functions, default</title>
+      <link>/post/2017/11/04/18-c-class-constructors-private-member-functions-default/</link>
+      <pubDate>Sat, 04 Nov 2017 01:31:04 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/18-c-class-constructors-private-member-functions-default/</guid>
+      <description>default constructor in C++ with object/class called Circle. How to use member functions within a class and override member functions.
+[embed]https://youtu.be/6N5bBjjxICo[/embed]</description>
+    </item>
+    
+    <item>
+      <title>18. C&#43;&#43; class constructors, private member functions, default</title>
+      <link>/post/2017/11/04/18-c-class-constructors-private-member-functions-default/</link>
+      <pubDate>Sat, 04 Nov 2017 01:31:04 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/18-c-class-constructors-private-member-functions-default/</guid>
+      <description>default constructor in C++ with object/class called Circle. How to use member functions within a class and override member functions.
+[embed]https://youtu.be/6N5bBjjxICo[/embed]</description>
+    </item>
+    
+    <item>
+      <title>17. C&#43;&#43; Tutorial - First Class Example Point Object C&#43;&#43;</title>
+      <link>/post/2017/11/04/17-c-tutorial-first-class-example-point-object-c/</link>
+      <pubDate>Sat, 04 Nov 2017 01:30:30 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/17-c-tutorial-first-class-example-point-object-c/</guid>
+      <description>First class example in C++. We create a crude “Point” object and learn bout get and set functions. Private and public member functions and what objects are.
+[embed]https://youtu.be/mU3yjD4aWwc[/embed]</description>
+    </item>
+    
+    <item>
+      <title>17. C&#43;&#43; Tutorial - First Class Example Point Object C&#43;&#43;</title>
+      <link>/post/2017/11/04/17-c-tutorial-first-class-example-point-object-c/</link>
+      <pubDate>Sat, 04 Nov 2017 01:30:30 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/17-c-tutorial-first-class-example-point-object-c/</guid>
+      <description>First class example in C++. We create a crude &amp;ldquo;Point&amp;rdquo; object and learn bout get and set functions. Private and public member functions and what objects are.
+[embed]https://youtu.be/mU3yjD4aWwc[/embed]</description>
+    </item>
+    
+    <item>
+      <title>16. C&#43;&#43; Enum Example 2 or why not Standard String Array</title>
+      <link>/post/2017/11/04/16-c-enum-example-2-not-standard-string-array/</link>
+      <pubDate>Sat, 04 Nov 2017 01:29:47 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/16-c-enum-example-2-not-standard-string-array/</guid>
+      <description>C++ Enum Example 2 or standard String.
+[embed]https://youtu.be/SisaLVV8Ws8[/embed]</description>
+    </item>
+    
+    <item>
+      <title>16. C&#43;&#43; Enum Example 2 or why not Standard String Array</title>
+      <link>/post/2017/11/04/16-c-enum-example-2-not-standard-string-array/</link>
+      <pubDate>Sat, 04 Nov 2017 01:29:47 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/16-c-enum-example-2-not-standard-string-array/</guid>
+      <description>C++ Enum Example 2 or standard String.
+[embed]https://youtu.be/SisaLVV8Ws8[/embed]</description>
+    </item>
+    
+    <item>
+      <title>15. C&#43;&#43; IDE Auto Quote Pesky Workaround - Visual Studio/DevC&#43;&#43; IDE</title>
+      <link>/post/2017/11/04/15-c-ide-auto-quote-pesky-workaround-visual-studiodevc-ide/</link>
+      <pubDate>Sat, 04 Nov 2017 01:27:30 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/15-c-ide-auto-quote-pesky-workaround-visual-studiodevc-ide/</guid>
+      <description>IDE Auto Quote Pesky Workaround with C++ and other languages - Visual Studio/DevC++ IDE. Don’t you hate that pesky auto quote completion? You can disable it through the options or you can do this trick presented and ignore it.
+[embed]https://youtu.be/9en3IQqpyjY[/embed]</description>
+    </item>
+    
+    <item>
+      <title>15. C&#43;&#43; IDE Auto Quote Pesky Workaround - Visual Studio/DevC&#43;&#43; IDE</title>
+      <link>/post/2017/11/04/15-c-ide-auto-quote-pesky-workaround-visual-studiodevc-ide/</link>
+      <pubDate>Sat, 04 Nov 2017 01:27:30 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/15-c-ide-auto-quote-pesky-workaround-visual-studiodevc-ide/</guid>
+      <description>IDE Auto Quote Pesky Workaround with C++ and other languages - Visual Studio/DevC++ IDE. Don&amp;rsquo;t you hate that pesky auto quote completion? You can disable it through the options or you can do this trick presented and ignore it.
+[embed]https://youtu.be/9en3IQqpyjY[/embed]</description>
+    </item>
+    
+    <item>
+      <title>14.2 Struct Example C&#43;&#43;</title>
+      <link>/post/2017/11/04/14-2-struct-example-c/</link>
+      <pubDate>Sat, 04 Nov 2017 01:27:21 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/14-2-struct-example-c/</guid>
+      <description>Another struct example. I actually forgot I already uploaded one before. here is another example
+[embed]https://youtu.be/R2cViOOgA2w[/embed]</description>
+    </item>
+    
+    <item>
+      <title>14.2 Struct Example C&#43;&#43;</title>
+      <link>/post/2017/11/04/14-2-struct-example-c/</link>
+      <pubDate>Sat, 04 Nov 2017 01:27:21 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/14-2-struct-example-c/</guid>
+      <description>Another struct example. I actually forgot I already uploaded one before. here is another example
+[embed]https://youtu.be/R2cViOOgA2w[/embed]</description>
+    </item>
+    
+    <item>
+      <title>14. C&#43;&#43; Programming struct keyword and examples</title>
+      <link>/post/2017/11/04/14-c-programming-struct-keyword-examples/</link>
+      <pubDate>Sat, 04 Nov 2017 01:26:40 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/14-c-programming-struct-keyword-examples/</guid>
+      <description>How to use structures in C++ programming
+[embed]https://www.youtube.com/watch?v=R2cViOOgA2w&amp;amp;t;=14s&amp;amp;list;=PL0oBhq0tLsOBzIXpM98ezhrBHse5IJ776&amp;amp;index;=17[/embed]</description>
+    </item>
+    
+    <item>
+      <title>14. C&#43;&#43; Programming struct keyword and examples</title>
+      <link>/post/2017/11/04/14-c-programming-struct-keyword-examples/</link>
+      <pubDate>Sat, 04 Nov 2017 01:26:40 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/14-c-programming-struct-keyword-examples/</guid>
+      <description>How to use structures in C++ programming
+[embed]https://www.youtube.com/watch?v=R2cViOOgA2w&amp;amp;t;=14s&amp;list;=PL0oBhq0tLsOBzIXpM98ezhrBHse5IJ776&amp;index;=17[/embed]</description>
+    </item>
+    
+    <item>
+      <title>13. Enumeration - enum in C&#43;&#43; Programming Tutorial</title>
+      <link>/post/2017/11/04/13-enumeration-enum-c-programming-tutorial/</link>
+      <pubDate>Sat, 04 Nov 2017 01:25:51 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/13-enumeration-enum-c-programming-tutorial/</guid>
+      <description>Using enumerated values in C++.
+[embed]https://youtu.be/FGmG8cvAA7g[/embed]</description>
+    </item>
+    
+    <item>
+      <title>13. Enumeration - enum in C&#43;&#43; Programming Tutorial</title>
+      <link>/post/2017/11/04/13-enumeration-enum-c-programming-tutorial/</link>
+      <pubDate>Sat, 04 Nov 2017 01:25:51 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/13-enumeration-enum-c-programming-tutorial/</guid>
+      <description>Using enumerated values in C++.
+[embed]https://youtu.be/FGmG8cvAA7g[/embed]</description>
+    </item>
+    
+    <item>
+      <title>12. C&#43;&#43; Programming: Guess the Random Number</title>
+      <link>/post/2017/11/04/12-c-programming-guess-random-number/</link>
+      <pubDate>Sat, 04 Nov 2017 01:25:00 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/12-c-programming-guess-random-number/</guid>
+      <description>Random number generator game using C++ Programming concepts including using functions, creating functions, bool, controls statements and loops.
+[embed]https://youtu.be/m0ByQy4fRqg[/embed]</description>
+    </item>
+    
+    <item>
+      <title>12. C&#43;&#43; Programming: Guess the Random Number</title>
+      <link>/post/2017/11/04/12-c-programming-guess-random-number/</link>
+      <pubDate>Sat, 04 Nov 2017 01:25:00 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/12-c-programming-guess-random-number/</guid>
+      <description>Random number generator game using C++ Programming concepts including using functions, creating functions, bool, controls statements and loops.
+[embed]https://youtu.be/m0ByQy4fRqg[/embed]</description>
+    </item>
+    
+    <item>
+      <title>11. Pass by Value and Reference C&#43;&#43; Programming Functions Tutorial</title>
+      <link>/post/2017/11/04/11-pass-value-reference-c-programming-functions-tutorial/</link>
+      <pubDate>Sat, 04 Nov 2017 01:24:12 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/11-pass-value-reference-c-programming-functions-tutorial/</guid>
+      <description>Pass by Value and By Reference C++ Programming. This might be the most confusing topic yet, pointers and references being passed into functions. I will further explain pointers in another video off the screen. I will use a whiteboard in the next video to clear some things up.  [embed]https://youtu.be/FKw-G8H9xrs[/embed]</description>
+    </item>
+    
+    <item>
+      <title>11. Pass by Value and Reference C&#43;&#43; Programming Functions Tutorial</title>
+      <link>/post/2017/11/04/11-pass-value-reference-c-programming-functions-tutorial/</link>
+      <pubDate>Sat, 04 Nov 2017 01:24:12 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/11-pass-value-reference-c-programming-functions-tutorial/</guid>
+      <description>Pass by Value and By Reference C++ Programming. This might be the most confusing topic yet, pointers and references being passed into functions. I will further explain pointers in another video off the screen. I will use a whiteboard in the next video to clear some things up.  [embed]https://youtu.be/FKw-G8H9xrs[/embed]</description>
+    </item>
+    
+    <item>
+      <title>10. C&#43;&#43; Programming - Dereferencing Operator and Pointers / References</title>
+      <link>/post/2017/11/04/10-c-programming-dereferencing-operator-pointers-references/</link>
+      <pubDate>Sat, 04 Nov 2017 01:23:28 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/10-c-programming-dereferencing-operator-pointers-references/</guid>
+      <description>C++ Programming tutorial using pointers and dereferencing operator. Sometimes called the indirection operator. Pointers store memory locations.
+[embed]https://youtu.be/653uG59ivNQ[/embed]</description>
+    </item>
+    
+    <item>
+      <title>10. C&#43;&#43; Programming - Dereferencing Operator and Pointers / References</title>
+      <link>/post/2017/11/04/10-c-programming-dereferencing-operator-pointers-references/</link>
+      <pubDate>Sat, 04 Nov 2017 01:23:28 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/10-c-programming-dereferencing-operator-pointers-references/</guid>
+      <description>C++ Programming tutorial using pointers and dereferencing operator. Sometimes called the indirection operator. Pointers store memory locations.
+[embed]https://youtu.be/653uG59ivNQ[/embed]</description>
+    </item>
+    
+    <item>
+      <title>8.3 C&#43;&#43; Functions Part 3</title>
+      <link>/post/2017/11/04/8-3-c-functions-part-3/</link>
+      <pubDate>Sat, 04 Nov 2017 01:21:24 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/8-3-c-functions-part-3/</guid>
+      <description>C++ functions part 3. Scoping rules and memory locations. Using variables within functions.
+[embed]https://youtu.be/DpEqA9-s-bs[/embed]</description>
+    </item>
+    
+    <item>
+      <title>8.3 C&#43;&#43; Functions Part 3</title>
+      <link>/post/2017/11/04/8-3-c-functions-part-3/</link>
+      <pubDate>Sat, 04 Nov 2017 01:21:24 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/8-3-c-functions-part-3/</guid>
+      <description>C++ functions part 3. Scoping rules and memory locations. Using variables within functions.
+[embed]https://youtu.be/DpEqA9-s-bs[/embed]</description>
+    </item>
+    
+    <item>
+      <title>8.2 C&#43;&#43; Functions Part 2</title>
+      <link>/post/2017/11/04/8-2-c-functions-part-2/</link>
+      <pubDate>Sat, 04 Nov 2017 01:20:50 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/8-2-c-functions-part-2/</guid>
+      <description>C++ Functions with a return value and multiple input parameters.
+[embed]https://youtu.be/C1xWJ1Phj2M[/embed]</description>
+    </item>
+    
+    <item>
+      <title>8.2 C&#43;&#43; Functions Part 2</title>
+      <link>/post/2017/11/04/8-2-c-functions-part-2/</link>
+      <pubDate>Sat, 04 Nov 2017 01:20:50 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/8-2-c-functions-part-2/</guid>
+      <description>C++ Functions with a return value and multiple input parameters.
+[embed]https://youtu.be/C1xWJ1Phj2M[/embed]</description>
+    </item>
+    
+    <item>
+      <title>8.1 C&#43;&#43; Functions Part 1</title>
+      <link>/post/2017/11/04/8-1-c-functions-part-1/</link>
+      <pubDate>Sat, 04 Nov 2017 01:20:15 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/8-1-c-functions-part-1/</guid>
+      <description>The most basic C++ function that simply prints stuff to the console window. Also, avoid system(“pause”) at all cost.
+[embed]https://youtu.be/KXgN_8Zq5Kk[/embed]</description>
+    </item>
+    
+    <item>
+      <title>8.1 C&#43;&#43; Functions Part 1</title>
+      <link>/post/2017/11/04/8-1-c-functions-part-1/</link>
+      <pubDate>Sat, 04 Nov 2017 01:20:15 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/8-1-c-functions-part-1/</guid>
+      <description>The most basic C++ function that simply prints stuff to the console window. Also, avoid system(&amp;ldquo;pause&amp;rdquo;) at all cost.
+[embed]https://youtu.be/KXgN_8Zq5Kk[/embed]</description>
+    </item>
+    
+    <item>
+      <title>7. C&#43;&#43; Do While Loops Tutorial under 3 min!</title>
+      <link>/post/2017/11/04/7-c-loops-tutorial-3-min/</link>
+      <pubDate>Sat, 04 Nov 2017 01:19:23 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/7-c-loops-tutorial-3-min/</guid>
+      <description>C++ Do While Loops Tutorial in under 3 minutes. SHOW MORE
+[embed]https://youtu.be/3cmkmTs3y84[/embed]</description>
+    </item>
+    
+    <item>
+      <title>7. C&#43;&#43; Do While Loops Tutorial under 3 min!</title>
+      <link>/post/2017/11/04/7-c-loops-tutorial-3-min/</link>
+      <pubDate>Sat, 04 Nov 2017 01:19:23 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/7-c-loops-tutorial-3-min/</guid>
+      <description>C++ Do While Loops Tutorial in under 3 minutes. SHOW MORE
+[embed]https://youtu.be/3cmkmTs3y84[/embed]</description>
+    </item>
+    
+    <item>
+      <title>6. C &#43;&#43; Programming While Loop</title>
+      <link>/post/2017/11/04/6-c-programming-loop/</link>
+      <pubDate>Sat, 04 Nov 2017 01:18:28 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/6-c-programming-loop/</guid>
+      <description>C ++ Programming While Loop using a practical application.
+[embed]https://youtu.be/tmi15fqICYY[/embed]</description>
+    </item>
+    
+    <item>
+      <title>6. C &#43;&#43; Programming While Loop</title>
+      <link>/post/2017/11/04/6-c-programming-loop/</link>
+      <pubDate>Sat, 04 Nov 2017 01:18:28 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/6-c-programming-loop/</guid>
+      <description>C ++ Programming While Loop using a practical application.
+[embed]https://youtu.be/tmi15fqICYY[/embed]</description>
+    </item>
+    
+    <item>
+      <title>5. C &#43;&#43; Programming While Loop</title>
+      <link>/post/2017/11/04/watch-real-story-amazon-post-21k-views-ad-510-6-c-programming-loop-mark-gingrass-1-9k-views-253-7-c-loops-tutorial-3-min-mark-gingrass-1-5k-views-10018-q/</link>
+      <pubDate>Sat, 04 Nov 2017 01:17:32 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/watch-real-story-amazon-post-21k-views-ad-510-6-c-programming-loop-mark-gingrass-1-9k-views-253-7-c-loops-tutorial-3-min-mark-gingrass-1-5k-views-10018-q/</guid>
+      <description>C++ Arrays for Loop and const tutorial with an online c++ compiler.
+[embed]https://youtu.be/FkfxIxNyHo0[/embed]</description>
+    </item>
+    
+    <item>
+      <title>5. C &#43;&#43; Programming While Loop</title>
+      <link>/post/2017/11/04/watch-real-story-amazon-post-21k-views-ad-510-6-c-programming-loop-mark-gingrass-1-9k-views-253-7-c-loops-tutorial-3-min-mark-gingrass-1-5k-views-10018-q/</link>
+      <pubDate>Sat, 04 Nov 2017 01:17:32 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/watch-real-story-amazon-post-21k-views-ad-510-6-c-programming-loop-mark-gingrass-1-9k-views-253-7-c-loops-tutorial-3-min-mark-gingrass-1-5k-views-10018-q/</guid>
+      <description>C++ Arrays for Loop and const tutorial with an online c++ compiler.
+[embed]https://youtu.be/FkfxIxNyHo0[/embed]</description>
+    </item>
+    
+    <item>
+      <title>4. Dev C&#43;&#43; Download and for Loops C&#43;&#43; Tutorial</title>
+      <link>/post/2017/11/04/4-dev-c-download-loops-c-tutorial/</link>
+      <pubDate>Sat, 04 Nov 2017 01:16:37 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/4-dev-c-download-loops-c-tutorial/</guid>
+      <description>Dev C++ Download and for Loops C++ Tutorial 4. Using a portable IDE/Compiler to create C++ for loops.
+I will have a condensed version of all loops in next episode. [embed]https://youtu.be/VzmpwSKVtl8[/embed]</description>
+    </item>
+    
+    <item>
+      <title>4. Dev C&#43;&#43; Download and for Loops C&#43;&#43; Tutorial</title>
+      <link>/post/2017/11/04/4-dev-c-download-loops-c-tutorial/</link>
+      <pubDate>Sat, 04 Nov 2017 01:16:37 +0000</pubDate>
+      
+      <guid>/post/2017/11/04/4-dev-c-download-loops-c-tutorial/</guid>
+      <description>Dev C++ Download and for Loops C++ Tutorial 4. Using a portable IDE/Compiler to create C++ for loops.
+I will have a condensed version of all loops in next episode. [embed]https://youtu.be/VzmpwSKVtl8[/embed]</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>newbie on Mark Gingrass Blog</title>
+    <link>/tags/newbie/</link>
+    <description>Recent content in newbie on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Aug 2017 14:34:06 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/newbie/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Very First VBA Excel Macro Tutorial for Beginners</title>
+      <link>/post/2017/08/29/first-vba-excel-macro-tutorial-beginners/</link>
+      <pubDate>Tue, 29 Aug 2017 14:34:06 +0000</pubDate>
+      
+      <guid>/post/2017/08/29/first-vba-excel-macro-tutorial-beginners/</guid>
+      <description>Recording your first Macro with Microsoft Excel Have you ever had a task that you repeat over and over again in Microsoft Excel? This tutorial will teach the absolute beginner how to start recording and using macros. This will make your work day much more efficient. So click the short video and start being more productive!
+[embed]https://youtu.be/9-_UZBBM3RQ[/embed]
+ Quick Start Guide: How To Record First Macro Click on File and select Options.</description>
+    </item>
+    
+    <item>
+      <title>Very First VBA Excel Macro Tutorial for Beginners</title>
+      <link>/post/2017/08/29/first-vba-excel-macro-tutorial-beginners/</link>
+      <pubDate>Tue, 29 Aug 2017 14:34:06 +0000</pubDate>
+      
+      <guid>/post/2017/08/29/first-vba-excel-macro-tutorial-beginners/</guid>
+      <description>Recording your first Macro with Microsoft Excel Have you ever had a task that you repeat over and over again in Microsoft Excel? This tutorial will teach the absolute beginner how to start recording and using macros. This will make your work day much more efficient. So click the short video and start being more productive!
+[embed]https://youtu.be/9-_UZBBM3RQ[/embed]
+Quick Start Guide: How To Record First Macro  Click on File and select Options.</description>
+    </item>
+    
+  </channel>
+</rss>

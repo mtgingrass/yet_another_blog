@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>010 Rates of Change - Chugging a Beer | Mark Gingrass Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-135621341-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="http://www.devgin.com">DevGin</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+
+<div class="article-meta">
+<h1><span class="title">010 Rates of Change - Chugging a Beer</span></h1>
+<h2 class="author">mtgingrass</h2>
+<h2 class="date">2018/02/18</h2>
+</div>
+
+<main>
+
+
+
+<p>[latexpage]</p>
+<div id="the-beer-problem" class="section level3">
+<h3>The Beer Problem</h3>
+<p>I can chug a beer pretty fast. I recently timed myself drinking a full 12oz Beer (355mL) in just about 6 seconds. At what rate is the beer flowing down my throat?</p>
+</div>
+<div id="slope" class="section level3">
+<h3>Slope</h3>
+<p>The slope formula, <span class="math inline">\(m = \frac{rise}{run}\)</span>, is a powerful tool for calculating and comparing steepness, or rates of changes. This is a very useful tool used in all aspects of engineering, mathematics, and even deep learning with neural networks.</p>
+<div id="rate-of-change" class="section level4">
+<h4>Rate of Change</h4>
+<p>Did you know that the slope of a line is also referred to as the <em>rate</em> of change of the line?</p>
+<p>Think about traveling on along a line on the x-y coordinate system. As you change from one position to the next, imagine time being passed in the horizontal direction and some other measurement being changed in the vertical direction. <span class="math display">\[m = \frac{Some Changing Quantity}{Amount Time Passed}\]</span></p>
+</div>
+<div id="flow" class="section level4">
+<h4>Flow</h4>
+<p>In the case with beer, it’s the number of seconds passed along the horizontal and the amount of mili-liters changed during that time.</p>
+<div class="figure">
+<img src="http://devgin.com/wp-content/uploads/2018/02/beer.png" />
+
+</div>
+<p><span class="math display">\[m = \frac{Beer Changed}{Time Lapsed}\]</span></p>
+<p>The graphic depicted above starts off with a full beer (355mL). As time passes, due to a negative rate of change of volume (-mL/s e.g. chugging), notice it is empty around the 6 second mark.</p>
+<p>A convenient shortcut used to denote a <em>change</em> in quantity is to use the Greek letter Delta, <span class="math inline">\(\Delta\)</span>.The slope equation now becomes, <span class="math display">\[m =\frac{\Delta mL}{\Delta t}; t &gt; 0\]</span></p>
+<p><span class="math inline">\(t &gt; 0\)</span> states that the line is not defined prior to <span class="math inline">\(t = 0\)</span>.</p>
+</div>
+</div>
+<div id="chug-video" class="section level3">
+<h3>Chug Video</h3>
+<p>This short video describes how rates of change of beer can be determined by examining the <em>slope</em>, or <em>rate of change</em>, of the line. The word <em>flow</em> means the rate at which volume changes per unit of time that passes.</p>
+<p>[embed]<a href="https://youtu.be/P_dk7rCKlEQ%5B/embed%5D" class="uri">https://youtu.be/P_dk7rCKlEQ[/embed]</a></p>
+</div>
+<div id="more-beer-math" class="section level3">
+<h3>More Beer Math</h3>
+<p>For the previous beer related question, check this <a href="http://devgin.com/009-beers-per-hour-algebra-question/">video</a> out. Another one <a href="http://devgin.com/008-direction-slope-positive-negative-zero-undefined/">here</a>.</p>
+</div>
+
+</main>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+  <hr/>
+  &copy; <a href="https://markgingrass.com">Mark Gingrass</a> 2018 | <a href="https://github.com/mtgingrass">Github</a> | <a href="https://twitter.com/markgingrass">Twitter</a>
+  
+  </footer>
+  </body>
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "gingrass" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</html>
+

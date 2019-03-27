@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple Sentiment Analysis | Mark Gingrass Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-135621341-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="http://www.devgin.com">DevGin</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+
+<div class="article-meta">
+<h1><span class="title">Simple Sentiment Analysis</span></h1>
+<h2 class="author">mtgingrass</h2>
+<h2 class="date">2018/01/03</h2>
+</div>
+
+<main>
+
+
+
+<div id="sentiment-analysis" class="section level4">
+<h4>Sentiment Analysis</h4>
+<p>This is a very basic sentiment analysis based on the last 2000 Tweets about <span class="citation">@realDonaldTrump</span> (as of Jan 2 2018).</p>
+<p>The data for positive and negative words are in the files on this <a href="https://github.com/mtgingrass/Sentiment1">repository.</a></p>
+<p>Or…Scrape your own Tweets by following this <a href="http://devgin.com/r-programming-twitter-scraper/">guide,</a> or use the WordFreq.csv provided on the GitHub account.</p>
+</div>
+<div id="the-code" class="section level4">
+<h4>The Code</h4>
+<p>First, read in the negative and positive words. The WordFreq.csv file was created using R and tapping the Twitter API for specific Tweets. The R program also does a word frequency count</p>
+<p>We lose a degree of freedom because we can’t trace back the words to the article; however, this was just an exercise to start learning Python syntax and manipulating data. Still useful if you don’t need to trace back.</p>
+<pre><code>&lt;code&gt;
+negative_file = open(&#39;/Users/mark/Desktop/GitHub Projects/TweetRSentimentPython/negative.txt&#39;, &#39;r&#39;).read()
+positive_file = open(&#39;/Users/mark/Desktop/GitHub Projects/TweetRSentimentPython/positive.txt&#39;, &#39;r&#39;).read()
+
+my_data = open(&#39;/Users/mark/Desktop/GitHub Projects/TweetRSentimentPython/WordFreq.csv&#39;, &#39;r&#39;).read()
+
+# convert words into lists
+negative_words = negative_file.split(&#39;\n&#39;)
+positive_words = positive_file.split(&#39;\n&#39;)
+
+sentiment_data = my_data.split() # convert string to list
+
+sentiment_data.pop(0) # remove header row
+sentiment_data[0].replace(&#39;&quot;&#39;,&#39;&#39;) #remove the quotes
+
+pos_counter = 0
+neg_counter = 0
+
+if &#39;trump&#39; in positive_words:
+    positive_words.remove(&#39;trump&#39;) # With &quot;trump&quot; being such a common word now 
+                                   # that Trump is president, let&#39;s remove this from the list of positive words. 
+
+# strip the quotes and split the row into word, freq for each row
+for row_iter in sentiment_data:
+    processed_row = row_iter.replace(&#39;&quot;&#39;,&#39;&#39;)
+    word, freq = processed_row.split(&#39;,&#39;)
+    
+    # count pos words
+    if word in positive_words:
+        pos_counter = pos_counter + int(freq)
+        
+    # count neg words
+    if word in negative_words:
+        neg_counter = neg_counter + int(freq)
+
+# Print only 2 decimal places and do not add an endline to string
+def printC(answer):
+    print (&quot;{:0.2f}&quot;.format(answer), end = &#39;&#39;)
+
+print(pos_counter, &quot;positive words.&quot;)
+print(neg_counter, &quot;negative words\n&quot;)
+
+printC(pos_counter/(pos_counter + neg_counter)*100)
+print(&quot;% Positive&quot;)
+
+printC(neg_counter/(pos_counter + neg_counter)*100)
+print(&quot;% Negative&quot;)
+
+&lt;/code&gt;</code></pre>
+</div>
+<div id="results" class="section level4">
+<h4>Results</h4>
+<p>593 positive words. 773 negative words.</p>
+<blockquote>
+43.41% Positive
+</blockquote>
+<blockquote>
+56.59% Negative
+</blockquote>
+</div>
+<div id="enhancements" class="section level4">
+<h4>Enhancements?</h4>
+<p>I’m interested in adding swear words to the negative.txt file to see how that changes the results. Results can be skewed due to sarcasm or bigrams such as “not cool” is actually negative; even though “cool” will be counted as a positive. The general idea is that the “non” and other such words will balance each other out for positive and negative. <img src="http://devgin.com/wp-content/uploads/2018/01/realdonaldtrump-1024x576.png" /></p>
+</div>
+<div id="thanks" class="section level4">
+<h4>Thanks</h4>
+<p>Thanks to the authors for contributing the positive and negative datasets:</p>
+<p>Minqing Hu and Bing Liu. “Mining and Summarizing Customer Reviews.” Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD-2004), Aug 22-25, 2004, Seattle, Washington, USA, Bing Liu, Minqing Hu and Junsheng Cheng. “Opinion Observer: Analyzing and Comparing Opinions on the Web.” Proceedings of the 14th International World Wide Web conference (WWW-2005), May 10-14, 2005, Chiba, Japan.</p>
+</div>
+
+</main>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+  <hr/>
+  &copy; <a href="https://markgingrass.com">Mark Gingrass</a> 2018 | <a href="https://github.com/mtgingrass">Github</a> | <a href="https://twitter.com/markgingrass">Twitter</a>
+  
+  </footer>
+  </body>
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "gingrass" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</html>
+

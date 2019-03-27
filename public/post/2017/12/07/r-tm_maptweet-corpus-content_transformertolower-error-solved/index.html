@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>R Lowercase Function in Corpus Error Solved | Mark Gingrass Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-135621341-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="http://www.devgin.com">DevGin</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+
+<div class="article-meta">
+<h1><span class="title">R Lowercase Function in Corpus Error Solved</span></h1>
+<h2 class="author">mtgingrass</h2>
+<h2 class="date">2017/12/07</h2>
+</div>
+
+<main>
+<p>In my last video <a href="http://devgin.com/r-programming-twitter-scraper/"> tutorial</a>, I demonstrated the steps to tap into the power of the Twitter API to download Tweets based on search terms and import them into R. My plan was to make a follow up video showing how to clean the  twitter data and run a Word Cloud on common terms.</p>
+
+<p>However, I ran into a slight snag early on.</p>
+
+<p>The code was supposed to be simple and quick. Everything was going smooth until I dared to change all of the text in the Corpus to lowercase! I&rsquo;ve created many functions and used many functions in all kinds of programming languages to accomplish this task. However, today was different. I ran this line of code specifically on a Macbook Pro and received an error I couldn&rsquo;t explain.</p>
+
+<pre><code>&lt;code&gt;tweet.corpus = tm_map(tweet.corpus, content_transformer(tolower))&lt;/code&gt;
+</code></pre>
+
+<p>The error:</p>
+
+<blockquote>Error in FUN(content(x), ...) : 
+  invalid input ,</blockquote>
+
+<p>After many searches in the documentation, the Google&rsquo;s, and the Interwebs, I came up with nothing to fix this error. I thought it was a punctuation problem, then an Emoji problem, then a Mac specific problem. I restarted R Studio. I downloaded the latest packages (from the source and compiled). Nothing seemed to work!</p>
+
+<p>Normally, when I struggle for an hour on something seemingly simple, I realize it&rsquo;s not the computer or the programming language, it&rsquo;s me. There is a point in time at night when a missing semi-colon or a unbalanced parenthesis isn&rsquo;t worth the chase.</p>
+
+<p>Finally, I examined the Tweets closer and found these characters I describe as &ldquo;question marks with a black diamond around them.&rdquo;</p>
+
+<p>����������</p>
+
+<p>Turns out, this is a special character (a space holder). Not a symbol. Not an emoji. Not a number. Not a alpha or numeric. A SPECIAL character.</p>
+
+<p>This &ldquo;special&rdquo; character costs me almost an hour of research!. Anyway, to solve this issue here is the code I used:</p>
+
+<pre><code>&lt;code&gt;
+#Grab latest tweets
+tweets_trump = searchTwitter('@realDonaldTrump', n = 1000)
+tweets.text = laply(tweets_trump,function(t)t$getText())
+
+#Remove characters functions
+tweet.removeEmoji = function(x) gsub(&quot;\\p{So}|\\p{Cn}&quot;, &quot;&quot;, x, perl = TRUE)
+tweet.removeSpecialChar = function(x) gsub(&quot;[^[:alnum:]///' ]&quot;, &quot;&quot;, x)
+
+#Followed by the tm_map calls:
+tweet.corpus = tm_map(tweet.corpus, content_transformer(tweet.removeEmoji))
+tweet.corpus = tm_map(tweet.corpus, content_transformer(tweet.removeSpecialChar))&lt;/code&gt;
+</code></pre>
+
+<p>Notice this is still in text format. I create the corpus AFTER I remove the characters. If you haven&rsquo;t seen the previous video on how to create your own Twitter API account free, click the <a href="http://devgin.com/r-programming-twitter-scraper/">link here</a>. Happy scraping!</p>
+
+</main>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+  <hr/>
+  &copy; <a href="https://markgingrass.com">Mark Gingrass</a> 2018 | <a href="https://github.com/mtgingrass">Github</a> | <a href="https://twitter.com/markgingrass">Twitter</a>
+  
+  </footer>
+  </body>
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "gingrass" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</html>
+

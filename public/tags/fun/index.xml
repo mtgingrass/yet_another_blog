@@ -6,20 +6,31 @@
     <description>Recent content in fun on Mark Gingrass Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Dec 2017 05:18:33 +0000</lastBuildDate>
     
 	<atom:link href="/tags/fun/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Visual Resume</title>
-      <link>/post/2019/01/05/visual-resume/</link>
-      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      <title>R Lowercase Function in Corpus Error Solved</title>
+      <link>/post/2017/12/07/r-tm_maptweet-corpus-content_transformertolower-error-solved/</link>
+      <pubDate>Thu, 07 Dec 2017 05:18:33 +0000</pubDate>
       
-      <guid>/post/2019/01/05/visual-resume/</guid>
-      <description>Visual Resume Timeline I came across this Github package by ndphillips and thought it was pretty cool and decided to make it even easier to setup. I really just wanted to play with it so here is my excuse.
-My Visual Resume
-  Setup Most people who have used R for a few weeks or months have probably already installed devtools. Just in case it isn’t already installed, simply uncomment line 18 to install for the first time</description>
+      <guid>/post/2017/12/07/r-tm_maptweet-corpus-content_transformertolower-error-solved/</guid>
+      <description>In my last video tutorial, I demonstrated the steps to tap into the power of the Twitter API to download Tweets based on search terms and import them into R. My plan was to make a follow up video showing how to clean the twitter data and run a Word Cloud on common terms.
+However, I ran into a slight snag early on.
+The code was supposed to be simple and quick.</description>
+    </item>
+    
+    <item>
+      <title>R Lowercase Function in Corpus Error Solved</title>
+      <link>/post/2017/12/07/r-tm_maptweet-corpus-content_transformertolower-error-solved/</link>
+      <pubDate>Thu, 07 Dec 2017 05:18:33 +0000</pubDate>
+      
+      <guid>/post/2017/12/07/r-tm_maptweet-corpus-content_transformertolower-error-solved/</guid>
+      <description>In my last video tutorial, I demonstrated the steps to tap into the power of the Twitter API to download Tweets based on search terms and import them into R. My plan was to make a follow up video showing how to clean the twitter data and run a Word Cloud on common terms.
+However, I ran into a slight snag early on.
+The code was supposed to be simple and quick.</description>
     </item>
     
   </channel>

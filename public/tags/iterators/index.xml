@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iterators on Mark Gingrass Blog</title>
+    <link>/tags/iterators/</link>
+    <description>Recent content in iterators on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Sep 2017 01:31:17 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/iterators/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>For Loops, Cells &amp; Iterators with VBA</title>
+      <link>/post/2017/09/22/for-loops-cells-iterators-vba/</link>
+      <pubDate>Fri, 22 Sep 2017 01:31:17 +0000</pubDate>
+      
+      <guid>/post/2017/09/22/for-loops-cells-iterators-vba/</guid>
+      <description>Cells and for loops. In this tutorial, we will take a lateral approach to ranges and instead, use cells.
+This quick 5 minute video will walk you through why cells are easier to work with when iterating through loops; specifically, for loops. In addition, this video shows you the value of the debugger when testing programs at runtime. In this tutorial you will learn the basics of:
+ Cells instead of Range</description>
+    </item>
+    
+    <item>
+      <title>For Loops, Cells &amp; Iterators with VBA</title>
+      <link>/post/2017/09/22/for-loops-cells-iterators-vba/</link>
+      <pubDate>Fri, 22 Sep 2017 01:31:17 +0000</pubDate>
+      
+      <guid>/post/2017/09/22/for-loops-cells-iterators-vba/</guid>
+      <description>Cells and for loops. In this tutorial, we will take a lateral approach to ranges and instead, use cells.
+This quick 5 minute video will walk you through why cells are easier to work with when iterating through loops; specifically, for loops. In addition, this video shows you the value of the debugger when testing programs at runtime. In this tutorial you will learn the basics of:
+ Cells instead of Range</description>
+    </item>
+    
+  </channel>
+</rss>

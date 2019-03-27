@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>usage on Mark Gingrass Blog</title>
+    <link>/tags/usage/</link>
+    <description>Recent content in usage on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Aug 2017 17:48:24 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/usage/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Equipment Specialist Excess Inventory Demand Forecasting</title>
+      <link>/post/2017/08/22/equipment-specialist-excess-inventory-demand-forecasting/</link>
+      <pubDate>Tue, 22 Aug 2017 17:48:24 +0000</pubDate>
+      
+      <guid>/post/2017/08/22/equipment-specialist-excess-inventory-demand-forecasting/</guid>
+      <description>Excess inventory has pros and cons depending on a variety of factors. Sometimes, a reserve stock of parts on hand is needed because the cost of not having a part immediately is too high.
+Inventory has costs. It costs money to store, secure, and account for the parts. It has hidden costs as well. For example, the excess parts cost money to manufacture, repair, or buy. That money could have been used for making different parts that may be needed more.</description>
+    </item>
+    
+    <item>
+      <title>Equipment Specialist Excess Inventory Demand Forecasting</title>
+      <link>/post/2017/08/22/equipment-specialist-excess-inventory-demand-forecasting/</link>
+      <pubDate>Tue, 22 Aug 2017 17:48:24 +0000</pubDate>
+      
+      <guid>/post/2017/08/22/equipment-specialist-excess-inventory-demand-forecasting/</guid>
+      <description>Excess inventory has pros and cons depending on a variety of factors. Sometimes, a reserve stock of parts on hand is needed because the cost of not having a part immediately is too high.
+Inventory has costs. It costs money to store, secure, and account for the parts. It has hidden costs as well. For example, the excess parts cost money to manufacture, repair, or buy. That money could have been used for making different parts that may be needed more.</description>
+    </item>
+    
+  </channel>
+</rss>

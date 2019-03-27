@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scrape Twitter, Text Manipulate, Autopost to WordPress | Mark Gingrass Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-135621341-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="http://www.devgin.com">DevGin</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+
+<div class="article-meta">
+<h1><span class="title">Scrape Twitter, Text Manipulate, Autopost to WordPress</span></h1>
+<h2 class="author">mtgingrass</h2>
+<h2 class="date">2017/12/16</h2>
+</div>
+
+<main>
+
+
+
+<div id="tweet-scrape-manip-publish" class="section level3">
+<h3>Tweet, Scrape, Manip, Publish</h3>
+<p>It is highly recommended to watch this <a href="https://youtu.be/ioNIAqZa3go">short video</a> before working with these files. The video explains how each file works and how to run this for your own site.</p>
+<p>I will also publish these on my <a href="https://github.com/mtgingrass/Tweet2WordPress.git">GitHub site here.</a> What is a GitHub you say? See previous post <a href="http://devgin.com/five-minute-github-tutorial-rstudio-simple/">here for quick 5 minute tutorial</a></p>
+<div id="watch-video-first" class="section level4">
+<h4>Watch Video First</h4>
+<p>[embed]<a href="https://youtu.be/ioNIAqZa3go%5Bembed%5D" class="uri">https://youtu.be/ioNIAqZa3go[embed]</a></p>
+<p>Note that the below code has R Markdown language in it which makes publishing this particular post difficult. I’m using R Markdown in an R Notepad in order to convert R source code into pretty source code on the web and make it publisher friendly. It’s like posting a program on how to program a program….it just gets confusing fast!!</p>
+<p>The best way to get the files is to actually download them from <a href="https://github.com/mtgingrass/Tweet2WordPress.git">GitHub</a> instead.</p>
+<p>Note, this WordPress site utilizes <em>Crayon Syntax Highlighter</em> and <em>Table of Contents Plus Plugins</em></p>
+<p>Note, each code segment is an Notepad (Rmd) chunk of code.</p>
+<hr />
+<p>START OF NEW FILE HERE THE BACK END FILE ***********************************</p>
+</div>
+<div id="scrape-twitter-and-create-word-cloud" class="section level4">
+<h4>Scrape Twitter and Create Word Cloud</h4>
+</div>
+<div id="auto-publish-to-wordpress" class="section level4">
+<h4>Auto Publish to WordPress</h4>
+<p>The following code is what I call the BackEnd. This code will call the Twitter API, Scrape, then manipulate the texts and create a wordcloud.</p>
+<p>This code is part of a three file collection. -BackEnd.Rmd -FrontEnd.Rmd -WPPublishWeb.Rmd</p>
+</div>
+<div id="libraries" class="section level4">
+<h4>Libraries</h4>
+<pre><code>### Libraries
+library(twitteR)
+library(ROAuth)
+library(tm)
+library(wordcloud)
+library(plyr)
+library(RColorBrewer)</code></pre>
+<div id="twitter-api-and-search-chunk" class="section level5">
+<h5>Twitter API and Search Chunk</h5>
+<pre><code>### Set API Keys
+api_key &lt;- &quot;XXXXXXXXXXXXXXXXXXXX&quot;
+api_secret &lt;- &quot;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot;
+access_token &lt;- &quot;xxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot;
+access_token_secret &lt;- &quot;xxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot;
+
+
+### Authorize Twitter API and Grab Latest Tweets
+setup_twitter_oauth(api_key, api_secret, access_token, access_token_secret)
+
+
+
+
+
+
+# Grab latest tweets
+tweets_trump = searchTwitter(&#39;#NetNeutrality&#39;, n = 1000)
+
+#coming soon
+#today_trends = getTrends(2364559)</code></pre>
+</div>
+<div id="text-cleanup-1" class="section level5">
+<h5>Text Cleanup 1</h5>
+<pre><code>#Convert Tweets to d.f. and keep only the first column of data (actual tweet messages)
+tweets.text = twListToDF(tweets_trump)
+tweets.text = tweets.text[,1]
+
+### Create a corpus
+tweet.corpus = Corpus(VectorSource(tweets.text))
+
+##### Remove Certain Characters and Words
+#Found a few helper functions and created a few of my own for stripping texts
+  #https://github.com/raredd/regex
+  #http://www.gnu.org/software/grep/manual/html_node/Character-Classes-and-Bracket-Expressions.html
+tweet.removeURL = function(x) gsub(&quot;http[^[:space:]]*&quot;,&quot;&quot;,x)
+tweet.removeATUser = function(x) gsub(&quot;@[a-z,A-Z]*&quot;,&quot;&quot;,x)
+tweet.removeEmoji = function(x) gsub(&quot;\\p{So}|\\p{Cn}&quot;, &quot;&quot;, x, perl = TRUE)
+tweet.removeSpecialChar = function(x) gsub(&quot;[^[:alnum:]///&#39; ]&quot;, &quot;&quot;, x)
+
+tweet.corpus = tm_map(tweet.corpus, content_transformer(tweet.removeURL))
+tweet.corpus = tm_map(tweet.corpus, content_transformer(tweet.removeATUser))
+tweet.corpus = tm_map(tweet.corpus, content_transformer(tweet.removeEmoji))
+tweet.corpus = tm_map(tweet.corpus, content_transformer(tweet.removeSpecialChar))
+tweet.corpus = tm_map(tweet.corpus, removePunctuation, preserve_intra_word_dashes = TRUE)
+tweet.corpus = tm_map(tweet.corpus, content_transformer(tolower))</code></pre>
+</div>
+<div id="text-cleanup-2" class="section level5">
+<h5>Text Cleanup 2</h5>
+<p>Removing words needs work to become more dynamic. I’m removing some words manually based on what my search terms are. For example, if I am looking up the word “Trump”, obviously, that word will be the most frequent so why do an analysis on that word? Strip it out! Work in progress.</p>
+<pre><code>#words like &quot;And&quot; or &quot;the&quot; are removed.
+tweet.corpus=tm_map(tweet.corpus, removeWords, c(stopwords(&quot;english&quot;), &quot;NetNeutrality&quot;, &quot;RT&quot;, &quot;rt&quot;))
+tweet.corpus=tm_map(tweet.corpus, removeNumbers)
+tweet.corpus = tm_map(tweet.corpus, stripWhitespace)
+tweet.corpus=tm_map(tweet.corpus, removeWords, c(stopwords(&quot;english&quot;), &quot;NetNeutrality&quot;,&quot;netneutrality&quot;, &quot;RT&quot;, &quot;rt&quot;))
+tweet.corpus = tm_map(tweet.corpus, stripWhitespace) #removing stop words creates more white space
+
+#converts things like &quot;learns&quot; to &quot;learn&quot; or &quot;running&quot; to &quot;run&quot; -Omitting for now
+#tweet.corpus = tm_map(tweet.corpus, stemDocument)</code></pre>
+</div>
+<div id="text-analysis" class="section level5">
+<h5>Text Analysis</h5>
+<pre><code>ap.tdm &lt;- TermDocumentMatrix(tweet.corpus)
+ap.m &lt;- as.matrix(ap.tdm)
+
+ap.v &lt;- sort(rowSums(ap.m),decreasing=TRUE)
+ap.d &lt;- data.frame(word = names(ap.v),freq=ap.v)
+freqterms = findFreqTerms(ap.tdm, 15)</code></pre>
+</div>
+<div id="wordcloud-generator" class="section level5">
+<h5>WordCloud Generator</h5>
+<pre><code>#https://cran.r-project.org/web/packages/RColorBrewer/RColorBrewer.pdf
+pal2 &lt;- brewer.pal(8,&quot;Dark2&quot;)
+png(&quot;realdonaldtrump.png&quot;, width=1920,height=1080)
+wordcloud(ap.d$word,ap.d$freq, scale=c(8,.2),min.freq=15,
+          max.words=Inf, random.order=FALSE, rot.per=.15, colors=pal2)
+dev.off()
+
+
+
+
+
+
+&lt;code&gt;## quartz_off_screen 
+##                 2
+&lt;/code&gt;</code></pre>
+<hr />
+<p>START OF NEW FILE HERE THE FRONT END FILE ***********************************</p>
+</div>
+<div id="word-cloud-of-the-day" class="section level5">
+<h5>Word Cloud of the Day!</h5>
+<p>Top five words used are attorneys, congress, general, vote, every.</p>
+<pre><code>library(wordcloud)
+wordcloud(ap.d$word,ap.d$freq,min.freq=10,
+      max.words=Inf, random.order=FALSE, rot.per=.15, colors=pal2)</code></pre>
+<div class="figure">
+<img src="https://i.imgur.com/MtRKVKn.png" alt="plot of chunk unnamed-chunk-4" />
+<p class="caption">plot of chunk unnamed-chunk-4</p>
+</div>
+</div>
+</div>
+</div>
+<div id="the-ad-code-actually-goes-here-as-text---hard-to-publish-ad-code-as-code-and-use-this" class="section level1">
+<h1>The Ad Code actually goes here as text - hard to publish ad code as code and use this</h1>
+</div>
+<div id="script-to-upload.-i-am-not-one-to-mess-with-escape-characters" class="section level1">
+<h1>script to upload. I am not one to mess with escape characters!!!</h1>
+<hr />
+<p>START OF NEW FILE HERE PUBLISH TO WORDPRESS FILE ***********************************</p>
+<pre><code>if (!require(&#39;RWordPress&#39;))
+  install.packages(&#39;RWordPress&#39;, repos = &#39;http://www.omegahat.org/R&#39;, type = &#39;source&#39;)
+library(RWordPress)
+library(knitr)
+library(XMLRPC)
+
+options(WordpressLogin = c(username = &#39;&#39;), WordpressURL = &#39;http://therealdonaldtrump2020.com/xmlrpc.php&#39;)
+
+opts_knit$set(upload.fun = imgur_upload, base.url = NULL)  # upload all images to imgur.com
+opts_chunk$set(fig.width = 7, fig.height = 7, cache = TRUE)
+
+
+
+
+
+
+knit2wpCrayon &lt;- function(input, title=&quot;A post from knitr&quot;, ...,
+                          action=c(&quot;newPost&quot;, &quot;editPost&quot;, &quot;newPage&quot;),
+                          postid, encoding=getOption(&quot;encoding&quot;),
+                          upload=FALSE, publish=FALSE, write=TRUE)
+{
+    out &lt;- knit(input, encoding=encoding)
+    on.exit(unlink(out))
+    con &lt;- file(out, encoding=encoding)
+    on.exit(close(con), add=TRUE)
+    content &lt;- knitr:::native_encode(readLines(con, warn=FALSE))
+    content &lt;- paste(content, collapse=&quot;\n&quot;)
+    content &lt;- markdown::markdownToHTML(text=content, fragment.only=TRUE)
+    content &lt;- gsub(&quot;&lt;pre&gt;&lt;code class=\&quot;([[:alpha:]]+)\&quot;&gt;(.+?)&lt;/code&gt;&lt;/pre&gt;&quot;,
+                    &quot;&lt;pre class=\&quot;lang:\\1 decode:true\&quot;&gt;\\2&lt;/pre&gt;&quot;,
+                    content)
+    content=knitr:::native_encode(content, &quot;UTF-8&quot;)
+    title=knitr:::native_encode(title, &quot;UTF-8&quot;)
+    if (write){
+        writeLines(text=content,
+                   con=gsub(x=out, pattern=&quot;\\.md$&quot;, replacement=&quot;.html&quot;))
+    }
+    if (upload){
+        action=match.arg(action)
+        WPargs=list(content=list(description=content, title=title, 
+                                 ...), publish=publish)
+        if (action==&quot;editPost&quot;) 
+            WPargs=c(postid=postid, WPargs)
+        do.call(&quot;library&quot;, list(package=&quot;RWordPress&quot;, character.only=TRUE))
+        print(do.call(action, args=WPargs))
+    }
+}
+
+
+
+
+
+
+knit2wpCrayon(&quot;BackEnd.Rmd&quot;, 
+        title = &quot;Word of the day!&quot;,
+        categories = c(&quot;Mark&quot;), 
+        publish = FALSE, upload = TRUE)
+
+
+
+
+
+
+&lt;code&gt;## 
+  |                                                                       
+  |                                                                 |   0%
+  |                                                                       
+  |.....                                                            |   8%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |..........                                                       |  15%
+## label: unnamed-chunk-7 (with options) 
+## List of 1
+##  $ warning: logi FALSE
+## 
+## 
+  |                                                                       
+  |...............                                                  |  23%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |....................                                             |  31%
+## label: unnamed-chunk-8 (with options) 
+## List of 1
+##  $ warning: logi FALSE
+## 
+## 
+  |                                                                       
+  |.........................                                        |  38%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |..............................                                   |  46%
+## label: unnamed-chunk-9 (with options) 
+## List of 1
+##  $ warning: logi FALSE
+## 
+## 
+  |                                                                       
+  |...................................                              |  54%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |........................................                         |  62%
+## label: unnamed-chunk-10 (with options) 
+## List of 1
+##  $ warning: logi FALSE
+## 
+## 
+  |                                                                       
+  |.............................................                    |  69%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |..................................................               |  77%
+## label: unnamed-chunk-11 (with options) 
+## List of 1
+##  $ warning: logi FALSE
+## 
+## 
+  |                                                                       
+  |.......................................................          |  85%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |............................................................     |  92%
+## label: unnamed-chunk-12 (with options) 
+## List of 1
+##  $ warning: logi FALSE
+&lt;/code&gt;
+
+
+
+
+
+&lt;code&gt;## 
+  |                                                                       
+  |.................................................................| 100%
+##   ordinary text without R code
+## 
+## 
+## [1] &quot;798&quot;
+## attr(,&quot;class&quot;)
+## [1] &quot;WordpressPostId&quot;
+&lt;/code&gt;</code></pre>
+<p>For scraper specific post, click <a href="http://devgin.com/build-word-cloud-twitter-using-r/">here.</a> For building a WordCloud specific post, <a href="click%20here.%20%3C/a%3E%20Having%20issues%20with%20the%20lowercase%20function?%20Check%20%3Ca%20href=">this post</a> out to try an fix it.</p>
+</div>
+
+</main>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+  <hr/>
+  &copy; <a href="https://markgingrass.com">Mark Gingrass</a> 2018 | <a href="https://github.com/mtgingrass">Github</a> | <a href="https://twitter.com/markgingrass">Twitter</a>
+  
+  </footer>
+  </body>
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "gingrass" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</html>
+

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>6 Steps to Link all .csv Files as Tables - Access / VBA | Mark Gingrass Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-135621341-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="http://www.devgin.com">DevGin</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+
+<div class="article-meta">
+<h1><span class="title">6 Steps to Link all .csv Files as Tables - Access / VBA</span></h1>
+<h2 class="author">mtgingrass</h2>
+<h2 class="date">2017/08/24</h2>
+</div>
+
+<main>
+<p>Ever want to link an entire directory of &ldquo;*.csv&rdquo; files to a Microsoft Access database? Manually, this could be tedious and exhausting.</p>
+
+<p>I will walk you through six easy steps to automate the process using VBA and allow you to link hundreds of files in seconds! (Also see video tutorial at the bottom)
+[caption id=&ldquo;attachment_133&rdquo; align=&ldquo;alignnone&rdquo; width=&ldquo;300&rdquo;]<img src="http://devgin.com/wp-content/uploads/2017/08/microsoft-acess-database-linked-tables-300x262.png" alt="Access Table Relationships" /> Relational table links - Microsoft Access[/caption]
+What typically happens, is the customer sends a daily Excel file and you store it in a directory for archival purposes. After collecting months worth of data, the customer then asks for a trend analysis or forecasting analysis.</p>
+
+<p>Rather than manually link each Excel file to an Access table, I use the following code to automatically link, externally, an entire directory of files.</p>
+
+<!-- more -->
+
+<ol>
+<li><p>Open Microsoft Access</p></li>
+
+<li><p>Press CTRL + F11 Keys to open the VBA editor</p></li>
+
+<li><p>Right click on the Navigation pane and insert new Module</p></li>
+
+<li><p>Paste the following code into the text area</p>
+
+<p>Option Compare Database
+Option Explicit</p>
+
+<p>Sub Link_To_Excel()
+     &lsquo;Macro Loops through the specified directory (strPath)
+     &lsquo;and links ALL Excel files as linked tables in the Access
+     &lsquo;Database.</p>
+
+<pre><code>Const strPath As String = &quot;C:\Users\1260948764C\Documents\Operations Researcher\DSCM\Raw Data Files\Raw Data\&quot; 'Directory Path
+Dim strFile As String 'Filename
+Dim strFileList() As String 'File Array
+Dim intFile As Integer 'File Number
+
+ 'Loop through the folder &amp; build file list
+strFile = Dir(strPath &amp; &quot;*.csv&quot;)
+While strFile &lt;&gt; &quot;&quot;
+     'add files to the list
+    intFile = intFile + 1
+    ReDim Preserve strFileList(1 To intFile)
+    strFileList(intFile) = strFile
+    strFile = Dir()
+Wend
+ 'see if any files were found
+If intFile = 0 Then
+    MsgBox &quot;No files found&quot;
+    Exit Sub
+End If
+ 'cycle through the list of files &amp; link to Access
+For intFile = 1 To UBound(strFileList)
+    DoCmd.TransferText acLinkDelim, , _
+    strFileList(intFile), strPath &amp; strFileList(intFile), True, &quot;&quot;
+Next
+MsgBox UBound(strFileList) &amp; &quot; Files were Linked&quot;
+</code></pre>
+
+<p>End Sub</p></li>
+
+<li><p><strong>Change the directory to one of your choosing on line 10</strong></p></li>
+
+<li><p>Click the Play button on top.</p></li>
+</ol>
+
+<p>Please comment below with improvements, questions or suggestions.</p>
+
+<p>[embed]<a href="https://youtu.be/MGc5v-Nk6rY[/embed">https://youtu.be/MGc5v-Nk6rY[/embed</a>]</p>
+
+</main>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+  <hr/>
+  &copy; <a href="https://markgingrass.com">Mark Gingrass</a> 2018 | <a href="https://github.com/mtgingrass">Github</a> | <a href="https://twitter.com/markgingrass">Twitter</a>
+  
+  </footer>
+  </body>
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "gingrass" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</html>
+

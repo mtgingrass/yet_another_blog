@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>corsera on Mark Gingrass Blog</title>
+    <link>/tags/corsera/</link>
+    <description>Recent content in corsera on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Jan 2018 10:22:24 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/corsera/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>4 Essential Resources for learning R Programming</title>
+      <link>/post/2018/01/10/7-essential-resources-learning-r-programming/</link>
+      <pubDate>Wed, 10 Jan 2018 10:22:24 +0000</pubDate>
+      
+      <guid>/post/2018/01/10/7-essential-resources-learning-r-programming/</guid>
+      <description>[caption id=“attachment_604” align=“alignnone” width=“200” class=“center”]R Logo[/caption]
+Step by Step Guide to Learning R Step 1
+ Download R.
+ Download R Studio.
+  Learn R Fundamentals
+ Data Camp is a good place to start.
+ Corsera also has R courses for free.
+ Have experience with programming, you can start here.
+  Make your data pretty using ggplot2.
+ Jump into machine learning with Kaggle.
+ Titanic Machine Learning tutorial.</description>
+    </item>
+    
+    <item>
+      <title>4 Essential Resources for learning R Programming</title>
+      <link>/post/2018/01/10/7-essential-resources-learning-r-programming/</link>
+      <pubDate>Wed, 10 Jan 2018 10:22:24 +0000</pubDate>
+      
+      <guid>/post/2018/01/10/7-essential-resources-learning-r-programming/</guid>
+      <description>[caption id=&amp;ldquo;attachment_604&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;200&amp;rdquo; class=&amp;ldquo;center&amp;rdquo;]R Logo[/caption]
+Step by Step Guide to Learning R  Step 1
+ Download R.
+ Download R Studio.
+  Learn R Fundamentals
+ Data Camp is a good place to start.
+ Corsera also has R courses for free.
+ Have experience with programming, you can start here.
+  Make your data pretty using ggplot2.
+ Jump into machine learning with Kaggle.</description>
+    </item>
+    
+  </channel>
+</rss>

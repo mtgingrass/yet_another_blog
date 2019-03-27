@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>manipulate on Mark Gingrass Blog</title>
+    <link>/tags/manipulate/</link>
+    <description>Recent content in manipulate on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Sep 2017 01:23:20 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/manipulate/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Manipulate Data and Automate Descriptive Statistics with VBA</title>
+      <link>/post/2017/09/26/manipulate-data-automate-descriptive-statistics-vba/</link>
+      <pubDate>Tue, 26 Sep 2017 01:23:20 +0000</pubDate>
+      
+      <guid>/post/2017/09/26/manipulate-data-automate-descriptive-statistics-vba/</guid>
+      <description>[embed]https://youtu.be/L2GoeXv_Ro0[/embed]
+Get the code below and automate your work! Watch video and learn how you can manipulate data into multiple tabs with VBA automaticall. Draft version below. Stay tuned for updates as this progresses.
+&amp;lt;code&amp;gt;Option Explicit Sub Initialize_Data() Application.ScreenUpdating = False Call DefBusRules Call flat_file_to_tabs Call IndexIt Call format_raw_Data Call desc_stats(10) Worksheets(&amp;quot;Def &amp;amp; Bus Rules &amp;amp; Overview&amp;quot;).Select Range(&amp;quot;A1&amp;quot;).Select Application.ScreenUpdating = True End Sub Sub flat_file_to_tabs() &amp;#39;Declaration of Variables Dim lng_LastRow As Long Dim r1 As Long Dim int_StartingRow As Integer Dim int_StartingCol As Integer Dim str_CurrentMDS As String Dim int_HeaderRow As Long Worksheets(&amp;quot;Raw Data&amp;quot;).</description>
+    </item>
+    
+    <item>
+      <title>Manipulate Data and Automate Descriptive Statistics with VBA</title>
+      <link>/post/2017/09/26/manipulate-data-automate-descriptive-statistics-vba/</link>
+      <pubDate>Tue, 26 Sep 2017 01:23:20 +0000</pubDate>
+      
+      <guid>/post/2017/09/26/manipulate-data-automate-descriptive-statistics-vba/</guid>
+      <description>[embed]https://youtu.be/L2GoeXv_Ro0[/embed]
+Get the code below and automate your work! Watch video and learn how you can manipulate data into multiple tabs with VBA automaticall. Draft version below. Stay tuned for updates as this progresses.
+&amp;lt;code&amp;gt;Option Explicit Sub Initialize_Data() Application.ScreenUpdating = False Call DefBusRules Call flat_file_to_tabs Call IndexIt Call format_raw_Data Call desc_stats(10) Worksheets(&amp;quot;Def &amp;amp; Bus Rules &amp;amp; Overview&amp;quot;).Select Range(&amp;quot;A1&amp;quot;).Select Application.ScreenUpdating = True End Sub Sub flat_file_to_tabs() &#39;Declaration of Variables Dim lng_LastRow As Long Dim r1 As Long Dim int_StartingRow As Integer Dim int_StartingCol As Integer Dim str_CurrentMDS As String Dim int_HeaderRow As Long Worksheets(&amp;quot;Raw Data&amp;quot;).</description>
+    </item>
+    
+  </channel>
+</rss>

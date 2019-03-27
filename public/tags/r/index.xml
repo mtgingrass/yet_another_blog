@@ -22,5 +22,188 @@ My Visual Resume
   Setup Most people who have used R for a few weeks or months have probably already installed devtools. Just in case it isn’t already installed, simply uncomment line 18 to install for the first time</description>
     </item>
     
+    <item>
+      <title>Visual Resume</title>
+      <link>/post/2019/01/05/visual-resume/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/01/05/visual-resume/</guid>
+      <description>Visual Resume Timeline I came across this Github package by ndphillips and thought it was pretty cool and decided to make it even easier to setup. I really just wanted to play with it so here is my excuse.
+Setup Most people who have used R for a few weeks or months have probably already installed devtools. Just in case it isn&amp;rsquo;t already installed, simply uncomment line 18 to install for the first time</description>
+    </item>
+    
+    <item>
+      <title>4 Essential Resources for learning R Programming</title>
+      <link>/post/2018/01/10/7-essential-resources-learning-r-programming/</link>
+      <pubDate>Wed, 10 Jan 2018 10:22:24 +0000</pubDate>
+      
+      <guid>/post/2018/01/10/7-essential-resources-learning-r-programming/</guid>
+      <description>[caption id=“attachment_604” align=“alignnone” width=“200” class=“center”]R Logo[/caption]
+Step by Step Guide to Learning R Step 1
+ Download R.
+ Download R Studio.
+  Learn R Fundamentals
+ Data Camp is a good place to start.
+ Corsera also has R courses for free.
+ Have experience with programming, you can start here.
+  Make your data pretty using ggplot2.
+ Jump into machine learning with Kaggle.
+ Titanic Machine Learning tutorial.</description>
+    </item>
+    
+    <item>
+      <title>4 Essential Resources for learning R Programming</title>
+      <link>/post/2018/01/10/7-essential-resources-learning-r-programming/</link>
+      <pubDate>Wed, 10 Jan 2018 10:22:24 +0000</pubDate>
+      
+      <guid>/post/2018/01/10/7-essential-resources-learning-r-programming/</guid>
+      <description>[caption id=&amp;ldquo;attachment_604&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;200&amp;rdquo; class=&amp;ldquo;center&amp;rdquo;]R Logo[/caption]
+Step by Step Guide to Learning R  Step 1
+ Download R.
+ Download R Studio.
+  Learn R Fundamentals
+ Data Camp is a good place to start.
+ Corsera also has R courses for free.
+ Have experience with programming, you can start here.
+  Make your data pretty using ggplot2.
+ Jump into machine learning with Kaggle.</description>
+    </item>
+    
+    <item>
+      <title>Simple Sentiment Analysis</title>
+      <link>/post/2018/01/03/simple-sentiment-analysis/</link>
+      <pubDate>Wed, 03 Jan 2018 20:29:46 +0000</pubDate>
+      
+      <guid>/post/2018/01/03/simple-sentiment-analysis/</guid>
+      <description>Sentiment Analysis This is a very basic sentiment analysis based on the last 2000 Tweets about @realDonaldTrump (as of Jan 2 2018).
+The data for positive and negative words are in the files on this repository.
+Or…Scrape your own Tweets by following this guide, or use the WordFreq.csv provided on the GitHub account.
+ The Code First, read in the negative and positive words. The WordFreq.csv file was created using R and tapping the Twitter API for specific Tweets.</description>
+    </item>
+    
+    <item>
+      <title>Simple Sentiment Analysis</title>
+      <link>/post/2018/01/03/simple-sentiment-analysis/</link>
+      <pubDate>Wed, 03 Jan 2018 20:29:46 +0000</pubDate>
+      
+      <guid>/post/2018/01/03/simple-sentiment-analysis/</guid>
+      <description>Sentiment Analysis This is a very basic sentiment analysis based on the last 2000 Tweets about @realDonaldTrump (as of Jan 2 2018).
+The data for positive and negative words are in the files on this repository.
+Or&amp;hellip;Scrape your own Tweets by following this guide, or use the WordFreq.csv provided on the GitHub account.
+The Code First, read in the negative and positive words. The WordFreq.csv file was created using R and tapping the Twitter API for specific Tweets.</description>
+    </item>
+    
+    <item>
+      <title>Scrape Twitter, Text Manipulate, Autopost to WordPress</title>
+      <link>/post/2017/12/16/scrape-twitter-text-manipuplate-autopost-wordpress/</link>
+      <pubDate>Sat, 16 Dec 2017 23:59:34 +0000</pubDate>
+      
+      <guid>/post/2017/12/16/scrape-twitter-text-manipuplate-autopost-wordpress/</guid>
+      <description>Tweet, Scrape, Manip, Publish It is highly recommended to watch this short video before working with these files. The video explains how each file works and how to run this for your own site.
+I will also publish these on my GitHub site here. What is a GitHub you say? See previous post here for quick 5 minute tutorial
+Watch Video First [embed]https://youtu.be/ioNIAqZa3go[embed]
+Note that the below code has R Markdown language in it which makes publishing this particular post difficult.</description>
+    </item>
+    
+    <item>
+      <title>Scrape Twitter, Text Manipulate, Autopost to WordPress</title>
+      <link>/post/2017/12/16/scrape-twitter-text-manipuplate-autopost-wordpress/</link>
+      <pubDate>Sat, 16 Dec 2017 23:59:34 +0000</pubDate>
+      
+      <guid>/post/2017/12/16/scrape-twitter-text-manipuplate-autopost-wordpress/</guid>
+      <description>Tweet, Scrape, Manip, Publish It is highly recommended to watch this short video before working with these files. The video explains how each file works and how to run this for your own site.
+I will also publish these on my GitHub site here.  What is a GitHub you say? See previous post here for quick 5 minute tutorial
+Watch Video First [embed]https://youtu.be/ioNIAqZa3go[embed]
+Note that the below code has R Markdown language in it which makes publishing this particular post difficult.</description>
+    </item>
+    
+    <item>
+      <title>Five Minute GitHub Tutorial with RStudio - Simple!</title>
+      <link>/post/2017/12/16/five-minute-github-tutorial-rstudio-simple/</link>
+      <pubDate>Sat, 16 Dec 2017 21:17:30 +0000</pubDate>
+      
+      <guid>/post/2017/12/16/five-minute-github-tutorial-rstudio-simple/</guid>
+      <description>What is a GitHub? Recently, I went to search for a few jobs in the tech industry and one thing stood out with each of the sites I visited. Everyone was asking “What’s your GitHub address?” Admittedly, I didn’t have one until just the other day.
+ I posted this short five minute tutorial to get you started early!  GitHub is a repository for version control hosting of coding projects and much more.</description>
+    </item>
+    
+    <item>
+      <title>Five Minute GitHub Tutorial with RStudio - Simple!</title>
+      <link>/post/2017/12/16/five-minute-github-tutorial-rstudio-simple/</link>
+      <pubDate>Sat, 16 Dec 2017 21:17:30 +0000</pubDate>
+      
+      <guid>/post/2017/12/16/five-minute-github-tutorial-rstudio-simple/</guid>
+      <description>What is a GitHub? Recently, I went to search for a few jobs in the tech industry and one thing stood out with each of the sites I visited. Everyone was asking &amp;ldquo;What&amp;rsquo;s your GitHub address?&amp;rdquo; Admittedly, I didn&amp;rsquo;t have one until just the other day.
+I posted this short five minute tutorial to get you started early! GitHub is a repository for version control hosting of coding projects and much more.</description>
+    </item>
+    
+    <item>
+      <title>R Programming Twitter Scraper</title>
+      <link>/post/2017/11/21/r-programming-twitter-scraper/</link>
+      <pubDate>Tue, 21 Nov 2017 17:07:51 +0000</pubDate>
+      
+      <guid>/post/2017/11/21/r-programming-twitter-scraper/</guid>
+      <description>Create a Twitter Scrapper using R programming language in these very simple steps:
+[embed]https://youtu.be/1_K01qD4Exw[/embed]
+Follow these simple steps to start srapping:
+Create Twitter API Application first: https://apps.twitter.com/.
+ Copy the code below into an R script.
+ Install packages “twitteR” and “ROAuth” if required.
+ Change the search terms to your liking.
+ library(twitteR) library(ROAuth)
+Set API Keys api_key &amp;lt;- “XXXXXXXXXXXXXXXXXXXX” api_secret &amp;lt;- “xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx”
+access_token &amp;lt;- “xxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx” access_token_secret &amp;lt;- “xxxxxxxxxxxxxxxxxxxxxxxxxxxx”</description>
+    </item>
+    
+    <item>
+      <title>R Programming Twitter Scraper</title>
+      <link>/post/2017/11/21/r-programming-twitter-scraper/</link>
+      <pubDate>Tue, 21 Nov 2017 17:07:51 +0000</pubDate>
+      
+      <guid>/post/2017/11/21/r-programming-twitter-scraper/</guid>
+      <description>Create a Twitter Scrapper using R programming language in these very simple steps:
+[embed]https://youtu.be/1_K01qD4Exw[/embed]
+Follow these simple steps to start srapping:
+ Create Twitter API Application first: https://apps.twitter.com/.
+ Copy the code below into an R script.
+ Install packages &amp;ldquo;twitteR&amp;rdquo; and &amp;ldquo;ROAuth&amp;rdquo; if required.
+ Change the search terms to your liking.
+ library(twitteR) library(ROAuth)
+Set API Keys api_key &amp;lt;- &amp;ldquo;XXXXXXXXXXXXXXXXXXXX&amp;rdquo; api_secret &amp;lt;- &amp;ldquo;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;rdquo;
+access_token &amp;lt;- &amp;ldquo;xxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;rdquo; access_token_secret &amp;lt;- &amp;ldquo;xxxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Download and Use R Studio First Program - Complete Guide</title>
+      <link>/post/2017/10/04/download-use-r-studio-first-program-complete-guide/</link>
+      <pubDate>Wed, 04 Oct 2017 01:10:07 +0000</pubDate>
+      
+      <guid>/post/2017/10/04/download-use-r-studio-first-program-complete-guide/</guid>
+      <description> How to Download R and R Studio. After this tutorial, you will know where to download R and R studio as well as create your own R scripts.
+ Where to Download R
+ Where to Download R Studio
+ Create your first script and read in a data file!
+   Watch Video [embed]https://youtu.be/tFseuxP4C3k[/embed]
+ Download Links  The R Project for Statistics
+ R Studio
+   </description>
+    </item>
+    
+    <item>
+      <title>Download and Use R Studio First Program - Complete Guide</title>
+      <link>/post/2017/10/04/download-use-r-studio-first-program-complete-guide/</link>
+      <pubDate>Wed, 04 Oct 2017 01:10:07 +0000</pubDate>
+      
+      <guid>/post/2017/10/04/download-use-r-studio-first-program-complete-guide/</guid>
+      <description> How to Download R and R Studio. After this tutorial, you will know where to download R and R studio as well as create your own R scripts.
+ Where to Download R
+ Where to Download R Studio
+ Create your first script and read in a data file!
+  Watch Video [embed]https://youtu.be/tFseuxP4C3k[/embed]
+Download Links  The R Project for Statistics
+ R Studio
+  </description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>scraper on Mark Gingrass Blog</title>
+    <link>/tags/scraper/</link>
+    <description>Recent content in scraper on Mark Gingrass Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Nov 2017 17:07:51 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/scraper/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R Programming Twitter Scraper</title>
+      <link>/post/2017/11/21/r-programming-twitter-scraper/</link>
+      <pubDate>Tue, 21 Nov 2017 17:07:51 +0000</pubDate>
+      
+      <guid>/post/2017/11/21/r-programming-twitter-scraper/</guid>
+      <description>Create a Twitter Scrapper using R programming language in these very simple steps:
+[embed]https://youtu.be/1_K01qD4Exw[/embed]
+Follow these simple steps to start srapping:
+Create Twitter API Application first: https://apps.twitter.com/.
+ Copy the code below into an R script.
+ Install packages “twitteR” and “ROAuth” if required.
+ Change the search terms to your liking.
+ library(twitteR) library(ROAuth)
+Set API Keys api_key &amp;lt;- “XXXXXXXXXXXXXXXXXXXX” api_secret &amp;lt;- “xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx”
+access_token &amp;lt;- “xxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx” access_token_secret &amp;lt;- “xxxxxxxxxxxxxxxxxxxxxxxxxxxx”</description>
+    </item>
+    
+    <item>
+      <title>R Programming Twitter Scraper</title>
+      <link>/post/2017/11/21/r-programming-twitter-scraper/</link>
+      <pubDate>Tue, 21 Nov 2017 17:07:51 +0000</pubDate>
+      
+      <guid>/post/2017/11/21/r-programming-twitter-scraper/</guid>
+      <description>Create a Twitter Scrapper using R programming language in these very simple steps:
+[embed]https://youtu.be/1_K01qD4Exw[/embed]
+Follow these simple steps to start srapping:
+ Create Twitter API Application first: https://apps.twitter.com/.
+ Copy the code below into an R script.
+ Install packages &amp;ldquo;twitteR&amp;rdquo; and &amp;ldquo;ROAuth&amp;rdquo; if required.
+ Change the search terms to your liking.
+ library(twitteR) library(ROAuth)
+Set API Keys api_key &amp;lt;- &amp;ldquo;XXXXXXXXXXXXXXXXXXXX&amp;rdquo; api_secret &amp;lt;- &amp;ldquo;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;rdquo;
+access_token &amp;lt;- &amp;ldquo;xxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;rdquo; access_token_secret &amp;lt;- &amp;ldquo;xxxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;rdquo;</description>
+    </item>
+    
+  </channel>
+</rss>
