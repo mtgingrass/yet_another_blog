@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>programming on Mark Gingrass Blog</title>
-    <link>/categories/programming/</link>
-    <description>Recent content in programming on Mark Gingrass Blog</description>
+    <title>hello world on Mark Gingrass Blog</title>
+    <link>/tags/hello-world/</link>
+    <description>Recent content in hello world on Mark Gingrass Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 20 Aug 2017 20:27:05 +0000</lastBuildDate>
     
-	<atom:link href="/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/hello-world/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
