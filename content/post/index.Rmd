@@ -1,0 +1,384 @@
+---
+author: mtgingrass
+comments: false
+date: 2017-11-27 23:32:59+00:00
+layout: page
+link: http://devgin.com/
+slug: site-index
+title: Developing Minds
+wordpress_id: 409
+---
+
+
+
+
+
+* [**PROGRAMMING**](http://devgin.com/category/programming/)
+  
+
+
+
+  * [**C++**](http://devgin.com/category/programming/c/)
+
+ 
+
+
+    * [First Program / Visual Studio](http://devgin.com/1-first-c-program-using-visual-studio-2015/)
+
+
+    * [Online Compiler, DevC++ ](http://devgin.com/1-1-first-c-program-online-compiler-devc-and-downloading-microsoft-visual-studio/)
+
+
+    * [Basics](http://devgin.com/2-c-programming-basics/)
+
+
+    * [_if_ statements & **operators** ](http://devgin.com/3-c-programming-basics-statements-operators/)
+
+
+    * [Dev C++ & _for_ Loops](http://devgin.com/4-dev-c-download-loops-c-tutorial/)
+
+
+    * [_while_ Loop ](http://devgin.com/watch-real-story-amazon-post-21k-views-ad-510-6-c-programming-loop-mark-gingrass-1-9k-views-253-7-c-loops-tutorial-3-min-mark-gingrass-1-5k-views-10018-q/)
+
+
+    * [_while_ Loop ](http://devgin.com/6-c-programming-loop/)
+
+
+    * [_do while_ Loops 3 min! ](http://devgin.com/7-c-loops-tutorial-3-min/)
+
+
+    * [Functions 1 ](http://devgin.com/8-1-c-functions-part-1/)
+
+
+    * [Functions 2 ](http://devgin.com/8-2-c-functions-part-2/)
+
+
+    * [Functions 3 ](http://devgin.com/8-3-c-functions-part-3/)
+
+
+    * ["Pause Function](http://devgin.com/9-c-programming-tutorial-yet-another-pause-function-correct-way/)
+
+
+    * [Dereferencing & Pointers](http://devgin.com/10-c-programming-dereferencing-operator-pointers-references/)
+
+
+    * [Pass by Value & Ref](http://devgin.com/11-pass-value-reference-c-programming-functions-tutorial/)
+
+
+    * [GuessRandom Number](http://devgin.com/12-c-programming-guess-random-number/)
+
+
+    * [Enumeration - _enum_](http://devgin.com/13-enumeration-enum-c-programming-tutorial/)
+
+
+    * [_struct_ with Examples](http://devgin.com/14-c-programming-struct-keyword-examples/)
+
+
+    * [_struct_ Example 2](http://devgin.com/14-2-struct-example-c/)
+
+
+    * [IDE Auto Quote](http://devgin.com/15-c-ide-auto-qu…l-studiodevc-ide/)
+
+
+    * [_enum_ not std::string](http://devgin.com/16-c-enum-example-2-not-standard-string-array/)
+
+
+    * [_class_ Example - Point Object](http://devgin.com/17-c-tutorial-first-class-example-point-object-c/)
+
+
+    * [Constructors, Private Functions](http://devgin.com/18-c-class-constructors-private-member-functions-default/)
+
+
+    * [Interface to Implementation](http://devgin.com/19-c-separate-interface-implentation/)
+
+
+    * [5 Minute GitHub - RStudio](http://devgin.com/five-minute-github-tutorial-rstudio-simple/)
+
+
+
+
+
+  * [**Self Driving Car**](http://devgin.com/category/programming/self-driving-car/)
+
+
+    * [Day 1 - Why?](http://devgin.com/udacity-self-driving-car-day-1/)
+
+
+    * [Lane Detection](http://devgin.com/gray-scale-gaussian-blur-canny-edge-detection-hough-transform/)
+
+
+    * [Set up PyCharm Virt Env](http://devgin.com/set-python-virtu…rojects-packages/)
+
+
+
+
+
+
+
+  * [**VBA**](http://devgin.com/category/programming/vba/)
+
+
+
+    * [Link _.csv_ Files as Access Tables](http://devgin.com/89/)
+
+
+    * [Very First VBA Excel Macro](http://devgin.com/first-vba-excel-macro-tutorial-beginners/)
+
+
+    * [Editor, Code, Waste](http://devgin.com/vba-macros-editor-code-excel/)
+
+
+    * [Template with VBA Range](http://devgin.com/vba-range-debugger-option-explicit-integers/)
+
+
+    * [Dynamic Range & Mod Recorded Macros](http://devgin.com/dynamic-ranges-modifying-macros/)
+
+
+    * [Flat File to Tabular Sections](http://devgin.com/turn-flat-file-tabular-indexed-sections-data-manipulation-beta/)
+
+
+    * [_for_ Loops, Cells & Iterators](http://devgin.com/for-loops-cells-iterators-vba/)
+
+
+    * [Convert XLSX to CSV](http://devgin.com/vba-convert-xlsx…entire-directory/)
+
+
+    * [ Button To to Run Macro](http://devgin.com/add-button-excel-run-macro/)
+
+
+    * [5 Minute GitHub](http://devgin.com/five-minute-github-tutorial-rstudio-simple/)
+
+
+
+
+
+
+  * [**R**](http://devgin.com/category/programming/r-statistics/)
+
+
+
+    * [Download and Use R Studio](http://devgin.com/download-use-r-studio-first-program-complete-guide/)
+
+
+    * [Clean Data Outliers](http://devgin.com/clean-data-r-programming/)
+
+
+    * [Twitter Scraper](http://devgin.com/r-programming-twitter-scraper/)
+
+
+    * [Lowercase Corpus Error Solved](http://devgin.com/r-tm_maptweet-co…wer-error-solved/)
+
+
+    * [Build Word Cloud from Twitter](http://devgin.com/build-word-cloud-twitter-using-r/)
+
+
+    * [Data Cleanup with Solar Radiation](http://devgin.com/data-cleanup-sol…diation-data-set/)
+
+
+    * [Scrape Twitter to WordPress](http://devgin.com/scrape-twitter-t…topost-wordpress/)
+
+
+    * [Essential Resources for Learning](http://devgin.com/7-essential-reso…ng-r-programming/)
+
+
+    * [5 Minute GitHub](http://devgin.com/five-minute-github-tutorial-rstudio-simple/)
+
+
+    * [_dput_ Function](https://youtu.be/3EID3P1oisg)
+
+
+    * [Dynamic HTML Tabs (rmarkdown)](http://devgin.com/DynamicTabs.nb.html)
+
+
+    * [Not A (NA) Story](http://devgin.com/NAStory.html)
+
+
+
+
+
+
+  * [**Python**](http://devgin.com/category/programming/python/)
+
+
+
+    * [Sentiment Analysis](http://devgin.com/simple-sentiment-analysis/)
+
+
+    * [Set up PyCharm Virt Env](http://devgin.com/set-python-virtu…rojects-packages/)
+
+
+  
+
+
+
+
+
+
+
+* [**SUPPLY CHAIN**](http://devgin.com/category/supply-chain-management/)
+
+
+
+
+
+  * [Gated Process - Art of Possible](http://devgin.com/administrative-g…sible-principles/)
+
+
+  * [ENMCS](http://devgin.com/enmcs-engine-not-mission-capable-supply-explained/)
+
+
+  * [Excess Inventory Demand Forecast](http://devgin.com/equipment-specialist-excess-inventory-demand-forecasting/)
+
+
+  * [JFC Walk the Walls](http://devgin.com/junior-force-council-walls-gates-process-supply-chain-mark-gingrass/)
+
+
+  * [ES 1670 Job Series](http://devgin.com/mark-gingrass-equipment-specialist-1670-series-government-job/)
+
+
+  * [Supply Chain Discrepancies ROD](http://devgin.com/supply-chain-discrepancies-rod/)
+
+
+  * [Depot Supply Chain Management](http://devgin.com/dscm-depot-supply-chain-management-roles/)
+
+
+  * [Aircraft Availability](http://devgin.com/total-not-missio…pply-maintenance/)
+
+
+  * [RSP, POS, DueOuts](http://devgin.com/rsp-pos-dueouts-supply-chain/)
+
+
+
+
+
+* [**MATH**](http://devgin.com/category/math/)
+
+
+
+
+
+  * [**Algebra and Beer**](http://devgin.com/category/math/college-algebra/)
+
+
+    * [Linear Equations](http://devgin.com/001-linear-equations-college-algebra/)
+
+
+    * [Equation of Line](http://devgin.com/002-find-equation-random-line/)
+
+
+    * [Horizontal & Vertical](http://devgin.com/003-horizontal-vertical-lines/)
+
+
+    * [Point Slope](http://devgin.com/004-point-slope-form/)
+
+
+    * [Giving Two Points](http://devgin.com/005-solving-line-giving-two-points/)
+
+
+    * [Giving Two Points, 2](http://devgin.com/006-two-points-g…nd-equation-line/)
+
+
+    * [Slope and Point](http://devgin.com/007-giving-slope…nd-equation-line/)
+
+
+    * [Slope Direction](http://devgin.com/008-direction-sl…e-zero-undefined/)
+
+
+    * [Beer per Hour](http://devgin.com/009-beers-per-ho…algebra-question/)
+
+
+    * [Chugging Beer](http://devgin.com/010-rates-change-chugging-beer/)
+
+
+    * [Frat Party Beer Drinking](http://devgin.com/011-beer-catch-fast-drink/)
+
+
+
+
+
+
+
+  * [**Statistics**](http://devgin.com/category/programming/r-statistics/)
+
+
+
+    * [Gov Adv in Stat Programming (GASP)](http://devgin.com/GASPNotes.html)
+
+
+
+
+  * [**Probability**](http://devgin.com/category/math/probability/)
+
+
+
+    * [Inclusion Exclusion Principle ](http://devgin.com/1-inclusion-excl…lained-pictorial/)
+
+
+    * [Conditional Probability](http://devgin.com/2-conditional-pr…bility-explained/)
+
+
+    * [Nonograms Permutations](http://devgin.com/nonograms-permutation-calculation/)
+
+
+
+
+
+
+* [**Reviews**](http://devgin.com/category/reviews/)
+
+
+
+
+
+  * [**Amazon Reviews**](http://devgin.com/category/reviews/amazon-reviews/)
+
+
+    * [SwissGear Travel Gear ScanSmart Backpack](http://devgin.com/swissgear-travel…00-review-amazon/)
+
+
+    * [60-Inch Lightweight Tripod with Bag](http://devgin.com/amazonbasics-60-…ripod-bag-review/)
+
+
+    * [LimoStudio 9 x 15 ft. Green Screen](http://devgin.com/limostudio-9-x-1…key-green-screen/)
+
+
+    * [LimoStudio Green Screen 10Ft Stand](http://devgin.com/limostudio-photo-video-studio-10ft-adjustable-support-system-stand-review/)
+
+
+    * [How Green Screens Really Work](http://devgin.com/green-screens-re…s-quick-tutorial/)
+
+
+
+
+
+  * [**Other Reviews**](http://devgin.com/category/reviews/other-reviews/)
+
+
+
+    * [Pizza Reviews - Paseo, Plaza, and Classen Curve](http://devgin.com/oklahoma-city-pizza-reviews-paseo-plaza-classen-curve/)
+
+
+    * [How Green Screens Really Work](http://devgin.com/green-screens-really-work-no-bs-quick-tutorial/)
+
+
+
+
+
+
+
+
+* [**HOW TO**](http://devgin.com/category/how-to/)
+
+
+
+
+
+  * [Wheel Chair Bicycle Rack?](http://devgin.com/wheelchair-using…-trunk-room-tact/)
+
+
+  * [Hyundai Back Seat Removal](http://devgin.com/hyundai-elantra-2010-back-seat-removal-tutorial/)
+
+
+
+
+

@@ -1,0 +1,49 @@
+---
+author: mtgingrass
+comments: true
+date: 2017-11-21 17:07:51+00:00
+layout: post
+link: http://devgin.com/r-programming-twitter-scraper/
+slug: r-programming-twitter-scraper
+title: R Programming Twitter Scraper
+wordpress_id: 394
+categories:
+- Programming
+- R Statistics
+tags:
+- api
+- programming
+- R
+- scrape
+- scraper
+- token
+- tweet
+- twitter
+---
+
+
+
+<p>Create a Twitter Scrapper using R programming language in these very simple steps:</p>
+<p>[embed]<a href="https://youtu.be/1_K01qD4Exw%5B/embed%5D" class="uri">https://youtu.be/1_K01qD4Exw[/embed]</a></p>
+<p>Follow these simple steps to start srapping:</p>
+<ol style="list-style-type: decimal">
+<li><p>Create Twitter API Application first: <a href="https://apps.twitter.com/" class="uri">https://apps.twitter.com/</a>.</p></li>
+<li><p>Copy the code below into an R script.</p></li>
+<li><p>Install packages “twitteR” and “ROAuth” if required.</p></li>
+<li><p>Change the search terms to your liking.</p>
+<p><code> library(twitteR) library(ROAuth)</p>
+<h1 id="set-api-keys">Set API Keys</h1>
+<p>api_key &lt;- “XXXXXXXXXXXXXXXXXXXX” api_secret &lt;- “xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx”</p>
+<p>access_token &lt;- “xxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx” access_token_secret &lt;- “xxxxxxxxxxxxxxxxxxxxxxxxxxxx”</p>
+<p>setup_twitter_oauth(api_key, api_secret, access_token, access_token_secret)</p>
+<h1 id="grab-latest-tweets">Grab latest tweets</h1>
+<p>tweets_trump = searchTwitter(‘from:realDonaldTrump’, n=50) tweets_trump2 = searchTwitter(‘<span class="citation">@realDonaldTrump</span>’, n = 200) tweets_trump3 = searchTwitter(‘morning+bacon’, n=100)</p>
+<h1 id="transform-tweets-list-into-a-data-frame">Transform tweets list into a data frame</h1>
+<p>tweets.df &lt;- twListToDF(tweets_trump) tweets.df2 = twListToDF(tweets_trump2) tweets.df3 = twListToDF(tweets_trump3)</p>
+<p>write.csv(tweets.df, file = “tweets.csv”, row.names = FALSE) write.csv(tweets.df2, file = “tweets2.csv”, row.names = FALSE) write.csv(tweets.df3, file = “tweets3.csv”, row.names = FALSE) </code></p></li>
+</ol>
+<p>Example Output Files here:</p>
+<p><a href="http://devgin.com/wp-content/uploads/2017/11/tweets.csv">tweets</a></p>
+<p><a href="http://devgin.com/wp-content/uploads/2017/11/tweets2.csv">tweets2</a></p>
+<p><a href="http://devgin.com/wp-content/uploads/2017/11/tweets3.csv">tweets3</a></p>
+<p>When dealing with Corpi and text, you may encounter an issue as I had in this <a href="http://devgin.com/r-tm_maptweet-corpus-content_transformertolower-error-solved/">post</a> involving putting the text to lowercase. An odd error but <a href="http://devgin.com/r-tm_maptweet-corpus-content_transformertolower-error-solved/">solved!</a></p>

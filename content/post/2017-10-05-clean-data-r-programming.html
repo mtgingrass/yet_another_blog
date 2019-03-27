@@ -1,0 +1,135 @@
+---
+author: mtgingrass
+comments: true
+date: 2017-10-05 22:15:10+00:00
+layout: post
+link: http://devgin.com/clean-data-r-programming/
+slug: clean-data-r-programming
+title: Clean Data Outliers Using R Programming -
+wordpress_id: 305
+categories:
+- Programming
+- R Statistics
+---
+
+
+
+<div id="using-r-to-extract-and-delete-outliers-in-data" class="section level3">
+<h3>Using R to Extract and Delete Outliers in Data</h3>
+<p>Automate the extraction of outliers from your data-set using R programming and exclude the outliers.</p>
+</div>
+<div id="what-to-expect" class="section level3">
+<h3>What to expect</h3>
+<ul>
+<li><p>How to read in a *.csv file and store it as a data frame in R</p></li>
+<li><p>How to extract all rows of data that are equal to a certain string</p></li>
+<li><p>How to extract a single column of the specific data for analysis</p></li>
+<li><p>How to filter out outliers based on interquartile range</p></li>
+</ul>
+</div>
+<div id="watch-the-video-for-a-quick-guide" class="section level3">
+<h3>Watch the video for a quick guide</h3>
+<p>[embed]<a href="https://youtu.be/Gmo3_jialcI%5B/embed%5D" class="uri">https://youtu.be/Gmo3_jialcI[/embed]</a></p>
+</div>
+<div id="what-is-an-outlier" class="section level3">
+<h3>What is an outlier?</h3>
+<p>An outlier is simply a  data point that is distinctly separate from the rest of the data. Some outliers are meant to be in the data, so be careful when excluding them. This R script is good for excluding what I call “hard broke” outliers.</p>
+<p>For example, if the data is usually between 2 and 11, and you find a 12 or 13 in the data set, that may be just a small deviation that occurs every so often. However, if you end up with a 47 or a 100 or even a 0 in the data, it should be investigated. Do not just throw away outliers, bring them up and have it investigated.</p>
+</div>
+<div id="interquartile-range" class="section level3">
+<h3>Interquartile Range</h3>
+<p>An outlier can take many forms and definitions. One such method of determining outliers is to define it as any data point more than 1.5 Interquartile Ranges(IQRs) below the first quartile or above the third quartile. What does that mean? Check out the Khan Academy explanation <a href="https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/box-whisker-plots/a/identifying-outliers-iqr-rule">here.</a></p>
+<p>The code below shows the function that determines the outliers. It will first remove the NA’s and the DIV/0 errors and then compute the ranges that are valid. Any invalid ranges are changed to NA’s. Finally, the last statement, once again, deletes any NA’s in the data.</p>
+<pre><code>&lt;code&gt; remove_outliers &lt;- function(x, na.rm = TRUE, ...) {
+  
+  #find position of 1st and 3rd quantile not including NA&#39;s
+  qnt &lt;- quantile(x, probs=c(.25, .75), na.rm = na.rm, ...)
+  
+  H &lt;- 1.5 * IQR(x, na.rm = na.rm)
+  
+  y &lt;- x
+  y[x &lt; (qnt[1] - H)] &lt;- NA
+  y[x &gt; (qnt[2] + H)] &lt;- NA
+  x&lt;-y
+  
+  #get rid of any NA&#39;s
+  x[!is.na(x)]
+}
+&lt;/code&gt;</code></pre>
+</div>
+<div id="section" class="section level3">
+<h3></h3>
+<p>Common Mistakes</p>
+<p>One other thing to watch out for when implementing this code on your own. When you cut and paste your address location of the file you want to read in, be sure to change all of the backslashes (“&quot;) to foward slashes (”/“).</p>
+<pre><code>&lt;code&gt;WSData &lt;- read.csv(&quot;C:/Users/canton/Desktop/read.csv&quot;, header = TRUE)&lt;/code&gt;</code></pre>
+</div>
+<div id="entire-code-below" class="section level3">
+<h3>Entire Code Below</h3>
+<pre><code>&lt;code&gt;#Clear Variables
+rm(list = ls())
+
+#Load Raw Data from File
+WSData &lt;- read.csv(&quot;C:/Users/canton/Desktop/read.csv&quot;, header = TRUE)
+attach(WSData)
+
+#Extract MDS only from the raw data
+A010A &lt;- WSData[WSData[,3] == &quot;A010A&quot;,]
+
+F015C &lt;- WSData[WSData[,3] == &quot;F015C&quot;,]
+F015D &lt;- WSData[WSData[,3] == &quot;F015D&quot;,]
+F015E &lt;- WSData[WSData[,3] == &quot;F015E&quot;,]
+F016C &lt;- WSData[WSData[,3] == &quot;F016C&quot;,]
+F016D &lt;- WSData[WSData[,3] == &quot;A016D&quot;,]
+T038A &lt;- WSData[WSData[,3] == &quot;T038C&quot;,]
+
+###################################################################################
+#          Function to remove outliers based on Interquartile Range               #
+###################################################################################
+remove_outliers &lt;- function(x, na.rm = TRUE, ...) {
+  
+  #find position of 1st and 3rd quantile not including NA&#39;s
+  qnt &lt;- quantile(x, probs=c(.25, .75), na.rm = na.rm, ...)
+  
+  H &lt;- 1.5 * IQR(x, na.rm = na.rm)
+  
+  y &lt;- x
+  y[x &lt; (qnt[1] - H)] &lt;- NA
+  y[x &gt; (qnt[2] + H)] &lt;- NA
+  x&lt;-y
+  
+  #get rid of any NA&#39;s
+  x[!is.na(x)]
+}
+
+###################################################################################
+#          End Functon                                                            #
+###################################################################################
+
+
+#Extract just the Blah.19 column from Data
+A010A_SRT = subset(A010A, , c(Blah.19))
+
+#Convert to a vector (for use with outlier function)
+A010A_SRT = as.vector(A010A_SRT$Blah.19)
+
+
+#Test an obvious outliers
+A010A_SRT &lt;- c(A010A_SRT, 234)
+A010A_SRT &lt;- c(A010A_SRT, 55)
+
+
+#Prove outlier is in the vector
+A010A_SRT
+boxplot(A010A_SRT)
+
+#remove outliers
+cleaned_data = remove_outliers(A010A_SRT)
+
+#Prove Outliers are gone
+boxplot(cleaned_data)
+
+cleaned_data
+
+&lt;/code&gt;</code></pre>
+<p>Check out a similar post about manipulating data and automating descriptive statistics with Excel and VBA <a href="http://devgin.com/manipulate-data-automate-descriptive-statistics-vba/">here.</a></p>
+</div>

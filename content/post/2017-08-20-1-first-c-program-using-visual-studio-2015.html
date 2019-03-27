@@ -1,0 +1,51 @@
+---
+author: mtgingrass
+comments: true
+date: 2017-08-20 20:24:53+00:00
+layout: post
+link: http://devgin.com/1-first-c-program-using-visual-studio-2015/
+slug: 1-first-c-program-using-visual-studio-2015
+title: 1. First C++ Program using Visual Studio 2015
+wordpress_id: 24
+categories:
+- C++
+- Programming
+---
+
+
+
+<p>[embed]<a href="https://www.youtube.com/watch?v=_iHMXDzyrhk&amp;t" class="uri">https://www.youtube.com/watch?v=_iHMXDzyrhk&amp;t</a>;=621s&amp;index;=1&amp;list;=PL0oBhq0tLsOBzIXpM98ezhrBHse5IJ776[/embed]</p>
+<p>Your very first C++ program using a free version of <a href="https://www.amazon.com/gp/product/1119068053/ref=as_li_tl?ie=UTF8&amp;tag=hatro-20&amp;camp=1789&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=1119068053&amp;linkId=0bcd7a73db3170ad9756da36f691d7c5">Visual Studio 2015.</a>.  I increase font size in the later videos to help with readability.</p>
+<p>Don’t have Visual Studio or want to choose other alternatives? No problem. <a href="http://devgin.com/1-1-first-c-program-online-compiler-devc-and-downloading-microsoft-visual-studio/">This post</a> will show you how to get started using an Online compiler, DevC++ (free) and how to download Visual Studio Community 2015.</p>
+<p>I highly recommend any of the Deitel &amp; Deitel books like this one linked: <a href="http://amzn.to/2vASq6Y" class="uri">http://amzn.to/2vASq6Y</a>.</p>
+<p>Read on for the code to cut/paste if you prefer. I also break down each line with descriptions.<!-- more --></p>
+<p>You can always buy a previous edition to save money. Clicking the link helps me create videos like this.</p>
+<pre><code>&lt;code&gt;//MyFirstProgramisCoo.cpp : Devines the entry point for the console application. 
+//This is a comment
+//More comments
+
+#include &quot;stdafx.h&quot;
+#include 
+
+int main()
+{
+
+    std::cout &lt;&lt; &quot;Hello world!&quot;;
+    std::cout &lt;&lt; &quot;more stuff&quot;;    
+ 
+    int pause;    
+    pause = 0;    
+    std::cin &gt;&gt; pause;
+
+    return 0;
+}&lt;/code&gt;</code></pre>
+<p><strong>Lines 1 - 3</strong> are comment lines. Anything you put after the double forward slash <em>//</em> will not be compiled as code. Use this to add readability to your code. Once the code is compiled, these lines are ignored and they are not part of your final program.</p>
+<p><strong>Line 5</strong> is a unique line required for Visual Studio only. If you are not using Visual Studio, delete line 5. All this is doing is helping compile time by including precompile headers.What this means is that it takes a lot of processing time to generate a basic C++ program. Instead of waiting, Microsoft has included a way to speed up the time by “pre-compiling” parts of the program. This does add some bloat to the program, but for now, as a beginner, it is best to just use it.</p>
+<p><strong>Line 11-12</strong> are printing to the designated output, the screen. Think of std::cout as “Standard See Out,” as in, “Seeing out to the screen.”C-Out.&quot; The two less than symbols is basically a way to push the text to the right of it, to the <em>output</em> object - <em>cout.</em> This will become more clear later. Next is the text wrapped in quotes that you want printed. Finally, a semicolon will end the statement.</p>
+<p><strong>Line 14</strong> tells the compiler that you want to store an integer variable. It creates space in memory and assigns it the variable name “pause.” At this point, “pause” is not initialized, it has not been assigned a value. This is dangerous because we might try to use this variable without ever assigning it anything leading to unpredictable values - after all, how do we know the memory location assigned to “pause” didn’t have data in there already?</p>
+<p><strong>Line 15</strong> will assign the variable “pause” to a value of “0.”</p>
+<p><strong>Line 16</strong> is the opposite of the <em>std::cout.</em> It is “See In” or <em>C-In.</em> Can you guess what it does? It’s sees in an input to the input device, i.e. your keyboard and it assigns the input to the variable “pause.” Notice the two greater than signs <em>&gt;&gt;.</em> Think of that as pushing things to the right into that variable. It pushes the keystroke from keyboard into the variable <em>pause.</em></p>
+<p>The pause portion of this is important for this reason. C++ is going to do exactly what we, as programmers, tell it. Without the pause, the program will appear on the screen, print things to the screen, then close. We never told it to stay open, or display for seconds then do something else. Without the pause portion, it simply shuts the program down after execution and the user/customer never gets to see the display.</p>
+<p>Finally, the “return 0” statement. This tells the operating system that it has ended the program. The “O” is a parameter that can mean many different things. For now, since you are using Windows anyways, a return 0 means exit successfully.</p>
+<p><a href="http://devgin.com/2-c-programming-basics/">Next -&gt; how to print to the screen and get input from keyboard.</a></p>
+<p>Comment below with any questions or tips you want to add. I’m sure I will get some comments about the use of the shopping operations “::” and std. Let’s hear it!</p>

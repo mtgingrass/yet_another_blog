@@ -1,0 +1,98 @@
+---
+author: mtgingrass
+comments: true
+date: 2017-08-24 17:58:01+00:00
+layout: post
+link: http://devgin.com/89/
+slug: '89'
+title: 6 Steps to Link all .csv Files as Tables - Access / VBA
+wordpress_id: 89
+categories:
+- Programming
+- VBA
+---
+
+Ever want to link an entire directory of "*.csv" files to a Microsoft Access database? Manually, this could be tedious and exhausting.
+
+I will walk you through six easy steps to automate the process using VBA and allow you to link hundreds of files in seconds! (Also see video tutorial at the bottom)
+[caption id="attachment_133" align="alignnone" width="300"]![Access Table Relationships](http://devgin.com/wp-content/uploads/2017/08/microsoft-acess-database-linked-tables-300x262.png) Relational table links - Microsoft Access[/caption]
+What typically happens, is the customer sends a daily Excel file and you store it in a directory for archival purposes. After collecting months worth of data, the customer then asks for a trend analysis or forecasting analysis.
+
+Rather than manually link each Excel file to an Access table, I use the following code to automatically link, externally, an entire directory of files.
+
+<!-- more -->
+
+
+
+ 	
+  1. Open Microsoft Access
+
+ 	
+  2. Press CTRL + F11 Keys to open the VBA editor
+
+ 	
+  3. Right click on the Navigation pane and insert new Module
+
+ 	
+  4. Paste the following code into the text area
+
+    
+    
+    Option Compare Database
+    Option Explicit
+     
+    Sub Link_To_Excel()
+         'Macro Loops through the specified directory (strPath)
+         'and links ALL Excel files as linked tables in the Access
+         'Database.
+        
+        Const strPath As String = "C:\Users\1260948764C\Documents\Operations Researcher\DSCM\Raw Data Files\Raw Data\" 'Directory Path
+        Dim strFile As String 'Filename
+        Dim strFileList() As String 'File Array
+        Dim intFile As Integer 'File Number
+        
+         'Loop through the folder & build file list
+        strFile = Dir(strPath & "*.csv")
+        While strFile <> ""
+             'add files to the list
+            intFile = intFile + 1
+            ReDim Preserve strFileList(1 To intFile)
+            strFileList(intFile) = strFile
+            strFile = Dir()
+        Wend
+         'see if any files were found
+        If intFile = 0 Then
+            MsgBox "No files found"
+            Exit Sub
+        End If
+         'cycle through the list of files & link to Access
+        For intFile = 1 To UBound(strFileList)
+            DoCmd.TransferText acLinkDelim, , _
+            strFileList(intFile), strPath & strFileList(intFile), True, ""
+        Next
+        MsgBox UBound(strFileList) & " Files were Linked"
+    End Sub
+    
+
+
+
+
+ 	
+  5. **Change the directory to one of your choosing on line 10**
+
+ 	
+  6. Click the Play button on top.
+
+
+Please comment below with improvements, questions or suggestions.
+
+
+
+
+
+
+
+
+
+
+[embed]https://youtu.be/MGc5v-Nk6rY[/embed]

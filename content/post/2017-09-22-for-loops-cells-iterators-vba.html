@@ -1,0 +1,51 @@
+---
+author: mtgingrass
+comments: true
+date: 2017-09-22 01:31:17+00:00
+layout: post
+link: http://devgin.com/for-loops-cells-iterators-vba/
+slug: for-loops-cells-iterators-vba
+title: For Loops, Cells & Iterators with VBA
+wordpress_id: 259
+categories:
+- Programming
+- VBA
+tags:
+- cells
+- debug
+- for loop
+- for loops
+- iterator
+- iterators
+---
+
+
+
+<div id="cells-and-for-loops." class="section level2">
+<h2>Cells and for loops.</h2>
+<p>In this tutorial, we will take a lateral approach to <em>ranges</em> and instead, use <em>cells</em>.</p>
+<p>This quick 5 minute video will walk you through why <em>cells</em> are easier to work with when iterating through loops; specifically, <em>for</em> loops. In addition, this video shows you the value of the debugger when testing programs at runtime. In this tutorial you will learn the basics of:</p>
+<ul>
+<li><p>Cells instead of Range</p></li>
+<li><p>For Loops</p></li>
+</ul>
+<p>Watch the Video for step by step instructions.</p>
+<p>[embed]<a href="https://youtu.be/pVIa7bDYHeg%5B/embed%5D" class="uri">https://youtu.be/pVIa7bDYHeg[/embed]</a></p>
+</div>
+<div id="code" class="section level2">
+<h2>Code</h2>
+<p>Copy and paste the code below to get you started.<!-- more --></p>
+<p><img src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=US&amp;ASIN=B01JLH2MIU&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL250_&amp;tag=dynamic-ranges-modifying-macros-1-20" /><img src="//ir-na.amazon-adsystem.com/e/ir?t=dynamic-ranges-modifying-macros-1-20&amp;l=am2&amp;o=1&amp;a=B01JLH2MIU" /><a href="https://www.amazon.com/gp/product/B002OHDIWY/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B002OHDIWY&amp;linkCode=as2&amp;tag=dynamic-ranges-modifying-macros-2-20&amp;linkId=2e5cbc40f658d67d91e9458f64790e16"><img src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=US&amp;ASIN=B002OHDIWY&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL250_&amp;tag=dynamic-ranges-modifying-macros-2-20" /></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=dynamic-ranges-modifying-macros-2-20&amp;l=am2&amp;o=1&amp;a=B002OHDIWY" /></p>
+<pre><code>&lt;code&gt;
+Option Explicit
+
+Sub using_cells()
+    Dim iterator as Integer
+    iterator = 1
+       
+    For iterator = 1 to 13
+         Cells(10, iterator).Value = &quot;&quot;
+    Next
+
+End Sub&lt;/code&gt;</code></pre>
+</div>

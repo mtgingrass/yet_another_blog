@@ -1,0 +1,63 @@
+---
+author: mtgingrass
+comments: true
+date: 2017-08-22 19:12:24+00:00
+layout: post
+link: http://devgin.com/2-c-programming-basics/
+slug: 2-c-programming-basics
+title: 2. C++ Programming Basics
+wordpress_id: 69
+categories:
+- C++
+tags:
+- if
+- if statements
+- operators
+---
+
+
+
+<p>[embed]<a href="https://youtu.be/k4r8I7qMU7w?list=PL0oBhq0tLsOBzIXpM98ezhrBHse5IJ776%5B/embed%5D" class="uri">https://youtu.be/k4r8I7qMU7w?list=PL0oBhq0tLsOBzIXpM98ezhrBHse5IJ776[/embed]</a></p>
+<p>Now learn how to print to the screen and get user input from the keyboard in this tutorial!</p>
+<p>Code is below just in case you get stuck or want to cut/paste into your own program.</p>
+<!-- more -->
+<pre><code>&lt;code&gt;//ConsoleApplication3.cpp : Defines the entry point for the program
+#include &quot;stdafx.h&quot;
+#include 
+
+int main()
+{
+    int integer1 = 0, integer 2 = 0;
+    
+    std::cout &lt;&lt; &quot;Enter the first integer\n&quot;; 
+    std::cin &lt;&lt; integer1;
+
+    std::cout &lt;&lt; &quot;Enter second integers\n&quot;; 
+    std::cin &gt;&gt; integer2;
+
+    //Pause Code
+    int pause;
+    std::cin &gt;&gt; pause;
+    
+    return 0;
+}
+
+&lt;/code&gt;</code></pre>
+<p>Let’s break the code down line by line once again. Notice I add a few more weird symbols in each of the successive tutorials. I do this on purpose to build one step at a time.</p>
+<p><strong>Line 1 </strong> is a comment as before. <strong>Line 2-3</strong> are pre-compiled headers to speed up compile time. <strong>Line 5</strong> This defines a function (required function for that) called <em>main</em>. It is defined from bracket <em>{</em> to bracket <em>}</em>. Everything between the open and closed bracket are part of that function and the functions scope.</p>
+<p>Scope is just like the word sounds. It defines the boundaries of where things are defined and usable. Anything inside the function can be used within the function. Outside the brackets, and outside the function, all of the variables and code is not useable. More into that when we deal with functions that are users defined.</p>
+<p><strong>Line 7</strong> Notice we defined more than one integer value on the same line this time. You can use a comma to separate variable; however, they must all be of the same type, i.e. <em>integer</em> values in this case. Also notice, not only did we declare multiple variables, we also <em>initialed</em> them. We assigned values of <em>0</em> for all variables.</p>
+<p><strong>Line 9</strong> This asks the user by printing to the screens one text. Remember the <em>&lt;&lt;</em> is pushing the text to the “output device.” <strong>Line 10</strong> This reads input from the keyboard and pushes the input to the variable called <em>integer1</em>.</p>
+<div id="variable-names" class="section level2">
+<h2>Variable Names:</h2>
+<p>There are naming convections and rules to how you can name variables. Some of the rules are as follows:</p>
+<ol style="list-style-type: decimal">
+<li><p>Only Alphabetical, Digits and Underscores are permitted</p></li>
+<li><p>Cannot start with a digit.</p></li>
+<li><p>Reserved words cannot be used as a name.</p></li>
+<li><p>Upper case and lower case letters are distinct.</p></li>
+<li><p>Special Characters are not allowed.</p></li>
+</ol>
+<p><a href="http://devgin.com/3-c-programming-basics-statements-operators/">Next -&gt; If Statements and Oprerators</a></p>
+<p><a href="//partners.hostgator.com/c/418006/178129/3094"><img src="//a.impactradius-go.com/display-ad/3094-178129" /></a><img src="//partners.hostgator.com/i/418006/178129/3094" /></p>
+</div>

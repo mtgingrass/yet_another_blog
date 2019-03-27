@@ -1,0 +1,64 @@
+---
+author: mtgingrass
+comments: true
+date: 2017-09-16 20:57:40+00:00
+layout: post
+link: http://devgin.com/dynamic-ranges-modifying-macros/
+slug: dynamic-ranges-modifying-macros
+title: Dynamic Ranges and Modifying Recorded Macros
+wordpress_id: 239
+categories:
+- Programming
+- VBA
+tags:
+- dynamic range
+- formula
+- range
+- recoding macros
+- selection
+---
+
+
+
+<div id="build-templates" class="section level2">
+<h2>Build Templates</h2>
+<p>In this tutorial, we will build upon the use of <em>ranges</em> and combine recording macros with modifying your own macros.</p>
+<p>In this tutorial you will learn the basics of:</p>
+<ul>
+<li><p>Adding formulas from VBA to Excel</p></li>
+<li><p>Dynamic Ranges</p></li>
+<li><p>Modifying Recorded Macros</p></li>
+<li><p>Selection object</p></li>
+</ul>
+<p>Watch the Video for step by step instructions.</p>
+<p>[embed]<a href="https://youtu.be/q8u4BlB2D2g%5B/embed%5D" class="uri">https://youtu.be/q8u4BlB2D2g[/embed]</a></p>
+</div>
+<div id="code" class="section level2">
+<h2>Code</h2>
+<p>Copy and paste the code below to get you started.<!-- more --></p>
+<p><img src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=US&amp;ASIN=B01JLH2MIU&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL250_&amp;tag=dynamic-ranges-modifying-macros-1-20" /><img src="//ir-na.amazon-adsystem.com/e/ir?t=dynamic-ranges-modifying-macros-1-20&amp;l=am2&amp;o=1&amp;a=B01JLH2MIU" /><a href="https://www.amazon.com/gp/product/B002OHDIWY/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B002OHDIWY&amp;linkCode=as2&amp;tag=dynamic-ranges-modifying-macros-2-20&amp;linkId=2e5cbc40f658d67d91e9458f64790e16"><img src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=US&amp;ASIN=B002OHDIWY&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL250_&amp;tag=dynamic-ranges-modifying-macros-2-20" /></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=dynamic-ranges-modifying-macros-2-20&amp;l=am2&amp;o=1&amp;a=B002OHDIWY" /></p>
+<pre><code>&lt;code&gt;
+Option Explicit
+
+Sub template_builder()
+    Range(&quot;A1&quot;).Value = &quot;Mark G&quot;
+    Range(&quot;A2&quot;).Value = &quot;=today()&quot;
+    Range(&quot;A2&quot;).Select    
+    Range(Selection, Selection.End(xlDown)).Select
+    Selection.NumberFormat = &quot;0.00&quot;
+End Sub&lt;/code&gt;</code></pre>
+</div>
+<div id="adding-formulas" class="section level2">
+<h2>Adding Formulas,</h2>
+<p>Changing a cells value with <em>Range.Value</em> method works with formulas as well as regular inputs. Try <em>Range(“A2”).Value = “=now()”</em> or <em>Range(“A6”).Value = “=B2 + B3”</em></p>
+</div>
+<div id="dynamic-ranges" class="section level2">
+<h2>Dynamic Ranges</h2>
+<p>Hard coding Ranges will limit the use of the <em>Range</em> object. Remember, every key-stroke can be recorded via the macro recorder. If you know a shortcut key to select all, or navigate to a certain position, etc. Then it can be automated via VBA.</p>
+<p>Watch the tutorial video to see a great example of this.</p>
+</div>
+<div id="modifying-recorded-macros" class="section level2">
+<h2>Modifying Recorded Macros</h2>
+<p>Probably the most useful tool in our toolkit at the moment is recording macros. If you don’t know the code, just record a macro and let the code be giving to you. It’s that easy.</p>
+<p>The hard part is the modification of the macros to suit a dynamic need. Recorded macros should be modified to suit your needs.</p>
+</div>

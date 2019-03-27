@@ -1,0 +1,26 @@
+---
+author: mtgingrass
+comments: true
+date: 2018-03-14 02:11:56+00:00
+layout: post
+link: http://devgin.com/total-not-mission-capable-due-supply-maintenance/
+slug: total-not-mission-capable-due-supply-maintenance
+title: Total Not Mission Capable due to Supply/Maintenance
+wordpress_id: 767
+categories:
+- Supply Chain
+tags:
+- aircraft
+- micap
+- mission capable
+- nmcm
+- nmcs
+- tnmcm
+- tnmcs
+---
+
+[embed]https://youtu.be/QFvfv1m4J44[/embed]
+
+Aircraft Availability explained by Mark Gingrass. The airfare uses metrics such as Aircraft Availability to measure how ready the Air Force is to fly. 
+
+I am new to most of these terms so please correct me in the comments if I am wrong. I plan to revisit this once I gain a better understanding. This video should lead you in the right direction though. 
